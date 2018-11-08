@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BulmaGrid :items="persons" itemsByRow="3">
+    <BulmaGrid :items="persons" itemsByRow="4">
       <template slot-scope="props">
         <PersonCard :person="props.item" />
       </template>

@@ -1,13 +1,16 @@
 <template>
   <div>
-      <PersonListSearchForm :value="value" @input="onInput" />
-      <PersonList :persons="result" />
+      <section class="section">
+        <PersonListSearchForm :value="value" @input="onInput" />
+        <PersonList :persons="results" />
+      </section>
   </div>
 </template>
 
 <script>
 import PersonList from './PersonList'
 import PersonListSearchForm from './PersonListSearchForm'
+import { shuffle } from '../lib/helpers.js'
 
 export default {
   components: {
@@ -23,13 +26,14 @@ export default {
   data() {
     return {
       value: '',
-      result: [...this.persons]
+      // ordonner de manière aléatoire les personnes
+      results: shuffle([...this.persons])
     }
   },
   methods: {
     onInput(value) {
       this.value = value
-      this.result = this.search(value)
+      this.results = this.search(value)
     },
     search(value) {
       return this.persons.filter(person => {

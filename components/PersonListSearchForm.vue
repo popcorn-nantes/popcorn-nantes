@@ -1,5 +1,5 @@
 <template>
-  <div class="field">
+  <div class="field has-text-centered">
     <input 
     class="input" 
     @value="value" 
@@ -19,3 +19,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+input {
+  max-width: 400px;
+}
+</style>
