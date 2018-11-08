@@ -2,18 +2,21 @@
   <div>
     <div class="container has-text-centered">
       <h1 class="title is-1">
-        Titre
+        Trouvez un développeur freelance à Nantes
       </h1>
       <h2 class="title is-2">
+
         {{persons.length}} personnes
       </h2>
     </div>
-    <PersonListWithSearch :persons="persons" />
+    <div class="container">
+      <PersonListWithSearch :persons="persons" />
+    </div>
   </div>
 </template>
 
 <script>
-import persons from '../content/persons.json'
+import { getPersons } from '../lib/helpers.js'
 import PersonListWithSearch from '../components/PersonListWithSearch'
 
 export default {
@@ -21,7 +24,7 @@ export default {
     PersonListWithSearch
   },
   computed: {
-    persons: () => persons
+    persons: () => getPersons()
   }
 }
 </script>
