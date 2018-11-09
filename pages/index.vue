@@ -1,11 +1,7 @@
 <template>
   <div>
     <div class="container has-text-centered">
-      <h1 class="title">
-        POPCORN
-      </h1>
-      <h2 class="subtitle">Trouvez un développeur Freelance à Nantes</h2>
-      <h3 class="subtitle">100% sans commission pour tout le monde</h2>
+      <h1 class="title">Trouvez un développeur Freelance à Nantes</h1>
     </div>
     <div class="container">
       <PersonListWithSearch :persons="persons" />
@@ -33,14 +29,15 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 3vw;
   color: #35495e;
   letter-spacing: 1px;
+  padding-top: 1rem;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 4vw;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;

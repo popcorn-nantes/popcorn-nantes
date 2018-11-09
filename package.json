@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "content-compiler": "node lib/content-compiler.js",
+    "content-compiler": "node lib/contentCompiler.js",
     "cc": "npm run content-compiler",
     "build": "npm run content-compiler && nuxt build",
     "start": "nuxt start",

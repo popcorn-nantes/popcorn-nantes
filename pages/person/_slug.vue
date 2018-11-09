@@ -1,8 +1,14 @@
 <template>
   <div class="container">
-    <h1>{{person.name}}</h1>
-    <div v-if="person.photo"><img :src="person.photo" /></div>
-    <div v-html="person.__html"></div>
+    <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}}</h1>
+    <div class="columns">
+      <div class="column is-two-thirds">
+        <div class="content" v-html="person.__html"></div>
+      </div>
+      <div class="column">
+        <div v-if="person.photo"><img :src="person.photo" /></div>
+      </div>
+    </div>
   </div>
 </template>
 

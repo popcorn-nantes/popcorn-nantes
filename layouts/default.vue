@@ -1,8 +1,18 @@
 <template>
   <div>
+    <AppNavigation />
     <nuxt/>
   </div>
 </template>
+
+<script>
+import AppNavigation from '../components/AppNavigation'
+export default {
+  components: {
+    AppNavigation
+  }
+}
+</script>
 
 <style>
 html {
@@ -53,3 +63,4 @@ html {
   background-color: #35495e;
 }
 </style>
+
