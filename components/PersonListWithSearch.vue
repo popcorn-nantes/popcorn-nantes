@@ -1,9 +1,9 @@
 <template>
-  <div>
-      <section class="section">
-        <PersonListSearchForm :value="value" @input="onInput" />
-        <PersonList :persons="results" />
-      </section>
+  <div class="section">
+    <div style="padding-bottom:3em">
+      <PersonListSearchForm :value="value" @input="onInput" />
+    </div>
+    <PersonList :persons="results" />
   </div>
 </template>
 

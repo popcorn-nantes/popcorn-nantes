@@ -1,7 +1,8 @@
 <template>
+  
   <div class="card">
     <div class="card-image">
-      <figure class="image is-4by3">
+      <figure class="image" style="max-height:200px;overflow:hidden">
         <img :src="person.photo ? person.photo : 'https://bulma.io/images/placeholders/1280x960.png'" alt="Placeholder image">
       </figure>
     </div>
@@ -13,6 +14,9 @@
         <span style="margin-right:1em;" v-for="tag in person.tags" :key="tag" class="tag">{{tag}}</span>
         </div>
         <br />
+        <div class="has-text-centered">
+          <a class="button is-primary">Voir le profil</a>
+        </div>
         <!--<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>-->
       </div>
     </div>
