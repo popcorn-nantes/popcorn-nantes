@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "nuxt",
     "content-compiler": "node lib/content-compiler.js",
+    "cc": "npm run content-compiler",
     "build": "npm run content-compiler && nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
