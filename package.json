@@ -6,15 +6,18 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "content-compiler": "node lib/content-compiler.js",
+    "build": "npm run content-compiler && nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/bulma": "^1.2.0",
-    "@nuxtjs/axios": "^5.0.0"
+    "cross-env": "^5.2.0",
+    "markdown-it": "^8.4.2",
+    "nuxt": "^2.0.0",
+    "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {
     "eslint-config-prettier": "^3.1.0",
