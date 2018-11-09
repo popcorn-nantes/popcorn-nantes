@@ -2,7 +2,7 @@
 societe: Yineo
 nom: Yann
 prenom: Boisselier
-photo: /images/yineo.jpg
+photo: /images/placeholder-3.png
 tags:
   - Vue
   - React

@@ -2,6 +2,7 @@
 societe: Hello
 nom: John
 prenom: Doe
+photo: /images/placeholder-1.png
 tags:
   - Drupal
   - wordpress

@@ -1,11 +1,7 @@
 <template>
   
   <div class="card">
-    <div class="card-image">
-      <figure class="image" style="max-height:200px;overflow:hidden">
-        <img :src="person.photo ? person.photo : 'https://bulma.io/images/placeholders/1280x960.png'" alt="Placeholder image">
-      </figure>
-    </div>
+    <div class="card-image" :style="style(person.photo)"></div>
     <div class="card-content">
       <p class="title is-4">{{person.nom}} {{person.prenom}}</p>
       <div class="content">
@@ -29,6 +25,20 @@ export default {
     person: {
       type: Object,
       required: true
+    }
+  },
+  methods: {
+    style: imageUrl => {
+      const url = imageUrl
+        ? imageUrl
+        : 'https://bulma.io/images/placeholders/1280x960.png'
+      return {
+        height: '200px',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundImage: `url(${url})`,
+        backgroundPosition: 'center'
+      }
     }
   }
 }
