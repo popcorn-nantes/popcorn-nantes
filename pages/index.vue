@@ -5,6 +5,7 @@
         POPCORN
       </h1>
       <h2 class="subtitle">Trouvez un développeur Freelance à Nantes</h2>
+      <h3 class="subtitle">100% sans commission pour tout le monde</h2>
     </div>
     <div class="container">
       <PersonListWithSearch :persons="persons" />
