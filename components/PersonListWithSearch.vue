@@ -36,6 +36,9 @@ export default {
       this.results = this.search(value)
     },
     search(text) {
+      if (!text.trim()) {
+        return this.persons
+      }
       return this.persons.filter(person => {
         let match = false
         person.tags.forEach(tag => {
