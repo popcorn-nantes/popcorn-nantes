@@ -1,8 +1,9 @@
 <template>
   <div class="container">
-    <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}}</h1>
     <div class="columns">
       <div class="column is-two-thirds">
+        <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}}</h1>
+        <h2 class="subtitle"><TagList :tags="person.tags" /></h2>
         <div class="content" v-html="person.__html"></div>
       </div>
       <div class="column">
@@ -14,8 +15,12 @@
 
 <script>
 import { getPersons } from '../../lib/helpers.js'
+import TagList from '../../components/TagList'
 
 export default {
+  components: {
+    TagList
+  },
   computed: {
     person: function person() {
       const person = getPersons().find(person => {
