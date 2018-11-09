@@ -1,7 +1,7 @@
 <template>
   <div class="field has-text-centered">
     <input 
-    placeholder="Entrez les compétences recherchées"
+    placeholder="Entrez la compétence recherchée"
     class="input" 
     @value="value" 
     @input="$emit('input', $event.target.value)" 
