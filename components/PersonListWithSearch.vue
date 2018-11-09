@@ -35,12 +35,15 @@ export default {
       this.value = value
       this.results = this.search(value)
     },
-    search(value) {
+    search(text) {
       return this.persons.filter(person => {
-        const tags = person.tags.join(' ')
-        const name = person.nom + ' ' + person.prenom
-        let text = name + ' ' + tags
-        return text.toLowerCase().indexOf(value.toLowerCase()) > -1
+        let match = false
+        person.tags.forEach(tag => {
+          if (text.toLowerCase().indexOf(tag.toLowerCase()) > -1) {
+            match = true
+          }
+        })
+        return match
       })
     }
   }
