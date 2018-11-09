@@ -1,7 +1,7 @@
 {
-  "name": "catalogue",
+  "name": "popcorn",
   "version": "1.0.0",
-  "description": "catalogue",
+  "description": "popcorn",
   "author": "yann",
   "private": true,
   "scripts": {
