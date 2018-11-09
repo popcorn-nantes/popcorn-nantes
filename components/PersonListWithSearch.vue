@@ -36,13 +36,12 @@ export default {
       this.results = this.search(value)
     },
     search(text) {
-      if (!text.trim()) {
-        return this.persons
-      }
       return this.persons.filter(person => {
+        // remplacer les virgules par des espaces
+        let textLowerCased = text.toLowerCase().trim()
         let match = false
         person.tags.forEach(tag => {
-          if (text.toLowerCase().indexOf(tag.toLowerCase()) > -1) {
+          if (tag.toLowerCase().indexOf(textLowerCased) > -1) {
             match = true
           }
         })
