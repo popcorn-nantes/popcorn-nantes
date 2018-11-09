@@ -1,11 +1,11 @@
 ---
 societe: John Doe S.A.R.L
-nom: John
-prenom: Doe
+prenom: John
+nom: Doe
 photo: /images/placeholder-1.png
 tags:
   - PHP
-  - Laraval
+  - Laravel
   - Symfony
   - Ruby
 ---
