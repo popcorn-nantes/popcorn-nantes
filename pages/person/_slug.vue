@@ -15,7 +15,6 @@ export default {
       const person = getPersons().find(person => {
         return person.slug === this.$route.params.slug
       })
-      console.log('person', person)
       return person
     }
   }
