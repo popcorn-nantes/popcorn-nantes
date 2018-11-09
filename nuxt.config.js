@@ -1,8 +1,11 @@
 const pkg = require('./package')
+import { generateRoutes } from './lib/helpers'
 
 module.exports = {
   mode: 'universal',
-
+  generate: {
+    routes: generateRoutes()
+  },
   /*
    ** Headers of the page
    */
