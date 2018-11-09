@@ -2,8 +2,9 @@
   <div>
     <div class="container has-text-centered">
       <h1 class="title is-1">
-        Trouvez un développeur freelance à Nantes
+        Les décodeurs
       </h1>
+      <h2 class="subtitle">On connecte les développeur(e)s et les entreprises de Nantes</h2>
     </div>
     <div class="container">
       <PersonListWithSearch :persons="persons" />

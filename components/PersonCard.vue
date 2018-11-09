@@ -11,11 +11,11 @@
       <div class="content">
         {{person.description}}
         <div style="padding-top: 1em">
-        <span style="margin-right:1em;" v-for="tag in person.tags" :key="tag" class="tag">{{tag}}</span>
+          <span style="margin-right:1em;" v-for="tag in person.tags" :key="tag" class="tag">{{tag}}</span>
         </div>
         <br />
         <div class="has-text-centered">
-          <a class="button is-primary">Voir le profil</a>
+          <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
         </div>
         <!--<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>-->
       </div>
