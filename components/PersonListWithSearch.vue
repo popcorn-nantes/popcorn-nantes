@@ -37,7 +37,6 @@ export default {
     },
     search(text) {
       return this.persons.filter(person => {
-        // remplacer les virgules par des espaces
         let textLowerCased = text.toLowerCase().trim()
         let match = false
         person.tags.forEach(tag => {
