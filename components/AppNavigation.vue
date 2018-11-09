@@ -3,7 +3,7 @@
     <nav class="navbar">
       <div class="navbar-brand">
         <span class="navbar-item">
-          <strong><nuxt-link to="/">PopCorn</nuxt-link></strong>
+          <strong><nuxt-link to="/">POPCORN</nuxt-link></strong>
         </span>
   
         <div @click="mobileMenuIsOpen = !mobileMenuIsOpen" :class="{'is-active': mobileMenuIsOpen}" class="navbar-burger" data-target="app-menu">
@@ -18,7 +18,7 @@
       <!-- Add the modifier "is-active" to display it on mobile -->
       <div id="app-menu" class="navbar-menu" :class="{'is-active': mobileMenuIsOpen}">
         <div class="navbar-end">
-          <nuxt-link to="/" class="navbar-item"> Home </nuxt-link>
+          <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
         </div>
       </div>
   
