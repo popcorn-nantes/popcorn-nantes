@@ -3,12 +3,12 @@
   <div class="card">
     <div class="card-image" :style="style(person.photo)"></div>
     <div class="card-content">
-      <p class="title is-4">{{person.nom}} {{person.prenom}}</p>
+      <p style="font-size:20px;" class="has-text-centered">{{person.nom}} {{person.prenom}}</p>
+      <div class="has-text-centered" style="padding-top: 1em">
+        <TagList :tags="person.tags" />
+      </div>
       <div class="content">
         {{person.description}}
-        <div style="padding-top: 1em">
-          <span style="margin-right:1em;" v-for="tag in person.tags" :key="tag" class="tag">{{tag}}</span>
-        </div>
         <br />
         <div class="has-text-centered">
           <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
@@ -20,7 +20,11 @@
 </template>
 
 <script>
+import TagList from './TagList'
 export default {
+  components: {
+    TagList
+  },
   props: {
     person: {
       type: Object,

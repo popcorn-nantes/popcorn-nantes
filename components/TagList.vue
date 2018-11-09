@@ -1,7 +1,7 @@
 <template>
   <div>
     <span 
-    style="margin-right:1em;" 
+    style="margin:0.2em;text-transform:uppercase"
     v-for="tag in tags" :key="tag" class="tag">
     {{tag}}
     </span>
