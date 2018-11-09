@@ -19,6 +19,7 @@
       <div id="app-menu" class="navbar-menu" :class="{'is-active': mobileMenuIsOpen}">
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
+          <a href="https://github.com/popcorn-nantes/popcorn" class="navbar-item">Code source</a>
         </div>
       </div>
   

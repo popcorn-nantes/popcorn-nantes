@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container section">
     <div class="columns">
       <div class="column is-two-thirds">
         <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}}</h1>

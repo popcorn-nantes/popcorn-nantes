@@ -3,7 +3,7 @@
 ## Créer son profil
 
 - Forker ce dépôt
-- Ajouter sa fiche dans le dossier content/persons en prenant comme exemple le fichier `_exemple.md`
+- Ajouter sa fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`
 - Ajouter sa photo dans le dossier `/static/images`
 - Faire une _Pull request_
 - ✨ Bienvenue sur POPCORN !
