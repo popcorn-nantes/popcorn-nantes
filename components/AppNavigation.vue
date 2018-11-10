@@ -23,14 +23,12 @@
       <div id="app-menu" class="navbar-menu" :class="{'is-active': mobileMenuIsOpen}">
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
-          <!--
             <a class="navbar-item" href="https://join.slack.com/t/popcorn-nantes/shared_invite/enQtNDc2MzY5MDg5NjM2LTYwOTg4ZGI5NTQ5MTk2NTAyOWNkZDJjODc5NTAwMDhmOWVhZTQ2NmFmMzZlMWM4ZDNiMTY4N2E5ZDNkOGJhN2Q">
               <span class="button">
                 <span style="padding-right:10px"><img style="position:relative;top:3px" src="/images/slack-logo.svg"/></span>
-                <span>Rejoindre le slack</span>
+                <span>Poser une question</span>
               </span>
             </a>
-          -->
           <div class="navbar-item">
             <p class="control">
               <nuxt-link to="/page/inscription" class="button"><strong>Freelance ? Inscrivez-vous</strong> </nuxt-link>
