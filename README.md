@@ -4,9 +4,9 @@
 
 - Forker ce dépôt
 - Ajouter sa fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`
-- Ajouter sa photo dans le dossier `/static/images`
+- Ajouter sa photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum.**
 - Faire une _pull request_
-- Bienvenue sur POPCORN ! ✨ 
+- Bienvenue sur POPCORN ! ✨
 
 ## Doc technique
 
