@@ -2,8 +2,7 @@
 societe: Nom de la société
 prenom: prénom
 nom: nom
-# l'image doit être jaouté dans le dossier /static/images et
-# doit faire 100ko max
+# ⚠️ l'image doit être ajoutée dans le dossier /static/images
 photo: /images/placeholder-5.png
 tags:
   - PHP
