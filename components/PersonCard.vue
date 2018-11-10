@@ -1,9 +1,10 @@
 <template>
   <div class="card">
-    <div class="card-image" :style="style(person.photo)">
+
+    <PersonCardPhoto :url="person.photo">
       <div class="name name-overlay"></div>
       <p class="name">{{person.prenom}} {{person.nom}}</p>
-    </div>
+    </PersonCardPhoto>
 
     <div class="card-content">
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
@@ -24,28 +25,17 @@
 
 <script>
 import TagList from './TagList'
+import PersonCardPhoto from './PersonCardPhoto'
+
 export default {
   components: {
-    TagList
+    TagList,
+    PersonCardPhoto
   },
   props: {
     person: {
       type: Object,
       required: true
-    }
-  },
-  methods: {
-    style: imageUrl => {
-      const url = imageUrl
-        ? imageUrl
-        : 'https://bulma.io/images/placeholders/1280x960.png'
-      return {
-        height: '200px',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundImage: `url(${url})`,
-        backgroundPosition: 'center'
-      }
     }
   }
 }
