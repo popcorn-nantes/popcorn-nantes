@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card-image" :style="style(person.photo)">
       <div class="name name-overlay"></div>
-      <p class="name">{{person.nom}} {{person.prenom}}</p>
+      <p class="name">{{person.prenom}} {{person.nom}}</p>
     </div>
 
     <div class="card-content">
