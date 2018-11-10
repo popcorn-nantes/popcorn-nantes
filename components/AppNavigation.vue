@@ -3,7 +3,11 @@
     <nav class="navbar">
       <div class="navbar-brand">
         <span class="navbar-item">
-          <strong><nuxt-link to="/">POPCORN</nuxt-link></strong>
+          <strong>
+            <nuxt-link to="/">
+              POPCORN <span class="tag is-warning">version alpha</span>
+            </nuxt-link>
+          </strong>
         </span>
   
         <div @click="mobileMenuIsOpen = !mobileMenuIsOpen" :class="{'is-active': mobileMenuIsOpen}" class="navbar-burger" data-target="app-menu">
