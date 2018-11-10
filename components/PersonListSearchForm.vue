@@ -2,7 +2,7 @@
   <div class="field has-text-centered">
     <input 
     placeholder="Entrez la compétence recherchée"
-    class="input" 
+    class="input is-large" 
     @value="value" 
     @input="$emit('input', $event.target.value)" 
     type="text" 
