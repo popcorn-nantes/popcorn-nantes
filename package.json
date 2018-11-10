@@ -5,16 +5,14 @@
   "author": "yann",
   "private": true,
   "scripts": {
-    "dev": "npm run cc && nuxt",
     "content-compiler": "node lib/contentCompiler.js",
+    "dev": "npm run cc && nuxt",
     "cc": "npm run content-compiler",
     "build": "npm run cc && nuxt build",
     "start": "nuxt start",
     "generate": "npm run cc && nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
-    "@nuxtjs/bulma": "^1.2.0",
     "cross-env": "^5.2.0",
     "markdown-it": "^8.4.2",
     "nuxt": "^2.0.0",
