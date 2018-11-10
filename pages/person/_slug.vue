@@ -3,6 +3,7 @@
     <div class="columns">
       <div class="column is-two-thirds">
         <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}}</h1>
+        <h2 class="subtitle">{{person.titre}}</h2>
         <h2 class="subtitle"><TagList :tags="person.tags" /></h2>
         <div class="content" v-html="person.__html"></div>
       </div>

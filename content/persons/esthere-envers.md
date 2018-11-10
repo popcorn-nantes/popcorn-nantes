@@ -1,5 +1,5 @@
 ---
-societe: A l'envers, A l'endroit
+titre: Développeuse JS fullstack
 prenom: Esthère
 nom: Envers
 photo: /images/placeholder-peluche.png

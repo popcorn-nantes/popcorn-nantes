@@ -1,5 +1,5 @@
 ---
-societe: Sebastien Lonely Corporation
+titre: Développeur Drupal Junior
 prenom: Sebastien
 nom: Lonely
 photo: /images/placeholder-2.png

@@ -1,9 +1,12 @@
 <template>
-  
   <div class="card">
-    <div class="card-image" :style="style(person.photo)"></div>
+    <div class="card-image" :style="style(person.photo)">
+      <div class="name name-overlay"></div>
+      <p class="name">{{person.nom}} {{person.prenom}}</p>
+    </div>
+
     <div class="card-content">
-      <p style="font-size:20px;" class="has-text-centered">{{person.nom}} {{person.prenom}}</p>
+      <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
       <div class="has-text-centered" style="padding-top: 1em">
         <TagList :tags="person.tags" />
       </div>
@@ -47,3 +50,22 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.card-image {
+  position: relative;
+}
+.name {
+  text-align: center;
+  height: 40px;
+  padding: 8px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+.name-overlay {
+  background: black;
+  opacity: 0.6;
+}
+</style>

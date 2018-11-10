@@ -1,5 +1,5 @@
 ---
-societe: Karine Alpine
+titre: Développeuse Vue & Nuxt
 prenom: Karine
 nom: Alpine
 photo: /images/placeholder-2.png

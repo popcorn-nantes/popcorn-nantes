@@ -1,5 +1,5 @@
 ---
-societe: Bernard Hagard
+titre: Expert Drupal
 prenom: Bernard
 nom: Hagard
 photo: /images/placeholder-3.png

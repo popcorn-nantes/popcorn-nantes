@@ -1,10 +1,10 @@
 ---
-societe: Lucky Corporation
+titre: Développeur Java
 prenom: Michel
 nom: Chance
 photo: /images/placeholder-2.png
 tags:
-  - JEE
+  - Java
   - Méthodes agiles
   - Gestion de projet
   - Product owner

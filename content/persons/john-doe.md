@@ -1,5 +1,5 @@
 ---
-societe: John Doe S.A.R.L
+titre: Expert Laravel
 prenom: John
 nom: Doe
 photo: /images/placeholder-1.png

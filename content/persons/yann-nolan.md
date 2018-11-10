@@ -1,5 +1,5 @@
 ---
-societe: Yann Nolan
+titre: Développeur React et Vue
 prenom: Yann
 nom: Nolan
 photo: /images/placeholder-3.png

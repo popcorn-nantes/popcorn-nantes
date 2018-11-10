@@ -1,5 +1,5 @@
 ---
-societe: Paul Lespol
+titre: Développeur Ruby
 prenom: Paul
 nom: Lespol
 photo: /images/placeholder-4.png

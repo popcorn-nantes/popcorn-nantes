@@ -1,5 +1,5 @@
 ---
-societe: Pierre Peter
+titre: Développeur Wordpress
 prenom: Peter
 nom: Pierre
 photo: /images/placeholder-1.png
