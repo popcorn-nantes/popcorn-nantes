@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container section">
     <div class="content" v-html="page.__html"></div>
   </div>
 </template>

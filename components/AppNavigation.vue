@@ -19,10 +19,13 @@
       <div id="app-menu" class="navbar-menu" :class="{'is-active': mobileMenuIsOpen}">
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
-          <a href="https://github.com/popcorn-nantes/popcorn" class="navbar-item">Code source</a>
+          <div class="navbar-item">
+            <p class="control">
+              <nuxt-link to="/page/inscription" class="button is-primary"><strong style="color:white">Freelance ? Inscrivez-vous</strong> </nuxt-link>
+            </p>
+           </div>
         </div>
       </div>
-  
     </nav>
   </div>
 </template>
