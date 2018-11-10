@@ -1,6 +1,6 @@
 # Freelance développeur(e)s : S'inscrire sur POPCORN Nantes
 
-**Développeur(e)s : pourquoi utiliser une plateforme qui prend une commission pour trouver du travail alors qu’on peut la coder nous même ?**
+**Développeur(e)s : pourquoi utiliser une plateforme qui prend une commission pour trouver du travail alors qu’on peut la coder nous-même ?**
 
 _PopCorn_ est une plateforme gratuite et opensource pour les développeur(e)s freelance de Nantes.
 
