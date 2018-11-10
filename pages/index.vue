@@ -4,7 +4,7 @@
       <h1 class="title">POPCORN  : Trouvez un développeur freelance à Nantes</h1>
       <h2 class="subtitle">La plateforme avec ( vraiment ) 0% de commission pour tout le monde</h2>
     </div>
-    <div class="container">
+    <div class="">
       <PersonListWithSearch :persons="persons" />
     </div>
   </div>
