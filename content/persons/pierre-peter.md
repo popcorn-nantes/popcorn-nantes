@@ -3,6 +3,7 @@ titre: Développeur Wordpress
 prenom: Peter
 nom: Pierre
 photo: /images/placeholder-1.png
+mail: pierre-peter@yopmail.com
 tags:
   - Joomla
   - Wordpress

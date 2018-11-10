@@ -3,6 +3,7 @@ titre: Développeur Ruby
 prenom: Paul
 nom: Lespol
 photo: /images/placeholder-4.png
+mail: paul.lespols@yopmail.com
 tags:
   - PHP
   - Ruby On Rails

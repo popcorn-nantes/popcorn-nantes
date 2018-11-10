@@ -42,9 +42,6 @@ export default {
 </script>
 
 <style scoped>
-.card {
-  border-radius: 5px;
-}
 .card-image {
   position: relative;
 }

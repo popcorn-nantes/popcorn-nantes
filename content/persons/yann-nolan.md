@@ -3,6 +3,7 @@ titre: Développeur React et Vue
 prenom: Yann
 nom: Nolan
 photo: /images/placeholder-3.png
+mail: nolan.yann@yopmail.com
 tags:
   - Vue
   - React

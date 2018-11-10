@@ -3,6 +3,7 @@ titre: Expert Drupal
 prenom: Bernard
 nom: Hagard
 photo: /images/placeholder-3.png
+mail: bernard@yopmail.com
 tags:
   - Drupal 7
   - Drupal 8

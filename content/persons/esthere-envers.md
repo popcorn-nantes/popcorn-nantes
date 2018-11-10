@@ -3,6 +3,7 @@ titre: Développeuse JS fullstack
 prenom: Esthère
 nom: Envers
 photo: /images/placeholder-peluche.png
+mail: esthere@yopmail.com
 tags:
   - JavaScript Fullstack
 ---

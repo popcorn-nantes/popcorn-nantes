@@ -3,6 +3,7 @@ titre: Expert Laravel
 prenom: John
 nom: Doe
 photo: /images/placeholder-1.png
+mail: john.doe@yopmail.com
 tags:
   - PHP
   - Laravel

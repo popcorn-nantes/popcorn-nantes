@@ -3,6 +3,7 @@ titre: Développeuse Rust et Java
 prenom: Austine
 nom: Aline
 photo: /images/placeholder-5.png
+mail: aline.austine@yopmail.com
 tags:
   - Rust
   - Java

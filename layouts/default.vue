@@ -26,7 +26,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
+/*
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -85,5 +85,6 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+*/
 </style>
 

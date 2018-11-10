@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="container has-text-centered">
-      <h1 class="title">POPCORN  : Trouvez un développeur freelance à Nantes</h1>
-      <h2 class="subtitle">La plateforme avec ( vraiment ) 0% de commission pour tout le monde</h2>
+    <div style="margin-top:2rem" class="container  has-text-centered">
+      <h2 class="title">Trouvez un·e développeur·e freelance à Nantes</h2>
+      <h3 class="subtitle"><em>Popcorn : La plateforme avec ( vraiment ) 0% de commission pour tout le monde</em></h3>
     </div>
     <div class="">
       <PersonListWithSearch :persons="persons" />

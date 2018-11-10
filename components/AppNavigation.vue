@@ -21,7 +21,7 @@
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
           <div class="navbar-item">
             <p class="control">
-              <nuxt-link to="/page/inscription" class="button is-primary"><strong style="color:white">Freelance ? Inscrivez-vous</strong> </nuxt-link>
+              <nuxt-link to="/page/inscription" class="button"><strong>Freelance ? Inscrivez-vous</strong> </nuxt-link>
             </p>
            </div>
         </div>

@@ -3,6 +3,7 @@ titre: Développeuse Vue & Nuxt
 prenom: Karine
 nom: Alpine
 photo: /images/placeholder-2.png
+mail: karine.alpine@yopmail.com
 tags:
   - Vue
   - React

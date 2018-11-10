@@ -5,11 +5,37 @@
         <PersonCardPhoto :url="person.photo" />
       </div>
       <div class="column is-two-thirds">
-        <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}}</h1>
-        <h2 class="subtitle">{{person.titre}}</h2>
-        <h2 class="subtitle"><TagList :tags="person.tags" /></h2>
+        <div class="columns">
+          <div class="column is-two-thirds">
+           <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}} </h1>
+            <h2 class="subtitle">{{person.titre}} </h2>
+            <h2 class="subtitle"><TagList :tags="person.tags" /></h2>
+          </div>
+          <div class="column">
+            <button class="button is-primary is-medium" @click="showModal = true">
+              <span class="icon is-medium"><i class="fas fa-envelope"></i></span>  
+              <span>Proposer un projet</span>
+            </button>
+          </div>
+        </div>
+
         <div class="content" v-html="person.__html"></div>
       </div>
+    </div>
+
+    <div class="modal" :class="{'is-active': showModal}">
+      <div class="modal-background" @click="showModal = false"></div>
+      <div class="modal-content has-text-centered">
+        <div class="box">
+          <h1 class="title">{{person.nom}} {{person.prenom}}</h1>
+          <h2 class="subtitle">{{person.titre}} </h2>
+          <p style="margin-top:1rem" class="is-size-5"> 
+            {{person.mail}}
+          </p>
+        </div>
+        <!-- Any other Bulma elements you want -->
+      </div>
+      <button @click="showModal = false" class="modal-close is-large" aria-label="close"></button>
     </div>
   </div>
 </template>
@@ -23,6 +49,11 @@ export default {
   components: {
     TagList,
     PersonCardPhoto
+  },
+  data() {
+    return {
+      showModal: false
+    }
   },
   computed: {
     person: function person() {

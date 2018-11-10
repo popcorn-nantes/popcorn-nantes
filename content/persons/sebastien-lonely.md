@@ -3,6 +3,7 @@ titre: Développeur Drupal Junior
 prenom: Sebastien
 nom: Lonely
 photo: /images/placeholder-2.png
+mail: lonely.sebastien@yopmail.com
 tags:
   - Drupal
   - wordpress
