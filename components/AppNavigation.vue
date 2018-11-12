@@ -26,7 +26,7 @@
             <a class="navbar-item" href="https://join.slack.com/t/popcorn-nantes/shared_invite/enQtNDc2MzY5MDg5NjM2LTYwOTg4ZGI5NTQ5MTk2NTAyOWNkZDJjODc5NTAwMDhmOWVhZTQ2NmFmMzZlMWM4ZDNiMTY4N2E5ZDNkOGJhN2Q">
               <span class="button">
                 <span style="padding-right:10px"><img style="position:relative;top:3px" src="/images/slack-logo.svg"/></span>
-                <span>Poser une question</span>
+                <span>Discuter du projet sur slack</span>
               </span>
             </a>
           <div class="navbar-item">
