@@ -8,8 +8,9 @@
 
     <div class="card-content">
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
+      <p style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
       <div class="has-text-centered" style="padding-top: 1em">
-        <TagList :tags="person.tags" />
+        <TagList :tags="person.technologies" />
       </div>
       <div class="content">
         {{person.description}}
