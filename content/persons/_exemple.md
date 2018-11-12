@@ -18,7 +18,11 @@ nom: nom
 # ATTENTION : cette email est PUBLIC et en clair dans le dépot git
 # Si tu ne souhaites pas mettre en clair ton email perso et que tu n'as pas
 # d'adresse e-mail pro, c'est le moment d'en créer une ^^
-mail: mail@mail.fr
+contact:
+  # REQUIS
+  mail: mail@mail.fr
+  # OPTIONNEL
+  telephone: 00 00 00 00 00
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko !
@@ -41,12 +45,11 @@ domaines:
 # REQUIS
 # les technologies que tu utilises, avec ton niveau.
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
-technos:
+technologies:
   - PHP
   - JavaScript
   - Nuxt
   - Rust
-#
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
