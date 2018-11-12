@@ -39,8 +39,8 @@ export default {
       return this.persons.filter(person => {
         let textLowerCased = text.toLowerCase().trim()
         let match = false
-        person.tags.forEach(tag => {
-          if (tag.toLowerCase().indexOf(textLowerCased) > -1) {
+        person.search_keywords.forEach(search_keyword => {
+          if (search_keyword.toLowerCase().indexOf(textLowerCased) > -1) {
             match = true
           }
         })

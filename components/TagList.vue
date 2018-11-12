@@ -1,8 +1,8 @@
 <template>
   <div>
-    <span 
+    <span
     style="margin:0.2em;text-transform:uppercase"
-    v-for="tag in tags" :key="tag" class="tag">
+    v-for="tag in tags" :key="tag" :class="`tag ${tagClass}`">
     {{tag}}
     </span>
   </div>
@@ -14,6 +14,10 @@ export default {
     tags: {
       type: Array,
       required: true
+    },
+    tagClass: {
+      type: String,
+      default: 'is-light'
     }
   }
 }

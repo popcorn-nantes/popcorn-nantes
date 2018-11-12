@@ -8,7 +8,10 @@
 
     <div class="card-content">
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
-      <p style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
+      <p v-if="person.sous_titre" style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
+      <div class="has-text-centered" style="padding-top: 1em">
+        <TagList tagClass="is-warning" :tags="person.domaines" />
+      </div>
       <div class="has-text-centered" style="padding-top: 1em">
         <TagList :tags="person.technologies" />
       </div>

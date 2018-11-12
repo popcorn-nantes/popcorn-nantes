@@ -1,12 +1,14 @@
 <template>
   <div class="field has-text-centered">
-    <input 
-    placeholder="Entrez la compétence recherchée"
-    class="input is-large" 
-    @value="value" 
-    @input="$emit('input', $event.target.value)" 
-    type="text" 
-    />
+    <div class="control has-text-centered">
+      <label class="label">Cherchez un domaine métier (Site web, application mobile, boutique ...) ou une technologie (PHP, Wordpress, JavaScript fullstack ... )</label>
+        <input
+        class="input is-large" 
+        @value="value" 
+        @input="$emit('input', $event.target.value)" 
+        type="text" 
+        />
+      </div>
   </div>
 </template>
 

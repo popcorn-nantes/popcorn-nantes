@@ -9,7 +9,8 @@
           <div class="column is-two-thirds">
            <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}} </h1>
             <h2 class="subtitle">{{person.titre}} </h2>
-            <h2 class="subtitle"><TagList :tags="person.tags" /></h2>
+            <h2 class="subtitle"><TagList tagClass="is-warning" :tags="person.domaines" /></h2>
+            <h2 class="subtitle"><TagList :tags="person.technologies" /></h2>
           </div>
           <div class="column">
             <button class="button is-primary is-medium" @click="showModal = true">
