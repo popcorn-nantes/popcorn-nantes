@@ -1,10 +1,13 @@
 ---
 titre: Développeuse Vue & Nuxt
+sous_titre: Le SSR, c'est chouette
 prenom: Karine
 nom: Alpine
 photo: /images/placeholder-2.png
 mail: karine.alpine@yopmail.com
-tags:
+domaines
+  - sites web
+technologies:
   - Vue
   - React
   - GraphQL

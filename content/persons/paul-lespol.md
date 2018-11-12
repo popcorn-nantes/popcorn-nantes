@@ -4,7 +4,9 @@ prenom: Paul
 nom: Lespol
 photo: /images/placeholder-4.png
 mail: paul.lespols@yopmail.com
-tags:
+domaines:
+  - sites web
+technologies:
   - PHP
   - Ruby On Rails
 ---

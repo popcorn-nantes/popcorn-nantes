@@ -4,7 +4,10 @@ prenom: Peter
 nom: Pierre
 photo: /images/placeholder-1.png
 mail: pierre-peter@yopmail.com
-tags:
+domaines:
+  - sites web
+  - sites vitrine
+technologies:
   - Joomla
   - Wordpress
 ---

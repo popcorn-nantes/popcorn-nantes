@@ -1,10 +1,14 @@
 ---
 titre: Développeuse JS fullstack
+sous_titre: un sous titre d'exemple
 prenom: Esthère
 nom: Envers
 photo: /images/placeholder-peluche.png
 mail: esthere@yopmail.com
-tags:
+domaines:
+  - applications IOS
+  - applications android
+technologies:
   - JavaScript Fullstack
 ---
 

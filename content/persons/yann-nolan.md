@@ -1,10 +1,14 @@
 ---
 titre: Développeur React et Vue
+sous_titre:
 prenom: Yann
 nom: Nolan
 photo: /images/placeholder-3.png
 mail: nolan.yann@yopmail.com
-tags:
+domaines:
+  - sites web
+  - applications mobiles
+technologies:
   - Vue
   - React
   - Node

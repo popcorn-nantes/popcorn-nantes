@@ -1,10 +1,13 @@
 ---
 titre: Expert Laravel
+sous_titre: 7 années d'expérience
 prenom: John
 nom: Doe
 photo: /images/placeholder-1.png
 mail: john.doe@yopmail.com
-tags:
+domaines:
+  - sites web
+technologies:
   - PHP
   - Laravel
   - Symfony

@@ -1,10 +1,13 @@
 ---
 titre: Développeur Drupal Junior
+sous_titre: J'assure pas mal.
 prenom: Sebastien
 nom: Lonely
 photo: /images/placeholder-2.png
 mail: lonely.sebastien@yopmail.com
-tags:
+domaines:
+  - sites webs
+technologies:
   - Drupal
   - wordpress
 ---

@@ -1,10 +1,13 @@
 ---
 titre: Expert Drupal
+sous_titre:
 prenom: Bernard
 nom: Hagard
 photo: /images/placeholder-3.png
 mail: bernard@yopmail.com
-tags:
+domaines:
+  - sites web
+technologies:
   - Drupal 7
   - Drupal 8
   - Strapi
