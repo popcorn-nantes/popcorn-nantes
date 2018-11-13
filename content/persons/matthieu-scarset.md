@@ -7,10 +7,18 @@ photo: /images/matthieu-scarset.jpg
 mail: m@matthieuscarset.com
 telephone:
 domaines:
-  - https://matthieuscarset.com/
+  - sites web
+  - site brochure
+  - sites ecommerce
+  - drupal headless
+  - drupal commerce
+  - boutique en ligne
 technologies:
   - Drupal 8
+  - Drupal Commerce
+  - Drupal Headless
   - Drupal 7
+  - Acquia
   - WordPress
   - Backend
   - Frontend
