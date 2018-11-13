@@ -13,7 +13,11 @@
         <TagList tagClass="is-warning" :tags="person.domaines" />
       </div>
       <div class="has-text-centered" style="padding-top: 1em">
+<<<<<<< Updated upstream
         <TagList :tags="person.technologies" />
+=======
+        <Tags :tags="person.technologies" />
+>>>>>>> Stashed changes
       </div>
       <div class="content">
         {{person.description}}
@@ -28,12 +32,24 @@
 </template>
 
 <script>
+<<<<<<< Updated upstream
 import TagList from './TagList'
+=======
+import Domaines from './Domaines'
+import Tags from './Tags'
+import Technologies from './Technologies'
+>>>>>>> Stashed changes
 import PersonCardPhoto from './PersonCardPhoto'
 
 export default {
   components: {
+<<<<<<< Updated upstream
     TagList,
+=======
+    Domaines,
+    Technologies,
+    Tags,
+>>>>>>> Stashed changes
     PersonCardPhoto
   },
   props: {
