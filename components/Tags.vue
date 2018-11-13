@@ -1,13 +1,13 @@
 <template>
   <div>
-    {{technologies.join(', ')}}
+    <span style="margin-right: 5px" v-for="tag in tags" :key="tag" class="tag is-light">{{tag}}</span>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    technologies: {
+    tags: {
       type: Array,
       required: true
     }

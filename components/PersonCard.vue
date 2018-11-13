@@ -10,18 +10,16 @@
     <div class="card-content">
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
       <p v-show="person.sous_titre" style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
-
       <div class="has-text-centered" style="padding-top: 1em">
-        <Domaines :domaines="person.domaines" />
+        <Tags :tags="person.domaines" />
       </div>
 
       <div class="has-text-centered" style="padding-top: 1em">
-        <Technologies :technologies="person.technologies" />
+        <Tags :tags="person.technologies" />
       </div>
       <div class="content">
-        {{person.description}}
-        <br />
         <div class="has-text-centered">
+          <br />
           <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
         </div>
       </div>
@@ -32,14 +30,12 @@
 </template>
 
 <script>
-import Domaines from './Domaines'
-import Technologies from './Technologies'
+import Tags from './Tags'
 import PersonCardPhoto from './PersonCardPhoto'
 
 export default {
   components: {
-    Domaines,
-    Technologies,
+    Tags,
     PersonCardPhoto
   },
   props: {
