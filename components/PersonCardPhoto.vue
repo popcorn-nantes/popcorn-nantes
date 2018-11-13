@@ -16,7 +16,7 @@ export default {
     style: url => {
       const imageUrl = url ? url : '/images/placeholder-peluche.png'
       return {
-        height: '200px',
+        height: '300px',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundImage: `url(${imageUrl})`,

@@ -1,4 +1,7 @@
 ---
+# Copie colle ce fichier pour créer ton profil sur PopCorn.
+# Le nom du fichier sera aussi l'url de ton profil
+
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
 titre: Développeur JavaScript FullStack
@@ -15,17 +18,16 @@ nom: nom
 
 # REQUIS
 # Le mail qui permet de te contacter pour te faire une proposition de projet
-# ATTENTION : cette email est PUBLIC et en clair dans le dépot git
+# ATTENTION : ces données sont PUBLIQUES et en clair dans le dépot git
 # Si tu ne souhaites pas mettre en clair ton email perso et que tu n'as pas
 # d'adresse e-mail pro, c'est le moment d'en créer une ^^
-contact:
-  # REQUIS
-  mail: mail@mail.fr
-  # OPTIONNEL
-  telephone: 00 00 00 00 00
+mail: mail@mail.fr
+
+# OPTIONNEL
+telephone:
 
 # REQUIS
-# l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko !
+# l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
 photo: /images/placeholder-5.png
 
 # REQUIS

@@ -7,7 +7,7 @@
       <div class="column is-two-thirds">
         <div class="columns">
           <div class="column is-two-thirds">
-           <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}} </h1>
+           <h1 style="text-transform:uppercase" class="title">{{person.prenom}} {{person.nom}} </h1>
             <h2 class="subtitle">{{person.titre}} </h2>
             <h2 class="subtitle"><Tags :tags="person.domaines" /></h2>
             <h2 class="subtitle"><Tags :tags="person.technologies" /></h2>
@@ -28,10 +28,13 @@
       <div class="modal-background" @click="showModal = false"></div>
       <div class="modal-content has-text-centered">
         <div class="box">
-          <h1 class="title">{{person.nom}} {{person.prenom}}</h1>
+          <h1 class="title">Contacter {{person.nom}} {{person.prenom}}</h1>
           <h2 class="subtitle">{{person.titre}} </h2>
           <p style="margin-top:1rem" class="is-size-5"> 
             {{person.mail}}
+          </p>
+          <p v-show="person.telephone" style="margin-top:1rem" class="is-size-5"> 
+            {{person.telephone}}
           </p>
         </div>
         <!-- Any other Bulma elements you want -->
