@@ -9,8 +9,8 @@
           <div class="column is-two-thirds">
            <h1 style="text-transform:uppercase" class="title">{{person.nom}} {{person.prenom}} </h1>
             <h2 class="subtitle">{{person.titre}} </h2>
-            <h2 class="subtitle"><TagList tagClass="is-warning" :tags="person.domaines" /></h2>
-            <h2 class="subtitle"><TagList :tags="person.technologies" /></h2>
+            <h2 class="subtitle"><Tags :tags="person.domaines" /></h2>
+            <h2 class="subtitle"><Tags :tags="person.technologies" /></h2>
           </div>
           <div class="column">
             <button class="button is-primary is-medium" @click="showModal = true">
@@ -43,12 +43,12 @@
 
 <script>
 import { getPersons } from '../../lib/helpers.js'
-import TagList from '../../components/TagList'
+import Tags from '../../components/Tags'
 import PersonCardPhoto from '../../components/PersonCardPhoto'
 
 export default {
   components: {
-    TagList,
+    Tags,
     PersonCardPhoto
   },
   data() {

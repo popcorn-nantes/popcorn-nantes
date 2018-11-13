@@ -8,7 +8,7 @@
 
     <div class="card-content">
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
-      <p v-if="person.sous_titre" style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
+      <p v-show="person.sous_titre" style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
       <div class="has-text-centered" style="padding-top: 1em">
         <Tags :tags="person.domaines" />
       </div>
@@ -16,12 +16,10 @@
         <Tags :tags="person.technologies" />
       </div>
       <div class="content">
-        {{person.description}}
-        <br />
         <div class="has-text-centered">
+          <br />
           <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
         </div>
-        <!--<time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>-->
       </div>
     </div>
   </div>

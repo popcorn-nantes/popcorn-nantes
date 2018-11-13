@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span v-for="tag in tags" :key="tag">{{tag}}</span>
+    <span style="margin-right: 5px" v-for="tag in tags" :key="tag" class="tag is-light">{{tag}}</span>
   </div>
 </template>
 

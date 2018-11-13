@@ -6,12 +6,8 @@
 
 <script>
 import { getPages } from '../../lib/helpers.js'
-import TagList from '../../components/TagList'
 
 export default {
-  components: {
-    TagList
-  },
   computed: {
     page: function page() {
       const page = getPages().find(page => {
