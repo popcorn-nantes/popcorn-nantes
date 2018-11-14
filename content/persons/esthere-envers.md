@@ -5,7 +5,7 @@ prenom: Esthère
 nom: Envers
 photo: /images/placeholder-peluche.png
 mail: esthere@yopmail.com
-domaines:
+domaines_metiers:
   - applications IOS
   - applications android
 technologies:

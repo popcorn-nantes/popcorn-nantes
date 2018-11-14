@@ -5,7 +5,7 @@ prenom: John
 nom: Doe
 photo: /images/placeholder-1.png
 mail: john.doe@yopmail.com
-domaines:
+domaines_metiers:
   - sites web
 technologies:
   - PHP

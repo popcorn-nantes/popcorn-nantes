@@ -9,7 +9,7 @@
           <div class="column is-two-thirds">
            <h1 style="text-transform:uppercase" class="title">{{person.prenom}} {{person.nom}} </h1>
             <h2 class="subtitle">{{person.titre}} </h2>
-            <h2 class="subtitle"><Tags :tags="person.domaines" /></h2>
+            <h2 class="subtitle"><Tags :tags="person.domaines_metiers" /></h2>
             <h2 class="subtitle"><Tags :tags="person.technologies" /></h2>
           </div>
           <div class="column">

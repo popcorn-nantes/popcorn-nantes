@@ -5,7 +5,7 @@ prenom: Yann
 nom: Nolan
 photo: /images/placeholder-3.png
 mail: nolan.yann@yopmail.com
-domaines:
+domaines_metiers:
   - sites web
   - applications mobiles
 technologies:

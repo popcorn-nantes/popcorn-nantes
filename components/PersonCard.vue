@@ -11,7 +11,7 @@
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
       <p v-show="person.sous_titre" style="font-size:15px;font-style:italic" class="has-text-centered">{{person.sous_titre}}</p>
       <div class="has-text-centered" style="padding-top: 1em">
-        <Tags :tags="person.domaines" />
+        <Tags :tags="person.domaines_metiers" />
       </div>
 
       <div class="has-text-centered" style="padding-top: 1em">

@@ -5,7 +5,7 @@ prenom: Bernard
 nom: Hagard
 photo: /images/placeholder-3.png
 mail: bernard@yopmail.com
-domaines:
+domaines_metiers:
   - sites web
 technologies:
   - Drupal 7

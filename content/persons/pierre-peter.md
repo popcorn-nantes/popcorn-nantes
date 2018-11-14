@@ -4,7 +4,7 @@ prenom: Peter
 nom: Pierre
 photo: /images/placeholder-1.png
 mail: pierre-peter@yopmail.com
-domaines:
+domaines_metiers:
   - sites web
   - sites vitrine
 technologies:

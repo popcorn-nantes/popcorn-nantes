@@ -5,7 +5,7 @@ prenom: Karine
 nom: Alpine
 photo: /images/placeholder-2.png
 mail: karine.alpine@yopmail.com
-domaines:
+domaines_metiers:
   - sites web
 technologies:
   - Vue

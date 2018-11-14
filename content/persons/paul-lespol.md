@@ -4,7 +4,7 @@ prenom: Paul
 nom: Lespol
 photo: /images/placeholder-4.png
 mail: paul.lespols@yopmail.com
-domaines:
+domaines_metiers:
   - sites web
 technologies:
   - PHP

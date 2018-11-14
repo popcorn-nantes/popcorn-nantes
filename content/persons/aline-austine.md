@@ -8,7 +8,7 @@ mail: aline.austine@yopmail.com
 technologies:
   - Rust
   - Java
-domaines:
+domaines_metiers:
   - sites web
 ---
 

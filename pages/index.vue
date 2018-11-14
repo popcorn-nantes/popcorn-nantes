@@ -5,18 +5,18 @@
       <h3 class="subtitle"><em>Popcorn : La plateforme avec ( vraiment ) 0% de commission pour tout le monde</em></h3>
     </div>
     <div class="">
-      <PersonListWithSearch :persons="persons" />
+      <PersonsWithSearch :persons="persons" />
     </div>
   </div>
 </template>
 
 <script>
 import { getPersons } from '../lib/helpers.js'
-import PersonListWithSearch from '../components/PersonListWithSearch'
+import PersonsWithSearch from '../components/PersonsWithSearch'
 
 export default {
   components: {
-    PersonListWithSearch
+    PersonsWithSearch
   },
   computed: {
     persons: () => getPersons()

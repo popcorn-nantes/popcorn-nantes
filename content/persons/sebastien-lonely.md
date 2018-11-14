@@ -5,7 +5,7 @@ prenom: Sebastien
 nom: Lonely
 photo: /images/placeholder-2.png
 mail: lonely.sebastien@yopmail.com
-domaines:
+domaines_metiers:
   - sites webs
 technologies:
   - Drupal

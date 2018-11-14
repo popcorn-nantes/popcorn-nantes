@@ -40,7 +40,7 @@ photo: /images/placeholder-5.png
 # - boutiques en ligne
 # - site vitrine
 # - ... à toi de jouer
-domaines:
+domaines_metiers:
   - sites web
   - applications mobiles
 

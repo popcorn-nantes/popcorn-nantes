@@ -6,7 +6,7 @@ nom: Boisselier
 photo: /images/yineo.jpg
 mail: yann@yineo.fr
 telephone:
-domaines:
+domaines_metiers:
   - sites web
 technologies:
   - Vue

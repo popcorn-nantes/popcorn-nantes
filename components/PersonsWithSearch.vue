@@ -1,21 +1,21 @@
 <template>
   <div class="section">
     <div style="padding-bottom:3em">
-      <PersonListSearchForm :value="value" @input="onInput" />
+      <PersonsSearchForm :value="value" @input="onInput" />
     </div>
-    <PersonList :persons="results" />
+    <Persons :persons="results" />
   </div>
 </template>
 
 <script>
-import PersonList from './PersonList'
-import PersonListSearchForm from './PersonListSearchForm'
+import Persons from './Persons'
+import PersonsSearchForm from './PersonsSearchForm'
 import { shuffle } from '../lib/helpers.js'
 
 export default {
   components: {
-    PersonList,
-    PersonListSearchForm
+    Persons,
+    PersonsSearchForm
   },
   props: {
     persons: {

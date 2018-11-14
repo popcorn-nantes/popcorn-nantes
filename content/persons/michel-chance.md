@@ -5,7 +5,7 @@ prenom: Michel
 nom: Chance
 photo: /images/placeholder-2.png
 mail: michel.chance@yopmail.com
-domaines:
+domaines_metiers:
   - intranet
 technologies:
   - Java
