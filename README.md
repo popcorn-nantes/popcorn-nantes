@@ -1,8 +1,8 @@
 # POPCORN
 
-PopCorn est plateforme gratuite et sans intermédaire pour trouver rapidement un·e développeur·e freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. PopCorn est une association à but non-lucratif, le gain ce sont simplement les affaires apportées par ce biais à nos activités de freelance.
+_PopCorn_ est plateforme gratuite et sans intermédaire pour trouver rapidement un·e développeur·e freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. PopCorn est une association à but non-lucratif, le gain ce sont simplement les affaires apportées par ce biais à nos activités de freelance.
 
-## Inscription
+## Créer ton profil sur PopCorn
 
 - Forke ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
@@ -27,6 +27,7 @@ L'idée expérimentée par PopCorn est d'avoir un site aussi léger techniquemen
 - On veut bien être hébergé pour 0 euros chez Github ^^
 - On veut bien un site qui soit capable de supporter un fort pic de charge sans broncher : évitons le cas du site qui tombe pile au moment où il a du succès ou qu'un article de presse le mentionne.
 - On veut bien un moteur de recherche super-rapide et un site qui s'affiche super vite
+- On veut bien que des gens puissent tout simplement forker ce dépôt pour créer leur propre plateforme en deux secondes.
 
 ### Installation
 
