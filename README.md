@@ -1,8 +1,14 @@
 # POPCORN
 
-_PopCorn_ est plateforme gratuite et sans intermédaire pour trouver rapidement un·e développeur·e freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. PopCorn est une association à but non-lucratif, le gain ce sont simplement les affaires apportées par ce biais à nos activités de freelance.
+_PopCorn_ : trouvez rapidement un·e développeur·e freelance à Nantes avec (vraiment) 0% de commission pour tout le monde : https://popcorn-nantes.github.io/
 
-## Créer ton profil sur PopCorn
+## Quelle est la différence avec Malt ou Comet ?
+
+- PopCorn est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal.
+- PopCorn est réservée aux **développeur·e·s** de _Nantes_ et alentour.
+- PopCorn n'est pas un intermédiaire ou une marque : le ou la client(e) rentre directement en contact avec le ou la freelance et PopCorn n'a aucune responsabilité ni ne joue aucun rôle dans les échanges qui suivent entre les deux parties.
+
+## Créer son profil
 
 - Forke ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
@@ -54,9 +60,3 @@ npm run cc
 ```sh
 ./deploy.sh
 ```
-
-## FAQ
-
-### Quelle est la différence avec Malt ?
-
-PopCorn est une association à but non-lucratif, sans commission, réservée aux développeur·e·s de Nantes et alentours.
