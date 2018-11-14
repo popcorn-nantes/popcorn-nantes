@@ -23,11 +23,13 @@ export default {
       required: true
     }
   },
-  data: () => ({
-    value: '',
-    // ordonner de manière aléatoire les personnes
-    results: shuffle([...this.persons])
-  }),
+  data() {
+    return {
+      value: '',
+      // ordonner de manière aléatoire les personnes
+      results: shuffle([...this.persons])
+    }
+  },
   methods: {
     onInput(value) {
       this.value = value

@@ -36,9 +36,11 @@
 
 <script>
 export default {
-  data: () => ({
-    mobileMenuIsOpen: false
-  }),
+  data() {
+    return {
+      mobileMenuIsOpen: false
+    }
+  },
   watch: {
     // close the mobile menu when route changed.
     $route: function() {
