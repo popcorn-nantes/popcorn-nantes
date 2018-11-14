@@ -1,5 +1,5 @@
 <template>
-  <BulmaGrid :items="persons" itemsByRow="4">
+  <BulmaGrid :items="persons" itemsByRow="3">
     <template slot-scope="{item}">
         <PersonCard :person="item" />
     </template>
