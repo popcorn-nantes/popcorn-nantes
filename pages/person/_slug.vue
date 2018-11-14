@@ -54,11 +54,9 @@ export default {
     Tags,
     PersonCardPhoto
   },
-  data() {
-    return {
-      showModal: false
-    }
-  },
+  data: () => ({
+    showModal: false
+  }),
   computed: {
     person: function person() {
       const person = getPersons().find(person => {
