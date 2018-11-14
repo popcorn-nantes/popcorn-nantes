@@ -9,7 +9,7 @@
 export default {
   props: {
     persons: {
-      type: Object,
+      type: Array,
       required: true
     }
   }

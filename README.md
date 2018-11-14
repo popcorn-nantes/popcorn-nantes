@@ -2,12 +2,17 @@
 
 _PopCorn_ est une plateforme open source et sans commission pour que les développeur·e·s de Nantes et alentours trouvent plus facilement du travail : https://popcorn-nantes.github.io/.
 
-PopCorn est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal.
+Les avantages de PopCorn pour le freelance :
+
+- 💰 PopCorn est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e)
+- 🔍 Une recherche très simple et rapide qui permet aux client(e)s de te trouver soit par domaine métier ( applications, boutique en ligne, jeux vidéo etc ) ou par technologies
+- 💬 Un tchat qui permet d'échanger entre nous les plans boulots
+- 📖 Le code est transparent, et donc l'ordre dans lequel sont affichés les profils aussi ( à ce jour, les profils sont affichés dans un ordre purement aléatoire sur le site )
 
 ## Quelle est la différence avec Malt ou Comet ?
 
 - Popcorn est une association et pas une start-up
-- PopCorn prend 0% de commission. Le gain pour nous c'est les affaires apportées par le site.
+- Pas de commission. Le gain pour nous c'est les affaires apportées par le site.
 - PopCorn est réservé aux **développeur·e·s** de _Nantes_ et alentours.
 - PopCorn n'est **pas** un intermédiaire ou une marque : le ou la client(e) rentre directement en contact avec le ou la freelance et PopCorn n'a aucune responsabilité ni ne joue aucun rôle dans les échanges qui suivent entre les deux parties.
 - Le code de la plateforme est open source
