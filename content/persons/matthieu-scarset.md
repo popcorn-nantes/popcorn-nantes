@@ -10,8 +10,6 @@ domaines_metiers:
   - sites web
   - site brochure
   - sites ecommerce
-  - drupal headless
-  - drupal commerce
   - boutique en ligne
 technologies:
   - Drupal 8
