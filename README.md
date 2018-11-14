@@ -5,7 +5,7 @@ _PopCorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédi
 Les avantages de PopCorn pour le freelance :
 
 - 💰 PopCorn est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e)
-- 🔍 Une recherche très simple et rapide qui permet aux client(e)s de te trouver soit par domaine métier ( applications, boutique en ligne, jeux vidéo etc ) ou par technologies
+- 🔍 Une recherche très simple et rapide qui permet aux client(e)s de te trouver aussi bien par domaine métier ( applications, boutique en ligne, jeux vidéo etc ) que par technologie (JavaSCript, Wordpress etc)
 - 💬 Un tchat qui permet d'échanger entre nous les plans boulots
 - 📖 Le code est transparent, et donc l'ordre dans lequel sont affichés les profils aussi ( à ce jour, les profils sont affichés dans un ordre purement aléatoire sur le site )
 
