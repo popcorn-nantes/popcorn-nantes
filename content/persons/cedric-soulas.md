@@ -25,7 +25,7 @@ nom: S.
 # Si cela t'embête, tu peux mettre ici n'importe quel autre moyen de te contacter,
 # comme par exemple un lien vers le formulaire de contact de ton site ou vers ton linkedin.
 # Tu peux aussi créer une adresse mail pro et la rediriger vers ta boîte mail perso
-mail: mail@mail.fr
+mail: contact@cedricsoulas.com
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
