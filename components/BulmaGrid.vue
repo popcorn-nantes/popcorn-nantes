@@ -12,7 +12,7 @@ Example :
   <div>
     <div class="columns" v-for="(column, rowIndex) in columns" :key="rowIndex">
       <div v-for="(item, index) in column" :key="index" :class="columnClasses">
-        <slot :item="item"></slot>
+        <slot :item="item" :index="index"></slot>
       </div>
     </div>
   </div>
@@ -24,6 +24,10 @@ export default {
     itemsByRow: {
       type: String,
       default: '4'
+    },
+    itemKey: {
+      type: Function,
+      default: (key, index) => index
     },
     items: {
       type: Array,
