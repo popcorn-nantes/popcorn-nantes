@@ -1,14 +1,16 @@
 # POPCORN
 
+Popcorn est plateforme opensource et sans intermédiaire pour trouver un·e développeur·e freelance à Nantes avec ( vraiment ) 0% de commission pour tout le monde. PopCorn n'est pas une entreprise ou une start-up mais une association à but non-lucratif.
+
 ## Inscription
 
 - Forke ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
 - Ajoute ta photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum ⚠️**
-- Faire une _pull request_ avec pour titre _Nouvelle personne : {votre prénom}_
+- Fait une _pull request_ avec pour titre _Nouvelle personne : {votre prénom}_
 - Bienvenue sur PopCorn ! ✨ Tu recevras un mail à l'adresse indiquée pour t'inviter sur le slack de PopCorn si tu as des questions ou envie d'échanger sur le projet.
 
-Besoin d'aide, une question ? tu peux [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
+Besoin d'aide, une question, un bug ? tu peux [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
 ## Documentation technique
 
@@ -46,8 +48,14 @@ Parser les markdowns du dossier `content` en fichiers JSON.
 npm run cc
 ```
 
-## déployer
+### déployer
 
 ```sh
 ./deploy.sh
 ```
+
+## FAQ
+
+### Quelle est la différence avec Malt ?
+
+PopCorn est une association à but non-lucratif, sans commission, réservée aux développeur·e·s de Nantes et alentours.
