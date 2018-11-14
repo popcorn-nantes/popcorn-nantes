@@ -1,6 +1,6 @@
 # POPCORN
 
-## Créer son profil
+## Inscription
 
 - Forke ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.

@@ -25,9 +25,9 @@
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
           <div class="navbar-item">
             <p class="control">
-              <a href="https://github.com/popcorn-nantes/popcorn-nantes#inscription" class="button is-info"> <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi avec une Pull Request ! </a>
+              <a href="https://github.com/popcorn-nantes/popcorn-nantes#inscription" class="button is-info"> 
+              <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi avec une Pull Request ! </a>
             </p>
-            
            </div>
         </div>
       </div>
