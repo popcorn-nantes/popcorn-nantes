@@ -1,6 +1,6 @@
 # POPCORN
 
-_PopCorn_ est une plateforme open source et sans commission pour que les développeur·e·s de Nantes et alentours trouvent plus facilement du travail : https://popcorn-nantes.github.io/.
+_PopCorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédiaire pour que les **développeur·e·s freelance de Nantes** et alentours trouvent plus facilement du travail et des client·e·s : https://popcorn-nantes.github.io/.
 
 Les avantages de PopCorn pour le freelance :
 
