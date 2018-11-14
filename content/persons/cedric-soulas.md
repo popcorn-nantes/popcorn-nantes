@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur web & expert rxjs — angular / elm
+titre: Développeur web & expert RxJS — Angular / Elm
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
@@ -47,15 +47,15 @@ photo: /images/cedric-s.jpg
 # - ... à toi de jouer
 domaines_metiers:
   - sites web
-  - applications mobiles
 
 # REQUIS
 # les technologies que tu utilises, avec ton niveau.
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
   - JavaScript
-  - Reactive programming
-  - Rxjs
+  - Reactive Programming
+  - RxJS
+  - Angular
   - Elm
   - Functional programming
   - Tech Motion Design
