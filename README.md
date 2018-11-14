@@ -1,6 +1,6 @@
 # POPCORN
 
-## Créer son profil
+## Inscription
 
 - Forker ce dépôt
 - Installer le projet en local ( instructions ci-dessous)
