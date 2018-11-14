@@ -1,6 +1,6 @@
 # POPCORN
 
-PopCorn est plateforme gratuite et sans intermédaires pour trouver rapidement un·e développeur·e freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. PopCorn est une association à but non-lucratif, le gain ce sont simplement les affaires apportées par ce biais à nos activités de freelance.
+PopCorn est plateforme gratuite et sans intermédaire pour trouver rapidement un·e développeur·e freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. PopCorn est une association à but non-lucratif, le gain ce sont simplement les affaires apportées par ce biais à nos activités de freelance.
 
 ## Inscription
 
