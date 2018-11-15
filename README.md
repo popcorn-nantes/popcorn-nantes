@@ -4,18 +4,17 @@ _Popcorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédi
 
 Les avantages de _PopCorn_ pour les freelances :
 
-- 💰 _Popcorn_ est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e)
+- 💰 _Popcorn_ est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e). Le gain pour nous c'est les affaires apportées par le site.
 - 🔍 Une recherche très simple et rapide qui permet aux client(e)s de te trouver aussi bien par domaine métier ( applications, boutique en ligne, jeux vidéo etc ) que par technologie (JavaSCript, Wordpress etc)
 - 💬 Un tchat qui permet d'échanger entre nous les plans boulots
 - 📖 Le code est transparent, et donc l'ordre dans lequel sont affichés les profils aussi ( à ce jour, les profils sont affichés dans un ordre purement aléatoire sur le site )
 
 ## Quelle est la différence avec Malt ou Comet ?
 
-- _Popcorn_ est une association et pas une start-up
-- Pas de commission. Le gain pour nous c'est les affaires apportées par le site.
+- _Popcorn_ est une association et pas une start-up et ne prend pas de commission.
 - _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et alentours.
 - _Popcorn_ n'est **pas** un intermédiaire ou une marque : le ou la client(e) rentre directement en contact avec le ou la freelance et _Popcorn_ n'a aucune responsabilité ni ne joue aucun rôle dans les échanges qui suivent entre les deux parties.
-- Le code de la plateforme est open source
+- Le code de la plateforme est open-source
 
 ## Créer son profil
 
