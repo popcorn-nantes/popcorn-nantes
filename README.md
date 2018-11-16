@@ -16,7 +16,7 @@ Les avantages de _PopCorn_ pour les freelances :
 - _Popcorn_ n'est **pas** un intermédiaire ou une marque : le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne porte aucune responsabilité et ne joue aucun rôle dans les échanges qui suivent entre les deux parties.
 - Le code de la plateforme est open-source
 
-## Créer ton profil
+## Créer son profil
 
 - Fork ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
