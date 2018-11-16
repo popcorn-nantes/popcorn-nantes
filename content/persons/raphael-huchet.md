@@ -3,7 +3,7 @@ titre: Développeur FullStack
 sous_titre: ~12 ans d'expérience
 prenom: Raphaël
 nom: Huchet
-photo: /images/raph.jpg
+photo: /images/rap2h.jpg
 mail: raphaelht@gmail.com
 telephone:
 domaines_metiers:
