@@ -18,4 +18,4 @@ technologies:
   - TypeScript
 ---
 
-Je suis actuellement développeur chez beat.gouv. Vous trouverez plus d'informations ici: https://raph.site
+Je suis actuellement développeur chez beta.gouv. Vous trouverez plus d'informations ici: https://raph.site
