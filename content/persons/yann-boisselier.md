@@ -1,6 +1,6 @@
 ---
 titre: Développeur JavaScript FullStack
-sous_titre:
+sous_titre: 10 ans d'expérience
 prenom: Yann
 nom: Boisselier
 photo: /images/yineo.jpg
@@ -18,5 +18,4 @@ technologies:
   - Rust
 ---
 
-Développeur web depuis 10 ans, je suis aujourd'hui spécialisé en React, Vue.js, Node et GraphQL.
-Vous pouvez trouvez plus d'informations sur https://yineo.fr/
+Développeur web depuis 10 ans, je suis aujourd'hui spécialisé en Vue, Nuxt, React, Next, Node et GraphQL. Vous pouvez trouvez plus d'informations sur https://yineo.fr/
