@@ -1,4 +1,6 @@
-# POPCORN - Annuaire des développeur·e·s de Nantes
+# POPCORN
+
+## Annuaire des développeur·e·s freelance de Nantes
 
 _Popcorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédiaire pour que les **développeur·e·s freelances de Nantes** et alentour trouvent plus facilement des client·e·s : https://popcorn-nantes.github.io/.
 
