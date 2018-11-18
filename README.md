@@ -1,30 +1,29 @@
-# POPCORN
+# POPCORN - Annuaire des développeur·e·s de Nantes
 
-_Popcorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédiaire pour que les **développeur·e·s freelances de Nantes** et alentours trouvent plus facilement du travail et des client·e·s : https://popcorn-nantes.github.io/.
+_Popcorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédiaire pour que les **développeur·e·s freelances de Nantes** et alentour trouvent plus facilement des client·e·s : https://popcorn-nantes.github.io/.
 
 Les avantages de _PopCorn_ pour les freelances :
 
-- 💰 _Popcorn_ est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e). Le gain pour nous : les affaires apportées par le site.
+- 💸 _Popcorn_ est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e). Le gain pour nous : les affaires apportées par le site.
 - 🔍 Une recherche très simple et rapide qui permet aux client(e)s de te trouver aussi bien par domaine métier (applications, boutique en ligne, jeux vidéo etc.) que par technologie (JavaScript, Wordpress etc.)
-- 💬 Un tchat qui permet d'échanger entre nous les plans boulots
 - 📖 Un code transparent. L'ordre dans lequel sont affichés les profils aussi (à ce jour, les profils sont affichés dans un ordre purement aléatoire sur le site)
+- 💬 Un tchat qui permet d'échanger entre nous les plans boulots
 
 ## Quelle est la différence avec Malt ou Comet ?
 
 - _Popcorn_ est une association et non une start-up. Elle ne prend pas de commission.
-- _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et ses alentours.
-- _Popcorn_ n'est **pas** un intermédiaire ou une marque : le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne porte aucune responsabilité et ne joue aucun rôle dans les échanges qui suivent entre les deux parties.
-- Le code de la plateforme est open-source
+- _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et alentour.
+- _Popcorn_ n'est **pas** un intermédiaire, un réseau ou une marque : le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne porte aucune responsabilité et ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
 
 ## Créer son profil
 
 - Fork ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
 - Ajoute ta photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum ⚠️**
-- Fait une _pull request_ avec pour titre _Nouvelle personne : {ton prénom}_
-- Bienvenue sur _Popcorn_ ! ✨ Tu recevras un mail à l'adresse indiquée pour t'inviter sur le slack de _Popcorn_ si tu as des questions ou envie d'échanger sur le projet.
+- Fait une _pull request_ avec pour titre _Nouvelle personne : {ton prénom}_ .
+- Bienvenue sur _Popcorn_ ! ✨ Tu recevras un mail pour t'inviter sur le slack de _Popcorn_ si tu as des questions, envie d'échanger sur le projet ou des tuyaux boulot à transmettre.
 
-Besoin d'aide, une question, un bug ? tu peux [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
+Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
 ## Documentation technique
 
