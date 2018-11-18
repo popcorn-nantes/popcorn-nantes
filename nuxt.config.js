@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         name: 'twitter:image',
-        content: 'https://popcorn-nantes.github.io/images/popcorn-500'
+        content: 'https://popcorn-nantes.github.io/images/popcorn-500.jpg'
       }
     ],
     link: [
