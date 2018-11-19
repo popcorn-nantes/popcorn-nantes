@@ -22,9 +22,8 @@ nom: nom
 # Le mail qui permet au client de contacter pour te faire une proposition de projet
 # et de t'inviter sur le slack de PopCorn.
 #
-# Si cela t'embête, tu peux mettre ici n'importe quel autre moyen de te contacter,
-# comme par exemple un lien vers le formulaire de contact de ton site ou vers ton linkedin.
-# Tu peux aussi créer une adresse mail pro et la rediriger vers ta boîte mail perso
+# Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
+# une adresse mail pro publique et la rediriger vers ta boîte mail perso
 mail: mail@mail.fr
 
 # OPTIONNEL
