@@ -52,7 +52,7 @@ domaines_metiers:
 # les technologies que tu utilises, avec ton niveau.
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Wordpress
+  - WordPress
   - HTML
   - CSS
   - JavaScript
