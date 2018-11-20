@@ -36,6 +36,8 @@
           <p v-show="person.telephone" style="margin-top:1rem" class="is-size-5"> 
             {{person.telephone}}
           </p>
+          <p style="margin-top:2rem" ><em>indiquez-lui que vous l'avez trouvé·e avec Popcorn :) <br />
+          <img style="position:relative;top:6px;" width="40px" src="/favicon.ico"/></em></p>
         </div>
         <!-- Any other Bulma elements you want -->
       </div>
