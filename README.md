@@ -1,4 +1,4 @@
-# POPCORN
+# POPCORN 🍿
 
 ## Annuaire des développeur·e·s freelance de Nantes
 
