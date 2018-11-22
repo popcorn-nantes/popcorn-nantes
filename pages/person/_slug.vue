@@ -2,7 +2,7 @@
   <div class="container section">
     <div class="columns">
       <div class="column">
-        <PersonCardPhoto :url="person.photo" />
+        <PersonCardPhoto :person="person" />
       </div>
       <div class="column is-two-thirds">
         <div class="columns">
@@ -37,7 +37,7 @@
           <p v-show="person.telephone" style="margin-top:1rem" class="is-size-5"> 
             {{person.telephone}}
           </p>
-          <p style="margin-top:2rem" ><em>indiquez-lui que vous l'avez trouvé·e avec Popcorn :) <br />
+          <p style="margin-top:2rem" ><em>Indiquez-lui que vous l'avez trouvé·e sur Popcorn :) <br />
           <img style="position:relative;top:6px;" width="40px" src="/favicon.ico"/></em></p>
         </div>
         <!-- Any other Bulma elements you want -->

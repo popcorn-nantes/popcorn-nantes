@@ -1,15 +1,7 @@
 <template>
   <div class="card">
 
-    <PersonCardPhoto :url="person.photo">
-      <div class="name name-overlay"></div>
-      <p class="name">{{person.prenom}} {{person.nom}}
-      <span v-if="person.disponible" class="disponible tag is-success">
-        {{person.disponible ? "Disponible": ""}}
-      </span>
-      </p>
-    </PersonCardPhoto>
-
+    <PersonCardPhoto :person="person" />
 
     <div class="card-content">
       <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
@@ -50,25 +42,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.card-image {
-  position: relative;
-}
-.name {
-  text-align: center;
-  height: 40px;
-  padding: 8px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: white;
-}
-.disponible {
-  float: right;
-}
-.name-overlay {
-  background: black;
-  opacity: 0.6;
-}
-</style>

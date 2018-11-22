@@ -5,7 +5,7 @@
         <span class="navbar-item">
           <strong>
             <nuxt-link to="/">
-              POPCORN <span class="tag is-warning">version alpha</span>
+              POPCORN <span class="tag is-warning"> version bêta</span>
             </nuxt-link>
           </strong>
         </span>
