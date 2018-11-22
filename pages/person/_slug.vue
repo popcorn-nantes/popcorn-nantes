@@ -24,7 +24,8 @@
       </div>
     </div>
 
-    <div class="modal" :class="{'is-active': showModal}">
+    <!-- "v-if" removes this contacts informations from the DOM -->
+    <div v-if="showModal" class="modal" :class="{'is-active': showModal}">
       <div class="modal-background" @click="showModal = false"></div>
       <div class="modal-content has-text-centered">
         <div class="box">

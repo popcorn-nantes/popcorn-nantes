@@ -26,6 +26,11 @@ nom: nom
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
 mail: mail@mail.fr
 
+# OPTIONNEL "true" or "false"
+# si tu as actuellement activement en recherche de projet, indique "true" ici,
+# cela affichera un petit label "disponible" sur ta fiche
+disponible: true
+
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
 telephone:

@@ -5,6 +5,7 @@ prenom: Yann
 nom: Boisselier
 photo: /images/yineo.jpg
 mail: yann@yineo.fr
+disponible: true
 telephone:
 domaines_metiers:
   - sites web

@@ -3,7 +3,11 @@
 
     <PersonCardPhoto :url="person.photo">
       <div class="name name-overlay"></div>
-      <p class="name">{{person.prenom}} {{person.nom}}</p>
+      <p class="name">{{person.prenom}} {{person.nom}}
+      <span v-if="person.disponible" class="disponible tag is-success">
+        {{person.disponible ? "Disponible": ""}}
+      </span>
+      </p>
     </PersonCardPhoto>
 
 
@@ -59,6 +63,9 @@ export default {
   bottom: 0;
   width: 100%;
   color: white;
+}
+.disponible {
+  float: right;
 }
 .name-overlay {
   background: black;

@@ -59,4 +59,3 @@ technologies:
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
-
