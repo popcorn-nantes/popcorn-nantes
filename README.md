@@ -23,7 +23,7 @@ Les avantages de _PopCorn_ pour les freelances :
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
 - Ajoute ta photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum ⚠️**
 - Fait une _pull request_ avec pour titre _Nouvelle personne : {ton prénom}_ .
-- Bienvenue sur _Popcorn_ ! ✨ Tu recevras un mail pour t'inviter sur le slack de _Popcorn_ si tu as des questions, envie d'échanger sur le projet ou des tuyaux boulot à transmettre.
+- Bienvenue sur _Popcorn_ ! ✨ Tu recevras un mail pour t'inviter sur le slack de _Popcorn_ si tu veux trouver ou donner des plans boulot, poser des questions sur le projet ou faire des suggestions pour améliorer l'annuaire.
 
 Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
