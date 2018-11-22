@@ -33,7 +33,7 @@ Il s'agit d'une site généré statiquement avec Nuxt. Le répertoire `content` 
 
 ### Pourquoi un site statique ?
 
-L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement, sans serveur afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part, parce que :
+L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données, afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part, parce que :
 
 - On est déjà toutes et tous "sous l'eau", ce site ne doit pas être une charge de travail supplémentaire...
 - On ne veut pas que le site reste 48 heures en rade parce qu'il ya un truc qui déconne et que tout le monde est trop occupé pour intervenir dessus
