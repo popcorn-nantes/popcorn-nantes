@@ -109,7 +109,9 @@ export default {
       }
       this.requestStatus = 'PENDING'
       const options = {
-        text: `${this.inputs.email} a écrit : ${this.inputs.message}`
+        text: `${this.inputs.email} vous a envoyé ce message depuis le site : ${
+          this.inputs.message
+        }`
       }
       setTimeout(() => {
         axios
