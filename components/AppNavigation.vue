@@ -23,7 +23,7 @@
       <div id="app-menu" class="navbar-menu" :class="{'is-active': mobileMenuIsOpen}">
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
-          <a href="https://github.com/popcorn-nantes/popcorn-nantes#popcorn" class="navbar-item"> Plus d'informations </a>
+          <a href="https://github.com/popcorn-nantes/popcorn-nantes/blob/master/README.md" class="navbar-item"> Plus d'informations </a>
           <span class="navbar-item ">
             <a href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil" class="button is-info"> 
             <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi avec une Pull Request ! </a>
