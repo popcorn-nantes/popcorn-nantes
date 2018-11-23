@@ -24,20 +24,40 @@
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item"> Accueil </nuxt-link>
           <a href="https://github.com/popcorn-nantes/popcorn-nantes/blob/master/README.md" class="navbar-item"> Plus d'informations </a>
+          <div class="navbar-item"><div class="button" @click="showModal = true"> Message à la ronde </div></div>
           <span class="navbar-item ">
             <a href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil" class="button is-info"> 
-            <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi avec une Pull Request ! </a>
+            <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi !  
+            </a>
           </span>
         </div>
       </div>
     </nav>
+
+    <!-- "v-if" removes this contacts informations from the DOM -->
+    <div v-if="showModal" class="modal" :class="{'is-active': showModal}">
+      <div class="modal-background" @click="showModal = false"></div>
+      <div class="modal-content has-text-centered">
+        <div class="box">
+          <PopcornContact/>
+        </div>
+        <!-- Any other Bulma elements you want -->
+      </div>
+      <button @click="showModal = false" class="modal-close is-large" aria-label="close"></button>
+    </div>
+
   </div>
 </template>
 
 <script>
+import PopcornContact from '../components/PopcornContact'
 export default {
+  components: {
+    PopcornContact
+  },
   data() {
     return {
+      showModal: false,
       mobileMenuIsOpen: false
     }
   },
