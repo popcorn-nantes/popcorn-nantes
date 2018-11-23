@@ -114,7 +114,7 @@ export default {
       setTimeout(() => {
         axios
           .post(
-            'https://hooks.slack.com/services/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',
+            'https://hooks.slack.com/services/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',
             JSON.stringify(options)
           )
           .then(r => {
