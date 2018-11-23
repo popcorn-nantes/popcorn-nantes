@@ -41,7 +41,7 @@ photo: /images/placeholder-5.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
-# techniques**, pour qu'ils ou elle te trouvent facilement. Un client(e) veut par exemple
+# techniques**, pour qu'ils ou elles te trouvent facilement. Un client(e) veut par exemple
 # réaliser une des choses suivantes :
 # - sites web
 # - applications mobiles
@@ -54,7 +54,7 @@ domaines_metiers:
   - applications mobiles
 
 # REQUIS
-# les technologies que tu utilises, avec ton niveau.
+# Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
   - PHP
