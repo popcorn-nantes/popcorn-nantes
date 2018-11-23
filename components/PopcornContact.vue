@@ -16,7 +16,7 @@
     <template v-if="requestStatus === 'FINISHED_ERROR'">
       <div class="message is-danger">
         <div class="message-body">
-          Nous sommes désolé, une erreur est survenue pendant l'envoi du message : <br />
+          Nous sommes désolés, une erreur est survenue pendant l'envoi du message : <br />
           {{requestError}}
         </div>
       </div>
@@ -35,8 +35,8 @@
             <input 
             type="text" 
             class="input" 
-            v-model="inputs.contact" 
-            :class="{'is-danger': getError('contact')}"
+            v-model="inputs.email" 
+            :class="{'is-danger': getError('email')}"
             />
           </div>
         </div>
@@ -66,7 +66,7 @@ export default {
   data() {
     return {
       inputs: {
-        contact: '',
+        email: '',
         message: '',
         nom: ''
       },
@@ -79,9 +79,9 @@ export default {
   methods: {
     formValidate() {
       this.errors = []
-      if (!this.inputs.contact.trim()) {
+      if (!this.inputs.email.trim()) {
         this.errors.push({
-          id: 'contact',
+          id: 'email',
           message: 'Le champ email est vide 😱 '
         })
       }
@@ -108,12 +108,14 @@ export default {
         return
       }
       this.requestStatus = 'PENDING'
-      const message = `${this.email} a écrit : ${this.message}`
+      const options = {
+        text: `${this.inputs.email} a écrit : ${this.inputs.message}`
+      }
       setTimeout(() => {
         axios
           .post(
             'https://hooks.slack.com/services/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',
-            { text: message }
+            JSON.stringify(options)
           )
           .then(r => {
             this.requestStatus = 'FINISHED_OK'
