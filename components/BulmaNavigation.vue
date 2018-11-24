@@ -26,7 +26,7 @@
           <a href="https://github.com/popcorn-nantes/popcorn-nantes/blob/master/README.md" class="navbar-item"> Plus d'informations </a>
           <!--<div class="navbar-item"><div class="button" @click="showModal = true"> Message à la ronde </div></div>-->
           <span class="navbar-item ">
-            <a href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil" class="button is-primary"> 
+            <a href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil" class="button is-info"> 
             <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi avec une PR !  
             </a>
           </span>

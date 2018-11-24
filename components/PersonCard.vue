@@ -46,24 +46,15 @@ export default {
 </script>
 
 <style scoped>
-.image.is-square {
-  background-color: whitesmoke;
-}
 .card:hover {
   transition: all 0.2s ease-in-out;
-  top: -10px;
-  box-shadow: 0 2px 30px;
+  top: -5px;
+  box-shadow: 0 2px 20px;
 }
 .card {
   height: 100%;
   position: relative;
   transition: all 0.3s ease-in-out;
   top: 0;
-}
-.card .description {
-  font-style: italic;
-}
-.recipes .card .difficulty {
-  margin-bottom: 10px;
 }
 </style>
