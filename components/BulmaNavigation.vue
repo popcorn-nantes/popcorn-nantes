@@ -4,8 +4,8 @@
       <div class="navbar-brand">
         <span class="navbar-item">
           <strong>
-            <nuxt-link to="/">
-              POPCORN <span class="tag is-warning"> version bêta</span>
+            <nuxt-link style="color:black" to="/">
+              POPCORN 🍿   
             </nuxt-link>
           </strong>
         </span>
@@ -26,8 +26,8 @@
           <a href="https://github.com/popcorn-nantes/popcorn-nantes/blob/master/README.md" class="navbar-item"> Plus d'informations </a>
           <!--<div class="navbar-item"><div class="button" @click="showModal = true"> Message à la ronde </div></div>-->
           <span class="navbar-item ">
-            <a href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil" class="button is-info"> 
-            <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi !  
+            <a href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil" class="button is-primary"> 
+            <img style="padding:4px;" src="/images/github.svg"/> Freelance ?  Inscris-toi avec une PR !  
             </a>
           </span>
         </div>
@@ -71,6 +71,9 @@ export default {
 </script>
 
 <style scoped>
+.navbar {
+  padding-left: '3rem';
+}
 /* Create slide animation on mobile */
 @media screen and (max-width: 999px) {
   .navbar-end {

@@ -1,15 +1,15 @@
 <template>
   <div>
-    <AppNavigation />
+    <BulmaNavigation />
     <nuxt/>
   </div>
 </template>
 
 <script>
-import AppNavigation from '../components/AppNavigation'
+import BulmaNavigation from '../components/BulmaNavigation'
 export default {
   components: {
-    AppNavigation
+    BulmaNavigation
   }
 }
 </script>
