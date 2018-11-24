@@ -14,4 +14,4 @@ Dont acte, _Popcorn_ est là, géré par les développeurs eux-mêmes, gratuit e
 
 Vous êtes développeur freelance ? Pour s'inscrire, il suffit de faire une **Pull Request** sur le projet github qui héberge le projet en suivant [les instructions suivantes](https://github.com/popcorn-nantes/popcorn-nantes#cr%C3%A9er-son-profil).
 
-Après l'inscription, tu recevras également un mail qui te proposera de rejoindre le tchat de _Popcorn_ où les membres peuvent échanger entre eux pour discuter des évolutions de la plateforme ou échanger des tuyaux pour le travail.
+Après l'inscription, vous recevrez également un mail qui vous proposera de rejoindre le tchat de _Popcorn_ où les membres peuvent échanger entre eux pour discuter des évolutions de la plateforme ou échanger des tuyaux pour le travail.
