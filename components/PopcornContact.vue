@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="title">Message à la ronde</h1>
+    <h1 class="title">Contact</h1>
     <h2 v-if="requestStatus !== 'FINISHED_ERROR' && requestStatus !== 'FINISHED_OK'" class="subtitle">
-      Vous pouvez envoyer un message qui sera visible sur le tchat de <em>Popcorn</em> par les développeurs connectés. 
+      Un retour, une question ou une suggestion concernant le site ? C'est ici !
     </h2>
 
     <template v-if="requestStatus === 'FINISHED_OK'">
