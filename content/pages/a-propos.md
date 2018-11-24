@@ -1,8 +1,10 @@
 # C'est quoi Popcorn 🍿 ?
 
-Popcorn est une plateforme qui vous permet de trouver un développeur Freelance à Nantes **avec (vraiment) 0% de commission**, ni pour vous ni pour le freelance.
+_Popcorn_ est une plateforme qui vous permet de trouver un développeur freelance à Nantes **avec (vraiment) 0% de commission**, ni pour vous ni pour le freelance.
 
-## pourquoi c'est gratuit ?
+_Popcorn_ n'est pas une startup, une entreprise ou une marque: vous entrez directement en contact avec le freelance de votre choix et _Popcorn_ ne porte aucune responsabilité et ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
+
+## Pourquoi c'est gratuit ?
 
 Je m'appelle Yann, je suis développeur freelance, et je me suis posé la queston suivante : pourquoi utiliser une plateforme qui prend une commission pour nous mettre en relation avec des client-e-s pour trouver du travail alors qu’on pourrait la coder nous-même ?
 
@@ -10,6 +12,6 @@ Dont acte, _Popcorn_ est là, géré par les développeurs eux-mêmes, gratuit e
 
 ## S'inscrire sur Popcorn
 
-Vous êtes développeur freelance ? Pour s'inscrire, il suffit de faire une **Pull Request** sur le projet github qui héberge le projet en suivant (les instructions suivantes)[https://github.com/popcorn-nantes/popcorn-nantes#cr%C3%A9er-son-profil].
+Vous êtes développeur freelance ? Pour s'inscrire, il suffit de faire une **Pull Request** sur le projet github qui héberge le projet en suivant [les instructions suivantes](https://github.com/popcorn-nantes/popcorn-nantes#cr%C3%A9er-son-profil).
 
 Après l'inscription, tu recevras également un mail qui te proposeras de rejoindre le tchat de _Popcorn_ où les membres peuvent échanger entre eux pour discuter des évolutions de la plateforme ou échanger des tuyaux pour le travail.
