@@ -1,7 +1,11 @@
 const pkg = require('./package')
-import { generateRoutes } from './lib/helpers'
+import { generateRoutes } from './services/helpers'
 
 module.exports = {
+  env: {
+    popcornContactSlackWebhook:
+      'https://hooks.slack.com/services/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'
+  },
   mode: 'universal',
   generate: {
     routes: generateRoutes()

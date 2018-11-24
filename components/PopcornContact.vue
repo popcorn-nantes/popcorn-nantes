@@ -115,10 +115,7 @@ export default {
       }
       setTimeout(() => {
         axios
-          .post(
-            'https://hooks.slack.com/services/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',
-            JSON.stringify(options)
-          )
+          .post(process.env.popcornContactSlackWebhook, JSON.stringify(options))
           .then(r => {
             this.requestStatus = 'FINISHED_OK'
           })

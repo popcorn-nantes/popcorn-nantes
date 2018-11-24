@@ -1,3 +1,6 @@
+import persons from '../static/api/persons.json'
+import pages from '../static/api/pages.json'
+
 /**
  * Shuffles array in place. ES6 version
  * @param {Array} a items An array containing the items.

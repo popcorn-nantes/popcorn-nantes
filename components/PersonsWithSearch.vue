@@ -10,7 +10,7 @@
 <script>
 import Persons from './Persons'
 import PersonsSearchForm from './PersonsSearchForm'
-import { shuffle } from '../lib/helpers.js'
+import { shuffle } from '../services/helpers.js'
 
 export default {
   components: {
