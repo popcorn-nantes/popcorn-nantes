@@ -37,13 +37,17 @@ export default {
     },
     search(text) {
       return this.persons.filter(person => {
-        let textLowerCased = text.toLowerCase().trim()
         let match = false
-        person.search_keywords.forEach(search_keyword => {
-          if (search_keyword.toLowerCase().indexOf(textLowerCased) > -1) {
-            match = true
-          }
-        })
+        console.log('person', person)
+        let textLowerCased = text.toLowerCase().trim()
+        if (
+          person.search_keywords
+            .join(', ')
+            .toLowerCase()
+            .indexOf(textLowerCased) > -1
+        ) {
+          match = true
+        }
         return match
       })
     }

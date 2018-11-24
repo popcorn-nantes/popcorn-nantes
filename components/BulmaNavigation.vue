@@ -5,7 +5,7 @@
         <span class="navbar-item">
           <strong>
             <nuxt-link style="color:black" to="/">
-              POPCORN 🍿   
+              POPCORN 🍿
             </nuxt-link>
           </strong>
         </span>
