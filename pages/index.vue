@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { getPersons } from '../lib/helpers.js'
+import persons from '../static/api/persons.json'
 import PersonsWithSearch from '../components/PersonsWithSearch'
 
 export default {
@@ -19,7 +19,7 @@ export default {
     PersonsWithSearch
   },
   computed: {
-    persons: () => getPersons()
+    persons: () => persons
   }
 }
 </script>

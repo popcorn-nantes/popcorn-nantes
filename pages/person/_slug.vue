@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { getPersons } from '../../lib/helpers.js'
-import Person from '../../components/Person'
+import Person from '@/components/Person'
+import persons from '@/static/api/persons'
 
 export default {
   components: {
@@ -14,7 +14,7 @@ export default {
   },
   computed: {
     person: function person() {
-      return getPersons().find(person => {
+      return persons.find(person => {
         return person.slug === this.$route.params.slug
       })
     }

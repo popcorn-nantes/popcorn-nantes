@@ -7,8 +7,7 @@ var yamlFront = require('yaml-front-matter')
 var md = require('markdown-it')()
 var slug = require('slug')
 
-module.exports.compile = compile
-
+// compile tous les fichiers markdown en fichiers JSON
 compile()
 
 function compile() {
