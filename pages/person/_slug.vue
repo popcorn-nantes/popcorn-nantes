@@ -18,7 +18,7 @@ export default {
     }
   },
   head() {
-    const title = `profil de ${this.person.prenom} ${
+    const title = `Profil de ${this.person.prenom} ${
       this.person.nom
     }, freelance ${this.person.technologies.join(', ')}`
     const description = `Popcorn : trouvez un développeur freelance à Nantes avec (vraiment) 0% de commission pour tout le monde`
