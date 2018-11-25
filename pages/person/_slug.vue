@@ -13,10 +13,8 @@ export default {
     Person
   },
   computed: {
-    person: function person() {
-      return persons.find(person => {
-        return person.slug === this.$route.params.slug
-      })
+    person: function() {
+      return persons.find(person => person.slug === this.$route.params.slug)
     }
   },
   head() {

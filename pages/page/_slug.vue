@@ -14,10 +14,7 @@ export default {
   },
   computed: {
     page: function page() {
-      const page = pages.find(page => {
-        return page.slug === this.$route.params.slug
-      })
-      return page
+      return pages.find(page => page.slug === this.$route.params.slug)
     }
   }
 }
