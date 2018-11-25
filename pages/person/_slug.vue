@@ -24,7 +24,7 @@ export default {
       this.person.nom
     }, freelance ${this.person.technologies.join(', ')}`
     const description = `Popcorn : trouvez un développeur freelance à Nantes avec (vraiment) 0% de commission pour tout le monde`
-    const image = `${process.env.popcornBaseUrl}/images/popcorn-500.jpg`
+    const image = `${process.env.popcornBaseUrl}${this.person.photo}`
     return {
       meta: [
         {
