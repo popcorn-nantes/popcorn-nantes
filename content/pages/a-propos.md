@@ -6,9 +6,9 @@ _Popcorn_ n'est pas une startup, une entreprise ou une marque: vous entrez direc
 
 ## Pourquoi c'est gratuit ?
 
-Puisque nous sommes développeurs, pourquoi utiliser une plateforme qui prend une commission pour nous mettre en relation avec des client-e-s pour trouver du travail alors qu’on pourrait la coder nous-même ?
+Puisque nous sommes développeurs, pourquoi utiliser une plateforme qui prend une commission pour nous mettre en relation avec des client-e-s pour trouver du travail alors qu’on peut la coder nous-même ?
 
-Dont acte, _Popcorn_ est là, géré par les développeurs eux-mêmes, gratuit et opensource. La valeur ajoutée pour nous, ce sont les projets trouvés par ce canal et le fait de pouvoir entrer en contact avec vous sans commission ni intermédiaire.
+_Popcorn_ est un annuaire de développeurs opensource pour et par les développeurs. La valeur ajoutée pour nous, ce sont les projets trouvés par ce canal et le fait de pouvoir entrer en contact avec vous sans commission ni intermédiaire.
 
 ## S'inscrire sur Popcorn
 
