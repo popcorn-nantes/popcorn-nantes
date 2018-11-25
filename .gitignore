@@ -83,3 +83,5 @@ dist
 # ne pas versionner les fichiers json compilés depuis les fichiers markdown
 static/api/*
 !static/api/README.md
+
+.vscode
