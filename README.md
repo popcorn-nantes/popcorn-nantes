@@ -2,20 +2,20 @@
 
 ## Annuaire des développeur·e·s freelance de Nantes
 
-_Popcorn_ est une plateforme avec (vraiment) 0% de commission et sans intermédiaire pour que les **développeur·e·s freelances de Nantes** et alentour trouvent plus facilement des client·e·s : https://popcorn-nantes.github.io/.
+_Popcorn_ est une plateforme avec (vraiment) 0% de commission qui permet de trouver un développeur freelance à Nantes : https://popcorn-nantes.github.io/.
 
-Les avantages de _PopCorn_ pour les freelances :
+Les avantages de _PopCorn_ pour les développeurs freelances de Nantes :
 
-- 💸 _Popcorn_ est une association à **but non-lucratif**, avec 0% de commission sur les affaires apportées par ce canal. C'est plus d'argent pour le freelance et le ou la client(e). Le gain pour nous : les affaires apportées par le site.
-- 🔍 Une recherche très simple et rapide qui permet aux client(e)s de te trouver aussi bien par domaine métier (applications, boutique en ligne, jeux vidéo etc.) que par technologie (JavaScript, WordPress etc.)
-- 📖 Un code transparent. L'ordre dans lequel sont affichés les profils aussi (à ce jour, les profils sont affichés dans un ordre purement aléatoire sur le site)
-- 💬 Un tchat qui permet d'échanger entre nous les plans boulots
+- 💸 _Popcorn_ est une association à **but non-lucratif**, il n'y a pas de commission sur les affaires conclues par le biais du site.
+- 📖 Un code open source : on maîtrise les fonctionnalités de la plateforme, l'odre dans lequel sont affichés les profils, l'algorithme de recherche...
+- 💬 Un tchat qui permet d'échanger entre nous les plans boulots et discuter des évolutions de la plateforme
+- 🔍 Une recherche simple et rapide qui permet aux client(e)s de trouver un freelance aussi bien par domaine métier (applications, boutique en ligne, jeux vidéo etc.) que par technologie (JavaScript, WordPress etc)
 
 ## Quelle est la différence avec Malt ou Comet ?
 
-- _Popcorn_ est une association et non une start-up. Elle ne prend pas de commission.
+- _Popcorn_ est une association à **but non-lucratif**, il n'y a pas de commission sur les affaires conclues par le biais du site.
 - _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et alentour.
-- _Popcorn_ n'est **pas** un intermédiaire, un réseau ou une marque : le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne porte aucune responsabilité et ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
+- _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
 
 ## Créer son profil
 
@@ -29,13 +29,13 @@ Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux auss
 
 ## Documentation technique
 
-Il s'agit d'une site généré statiquement avec Nuxt. Le répertoire `content` contient les fichiers markdown qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`.
+Il s'agit d'une site généré statiquement avec Nuxt. Le répertoire `content` contient les fichiers markdown qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`. Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack.
 
-### Pourquoi un site statique ?
+### Pourquoi un site statique ("_serverless_") ?
 
 L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données, afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part, parce que :
 
-- On est déjà toutes et tous "sous l'eau", ce site ne doit pas être une charge de travail supplémentaire...
+- On est déjà toutes et tous "sous l'eau", ce site ne doit pas être une charge de travail supplémentaire
 - On ne veut pas que le site reste 48 heures en rade parce qu'il ya un truc qui déconne et que tout le monde est trop occupé pour intervenir dessus
 - On ne veut pas qu'au fil du temps une personne devienne "responsable" du site, qu'elle soit la seule à piger comment tout fonctionne et qu'elle parte à Barcelone ou quitte _Popcorn_ en laissant aux autres un truc qu'ils et elles ne maitrisent pas
 - On veut bien être hébergé pour 0 euros chez Github ^^
