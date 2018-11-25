@@ -27,17 +27,17 @@ export default {
       meta: [
         {
           hid: 'og:title',
-          name: 'og:title',
+          property: 'og:title',
           content: title
         },
         {
           hid: 'og:image',
-          name: 'og:image',
+          property: 'og:image',
           content: image
         },
         {
           hid: 'og:description',
-          name: 'og:description',
+          property: 'og:description',
           content: description
         },
         // twitter card:

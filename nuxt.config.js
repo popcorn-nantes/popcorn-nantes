@@ -37,17 +37,17 @@ module.exports = {
       { hid: 'og:site_name', name: 'og:site_name', content: 'Popcorn' },
       {
         hid: 'og:title',
-        name: 'og:title',
+        property: 'og:title',
         content: ogTitle
       },
       {
         hid: 'og:image',
-        name: 'og:image',
+        property: 'og:image',
         content: ogImage
       },
       {
         hid: 'og:description',
-        name: 'og:description',
+        property: 'og:description',
         content: ogDescription
       },
       // twitter card:
