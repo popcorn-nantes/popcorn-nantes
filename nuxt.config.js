@@ -3,6 +3,13 @@ import { generateRoutes } from './services/helpers'
 
 const popcornBaseUrl = 'https://popcorn-nantes.github.io'
 
+// les informations pour les metatags à destination des réseaux sociaux
+// pour l'aperçu quand on partage un lien.
+const ogTitle = 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
+const ogDescription =
+  'La plateforme avec (vraiment) 0% de commission pour tout le monde'
+const ogImage = `${popcornBaseUrl}/images/popcorn-500.jpg`
+
 module.exports = {
   env: {
     popcornBaseUrl: popcornBaseUrl,
@@ -21,24 +28,44 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
+      {
+        name: 'description',
+        content:
+          'Trouvez un développeur freelance à Nantes, avec (vraiment) 0% de commission pour tout le monde'
+      },
+      // open graph
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Popcorn' },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content: ogTitle
+      },
+      {
+        hid: 'og:image',
+        name: 'og:image',
+        content: ogImage
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content: ogDescription
+      },
       // twitter card:
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
+        content: ogTitle
       },
       {
         hid: 'twitter:description',
         name: 'twitter:description',
-        content:
-          'La plateforme avec ( vraiment ) 0% de commission pour tout le monde'
+        content: ogDescription
       },
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: `${popcornBaseUrl}/images/popcorn-500.jpg`
+        content: ogImage
       }
     ],
     link: [
