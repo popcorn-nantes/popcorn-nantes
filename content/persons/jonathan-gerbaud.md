@@ -72,4 +72,4 @@ Quel que soit votre projet, une maquette, un prototype, une application, une mis
 
 Les technologies évoluent vite, je code désormais essentiellement en Kotlin, même si j'utilise toujours Java de temps en temps.
 
-Plus d'infos sur [mon site] (https://www.jonathangerbaud.fr)
+Plus d'infos sur [mon site](https://www.jonathangerbaud.fr)
