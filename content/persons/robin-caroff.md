@@ -7,7 +7,7 @@
 titre: Développeur Android Natif Senior
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Direction, conception et développement de projet d'applications mobiles
+sous_titre: Direction, conception et développement de projets d'applications mobiles
 
 # REQUIS
 prenom: Robin
@@ -52,6 +52,8 @@ domaines_metiers:
   - applications mobiles
   - android
   - ios
+  - architecture
+  - formation
 
 # REQUIS
 # Les technologies que tu utilises
