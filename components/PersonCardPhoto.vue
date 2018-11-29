@@ -1,7 +1,7 @@
 <template>
   <div class="card-image">
     <div class="photo-container">
-      <img class="photo" v-lazy="person.photo">
+      <img class="photo" :src="person.photo">
       <div class="name name-overlay"></div>
     </div>
     <p class="name">
