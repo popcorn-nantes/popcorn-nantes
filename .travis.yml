@@ -12,11 +12,9 @@ cache:
     - ~/.cache
 
 install:
-  # use the new "ci" command for fastest installs on CI
-  - npm ci
+  - npm install
 
 before_script:
-  - npm install
   - npm run build
   - npm start -- --silent &
 
