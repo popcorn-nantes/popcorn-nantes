@@ -1,22 +1,23 @@
 <template>
   <div>
     <h1 class="title">Contact</h1>
-    <h2 v-if="requestStatus !== 'FINISHED_ERROR' && requestStatus !== 'FINISHED_OK'" class="subtitle">
-      Un retour, une question ou une suggestion concernant le site ? C'est ici !
-    </h2>
+    <h2
+      v-if="requestStatus !== 'FINISHED_ERROR' && requestStatus !== 'FINISHED_OK'"
+      class="subtitle"
+    >Un retour, une question ou une suggestion concernant le site ? C'est ici !</h2>
 
     <template v-if="requestStatus === 'FINISHED_OK'">
       <div class="message is-success">
-        <div class="message-body">
-          Le message a bien été posté 👍 
-        </div>
+        <div class="message-body">Le message a bien été posté 👍</div>
       </div>
     </template>
 
     <template v-if="requestStatus === 'FINISHED_ERROR'">
       <div class="message is-danger">
-        <div class="message-body">
-          Nous sommes désolés, une erreur est survenue pendant l'envoi du message : <br />
+        <div
+          class="message-body"
+        >Nous sommes désolés, une erreur est survenue pendant l'envoi du message :
+          <br>
           {{requestError}}
         </div>
       </div>
@@ -30,31 +31,32 @@
           </div>
         </div>
         <div class="field">
-          <label class="label">Votre email </label>
+          <label class="label">Votre email</label>
           <div class="control">
-            <input 
-            type="text" 
-            class="input" 
-            v-model="inputs.email" 
-            :class="{'is-danger': getError('email')}"
-            />
+            <input
+              type="text"
+              class="input"
+              v-model="inputs.email"
+              :class="{'is-danger': getError('email')}"
+            >
           </div>
         </div>
         <div class="field">
           <label class="label">Votre message</label>
           <div class="control">
-            <textarea 
-            v-model="inputs.message" 
-            class="textarea" 
-            :class="{'is-danger': getError('message')}">
-            </textarea>
+            <textarea
+              v-model="inputs.message"
+              class="textarea"
+              :class="{'is-danger': getError('message')}"
+            ></textarea>
           </div>
         </div>
-        <input 
-        class="button is-primary" 
-        :disabled="requestStatus === 'PENDING'"
-        type="submit" 
-        :value=" requestStatus === 'PENDING' ? 'envoi en cours': 'Envoyer'" />
+        <input
+          class="button is-primary"
+          :disabled="requestStatus === 'PENDING'"
+          type="submit"
+          :value=" requestStatus === 'PENDING' ? 'envoi en cours': 'Envoyer'"
+        >
       </form>
     </template>
   </div>
