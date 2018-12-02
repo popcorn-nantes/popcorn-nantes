@@ -13,18 +13,18 @@ Les objectifs de _PopCorn_ pour les développeurs freelances :
 - Fork ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour l'url de ton profil.
 - Ajoute ta photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum ⚠️**
-- Fait une _pull request_ avec pour titre _Nouvelle personne : {ton prénom}_ .
-- Bienvenue sur _Popcorn_ ! ✨ Tu recevras un mail pour t'inviter sur le slack de _Popcorn_ si tu veux trouver ou donner des plans boulot, poser des questions sur le projet ou faire des suggestions pour améliorer l'annuaire.
+- Fait une _pull request_ avec pour titre _Nouveau profil : {ton prénom}_ .
+- Bienvenue sur _Popcorn_ ! ✨ Tu recevras également un mail pour t'inviter sur le slack de _Popcorn_ si tu veux trouver ou donner des plans boulot, poser des questions sur le projet ou faire des suggestions pour améliorer la plateforme.
 
 Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
 ## FAQ
 
-### Quelle est la différence avec Malt ou Comet ?
+### Quelle est la différence avec des plateformes comme Malt ou Comet ?
 
 - _Popcorn_ est une association à but lucratif et pas une entreprise
 - _Popcorn_ est développé et maintenu par les développeurs freelance eux même.
-- _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et alentour.
+- _Popcorn_ est réservé aux **développeur·e·s de la région nantaise**.
 - _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
 
 ### pourquoi limiter à Nantes et aux métiers de développeurs ?

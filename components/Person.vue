@@ -1,5 +1,5 @@
 <template>
-  <div class="container section">
+  <div class="person container section">
     <div class="columns">
       <div class="column">
         <PersonCardPhoto :person="person"/>
@@ -10,10 +10,10 @@
             <h1 style="text-transform:uppercase" class="title">{{person.prenom}} {{person.nom}}</h1>
             <h2 class="subtitle">{{person.titre}}</h2>
             <h2 class="subtitle">
-              <Tags :tags="person.domaines_metiers"/>
+              <Tags class="domaines-metiers" :tags="person.domaines_metiers"/>
             </h2>
             <h2 class="subtitle">
-              <Tags :tags="person.technologies"/>
+              <Tags class="technologies" :tags="person.technologies"/>
             </h2>
           </div>
           <div class="column">
