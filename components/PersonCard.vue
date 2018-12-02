@@ -1,31 +1,33 @@
 <template>
-  <nuxt-link :to="`/person/${person.slug}`">
-    <div class="card">
-      <PersonCardPhoto :person="person"/>
+  <div class="person" :id="`person-${person.slug}`">
+    <nuxt-link :to="`/person/${person.slug}`">
+      <div class="card">
+        <PersonCardPhoto :person="person"/>
 
-      <div class="card-content">
-        <p style="font-size:20px;" class="has-text-centered">{{person.titre}}</p>
-        <p
-          v-show="person.sous_titre"
-          style="font-size:15px;font-style:italic"
-          class="has-text-centered"
-        >{{person.sous_titre}}</p>
-        <div class="has-text-centered" style="padding-top: 1em">
-          <Tags :tags="person.domaines_metiers"/>
-        </div>
+        <div class="card-content">
+          <h2 style="font-size:20px;" class="has-text-centered">{{person.titre}}</h2>
+          <h3
+            v-show="person.sous_titre"
+            style="font-size:15px;font-style:italic"
+            class="has-text-centered"
+          >{{person.sous_titre}}</h3>
+          <div class="has-text-centered" style="padding-top: 1em">
+            <Tags class="domaines-metiers" :tags="person.domaines_metiers"/>
+          </div>
 
-        <div class="has-text-centered" style="padding-top: 1em">
-          <Tags :tags="person.technologies"/>
-        </div>
-        <div class="content">
-          <div class="has-text-centered">
-            <br>
-            <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
+          <div class="has-text-centered" style="padding-top: 1em">
+            <Tags class="technologies" :tags="person.technologies"/>
+          </div>
+          <div class="content">
+            <div class="has-text-centered">
+              <br>
+              <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </nuxt-link>
+    </nuxt-link>
+  </div>
 </template>
 
 <script>
