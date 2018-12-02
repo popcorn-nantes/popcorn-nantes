@@ -30,12 +30,11 @@
             <div class="button" @click="showModal = true">Contact</div>
           </div>
           <span class="navbar-item">
-            <a
-              href="https://github.com/popcorn-nantes/popcorn-nantes#créer-son-profil"
+            <nuxt-link
+              to="/page/inscription"
               class="button is-info"
-            >
-              <img style="padding:4px;" src="/images/github.svg"> Freelance ? Inscris-toi avec une PR !
-            </a>
+              style="color:white"
+            >Freelance ? Inscription</nuxt-link>
           </span>
         </div>
       </div>

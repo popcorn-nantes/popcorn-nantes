@@ -1,17 +1,13 @@
-## C'est quoi Popcorn 🍿 ?
+# C'est quoi Popcorn 🍿 ?
 
-_Popcorn_ est une plateforme qui vous permet de trouver un développeur freelance à Nantes **avec (vraiment) 0% de commission**.
+_Popcorn_ est une plateforme qui vous permet de trouver un développeur freelance à Nantes **avec (vraiment) 0% de commission** et sans intermédiaire.
 
-_Popcorn_ n'est pas une startup, une entreprise ou une marque: vous entrez directement en contact avec le freelance de votre choix et _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
+Vous pouvez entrez directement en contact avec les freelances de votre choix : _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
 
 ## Pourquoi c'est gratuit ?
 
-Puisque nous sommes développeurs, pourquoi utiliser une plateforme qui prend une commission pour nous mettre en relation avec des client-e-s pour trouver du travail alors qu’on peut la coder nous-même ?
+Les autres plateformes ont des frais de fonctionnement car ce sont des entreprises ou des start-ups et qu'elles doivent payer pour le développement et la maintenance de leur plateforme.
 
-_Popcorn_ est un annuaire de développeurs [open source](https://github.com/popcorn-nantes/popcorn-nantes) conçu _par_ et _pour_ les développeurs. La valeur ajoutée pour nous, ce sont les projets trouvés par ce canal et le fait de pouvoir entrer en contact avec vous sans commission ni intermédiaire.
+_Popcorn_ n'est pas une entreprise mais une association, et puisque que **nous sommes développeurs, nous développons et maintenons nous même la plateforme** (qui est [opensource](https://github.com/popcorn-nantes/popcorn-nantes)). La valeur ajoutée pour nous, ce sont les projets trouvés par ce canal et le fait de pouvoir entrer en contact avec vous sans commission ni intermédiaire.
 
-## S'inscrire sur Popcorn
-
-Vous êtes développeur freelance ? Pour s'inscrire, il suffit de faire une **Pull Request** sur le projet github qui héberge le projet en suivant [les instructions suivantes](https://github.com/popcorn-nantes/popcorn-nantes#cr%C3%A9er-son-profil).
-
-Après l'inscription, vous recevrez également un mail qui vous proposera de rejoindre le tchat de _Popcorn_, où les membres peuvent échanger entre eux à propos des évolutions de la plateforme ou échanger des tuyaux pour le travail.
+Enfin, puisque _Popcorn_ n'est pas un intermédiaire et que vous pouvez contacter le freelance directement, il n'y a pas de travail ni de frais de fonctionnement liés à la mise en relation.
