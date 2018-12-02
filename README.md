@@ -14,7 +14,7 @@ Les objectifs de _PopCorn_ pour les développeurs freelances :
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour créer l'url de ton profil.
 - Ajoute ta photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum ⚠️**
 - Fait une _pull request_ avec pour titre _Nouveau profil : {ton prénom}_ .
-- Bienvenue sur _Popcorn_ ! ✨ Tu recevras également un mail pour t'inviter sur le slack de _Popcorn_ si tu veux trouver ou transmettre des plans boulot, poser des questions ou faire des suggestions d'améliorations pour la plateforme.
+- Bienvenue sur _Popcorn_ ! ✨ Tu recevras également un mail pour t'inviter sur le tchat de _Popcorn_.
 
 Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue sur ce repo](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
