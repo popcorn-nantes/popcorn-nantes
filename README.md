@@ -2,7 +2,7 @@
 
 _Popcorn_ est une plateforme qui permet de trouver des développeurs freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. [Voir le site](https://popcorn-nantes.github.io/)
 
-Les objectifs de _PopCorn_ pour les développeurs freelances :
+Les objectifs de _Popcorn_ pour les développeurs freelances :
 
 - 📈 Devenir un canal pour trouver des affaires à Nantes sans commission ni intermédiaire.
 - 📗 Open source : on maîtrise les fonctionnalités de la plateforme, tel que les résultats de recherche, les informations affichées par nos profils etc
