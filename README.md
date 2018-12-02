@@ -22,10 +22,10 @@ Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux auss
 
 ### Quelle est la différence avec des plateformes comme Malt ou Comet ?
 
-- _Popcorn_ est une association à but lucratif et pas une entreprise
+- _Popcorn_ est une association à but non-lucratif et pas une start-up.
 - _Popcorn_ est développé et maintenu par les développeurs freelances.
 - _Popcorn_ est réservé aux **développeur·e·s de la région nantaise**.
-- _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
+- _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: les clients entrent directement en contact avec les freelances. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
 
 ## Documentation technique
 
