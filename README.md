@@ -5,7 +5,7 @@ _Popcorn_ est une plateforme qui permet de trouver des développeurs freelance �
 Les objectifs de _PopCorn_ pour les développeurs freelances :
 
 - 📈 Devenir un canal pour trouver des affaires à Nantes sans commission ni intermédiaire.
-- 📗 Open source : on maîtrise les fonctionnalités de la plateforme, tel que les résultats de recherche et l'ordre dans lequel sont affichés nos profils.
+- 📗 Open source : on maîtrise les fonctionnalités de la plateforme, tel que les résultats de recherche, les informations affichés par nos profils etc
 - 💬 Faire circuler les tuyaux boulot entre freelances via le tchat.
 
 ## Créer son profil
