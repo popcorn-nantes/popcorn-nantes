@@ -1,0 +1,24 @@
+language: node_js
+node_js:
+  - 10
+branches:
+  only:
+    - dev
+    - master
+
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+
+install:
+  # use the new "ci" command for fastest installs on CI
+  - npm ci
+
+before_script:
+  - npm install
+  - npm run build
+  - npm start -- --silent &
+
+script:
+  - npm run e2e
