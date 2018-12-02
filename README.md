@@ -1,21 +1,12 @@
 # POPCORN 🍿
 
-## Annuaire des développeur·e·s freelance de Nantes
+_Popcorn_ est une plateforme qui permet de trouver des développeurs freelance de Nantes avec (vraiment) 0% de commission; développée et maintenue par les développeurs freelance eux-mêmes.  [Voir le site](https://popcorn-nantes.github.io/)
 
-_Popcorn_ est une plateforme avec (vraiment) 0% de commission qui permet de trouver un développeur freelance à Nantes : https://popcorn-nantes.github.io/.
+Les objectifs de _PopCorn_ pour les développeurs freelances :
 
-Les avantages de _PopCorn_ pour les développeurs freelances de Nantes :
-
-- 💸 _Popcorn_ est une association à **but non-lucratif**, il n'y a pas de commission sur les affaires conclues par le biais du site.
-- 📖 Un code open source : on maîtrise les fonctionnalités de la plateforme, l'odre dans lequel sont affichés les profils, l'algorithme de recherche...
-- 💬 Un tchat qui permet d'échanger entre nous les plans boulots et discuter des évolutions de la plateforme
-- 🔍 Une recherche simple et rapide qui permet aux client(e)s de trouver un freelance aussi bien par domaine métier (applications, boutique en ligne, jeux vidéo etc.) que par technologie (JavaScript, WordPress etc)
-
-## Quelle est la différence avec Malt ou Comet ?
-
-- _Popcorn_ est une association à **but non-lucratif**, il n'y a pas de commission sur les affaires conclues par le biais du site.
-- _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et alentour.
-- _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
+- 📈 Devenir un canal pour trouver des affaires à Nantes sans commission ni intermédiaire.
+- 📗 Open source : on maîtrise les fonctionnalités de la plateforme, comme les résultats de recherche et l'odre dans lequel sont affichés nos profils.
+- 💬 Mieux faire circuler les tuyaux boulot entre freelance via le tchat.
 
 ## Créer son profil
 
@@ -27,11 +18,24 @@ Les avantages de _PopCorn_ pour les développeurs freelances de Nantes :
 
 Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
+## FAQ
+
+### Quelle est la différence avec Malt ou Comet ?
+
+- _Popcorn_ est une association à but lucratif et pas une entreprise
+- _Popcorn_ est développé et maintenu par les développeurs freelance eux même.
+- _Popcorn_ est réservé aux **développeur·e·s** de _Nantes_ et alentour.
+- _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: le ou la client(e) entre directement en contact avec le ou la freelance. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
+
+### pourquoi limiter à Nantes et aux métiers de développeurs ?
+
+_Popcorn_ ne doit pas être un simple trombinoscope mais un canal d'apport d'affaire pour ses membres, un commercial numérique chargé de rendre nos services plus visibles par notre clientèle. Pour cela il faut faire connaître l'annuaire aux client(e)s potentielles; ce qui est plus facile dans un premier temps sur une zone géographique et un métier spécifique. Si jamais _Popcorn_ atteint ses objectifs en région nantaise pour les développeurs, on pourra envisager de l'étendre géographiquement.
+
 ## Documentation technique
 
-Il s'agit d'une site généré statiquement avec Nuxt. Le répertoire `content` contient les fichiers markdown qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`. Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack.
+Il s'agit d'une site généré statiquement avec [Nuxt](https://github.com/nuxt). Le répertoire `content` contient les fichiers markdown qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`. Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack.
 
-### Pourquoi un site statique ("_serverless_") ?
+## Pourquoi un site statique ("_serverless_") ?
 
 L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données, afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part, parce que :
 
@@ -43,7 +47,7 @@ L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquem
 - On veut bien un moteur de recherche super-rapide et un site qui s'affiche super vite
 - On veut bien que des gens puissent tout simplement forker ce dépôt pour créer leur propre annuaire
 
-### Installation
+## Installation
 
 cloner ce dépôt puis
 
@@ -63,8 +67,9 @@ Parser les markdowns du dossier `content` en fichiers JSON.
 npm run cc
 ```
 
-### déployer
+### Déployer
 
 ```sh
 ./deploy.sh
 ```
+
