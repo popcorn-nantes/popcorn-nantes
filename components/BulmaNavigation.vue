@@ -26,9 +26,6 @@
         <div class="navbar-end">
           <nuxt-link to="/" class="navbar-item">Accueil</nuxt-link>
           <nuxt-link to="/page/a-propos" class="navbar-item">En savoir plus</nuxt-link>
-          <div class="navbar-item">
-            <div class="button" @click="showModal = true">Contact</div>
-          </div>
           <span class="navbar-item">
             <nuxt-link
               to="/page/inscription"
@@ -36,6 +33,9 @@
               style="color:white"
             >Freelance ? Inscription</nuxt-link>
           </span>
+          <div class="navbar-item">
+            <div class="button" @click="showModal = true">Contact</div>
+          </div>
         </div>
       </div>
     </nav>
