@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre:   Dev back-end Sénior Ruby on Rails
+titre: Dev back-end Sénior Ruby on Rails
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
@@ -71,7 +71,7 @@ technologies:
 ---
 
 Avec une grande expérience de ce qui a pu se faire par le passé, je saurai accompagner tous types de projet, encore en gestation tout aussi bien que ceux qui ont besoin d'un nouveau souffle.
-Je me présente toujours comme dev back-end avec beaucoup de propositions pour assurer l'avancer du projet.
+Je me présente toujours comme dev back-end avec beaucoup de propositions pour assurer l'avancée du projet.
 Avec agilité, bienveillance, je suis toujours attentif à la circulation de bonnes énergies dans l'équipe.
 Je vous propose que ensemble, nous levions les blocages dans votre projet, afin qu'il se réalise avec la meilleur fluidité.
 Je partage mes connaissances techniques et expériencielles au travers de mentoring toujours fun...
