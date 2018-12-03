@@ -12,6 +12,4 @@ Et puisque _Popcorn_ vous permet de contacter les freelances directement et n'in
 
 ## Pourquoi avoir crée Popcorn ?
 
-Il y a aujourd'hui de plus en plus de plateformes sur le marché pour se mettre en relation avec des développeur·e·s freelances. Mais **puisque nous sommes développeur·e·s, pourquoi ne pas développer nous-même notre propre plateforme gratuite et sans commission** pour défendre notre visibilité sur ce marché ? Nos connaissances techniques nous permettent de créer notre propre solution en échange d'un peu de notre temps; et à défaut d'avoir une grande puissance commerciale et marketing, nous avons notre savoir-faire.
-
-Une des autres spécificités de _Popcorn_, c'est son code [open source](https://github.com/popcorn-nantes/popcorn-nantes) et librement utilisable par toutes et tous.
+Il y a aujourd'hui de plus en plus de plateformes sur le marché pour se mettre en relation avec des développeur·e·s freelances. Mais **puisque nous sommes développeur·e·s, pourquoi ne pas développer nous-même notre propre plateforme** pour défendre notre visibilité sur ce marché ? Nos connaissances techniques nous permettent de créer notre propre solution en échange d'un peu de notre temps; et à défaut d'avoir une grande puissance commerciale et marketing, nous avons notre savoir-faire.
