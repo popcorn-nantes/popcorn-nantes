@@ -1,11 +1,16 @@
 <template>
-  <div class="card-image" :style="style(person.photo)">
-    <div class="name name-overlay"></div>
-      <p class="name">{{person.prenom}} {{person.nom}}
-      <span v-show="person.disponible" class="disponible tag is-success">
-        {{person.disponible ? "disponible": ""}}
-      </span>
-      </p>
+  <div class="card-image">
+    <div class="photo-container">
+      <img class="photo" v-lazy="person.photo">
+      <div class="name name-overlay"></div>
+    </div>
+    <p class="name">
+      {{person.prenom}} {{person.nom}}
+      <span
+        v-show="person.disponible"
+        class="disponible tag is-success"
+      >{{person.disponible ? "disponible": ""}}</span>
+    </p>
   </div>
 </template>
 
@@ -35,6 +40,14 @@ export default {
 <style scoped>
 .card-image {
   position: relative;
+}
+.photo-container {
+  height: 300px;
+}
+.photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .name {
   text-align: center;

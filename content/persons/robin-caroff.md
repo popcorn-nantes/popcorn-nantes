@@ -4,17 +4,16 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Dev back-end Sénior Ruby on Rails
-
+titre: Développeur Android Natif Senior
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 21 ans d'expérience (du Cobol aux applications Web)
+sous_titre: Direction, conception et développement de projets d'applications mobiles
 
 # REQUIS
-prenom: Jocelyn
+prenom: Robin
 
 # REQUIS
-nom: RICHARD
+nom: Caroff
 
 # REQUIS
 # ATTENTION : cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
@@ -24,7 +23,7 @@ nom: RICHARD
 #
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
-mail: contact@42s.video
+mail: robin@toki.agency
 
 # OPTIONNEL "true" or "false"
 # si tu as actuellement activement en recherche de projet, indique "true" ici,
@@ -37,7 +36,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/jocelyn-richard.jpg
+photo: /images/robin-caroff.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -50,32 +49,31 @@ photo: /images/jocelyn-richard.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - boutiques en ligne
-  - outils internes
-  - applications web
-  - administration système
-  - accompagnement
-  - mentoring
+  - applications mobiles
+  - android
+  - ios
+  - architecture
+  - formation
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Ruby
-  - Ruby on Rails
-  - Postgresql
-  - Heroku
+  - Java
+  - Kotlin
+  - Swift
+
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Avec une grande expérience de ce qui a pu se faire par le passé, je saurai accompagner tous types de projet, encore en gestation tout aussi bien que ceux qui ont besoin d'un nouveau souffle.
+Depuis 2011 je suis spécialisé dans la direction de projets, la conception, le développement et l'exploitation en production d'applications mobiles natives Android (Kotlin et Java) ainsi que iOS (Swift et Objective-C) en France et à l'international. Je dispose également de solides compétences en conception de services web et back office me permettant de répondre aux différentes problématiques rencontrées sur des projets d'applications mobiles.
 
-Je me présente toujours comme dev back-end avec beaucoup de propositions pour assurer l'avancée du projet.
+Simplicité, efficacité et stabilité sont mes objectifs et motivations pour la conduite de mes projets. 
 
-Avec agilité, bienveillance, je suis toujours attentif à la circulation de bonnes énergies dans l'équipe.
+Je suis convaincu de la capacité des technologies numériques à améliorer la productivité des petites et des grandes entreprises. Je suis ainsi particulièrement intéressé par les différentes problématiques métier auquel vos applications auront à répondre.
 
-Je vous propose que ensemble, nous levions les blocages dans votre projet, afin qu'il se réalise avec la meilleur fluidité.
+Je suis également co-fondateur et animateur du [Google Developers Group Nantes Android (GDG Nantes Android)](https://www.meetup.com/fr-FR/gdg_nantes_android/).
 
-Je partage mes connaissances techniques et expériencielles au travers de mentoring toujours fun...
+Plus d’informations : [toki.agency](https://www.toki.agency/)

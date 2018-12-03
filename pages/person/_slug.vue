@@ -1,6 +1,6 @@
 <template>
   <div class="container section">
-    <Person :person="person" />
+    <Person :person="person"/>
   </div>
 </template>
 

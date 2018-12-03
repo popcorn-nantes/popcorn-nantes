@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - 10
+branches:
+  only:
+    - dev
+    - master
+
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+
+install:
+  - npm install
+
+before_script:
+  - npm run build
+  - npm start -- --silent &
+
+script:
+  - npm run e2e

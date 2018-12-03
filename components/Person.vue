@@ -1,20 +1,26 @@
 <template>
-  <div class="container section">
+  <div class="person container section">
     <div class="columns">
       <div class="column">
-        <PersonCardPhoto :person="person" />
+        <PersonCardPhoto :person="person"/>
       </div>
       <div class="column is-two-thirds">
         <div class="columns">
           <div class="column is-two-thirds">
-           <h1 style="text-transform:uppercase" class="title">{{person.prenom}} {{person.nom}} </h1>
-            <h2 class="subtitle">{{person.titre}} </h2>
-            <h2 class="subtitle"><Tags :tags="person.domaines_metiers" /></h2>
-            <h2 class="subtitle"><Tags :tags="person.technologies" /></h2>
+            <h1 style="text-transform:uppercase" class="title">{{person.prenom}} {{person.nom}}</h1>
+            <h2 class="subtitle">{{person.titre}}</h2>
+            <h2 class="subtitle">
+              <Tags class="domaines-metiers" :tags="person.domaines_metiers"/>
+            </h2>
+            <h2 class="subtitle">
+              <Tags class="technologies" :tags="person.technologies"/>
+            </h2>
           </div>
           <div class="column">
             <button class="button is-primary" @click="showModal = true">
-              <span class="icon is-medium"><i class="fas fa-envelope"></i></span>  
+              <span class="icon is-medium">
+                <i class="fas fa-envelope"></i>
+              </span>
               <span>Proposer un projet</span>
             </button>
           </div>
@@ -30,15 +36,19 @@
       <div class="modal-content has-text-centered">
         <div class="box">
           <h1 class="title">Contacter {{person.nom}} {{person.prenom}}</h1>
-          <h2 class="subtitle">{{person.titre}} </h2>
-          <p style="margin-top:1rem" class="is-size-5"> 
-            {{person.mail}}
+          <h2 class="subtitle">{{person.titre}}</h2>
+          <p style="margin-top:1rem" class="is-size-5">{{person.mail}}</p>
+          <p
+            v-show="person.telephone"
+            style="margin-top:1rem"
+            class="is-size-5"
+          >{{person.telephone}}</p>
+          <p style="margin-top:2rem">
+            <em>Indiquez-lui que vous l'avez trouvé·e sur Popcorn :)
+              <br>
+              <img style="position:relative;top:6px;" width="40px" src="/favicon.ico">
+            </em>
           </p>
-          <p v-show="person.telephone" style="margin-top:1rem" class="is-size-5"> 
-            {{person.telephone}}
-          </p>
-          <p style="margin-top:2rem" ><em>Indiquez-lui que vous l'avez trouvé·e sur Popcorn :) <br />
-          <img style="position:relative;top:6px;" width="40px" src="/favicon.ico"/></em></p>
         </div>
         <!-- Any other Bulma elements you want -->
       </div>

@@ -4,7 +4,10 @@
  */
 var fs = require('fs')
 var yamlFront = require('yaml-front-matter')
-var md = require('markdown-it')()
+var md = require('markdown-it')({
+  html: true,
+  linkify: true
+})
 var slug = require('slug')
 
 // compile tous les fichiers markdown en fichiers JSON

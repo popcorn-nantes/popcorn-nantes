@@ -1,6 +1,6 @@
 <template>
   <div class="container section">
-    <Page :page="page" />
+    <Page :page="page"/>
   </div>
 </template>
 

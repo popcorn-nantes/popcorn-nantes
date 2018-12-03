@@ -10,7 +10,9 @@
     "cc": "npm run content-compiler",
     "build": "npm run cc && nuxt build",
     "start": "nuxt start",
-    "generate": "npm run cc && nuxt generate"
+    "generate": "npm run cc && nuxt generate",
+    "e2e": "cypress run",
+    "e2e:open": "cypress open"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -21,9 +23,11 @@
     "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {
+    "cypress": "^3.1.2",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "2.6.2",
     "nodemon": "^1.18.7",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.2",
+    "vue-lazyload": "^1.2.6"
   }
 }
