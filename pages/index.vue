@@ -7,7 +7,7 @@
       </h2>
     </div>
     <div class="container">
-      <PersonsWithSearch/>
+      <PersonsWithSearch :persons="persons"/>
     </div>
   </div>
 </template>
@@ -22,12 +22,13 @@ export default {
   },
   data() {
     return {
-      errorMessage: null
+      persons: []
     }
   },
   asyncData({ store }) {
-    // Aller chercher toutes les personnes
-    return store.dispatch('getPersons')
+    return store.dispatch('getPersons').then(persons => {
+      return { persons }
+    })
   }
 }
 </script>
