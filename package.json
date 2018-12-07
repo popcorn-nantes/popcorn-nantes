@@ -20,6 +20,7 @@
     "markdown-it": "^8.4.2",
     "nuxt": "^2.3.4",
     "slug": "^0.9.2",
+    "vuex-router-sync": "^5.0.0",
     "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {

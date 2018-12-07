@@ -87,7 +87,7 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~plugins/vue-lazyload'],
+  plugins: ['~plugins/vue-lazyload', 'plugins/vue-router-sync'],
 
   /*
    ** Nuxt.js modules

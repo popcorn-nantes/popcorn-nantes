@@ -6,7 +6,7 @@
       >Cherchez un domaine métier (Site web, application mobile, boutique ...) ou une technologie (PHP, WordPress, JavaScript fullstack ... )</label>
       <input
         class="input is-large"
-        @value="value"
+        :value="value"
         @input="$emit('input', $event.target.value)"
         type="text"
       >

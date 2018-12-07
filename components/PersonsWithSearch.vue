@@ -1,16 +1,15 @@
 <template>
   <div class="section">
     <div style="padding-bottom:3em">
-      <PersonsSearchForm :value="value" @input="onInput"/>
+      <PersonsSearchForm :value="$store.getters.currentSearch" @input="onInput"/>
     </div>
-    <Persons :persons="results"/>
+    <Persons :persons="personsFiltered"/>
   </div>
 </template>
 
 <script>
 import Persons from './Persons'
 import PersonsSearchForm from './PersonsSearchForm'
-import { shuffle } from '../services/helpers.js'
 
 export default {
   components: {
@@ -25,20 +24,20 @@ export default {
   },
   data() {
     return {
-      value: '',
-      // ordonner de manière aléatoire les personnes
-      results: shuffle([...this.persons])
+      personsFiltered: [...this.persons]
     }
   },
   methods: {
     onInput(value) {
-      this.value = value
-      this.results = this.search(value)
+      this.$store.commit('setCurrentSearch', {
+        currentSearch: value,
+        router: this.$router
+      })
+      this.personsFiltered = this.search(value)
     },
     search(text) {
       return this.persons.filter(person => {
         let match = false
-        console.log('person', person)
         let textLowerCased = text.toLowerCase().trim()
         if (
           person.search_keywords
@@ -51,6 +50,9 @@ export default {
         return match
       })
     }
+  },
+  mounted() {
+    this.personsFiltered = this.search(this.$store.getters.currentSearch)
   }
 }
 </script>

@@ -7,7 +7,6 @@
             <nuxt-link style="color:black" to="/">POPCORN 🍿</nuxt-link>
           </strong>
         </span>
-
         <div
           @click="mobileMenuIsOpen = !mobileMenuIsOpen"
           :class="{'is-active': mobileMenuIsOpen}"
