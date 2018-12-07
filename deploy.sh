@@ -6,6 +6,10 @@ set -e
 # build static version
 npm run generate
 
+# run tests
+# npm run start-static
+# npm run e2e
+
 # navigate into the build output directory
 cd dist
 

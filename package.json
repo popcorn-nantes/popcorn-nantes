@@ -9,7 +9,7 @@
     "dev": "npm run cc && nuxt",
     "cc": "npm run content-compiler",
     "build": "npm run cc && nuxt build",
-    "start": "nuxt start",
+    "start": "serve dist",
     "generate": "npm run cc && nuxt generate",
     "e2e": "cypress run",
     "e2e:open": "cypress open"
@@ -29,6 +29,7 @@
     "eslint-plugin-prettier": "2.6.2",
     "nodemon": "^1.18.7",
     "prettier": "^1.15.2",
+    "serve": "^10.1.1",
     "vue-lazyload": "^1.2.6"
   }
 }
