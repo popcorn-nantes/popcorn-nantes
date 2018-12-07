@@ -1,6 +1,8 @@
 <template>
   <div class="person" :id="`person-${person.slug}`">
-    <nuxt-link :to="`/person/${person.slug}`">
+    <nuxt-link
+      :to="{path: `/person/${person.slug}`, query: { search: $store.getters.currentSearch }}"
+    >
       <div class="card">
         <PersonCardPhoto :person="person"/>
 
@@ -21,7 +23,10 @@
           <div class="content">
             <div class="has-text-centered">
               <br>
-              <nuxt-link :to="`/person/${person.slug}`" class="button is-primary">Voir le profil</nuxt-link>
+              <nuxt-link
+                :to="{path: `/person/${person.slug}`,query: { search: $store.getters.currentSearch}}"
+                class="button is-primary"
+              >Voir le profil</nuxt-link>
             </div>
           </div>
         </div>

@@ -42,7 +42,8 @@ function renderPersonsAsJson() {
         // des mots clefs qui pourront être utilisé par le moteur de recherche du site
         parsed.search_keywords = [
           ...parsed.domaines_metiers,
-          ...parsed.technologies
+          ...parsed.technologies,
+          parsed.titre
         ]
 
         json.push(parsed)
