@@ -9,7 +9,7 @@
     "dev": "npm run cc && nuxt",
     "cc": "npm run content-compiler",
     "build": "npm run cc && nuxt build",
-    "start": "serve dist",
+    "start": "nuxt start",
     "generate": "npm run cc && nuxt generate",
     "e2e": "cypress run",
     "e2e:open": "cypress open"
