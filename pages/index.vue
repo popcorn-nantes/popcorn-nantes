@@ -20,15 +20,10 @@ export default {
   components: {
     PersonsWithSearch
   },
-  data() {
+  async asyncData({ store }) {
     return {
-      persons: []
+      persons: await store.dispatch('getPersons')
     }
-  },
-  asyncData({ store }) {
-    return store.dispatch('getPersons').then(persons => {
-      return { persons }
-    })
   }
 }
 </script>
