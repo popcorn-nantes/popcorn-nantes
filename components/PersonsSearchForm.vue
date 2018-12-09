@@ -3,7 +3,7 @@
     <div class="control has-text-centered">
       <label
         class="label"
-      >Cherchez un domaine métier (Site web, application mobile, boutique ...) ou une technologie (PHP, WordPress, JavaScript fullstack ... )</label>
+      >Cherchez par domaine (site web, application mobile, boutique...) ou technologie (React, WordPress, Java, PHP ... )</label>
       <input
         class="input is-large"
         :value="value"
