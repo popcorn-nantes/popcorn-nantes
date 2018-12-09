@@ -8,8 +8,8 @@
           </strong>
         </span>
         <div
-          @click="mobileMenuIsOpen = !mobileMenuIsOpen"
-          :class="{'is-active': mobileMenuIsOpen}"
+          @click="showOnMobile = !showOnMobile"
+          :class="{'is-active': showOnMobile}"
           class="navbar-burger"
           data-target="app-menu"
         >
@@ -21,12 +21,17 @@
 
       <!-- This "nav-menu" is hidden on mobile -->
       <!-- Add the modifier "is-active" to display it on mobile -->
-      <div id="app-menu" class="navbar-menu" :class="{'is-active': mobileMenuIsOpen}">
+      <div id="app-menu" class="navbar-menu" :class="{'is-active': showOnMobile}">
         <div class="navbar-end">
-          <nuxt-link to="/" class="navbar-item">Accueil</nuxt-link>
-          <nuxt-link to="/page/a-propos" class="navbar-item">En savoir plus</nuxt-link>
+          <nuxt-link @click.native="showOnMobile = false" to="/" class="navbar-item">Accueil</nuxt-link>
+          <nuxt-link
+            @click.native="showOnMobile = false"
+            to="/page/a-propos"
+            class="navbar-item"
+          >En savoir plus</nuxt-link>
           <span class="navbar-item">
             <nuxt-link
+              @click.native="showOnMobile = false"
               to="/page/inscription"
               class="button is-info"
               style="color:white"
@@ -39,14 +44,12 @@
       </div>
     </nav>
 
-    <!-- "v-if" removes this contacts informations from the DOM -->
     <div v-if="showModal" class="modal" :class="{'is-active': showModal}">
       <div class="modal-background" @click="showModal = false"></div>
       <div class="modal-content has-text-centered">
         <div class="box">
           <PopcornContact/>
         </div>
-        <!-- Any other Bulma elements you want -->
       </div>
       <button @click="showModal = false" class="modal-close is-large" aria-label="close"></button>
     </div>
@@ -62,13 +65,7 @@ export default {
   data() {
     return {
       showModal: false,
-      mobileMenuIsOpen: false
-    }
-  },
-  watch: {
-    // close the mobile menu when route changed.
-    $route: function() {
-      this.mobileMenuIsOpen = false
+      showOnMobile: false
     }
   }
 }
