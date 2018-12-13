@@ -1,6 +1,6 @@
 # POPCORN 🍿
 
-_Popcorn_ est une plateforme qui permet de trouver des développeurs freelance à Nantes avec (vraiment) 0% de commission pour tout le monde. [Voir le site](https://popcorn-nantes.github.io/)
+_Popcorn_ est une plateforme open source et (vraiment) sans commission qui aide les développeur-e-s freelance de Nantes à trouver des projets [Voir le site](https://popcorn-nantes.github.io/)
 
 Les objectifs de _Popcorn_ pour les développeurs freelances :
 
@@ -22,14 +22,14 @@ Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux auss
 
 ### Quelle est la différence avec des plateformes comme Malt ou Comet ?
 
-- _Popcorn_ est une association à but non-lucratif et pas une start-up.
-- _Popcorn_ est développé et maintenu par les développeurs freelances.
+- _Popcorn_ est une [association à but non-lucratif](https://opencollective.com/popcorn) et ne prélève pas de commission.
 - _Popcorn_ est réservé aux **développeur·e·s de la région nantaise**.
+- _Popcorn_ est développé et maintenu par les développeur(e)s freelances eux-mêmes.
 - _Popcorn_ n'est **pas** un intermédiaire ou une entreprise: les clients entrent directement en contact avec les freelances. _Popcorn_ ne joue aucun rôle dans les échanges qui suivent ensuite entre les deux parties.
 
 ## Documentation technique
 
-Il s'agit d'une site généré statiquement avec [Nuxt](https://github.com/nuxt/nuxt.js). Le répertoire `content` contient les fichiers _markdown_ qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`. Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack.
+Il s'agit d'une site généré statiquement avec [Nuxt](https://github.com/nuxt/nuxt.js). Le répertoire `content` contient les fichiers _markdown_ qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`. Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack. Le tout est ensuite exporté en *html* via la commande `npm run generate` et hébergé sur [un dépôt github](https://github.com/popcorn-nantes/popcorn-nantes.github.io).
 
 ## Pourquoi un site statique (_serverless_) ?
 
@@ -61,6 +61,12 @@ Parser les markdowns du dossier `content` en fichiers JSON.
 
 ```sh
 npm run cc
+```
+
+Générer la version statique du site
+
+```sh
+npm run generate
 ```
 
 ### Déployer
