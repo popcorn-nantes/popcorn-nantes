@@ -10,4 +10,4 @@ Puisque que nous sommes développeurs, nous développons et maintenons nous-mêm
 
 Par ailleurs, puisque _Popcorn_ vous permet de contacter les freelances directement et n'intervient pas dans les échanges qui suivent, il n'y a pas de travail ni de frais liés à la mise en relation.
 
-Enfin, Popcorn n'est pas une entreprise mais une [https://opencollective.com/popcorn](association).
+Enfin, Popcorn n'est pas une entreprise mais une [association](https://opencollective.com/popcorn).
