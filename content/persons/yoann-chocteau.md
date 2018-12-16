@@ -75,8 +75,8 @@ Développeur sur Symfony depuis 2008, j'ai pu apprécier l'évolution de ce fram
 
 À l'écoute, sérieux, et autonome, je prend le temps de comprendre vos enjeux afin d'adapter l'architecture de mes applications à vos besoins.
 
-Depuis 2016, j'ai acquis des compétences front sur le framework Angular qui m'ont permis de structurer mon code en API.
+Depuis 2016, j'ai acquis des compétences front sur le framework Angular qui m'ont permis de structurer mon code en API. Interventant à la fois pour des startups et grands comptes, cela m'a permis de découvrir différents environnements de travail.
 
-Je suis également intervenant formateur en PHP Symfony dans des écoles et centres de formations. La transmission de savoir me tient à coeur et je suis en mesure d'apporter à vos équipes une formation découverte de Symfony.
+Je suis également intervenant formateur en PHP Symfony dans des écoles et centres de formations. Je suis en mesure d'apporter à vos équipes une formation découverte de Symfony.
 
 Plus d’informations : [kezaweb.fr](https://www.kezaweb.fr)
