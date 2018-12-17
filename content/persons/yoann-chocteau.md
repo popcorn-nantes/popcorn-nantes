@@ -73,7 +73,7 @@ technologies:
 
 Développeur sur Symfony depuis 2008, j'ai pu apprécier l'évolution de ce framework et constater à quel point il pouvait répondre aux problématiques métiers des entreprises.
 
-À l'écoute, sérieux, et autonome, je prend le temps de comprendre vos enjeux afin d'adapter l'architecture de mes applications à vos besoins.
+À l'écoute, sérieux, et autonome, je prends le temps de comprendre vos enjeux afin d'adapter l'architecture de mes applications à vos besoins.
 
 Depuis 2016, j'ai acquis des compétences front sur le framework Angular qui m'ont permis de structurer mon code en API. Interventant à la fois pour des startups et grands comptes, cela m'a permis de découvrir différents environnements de travail.
 
