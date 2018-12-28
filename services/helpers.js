@@ -2,6 +2,20 @@ import persons from '../static/api/persons.json'
 import pages from '../static/api/pages.json'
 
 /**
+ * Utilisé par nuxt-generate : on doit indiquer manuellement les routes à générer
+ * pour les routes dynamiques.
+ */
+export function generateRoutes() {
+  const routes = [
+    ...persons.map(entity => `/person/${entity.slug}`),
+    ...pages.map(entity => `/page/${entity.slug}`)
+  ]
+  return routes
+}
+
+/**
+ * Utilisé pour mettre les profils dans un ordre aléatoire sur le site
+ *
  * Shuffles array in place. ES6 version
  * @param {Array} a items An array containing the items.
  */
@@ -15,12 +29,4 @@ export function shuffle(array) {
     a[j] = x
   }
   return a
-}
-
-export function generateRoutes() {
-  const routes = [
-    ...persons.map(resource => `/person/${resource.slug}`),
-    ...pages.map(resource => `/page/${resource.slug}`)
-  ]
-  return routes
 }
