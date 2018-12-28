@@ -17,6 +17,7 @@ module.exports = {
       'https://hooks.slack.com/services/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'
   },
   mode: 'universal',
+  watch: ['~/content/**', '~/modules/**'],
   generate: {
     routes: generateRoutes()
   },
@@ -92,7 +93,7 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['~/modules/ContentCompiler'],
   /*
    ** Axios module configuration
    */
