@@ -2,7 +2,9 @@
 
 Compile les fichiers markdowns en fichier JSON en éxécutant les scripts du dossier "compilersDirectory" (à passer en option de ce module)
 
-Compileur d'exemple :
+Un "compiler" est simplement un fichier node.js qui exporte une méthode `compile`, de manière à pouvoir être appelée par la méthode `runCompilers()`.
+
+Exemple d'un compiler qui transforme tous les fichiers markdown d'un dossier `content/pages` en un unique fichier `static/api/pages.json`
 
 ```js
 /**
@@ -10,7 +12,6 @@ Compileur d'exemple :
  * et les transforment en un fichier JSON.
  */
 const fs = require('fs')
-const slug = require('slug')
 const { parseMarkdownFile } = require('~/modules/ContentCompiler/lib')
 
 const inputDirectory = 'content/pages'
@@ -26,12 +27,12 @@ module.exports = {
 function compile() {
   const files = fs.readdirSync(inputDirectory)
   const entities = []
+  // transformer les fichiers markdown en un objet javascript
   files.forEach(filename => {
     const entity = parseMarkdownFile(`${inputDirectory}/${filename}`)
-    entity.slug = slug(filename.substring(0, filename.length - 2))
     entities.push(entity)
   })
-
+  // enregistrer ce tableaux d'objet sous format JSON:
   fs.writeFile(outputFile, JSON.stringify(entities), err => {
     if (err) throw err
     console.log(`${outputFile} created.`)
