@@ -14,9 +14,11 @@ module.exports = {
  */
 function runCompilers(compilersDirectory) {
   const files = fs.readdirSync(compilersDirectory)
-  files.forEach(filename => {
-    require(path.resolve(`${compilersDirectory}/${filename}`)).compile()
-  })
+  files
+    .filter(file => path.extname(file) === '.js')
+    .forEach(filename => {
+      require(path.resolve(`${compilersDirectory}/${filename}`)).compile()
+    })
 }
 
 /**
