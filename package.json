@@ -5,9 +5,9 @@
   "author": "yann",
   "private": true,
   "scripts": {
-    "content-compiler": "node modules/ContentCompiler/compile.js",
+    "content-compiler": "node modules/ContentCompiler/runCompilers.js contentCompilers",
     "dev": "npm run cc && nuxt",
-    "cc": "npm run content-compiler",
+    "cc": "npm run content-compiler contentCompilers",
     "build": "npm run cc && nuxt build",
     "start": "nuxt start",
     "generate": "npm run cc && nuxt generate",

@@ -4,7 +4,7 @@
  */
 const fs = require('fs')
 const slug = require('slug')
-const { parseMarkdownFile } = require('../lib')
+const { parseMarkdownFile } = require('../modules/ContentCompiler/lib')
 
 const inputDirectory = 'content/pages'
 const outputFile = 'static/api/pages.json'
@@ -30,6 +30,6 @@ function compile() {
 
   fs.writeFile(outputFile, JSON.stringify(entities), err => {
     if (err) throw err
-    console.log(`${outputFile} created.`)
+    console.log('\x1b[32m', `🍿 ${outputFile} created.`)
   })
 }

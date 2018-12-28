@@ -1,11 +1,30 @@
 const fs = require('fs')
 const yamlFront = require('yaml-front-matter')
+const path = require('path')
 
 module.exports = {
   parseMarkdownFile,
   runCompilers
 }
 
+/**
+ * Exécute tous les compilateurs du dossiers "compilers".
+ * Un compilateur est un script qui prend des fichiers du dossier "content"
+ * pour créer des fichiers JSON qui iront dans "/static/api"
+ */
+function runCompilers(compilersDirectory) {
+  const files = fs.readdirSync(compilersDirectory)
+  files.forEach(filename => {
+    require(path.resolve(`${compilersDirectory}/${filename}`)).compile()
+  })
+}
+
+/**
+ * Parse un fichier markdown en un object javascript contenant
+ * la front matter et une propriété __html contenant le markdown rendu.
+ * @param {*} filepath
+ * @param {*} markdownItOptions
+ */
 function parseMarkdownFile(filepath, markdownItOptions = {}) {
   const fileContent = fs.readFileSync(filepath, 'utf8')
   var md = require('markdown-it')({
@@ -36,12 +55,4 @@ function parseMarkdownFile(filepath, markdownItOptions = {}) {
     process.exit()
   }
   return entity
-}
-
-function runCompilers() {
-  const directory = `modules/ContentCompiler/compilers`
-  const files = fs.readdirSync(directory)
-  files.forEach(filename => {
-    require(`./compilers/${filename}`).compile()
-  })
 }
