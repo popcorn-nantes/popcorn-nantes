@@ -5,7 +5,7 @@
   "author": "yann",
   "private": true,
   "scripts": {
-    "gustave": "node modules/gustave/compile.js",
+		"gustave": "gustave",
     "dev": "npm run gustave && nuxt",
     "build": "npm run gustave && nuxt build",
     "start": "npm run gustave && nuxt start",
@@ -16,11 +16,9 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
-    "markdown-it": "^8.4.2",
     "nuxt": "^2.3.4",
-    "slug": "^0.9.2",
-    "vuex-router-sync": "^5.0.0",
-    "yaml-front-matter": "^4.0.0"
+    "nuxt-gustave": "0.0.4",
+    "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
     "cypress": "^3.1.2",

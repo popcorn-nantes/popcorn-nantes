@@ -2,8 +2,8 @@
  * Parse les fichiers markdown des répertoires du dossier *content*
  * et les transforment en un fichier JSON.
  */
-const { parseMarkdownDirectory } = require('../modules/gustave/lib/markdown')
-const { saveToJsonDir } = require('../modules/gustave/lib/helpers')
+const { parseMarkdownDirectory } = require('nuxt-gustave/lib/markdown')
+const { saveToJsonDir } = require('nuxt-gustave/lib/helpers')
 
 exports.compile = () => {
   const result = parseMarkdownDirectory('content/persons')

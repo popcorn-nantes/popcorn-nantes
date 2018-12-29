@@ -84,21 +84,14 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: ['~modules/gustave'],
+  modules: ['nuxt-gustave'],
   gustave: {
     compilers: [
       {
         file: 'compilers/persons.js'
       },
       {
-        file: 'modules/gustave/compilers/markdown.js',
-        options: {
-          directory: 'content/pages',
-          outputFile: 'pages.json',
-          generateRoutes({ data }) {
-            return data.map(node => `/page/${node.data.$slug}`)
-          }
-        }
+        file: 'compilers/pages.js'
       }
     ]
   }
