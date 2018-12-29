@@ -1,5 +1,5 @@
 <template>
-  <BulmaGrid :items="persons" itemsByRow="3" :itemKey="person => person.slug">
+  <BulmaGrid :items="persons" itemsByRow="3" :itemKey="person => person.$slug">
     <template slot-scope="{item}">
       <PersonCard :person="item"/>
     </template>

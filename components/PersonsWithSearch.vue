@@ -37,7 +37,7 @@ export default {
         let match = false
         let textLowerCased = text.toLowerCase().trim()
         if (
-          person.search_keywords
+          person.$search_keywords
             .join(', ')
             .toLowerCase()
             .indexOf(textLowerCased) > -1

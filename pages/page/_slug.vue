@@ -13,7 +13,7 @@ export default {
     Page
   },
   async asyncData({store, params}) {
-    const page = pages.data.find(node => node.data.slug === params.slug)
+    const page = pages.data.find(node => node.data.$slug === params.slug)
     return {
       page: page.data
     }

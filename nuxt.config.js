@@ -87,8 +87,19 @@ module.exports = {
   modules: ['~modules/gustave'],
   gustave: {
     compilers: [
-      { file: '~/compilers/pages.js' },
-      { file: '~/compilers/persons.js' }
+      {
+        file: 'compilers/persons.js'
+      },
+      {
+        file: 'modules/gustave/compilers/markdown.js',
+        options: {
+          directory: 'content/pages',
+          outputFile: 'pages.json',
+          generateRoutes({ data }) {
+            return data.map(node => `/page/${node.data.$slug}`)
+          }
+        }
+      }
     ]
   }
 }

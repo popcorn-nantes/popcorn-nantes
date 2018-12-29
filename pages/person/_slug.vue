@@ -14,7 +14,7 @@ export default {
   },
   async asyncData({store, params}) {
       const persons = await store.dispatch("getPersons")
-      const person = persons.find(p => p.slug === params.slug)
+      const person = persons.find(p => p.$slug === params.slug)
       return {
         person
       }
