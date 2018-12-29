@@ -40,7 +40,17 @@ function runCompilers() {
     const compilerResult = require(path.resolve(filepath)).compile(
       compiler.options
     )
-    routes = [...routes, ...compilerResult.routes]
+    if (compilerResult.routes) {
+      routes = [...routes, ...compilerResult.routes]
+    } else {
+      console.log(
+        '\x1b[31m',
+        `Gustave compilation stopped : ${
+          compiler.file
+        } must return an object containing an array of routes.`
+      )
+      process.exit(0)
+    }
   })
   saveToJsonDir('routes.json', routes)
 }
