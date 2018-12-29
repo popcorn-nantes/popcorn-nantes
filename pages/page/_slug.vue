@@ -12,9 +12,10 @@ export default {
   components: {
     Page
   },
-  computed: {
-    page: function page() {
-      return pages.find(page => page.slug === this.$route.params.slug)
+  async asyncData({store, params}) {
+    const page = pages.data.find(node => node.data.slug === params.slug)
+    return {
+      page: page.data
     }
   }
 }
