@@ -79,10 +79,16 @@ dist
 
 # IDE
 .idea
+.vscode
 
-# ne pas versionner les fichiers json compilés depuis les fichiers markdown
+# fichiers json compilés depuis les fichiers markdown
 static/api/*
 !static/api/README.md
 test/e2e/videos
 
-.vscode
+# :!ls
+test/e2e/videos
+
+
+
+

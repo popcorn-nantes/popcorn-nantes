@@ -2,8 +2,7 @@ const pkg = require('./package')
 
 const popcornBaseUrl = 'https://popcorn-nantes.github.io'
 
-// les informations pour les metatags à destination des réseaux sociaux
-// pour l'aperçu quand on partage un lien.
+// les informations par défaut pour les metatags à destination des réseaux sociaux
 const ogTitle = 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
 const ogDescription =
   'La plateforme avec (vraiment) 0% de commission pour tout le monde'

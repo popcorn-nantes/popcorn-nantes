@@ -13,15 +13,17 @@
 </template>
 
 <script>
-import persons from '../static/api/persons.json'
 import PersonsWithSearch from '../components/PersonsWithSearch'
 
 export default {
+  scrollToTop: false,
   components: {
     PersonsWithSearch
   },
-  computed: {
-    persons: () => persons
+  async asyncData({ store }) {
+    return {
+      persons: await store.dispatch('getPersons')
+    }
   }
 }
 </script>

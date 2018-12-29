@@ -4,6 +4,7 @@ sous_titre: 5 ans d'expérience
 prenom: Jocelyn
 nom: Griselle
 mail: jocelyn@griselle.io
+disponible: true
 telephone:
 photo: /images/jocelyn-griselle.jpg
 domaines_metiers:

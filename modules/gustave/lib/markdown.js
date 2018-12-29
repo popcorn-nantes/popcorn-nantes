@@ -1,6 +1,7 @@
 const fs = require('fs')
 const yamlFront = require('yaml-front-matter')
 const path = require('path')
+const slug = require('slug')
 
 module.exports = {
   parseMarkdownDirectory,
@@ -17,16 +18,23 @@ function parseMarkdownDirectory(inputDirectory, markdownItOptions = {}) {
   const data = files
     .filter(file => path.extname(file) === '.md')
     .map(filename => {
+      const data = parseMarkdownFile(
+        `${inputDirectory}/${filename}`,
+        markdownIt
+      )
       return {
         meta: {
-          filename
+          filename,
+          slug_from_filename: slug(filename.substring(0, filename.length - 2))
         },
-        data: parseMarkdownFile(`${inputDirectory}/${filename}`, markdownIt)
+        data
       }
     })
   return {
     meta: {
-      count: data.length
+      directory: inputDirectory,
+      count: data.length,
+      updated: new Date().toISOString()
     },
     data
   }
@@ -43,23 +51,15 @@ function parseMarkdownFile(filepath, markdownIt) {
   let entity = {}
   try {
     entity = yamlFront.loadFront(fileContent)
+  } catch (e) {
+    console.log(`${filepath} : compilation of front-matter failed for file 😱`)
+    throw e
+  }
+  try {
     entity.__html = markdownIt.render(entity.__content)
   } catch (e) {
-    console.log(fileContent)
-    console.log('❌ ERREUR')
-    console.log(
-      `😱 Merde ! La compilation du fichier ${filepath} a lamentablement échouée !`
-    )
-    console.log(
-      '🧐  Regarde attentivement dans le fichier ci-dessus si tu vois pas une erreur de syntaxe ⬆️'
-    )
-    console.log(
-      "💡 Voici le message remonté par le parseur de yaml-front-matter (sic). Attention, l'erreur se trouve peut être juste au-dessus de la ligne indiquée : "
-    )
-    console.log('===')
-    console.log(e.message)
-    console.log('===')
-    process.exit()
+    console.log(`${filepath} : rendering of markdown failed for file 😱`)
+    throw e
   }
   return entity
 }
