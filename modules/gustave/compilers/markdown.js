@@ -1,4 +1,3 @@
-const slug = require('slug')
 const { parseMarkdownDirectory } = require('../lib/markdown')
 const { saveToJsonDir } = require('../lib/helpers')
 

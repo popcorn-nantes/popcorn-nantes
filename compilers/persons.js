@@ -5,7 +5,7 @@
 const { parseMarkdownDirectory } = require('../modules/gustave/lib/markdown')
 const { saveToJsonDir } = require('../modules/gustave/lib/helpers')
 
-module.exports.compile = () => {
+exports.compile = () => {
   const result = parseMarkdownDirectory('content/persons')
   result.data.forEach(node => {
     // des mots clefs qui pourront être utilisé par le moteur de recherche du site
