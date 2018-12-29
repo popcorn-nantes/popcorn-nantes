@@ -22,10 +22,10 @@ function parseMarkdownDirectory(inputDirectory, markdownItOptions = {}) {
         `${inputDirectory}/${filename}`,
         markdownIt
       )
+      data.$slug = slug(filename.substring(0, filename.length - 2))
       return {
         meta: {
-          filename,
-          slug_from_filename: slug(filename.substring(0, filename.length - 2))
+          filename
         },
         data
       }
@@ -57,6 +57,7 @@ function parseMarkdownFile(filepath, markdownIt) {
   }
   try {
     entity.__html = markdownIt.render(entity.__content)
+    delete entity.__content
   } catch (e) {
     console.log(`${filepath} : rendering of markdown failed for file 😱`)
     throw e
