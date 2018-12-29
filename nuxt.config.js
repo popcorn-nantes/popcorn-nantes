@@ -1,5 +1,4 @@
 const pkg = require('./package')
-import { generateRoutes } from './services/helpers'
 
 const popcornBaseUrl = 'https://popcorn-nantes.github.io'
 
@@ -17,9 +16,7 @@ module.exports = {
       'https://hooks.slack.com/services/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'
   },
   mode: 'universal',
-  generate: {
-    routes: generateRoutes()
-  },
+  watch: ['~/content/**', '~/modules/**'],
   /*
    ** Headers of the page
    */
@@ -73,47 +70,26 @@ module.exports = {
       { rel: 'stylesheet', type: 'text/css', href: '/css/bulma.min.css' }
     ]
   },
-
   /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
-
   /*
    ** Global CSS
    */
   css: [],
-
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~plugins/vue-lazyload'],
-
+  plugins: ['~plugins/vue-lazyload', 'plugins/vue-router-sync'],
   /*
    ** Nuxt.js modules
    */
-  modules: [],
-  /*
-   ** Axios module configuration
-   */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
-
-  /*
-   ** Build configuration
-   */
-  build: {
-    postcss: {
-      preset: {
-        features: {
-          customProperties: false
-        }
-      }
-    },
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {}
+  modules: ['~modules/gustave'],
+  gustave: {
+    compilers: [
+      { file: '~/compilers/pages.js' },
+      { file: '~/compilers/persons.js' }
+    ]
   }
 }
