@@ -12,10 +12,12 @@ export default {
   components: {
     Person
   },
-  computed: {
-    person: function() {
-      return persons.find(person => person.slug === this.$route.params.slug)
-    }
+  async asyncData({store, params}) {
+      const persons = await store.dispatch("getPersons")
+      const person = persons.find(p => p.slug === params.slug)
+      return {
+        person
+      }
   },
   head() {
     const title = `Profil de ${this.person.prenom} ${

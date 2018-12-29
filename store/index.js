@@ -21,8 +21,9 @@ export default () =>
     actions: {
       getPersons({ state, commit }) {
         // au premier appel de cette fonction, on range les profils dans un ordre aléatoire.
+        const data = persons.data.map(node => node.data)
         if (state.persons.length === 0) {
-          commit('setPersons', shuffle(persons))
+          commit('setPersons', shuffle(data))
         }
         return state.persons
       }
