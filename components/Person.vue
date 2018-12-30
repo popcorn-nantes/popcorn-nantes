@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        <div class="content" v-html="person.__html"></div>
+        <div class="content" v-html="person.$html"></div>
       </div>
     </div>
 
