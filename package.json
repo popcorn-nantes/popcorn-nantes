@@ -5,11 +5,10 @@
   "author": "yann",
   "private": true,
   "scripts": {
-		"gustave": "gustave",
-    "dev": "npm run gustave && nuxt",
-    "build": "npm run gustave && nuxt build",
-    "start": "npm run gustave && nuxt start",
-    "generate": "npm run gustave && nuxt generate",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "e2e": "cypress run",
     "e2e:open": "cypress open"
   },

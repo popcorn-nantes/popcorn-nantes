@@ -86,12 +86,12 @@ module.exports = {
    */
   modules: ['nuxt-gustave'],
   gustave: {
-    compilers: [
+    importers: [
       {
-        file: 'compilers/persons.js'
+        file: 'importers/persons.js'
       },
       {
-        file: 'compilers/pages.js'
+        file: 'importers/pages.js'
       }
     ]
   }

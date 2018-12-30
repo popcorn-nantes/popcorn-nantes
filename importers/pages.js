@@ -5,7 +5,7 @@
 const { parseMarkdownDirectory } = require('nuxt-gustave/lib/markdown')
 const { saveToJsonDir } = require('nuxt-gustave/lib/helpers')
 
-exports.compile = () => {
+exports.importer = () => {
   const result = parseMarkdownDirectory('content/pages')
   saveToJsonDir('pages.json', result)
   return {
