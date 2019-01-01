@@ -60,7 +60,7 @@ npm run dev
 Parser les markdowns du dossier `content` en fichiers JSON.
 
 ```sh
-npm run cc
+npx nuxt-gustave
 ```
 
 Générer la version statique du site
