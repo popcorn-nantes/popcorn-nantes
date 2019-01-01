@@ -2,17 +2,17 @@ const { parseMarkdownDirectory } = require('nuxt-gustave/lib/markdown')
 const { saveToJsonDir } = require('nuxt-gustave/lib/helpers')
 
 exports.importer = () => {
-  const result = parseMarkdownDirectory('content/persons')
-  result.data.forEach(node => {
+  const resources = parseMarkdownDirectory('content/persons')
+  resources.forEach(resource => {
     // des mots clefs qui pourront être utilisé par le moteur de recherche du site
-    node.data.$search_keywords = [
-      ...node.data.domaines_metiers,
-      ...node.data.technologies,
-      node.data.titre
+    resource.$search_keywords = [
+      ...resource.domaines_metiers,
+      ...resource.technologies,
+      resource.titre
     ]
   })
-  saveToJsonDir('persons.json', result)
+  saveToJsonDir('persons.json', resources)
   return {
-    routes: result.data.map(node => `/person/${node.data.$slug}`)
+    routes: resources.map(resource => `/person/${resource.$slug_from_filename}`)
   }
 }

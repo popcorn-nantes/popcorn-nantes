@@ -12,10 +12,10 @@ export default {
   components: {
     Page
   },
-  async asyncData({store, params}) {
-    const page = pages.data.find(node => node.data.$slug === params.slug)
+  asyncData({store, params}) {
+    const page = pages.find(page => page.$slug_from_filename === params.slug)
     return {
-      page: page.data
+      page
     }
   }
 }

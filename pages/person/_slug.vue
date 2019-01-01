@@ -6,7 +6,6 @@
 
 <script>
 import Person from '@/components/Person'
-import persons from '@/static/api/persons'
 
 export default {
   components: {
@@ -14,7 +13,7 @@ export default {
   },
   async asyncData({store, params}) {
       const persons = await store.dispatch("getPersons")
-      const person = persons.find(p => p.$slug === params.slug)
+      const person = persons.find(p => p.$slug_from_filename === params.slug)
       return {
         person
       }

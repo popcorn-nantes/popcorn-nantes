@@ -29,7 +29,7 @@ Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux auss
 
 ## Documentation technique
 
-Il s'agit d'une site généré statiquement avec [Nuxt](https://github.com/nuxt/nuxt.js). Le répertoire `content` contient les fichiers _markdown_ qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` via la commande `npm run cc`. Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack. Le tout est ensuite exporté en _html_ via la commande `npm run generate` et hébergé sur [un dépôt github](https://github.com/popcorn-nantes/popcorn-nantes.github.io).
+Il s'agit d'une site généré statiquement avec [Nuxt](https://github.com/nuxt/nuxt.js). Le répertoire `content` contient les fichiers _markdown_ qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` par le module Nuxt [Gustave](https://github.com/yann-yinn/nuxt-gustave). Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack. Le tout est ensuite exporté en _html_ via la commande `npm run generate` et hébergé sur [un dépôt github](https://github.com/popcorn-nantes/popcorn-nantes.github.io).
 
 ## Pourquoi un site statique (_serverless_) ?
 
