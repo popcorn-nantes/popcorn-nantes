@@ -16,7 +16,7 @@
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.3.4",
-    "nuxt-gustave": "0.0.7",
+    "nuxt-gustave": "^0.0.8",
     "vuex-router-sync": "^5.0.0"
   },
   "devDependencies": {
