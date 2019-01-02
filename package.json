@@ -15,15 +15,14 @@
   "dependencies": {
     "axios": "^0.18.0",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4",
-    "nuxt-gustave": "^0.0.8",
-    "vuex-router-sync": "^5.0.0"
+    "nuxt": "^2.3.4"
   },
   "devDependencies": {
     "cypress": "^3.1.2",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "2.6.2",
     "nodemon": "^1.18.7",
+    "nuxt-gustave": "0.0.8",
     "prettier": "^1.15.2",
     "serve": "^10.1.1",
     "vue-lazyload": "^1.2.6"
