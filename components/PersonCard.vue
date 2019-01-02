@@ -1,5 +1,5 @@
 <template>
-  <div class="person" :id="`person-${person.slug}`">
+  <div class="person" :id="`person-${person.$slug_from_filename}`">
     <nuxt-link
       :to="{path: `/person/${person.$slug_from_filename}`, query: { search: $store.getters.currentSearch }}"
     >

@@ -70,17 +70,9 @@ module.exports = {
     ]
   },
   /*
-   ** Customize the progress-bar color
-   */
-  loading: { color: '#fff' },
-  /*
-   ** Global CSS
-   */
-  css: [],
-  /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~plugins/vue-lazyload', 'plugins/vue-router-sync'],
+  plugins: ['~plugins/vue-lazyload'],
   /*
    ** Nuxt.js modules
    */
