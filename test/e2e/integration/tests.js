@@ -14,7 +14,7 @@ describe('Tests', () => {
       cy.get('.technologies').contains('Nuxt')
       cy.get('.technologies').contains('Next')
       cy.get('.button').click()
-      cy.url().should('contain', 'http://localhost:3000/person/yann-boisselier') // => true
+      cy.url().should('contain', 'http://localhost:5000/person/yann-boisselier') // => true
     })
   })
   it('Visits a profile page', () => {

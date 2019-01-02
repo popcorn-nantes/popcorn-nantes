@@ -84,10 +84,10 @@ dist
 # fichiers json compilés depuis les fichiers markdown
 static/api/*
 !static/api/README.md
-test/e2e/videos
 
-# :!ls
+# cypress
 test/e2e/videos
+test/e2e/screenshots
 
 
 
