@@ -35,7 +35,7 @@
       <div class="modal-background" @click="showModal = false"></div>
       <div class="modal-content has-text-centered">
         <div class="box">
-          <h1 class="title">Contacter {{person.nom}} {{person.prenom}}</h1>
+          <h1 class="title">Contacter {{person.prenom}} {{person.nom}}</h1>
           <h2 class="subtitle">{{person.titre}}</h2>
           <p style="margin-top:1rem" class="is-size-5">{{person.mail}}</p>
           <p
