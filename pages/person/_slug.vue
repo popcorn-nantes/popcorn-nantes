@@ -11,12 +11,12 @@ export default {
   components: {
     Person
   },
-  async asyncData({store, params}) {
-      const persons = await store.dispatch("getPersons")
-      const person = persons.find(p => p.$slug_from_filename === params.slug)
-      return {
-        person
-      }
+  async asyncData({ store, params }) {
+    const persons = await store.dispatch('getPersons')
+    const person = persons.find(p => p.$slug === params.slug)
+    return {
+      person
+    }
   },
   head() {
     const title = `Profil de ${this.person.prenom} ${

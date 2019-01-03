@@ -12,8 +12,8 @@ export default {
   components: {
     Page
   },
-  asyncData({store, params}) {
-    const page = pages.find(page => page.$slug_from_filename === params.slug)
+  asyncData({ store, params }) {
+    const page = pages.find(page => page.$slug === params.slug)
     return {
       page
     }

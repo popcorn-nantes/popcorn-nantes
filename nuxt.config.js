@@ -87,7 +87,7 @@ module.exports = {
         options: {
           markdownDirectory: 'content/pages',
           generateRoutes: resources =>
-            resources.map(resource => `/page/${resource.$slug_from_filename}`)
+            resources.map(resource => `/page/${resource.$slug}`)
         }
       }
     ]

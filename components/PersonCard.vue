@@ -1,7 +1,7 @@
 <template>
-  <div class="person" :id="`person-${person.$slug_from_filename}`">
+  <div class="person" :id="`person-${person.$slug}`">
     <nuxt-link
-      :to="{path: `/person/${person.$slug_from_filename}`, query: { search: $store.getters.currentSearch }}"
+      :to="{path: `/person/${person.$slug}`, query: { search: $store.getters.currentSearch }}"
     >
       <div class="card">
         <PersonCardPhoto :person="person"/>
@@ -24,7 +24,7 @@
             <div class="has-text-centered">
               <br>
               <nuxt-link
-                :to="{path: `/person/${person.$slug_from_filename}`,query: { search: $store.getters.currentSearch}}"
+                :to="{path: `/person/${person.$slug}`,query: { search: $store.getters.currentSearch}}"
                 class="button is-primary"
               >Voir le profil</nuxt-link>
             </div>

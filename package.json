@@ -22,7 +22,7 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "2.6.2",
     "nodemon": "^1.18.7",
-    "nuxt-gustave": "0.0.8",
+    "nuxt-gustave": "0.0.10",
     "prettier": "^1.15.2",
     "serve": "^10.1.1",
     "vue-lazyload": "^1.2.6"
