@@ -88,12 +88,7 @@ module.exports = {
         file: 'importers/persons.js'
       },
       {
-        file: 'node_modules/nuxt-gustave/importers/markdown.js',
-        options: {
-          markdownDirectory: 'content/pages',
-          generateRoutes: resources =>
-            resources.map(resource => `/page/${resource.$slug}`)
-        }
+        file: 'importers/pages.js'
       }
     ]
   }
