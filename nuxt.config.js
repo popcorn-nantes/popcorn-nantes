@@ -37,6 +37,11 @@ module.exports = {
         content: ogTitle
       },
       {
+        hid: 'og:url',
+        property: 'og:url',
+        content: popcornBaseUrl
+      },
+      {
         hid: 'og:image',
         property: 'og:image',
         content: ogImage
