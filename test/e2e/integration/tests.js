@@ -14,7 +14,7 @@ describe('Tests', () => {
       cy.get('.technologies').contains('Nuxt')
       cy.get('.technologies').contains('Next')
       cy.get('.button').click()
-      cy.url().should('contain', 'http://localhost:5000/person/yann-boisselier') // => true
+      cy.url().should('contain', '/person/yann-boisselier') // => true
     })
   })
   it('Visits a profile page', () => {
@@ -27,5 +27,10 @@ describe('Tests', () => {
     cy.get('.technologies').contains('Nuxt')
     cy.get('.technologies').contains('Next')
     cy.get('.domaines-metiers').contains('sites web')
+  })
+  it('Click on contact person in profile page', () => {
+    cy.visit('/person/yann-boisselier')
+    cy.contains('Proposer un projet').click()
+    cy.get('.modal .title').contains('Contacter Yann Boisselier')
   })
 })
