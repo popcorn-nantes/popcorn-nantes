@@ -15,7 +15,6 @@ module.exports = {
       'https://hooks.slack.com/services/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'
   },
   mode: 'universal',
-  watch: ['~/content/**', '~/modules/**'],
   /*
    ** Headers of the page
    */
@@ -83,6 +82,7 @@ module.exports = {
    */
   modules: ['nuxt-gustave'],
   gustave: {
+    highlight: true,
     importers: [
       {
         file: 'importers/persons.js'
