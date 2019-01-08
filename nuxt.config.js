@@ -8,8 +8,8 @@ const ogImage = `${process.env.POPCORN_BASE_URL}/images/popcorn-500.jpg`
 
 module.exports = {
   env: {
-    popcornBaseUrl: process.env.POPCORN_BASE_URL,
-    popcornContactSlackWebhook: process.env.POPCORN_SLACK_WEBHOOK
+    POPCORN_BASE_URL: process.env.POPCORN_BASE_URL,
+    POPCORN_SLACK_WEBHOOK: process.env.POPCORN_SLACK_WEBHOOK
   },
   mode: 'universal',
   /*

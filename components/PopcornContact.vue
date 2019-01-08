@@ -115,17 +115,15 @@ export default {
           this.inputs.message
         }`
       }
-      setTimeout(() => {
-        axios
-          .post(process.env.popcornContactSlackWebhook, JSON.stringify(options))
-          .then(r => {
-            this.requestStatus = 'FINISHED_OK'
-          })
-          .catch(e => {
-            this.requestStatus = 'FINISHED_ERROR'
-            this.requestError = e.message
-          })
-      }, 1000)
+      axios
+        .post(process.env.POPCORN_SLACK_WEBHOOK, JSON.stringify(options))
+        .then(r => {
+          this.requestStatus = 'FINISHED_OK'
+        })
+        .catch(e => {
+          this.requestStatus = 'FINISHED_ERROR'
+          this.requestError = e.message
+        })
     }
   },
   // les erreurs affichées par le formulaire doivent s'effacer
