@@ -20,7 +20,7 @@ domaines_metiers:
   - applications mobiles 
   - site vitrine
 
-technologies
+technologies:
   - JavaScript
   - Vue.js
   - Nuxt.js
