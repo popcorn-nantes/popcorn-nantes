@@ -83,13 +83,6 @@ module.exports = {
   modules: ['nuxt-gustave'],
   gustave: {
     highlight: true,
-    importers: [
-      {
-        file: 'importers/persons.js'
-      },
-      {
-        file: 'importers/pages.js'
-      }
-    ]
+    importers: ['importers/persons.js', 'importers/pages.js']
   }
 }
