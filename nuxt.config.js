@@ -1,25 +1,22 @@
-const pkg = require('./package')
-
-const popcornBaseUrl = 'https://popcorn-nantes.github.io'
+require('dotenv').config()
 
 // les informations par défaut pour les metatags à destination des réseaux sociaux
 const ogTitle = 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
 const ogDescription =
   'La plateforme avec (vraiment) 0% de commission pour tout le monde'
-const ogImage = `${popcornBaseUrl}/images/popcorn-500.jpg`
+const ogImage = `${process.env.POPCORN_BASE_URL}/images/popcorn-500.jpg`
 
 module.exports = {
   env: {
-    popcornBaseUrl: popcornBaseUrl,
-    popcornContactSlackWebhook:
-      'https://hooks.slack.com/services/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'
+    popcornBaseUrl: process.env.POPCORN_BASE_URL,
+    popcornContactSlackWebhook: process.env.POPCORN_SLACK_WEBHOOK
   },
   mode: 'universal',
   /*
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
+    title: 'Popcorn',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -38,7 +35,7 @@ module.exports = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: popcornBaseUrl
+        content: process.env.POPCORN_BASE_URL
       },
       {
         hid: 'og:image',
@@ -80,7 +77,7 @@ module.exports = {
   /*
    ** Nuxt.js modules
    */
-  modules: ['nuxt-gustave'],
+  modules: ['@nuxtjs/dotenv', 'nuxt-gustave'],
   gustave: {
     highlight: true,
     importers: ['importers/persons.js', 'importers/pages.js']

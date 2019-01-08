@@ -45,7 +45,7 @@ L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquem
 
 ## Installation
 
-cloner ce dépôt puis
+cloner ce dépôt, copier le fichier `.env.example` pour créer un fichier `.env`. Renseigner ce fichier puis :
 
 ```sh
 npm install
