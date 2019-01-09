@@ -13,10 +13,9 @@ export default {
   components: {
     Person
   },
-  async asyncData({ store, params }) {
-    const person = await getPersonBySlug(params.slug)
-    return {
-      person
+  computed: {
+    person() {
+      return getPersonBySlug(this.$route.params.slug)
     }
   },
   head() {
