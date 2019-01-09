@@ -33,7 +33,7 @@ export default {
       this.filteredPersons = this.filterPersons(value)
     },
     filterPersons(text) {
-      return this.$store.state.persons.filter(person => {
+      return this.persons.filter(person => {
         let match = false
         let textLowerCased = text.toLowerCase().trim()
         if (
