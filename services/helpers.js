@@ -9,3 +9,10 @@ export function shuffle(a) {
   }
   return a
 }
+
+export function getApiBaseUrl() {
+  let generateUrl = process.env.POPCORN_API_BASE_URL
+  let clientUrl = ''
+  let url = process.server ? generateUrl : clientUrl
+  return url
+}
