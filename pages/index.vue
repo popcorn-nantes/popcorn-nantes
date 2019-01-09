@@ -22,7 +22,7 @@ export default {
   },
   async asyncData({ store }) {
     return {
-      persons: await store.dispatch('getPersons')
+      persons: await store.dispatch('getShuffledPersons')
     }
   }
 }

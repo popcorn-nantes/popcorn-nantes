@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-import persons from '../static/api/persons.json'
+import { getPersons } from '../services/content'
 import { shuffle } from '../services/helpers.js'
 
 export default () =>
@@ -19,9 +19,10 @@ export default () =>
       }
     },
     actions: {
-      getPersons({ state, commit }) {
+      async getShuffledPersons({ state, commit }) {
         // au premier appel de cette fonction, on range les profils dans un ordre aléatoire.
         if (state.persons.length === 0) {
+          const persons = await getPersons()
           commit('setPersons', shuffle(persons))
         }
         return state.persons

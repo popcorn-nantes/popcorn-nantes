@@ -6,14 +6,14 @@
 
 <script>
 import Person from '@/components/Person'
+import { getPersonBySlug } from '@/services/content'
 
 export default {
   components: {
     Person
   },
   async asyncData({ store, params }) {
-    const persons = await store.dispatch('getPersons')
-    const person = persons.find(p => p.$slug === params.slug)
+    const person = await getPersonBySlug(params.slug)
     return {
       person
     }
