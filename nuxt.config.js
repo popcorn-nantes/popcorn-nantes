@@ -1,9 +1,11 @@
 require('dotenv').config()
+import { getSocialShareHeadersMeta } from './services/helpers.js'
 
 // les informations par défaut pour les metatags à destination des réseaux sociaux
 const ogTitle = 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
 const ogDescription =
   'La plateforme avec (vraiment) 0% de commission pour tout le monde'
+const ogUrl = process.env.POPCORN_BASE_URL
 const ogImage = `${process.env.POPCORN_BASE_URL}/images/popcorn-500.jpg`
 
 module.exports = {
@@ -24,45 +26,12 @@ module.exports = {
         name: 'description',
         content: ogDescription
       },
-      // open graph
-      { hid: 'og:site_name', name: 'og:site_name', content: 'Popcorn' },
-      {
-        hid: 'og:title',
-        property: 'og:title',
-        content: ogTitle
-      },
-      {
-        hid: 'og:url',
-        property: 'og:url',
-        content: process.env.POPCORN_BASE_URL
-      },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: ogImage
-      },
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content: ogDescription
-      },
-      // twitter card:
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
-      {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: ogTitle
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content: ogDescription
-      },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: ogImage
-      }
+      ...getSocialShareHeadersMeta({
+        title: ogTitle,
+        description: ogDescription,
+        image: ogImage,
+        url: ogUrl
+      })
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
