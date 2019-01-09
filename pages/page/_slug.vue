@@ -12,10 +12,9 @@ export default {
   components: {
     Page
   },
-  async asyncData({ store, params }) {
-    const page = await getPageBySlug(params.slug)
-    return {
-      page
+  computed: {
+    page() {
+      return getPageBySlug(this.$route.params.slug)
     }
   }
 }

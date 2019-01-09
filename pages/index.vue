@@ -14,16 +14,16 @@
 
 <script>
 import PersonsWithSearch from '../components/PersonsWithSearch'
+import { getPersons } from '@/services/content'
 
 export default {
   scrollToTop: false,
   components: {
     PersonsWithSearch
   },
-  async asyncData({ store }) {
-    const persons = await store.dispatch('getShuffledPersons')
-    return {
-      persons
+  computed: {
+    persons() {
+      return getPersons()
     }
   }
 }
