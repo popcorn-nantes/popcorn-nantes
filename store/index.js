@@ -6,13 +6,13 @@ export default () =>
   new Vuex.Store({
     state: {
       // liste de toutes les personnes du site
-      persons: [],
+      shuffledPersons: [],
       // le texte de la recherche en cours
       currentSearch: ''
     },
     mutations: {
-      setPersons(state, persons) {
-        state.persons = persons
+      setShuffledPersons(state, shuffledPersons) {
+        state.shuffledPersons = shuffledPersons
       },
       setCurrentSearch(state, currentSearch) {
         state.currentSearch = currentSearch
@@ -21,11 +21,11 @@ export default () =>
     actions: {
       async getShuffledPersons({ state, commit }) {
         // au premier appel de cette fonction, on range les profils dans un ordre aléatoire.
-        if (state.persons.length === 0) {
+        if (state.shuffledPersons.length === 0) {
           const persons = await getPersons()
-          commit('setPersons', shuffle(persons))
+          commit('setShuffledPersons', shuffle(persons))
         }
-        return state.persons
+        return state.shuffledPersons
       }
     }
   })

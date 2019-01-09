@@ -21,8 +21,9 @@ export default {
     PersonsWithSearch
   },
   async asyncData({ store }) {
+    const persons = await store.dispatch('getShuffledPersons')
     return {
-      persons: await store.dispatch('getShuffledPersons')
+      persons
     }
   }
 }
