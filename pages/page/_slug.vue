@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import pages from '@/static/api/pages.json'
 import Page from '@/components/Page'
+import { getPageBySlug } from '@/services/content'
 
 export default {
   components: {
     Page
   },
-  asyncData({ store, params }) {
-    const page = pages.find(page => page.$slug === params.slug)
+  async asyncData({ store, params }) {
+    const page = await getPageBySlug(params.slug)
     return {
       page
     }
