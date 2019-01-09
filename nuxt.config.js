@@ -22,8 +22,7 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         name: 'description',
-        content:
-          'Trouvez un développeur freelance à Nantes, avec (vraiment) 0% de commission pour tout le monde'
+        content: ogDescription
       },
       // open graph
       { hid: 'og:site_name', name: 'og:site_name', content: 'Popcorn' },
