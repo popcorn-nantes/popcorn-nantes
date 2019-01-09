@@ -27,7 +27,7 @@ export function getSocialShareHeadersMeta({ title, description, image, url }) {
     {
       hid: 'og:url',
       property: 'og:url',
-      content: process.env.POPCORN_BASE_URL
+      content: url
     },
     {
       hid: 'og:image',
