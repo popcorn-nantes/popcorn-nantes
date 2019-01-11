@@ -18,7 +18,7 @@ technologies:
   - Rust
 ---
 
-Je suis désormais développeur JavaScript FullStack spécialisé en **Nuxt.js**, **Vue.js**, Node et GraphQL.
+Je suis développeur JavaScript FullStack avec une spécialisaton en **Nuxt.js**, **Vue.js**, Node et GraphQL.
 
 Ma principale valeur ajoutée pour votre projet, c'est le SEO et les performances de vos applications JavaScript grâce à mon expertise [Nuxt](https://nuxtjs.org/), qui permet aux applications **Vue.js d'être parfaitement référencées par les moteurs de recherche**, de générér les balises metas html indispensables aux partages sur les différents réseaux sociaux, de générer une version _pré-rendue_ en html de l'application pour une architecture [JAMStack](https://jamstack.org/) idéale pour les sites qui ont besoin d'une grande scalabilité à moindre coût.
 
