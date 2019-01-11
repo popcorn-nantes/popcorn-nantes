@@ -4,13 +4,7 @@
       <img class="photo" v-lazy="person.photo">
       <div class="name name-overlay"></div>
     </div>
-    <p class="name">
-      {{person.prenom}} {{person.nom}}
-      <span
-        v-show="person.disponible"
-        class="disponible tag is-success"
-      >{{person.disponible ? "disponible": ""}}</span>
-    </p>
+    <p class="name">{{person.prenom}} {{person.nom}}</p>
   </div>
 </template>
 
@@ -57,9 +51,6 @@ export default {
   bottom: 0;
   width: 100%;
   color: white;
-}
-.disponible {
-  float: right;
 }
 .name-overlay {
   background: black;
