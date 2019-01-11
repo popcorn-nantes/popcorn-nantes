@@ -9,13 +9,11 @@ telephone:
 domaines_metiers:
   - sites web
 technologies:
-  - Vue
   - Nuxt
+  - Vue
   - Node
-  - React
   - GraphQL
-  - Next
-  - Rust
+  - JAMStack
 ---
 
 Je suis développeur JavaScript FullStack avec une spécialisaton en **Nuxt.js**, **Vue.js**, Node et GraphQL.
