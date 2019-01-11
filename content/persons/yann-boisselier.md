@@ -5,24 +5,23 @@ prenom: Yann
 nom: Boisselier
 photo: /images/yineo.jpg
 mail: yann@yineo.fr
-disponible: true
 telephone:
 domaines_metiers:
   - sites web
 technologies:
   - Vue
-  - React
-  - Node
-  - GraphQL
   - Nuxt
+  - Node
+  - React
+  - GraphQL
   - Next
   - Rust
 ---
 
-Développeur expert en PHP & Drupal pendant 8 ans; je suis désormais spécialisé en  JavaScript, principalement avec Vue, React, Node et GraphQL. 
+Je suis désormais développeur JavaScript FullStack spécialisé en **Nuxt.js**, **Vue.js**, Node et GraphQL.
 
-Ma principale valeur ajoutée, c'est le SEO sur les applications JavaScript, avec notamment une expertise sur Nuxt et Next, qui permettent aux applications **Javascript Vue et React d'être correctement référencées par les moteurs de recherche** et de générér les balises metas html indispensables aux partages sur les différents réseaux sociaux.
+Ma principale valeur ajoutée pour votre projet, c'est le SEO et les performances de vos applications JavaScript grâce à mon expertise [Nuxt](https://nuxtjs.org/), qui permet aux applications **Vue.js d'être parfaitement référencées par les moteurs de recherche**, de générér les balises metas html indispensables aux partages sur les différents réseaux sociaux, de générer une version _pré-rendue_ en html de l'application pour une architecture [JAMStack](https://jamstack.org/) idéale pour les sites qui ont besoin d'une grande scalabilité à moindre coût.
 
-Je met aussi en place des **API GraphQL** qui offrent des avantages importants en terme de productivité et de stabilité du front-end par rapport aux API *REST* classiques.
+Je met aussi en place des **API GraphQL** qui offrent des avantages importants en terme de productivité et de stabilité du front-end par rapport aux API _REST_ classiques.
 
-Vous pouvez également trouver des informations complémentaires sur https://yineo.fr/
+Vous pouvez également trouver des informations complémentaires sur mon site : https://yineo.fr/
