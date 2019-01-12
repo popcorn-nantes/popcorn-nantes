@@ -26,11 +26,6 @@ nom: nom
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
 mail: mail@mail.fr
 
-# OPTIONNEL "true" or "false"
-# si tu as actuellement activement en recherche de projet, indique "true" ici,
-# cela affichera un petit label "disponible" sur ta fiche
-disponible: true
-
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
 telephone:
@@ -64,6 +59,7 @@ technologies:
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
+# La coloration syntaxique du code est supportée.
 ---
 
 Ut **enim** quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.
