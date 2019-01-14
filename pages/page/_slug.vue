@@ -1,6 +1,6 @@
 <template>
   <div class="container section">
-    <Page :page="page"/>
+    <div class="content" v-html="page.$html"></div>
   </div>
 </template>
 
