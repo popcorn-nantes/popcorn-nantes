@@ -18,7 +18,7 @@
           </div>
           <div class="column">
             <button class="button is-primary" @click="showModal = true">
-              <img style="width:30px; padding-right: 5px" src="/icons/envelope.svg">
+              <img style="width:20px; padding-right: 5px" src="/icons/envelope.svg">
               <span>Proposer un projet</span>
             </button>
           </div>
