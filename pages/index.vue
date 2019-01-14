@@ -7,24 +7,55 @@
       </h2>
     </div>
     <div class="container">
-      <PersonsWithSearch :persons="persons"/>
+      <div class="section">
+        <div style="padding-bottom:3em">
+          <PersonsSearchForm :value="$store.state.currentSearch" @input="onInput"/>
+        </div>
+        <Persons :persons="persons"/>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import PersonsWithSearch from '../components/PersonsWithSearch'
+import Persons from '@/components/Persons'
+import PersonsSearchForm from '@/components/PersonsSearchForm'
 import { getPersons } from '@/services/content'
 
 export default {
   scrollToTop: false,
-  components: {
-    PersonsWithSearch
-  },
-  computed: {
-    persons() {
-      return getPersons()
+  data() {
+    return {
+      persons: [...getPersons()]
     }
+  },
+  components: {
+    Persons,
+    PersonsSearchForm
+  },
+  methods: {
+    onInput(value) {
+      this.$store.commit('setCurrentSearch', value)
+      this.persons = this.filterPersons(value)
+    },
+    filterPersons(text) {
+      return getPersons().filter(person => {
+        let match = false
+        let textLowerCased = text.toLowerCase().trim()
+        if (
+          person.$search_keywords
+            .join(', ')
+            .toLowerCase()
+            .indexOf(textLowerCased) > -1
+        ) {
+          match = true
+        }
+        return match
+      })
+    }
+  },
+  mounted() {
+    this.persons = this.filterPersons(this.$store.state.currentSearch)
   }
 }
 </script>
