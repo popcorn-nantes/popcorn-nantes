@@ -54,7 +54,7 @@ export default {
       })
     }
   },
-  mounted() {
+  created() {
     this.persons = this.filterPersons(this.$store.state.currentSearch)
   }
 }
