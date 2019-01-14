@@ -47,7 +47,6 @@ module.exports = {
    */
   modules: ['@nuxtjs/dotenv', 'nuxt-gustave'],
   gustave: {
-    highlight: true,
     importers: ['importers/persons.js', 'importers/pages.js']
   }
 }

@@ -18,9 +18,7 @@
           </div>
           <div class="column">
             <button class="button is-primary" @click="showModal = true">
-              <span class="icon is-medium">
-                <i class="fas fa-envelope"></i>
-              </span>
+              <img style="width:30px; padding-right: 5px" src="/icons/envelope.svg">
               <span>Proposer un projet</span>
             </button>
           </div>
