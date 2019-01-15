@@ -2,7 +2,7 @@ const { parseMarkdownDirectory } = require('nuxt-gustave/lib/markdown')
 const { saveToJsonDirectory } = require('nuxt-gustave/lib/gustave')
 const { shuffle } = require('../services/helpers')
 
-exports.importer = () => {
+exports.compile = () => {
   const resources = parseMarkdownDirectory('content/persons')
   resources.forEach(resource => {
     // des mots clefs qui pourront être utilisé par le moteur de recherche du site

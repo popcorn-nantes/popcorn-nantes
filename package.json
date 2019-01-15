@@ -10,8 +10,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "e2e": "cypress run",
-    "e2e:open": "cypress open",
-    "gustave": "nuxt-gustave"
+    "e2e:open": "cypress open"
   },
   "license": "MIT",
   "dependencies": {
@@ -25,8 +24,9 @@
     "cypress": "^3.1.2",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "2.6.2",
+    "esm": "^3.0.84",
     "nodemon": "^1.18.7",
-    "nuxt-gustave": "^0.1.0",
+    "nuxt-gustave": "^0.3.0",
     "prettier": "^1.15.2",
     "serve": "^10.1.1"
   }

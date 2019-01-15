@@ -1,5 +1,5 @@
 require('dotenv').config()
-import { getSocialShareHeadersMeta } from './services/helpers.js'
+const { generateSocialShareHeadersMeta } = require('./services/helpers.js')
 
 // les informations par défaut pour les metatags à destination des réseaux sociaux
 const ogTitle = 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
@@ -26,7 +26,7 @@ module.exports = {
         name: 'description',
         content: ogDescription
       },
-      ...getSocialShareHeadersMeta({
+      ...generateSocialShareHeadersMeta({
         title: ogTitle,
         description: ogDescription,
         image: ogImage,
@@ -47,6 +47,6 @@ module.exports = {
    */
   modules: ['@nuxtjs/dotenv', 'nuxt-gustave'],
   gustave: {
-    importers: ['importers/persons.js', 'importers/pages.js']
+    compilers: ['compilers/persons.js', 'compilers/pages.js']
   }
 }

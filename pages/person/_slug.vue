@@ -7,7 +7,7 @@
 <script>
 import Person from '@/components/Person'
 import { getPersonBySlug } from '@/services/content'
-import { getSocialShareHeadersMeta } from '@/services/helpers'
+import { generateSocialShareHeadersMeta } from '@/services/helpers'
 
 export default {
   components: {
@@ -26,7 +26,7 @@ export default {
     const image = `${process.env.POPCORN_BASE_URL}${this.person.photo}`
     const url = `${process.env.POPCORN_BASE_URL}${this.$route.path}`
     return {
-      meta: [...getSocialShareHeadersMeta({ title, description, image, url })]
+      meta: [...generateSocialShareHeadersMeta({ title, description, image, url })]
     }
   }
 }

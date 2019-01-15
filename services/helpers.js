@@ -10,7 +10,12 @@ export function shuffle(a) {
   return a
 }
 
-export function getSocialShareHeadersMeta({ title, description, image, url }) {
+export function generateSocialShareHeadersMeta({
+  title,
+  description,
+  image,
+  url
+}) {
   return [
     // open graph
     { hid: 'og:site_name', name: 'og:site_name', content: 'Popcorn' },
