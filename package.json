@@ -26,7 +26,7 @@
     "eslint-plugin-prettier": "2.6.2",
     "esm": "^3.0.84",
     "nodemon": "^1.18.7",
-    "nuxt-gustave": "^0.3.0",
+    "nuxt-gustave": "^0.3.1",
     "prettier": "^1.15.2",
     "serve": "^10.1.1"
   }
