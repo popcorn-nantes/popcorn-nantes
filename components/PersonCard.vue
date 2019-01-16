@@ -48,7 +48,10 @@ export default {
   },
   methods: {
     detail() {
-      this.$router.push({path: `/person/${this.person.$slug}`,query: { search: this.$store.getters.currentSearch}});
+      this.$router.push({
+        path: `/person/${this.person.$slug}`,
+        query: { search: this.$store.getters.currentSearch }
+      })
     }
   }
 }
