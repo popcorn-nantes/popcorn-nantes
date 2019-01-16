@@ -57,12 +57,6 @@ démarrer le serveur de dev
 npm run dev
 ```
 
-Parser les markdowns du dossier `content` en fichiers JSON.
-
-```sh
-npx nuxt-gustave
-```
-
 Générer la version statique du site
 
 ```sh
@@ -71,7 +65,7 @@ npm run generate
 
 ### Déployer
 
-1) merger la branche `master` dans la branche `published`
-2) `git push`
+1. merger la branche `master` dans la branche `published`
+2. `git push`
 
 Le déploiement du site est déclenché automatiquement par _Travis_ lors d'un _push_ sur la branche `published`. Il peut prendre quelques minutes avant d'être visible en production.
