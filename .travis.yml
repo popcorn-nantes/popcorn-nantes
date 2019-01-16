@@ -5,6 +5,7 @@ branches:
   only:
     - dev
     - master
+    - published
 
 cache:
   directories:
