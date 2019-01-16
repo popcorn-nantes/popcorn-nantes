@@ -71,6 +71,7 @@ npm run generate
 
 ### Déployer
 
-```sh
-./deploy.sh
-```
+1 - merger la branche `master` dans la branche `published`
+2 - `git push`
+
+Le déploiement du site est déclenché automatiquement par _Travis_ lors d'un _push_ sur la branche `published`. Il peut prendre quelques minutes avant d'être visible en production.
