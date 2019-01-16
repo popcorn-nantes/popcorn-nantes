@@ -20,5 +20,8 @@ before_script:
   - npm start -- --silent &
   - npm run e2e
 
+script:
+  - npm run e2e
+
 after_success:
-  - if [ "$TRAVIS_BRANCH" == "published" ]; then ./deploy.sh; fi
+  - test $TRAVIS_BRANCH = "published" && ./deploy.sh
