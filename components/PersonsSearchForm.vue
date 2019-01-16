@@ -2,9 +2,11 @@
   <div class="field has-text-centered">
     <div class="control has-text-centered">
       <label
+        for="search"
         class="label"
       >Cherchez par domaine (site web, application mobile, boutique...) ou technologie (React, WordPress, Java, PHP ... )</label>
       <input
+        id="search"
         class="input is-large"
         :value="value"
         @input="$emit('input', $event.target.value)"

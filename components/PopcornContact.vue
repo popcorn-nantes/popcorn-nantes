@@ -31,9 +31,10 @@
           </div>
         </div>
         <div class="field">
-          <label class="label">Votre email</label>
+          <label for="email" class="label">Votre email</label>
           <div class="control">
             <input
+              id="email"
               type="text"
               class="input"
               v-model="inputs.email"
@@ -42,9 +43,10 @@
           </div>
         </div>
         <div class="field">
-          <label class="label">Votre message</label>
+          <label for="message" class="label">Votre message</label>
           <div class="control">
             <textarea
+              id="message"
               v-model="inputs.message"
               class="textarea"
               :class="{'is-danger': getError('message')}"
