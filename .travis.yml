@@ -17,11 +17,20 @@ install:
 
 before_script:
   - npm run build
+  - npm run generate
   - npm start -- --silent &
   - npm run e2e
 
 script:
   - npm run e2e
 
-after_success:
-  - test $TRAVIS_BRANCH = "published" && ./deploy.sh
+deploy:
+  provider: pages
+  local-dir: dist
+  repo: popcorn-nantes.github.io
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: published
