@@ -18,7 +18,7 @@ install:
 before_script:
   - npm run build
   - npm start -- --silent &
+  - npm run e2e
 
-script:
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then ./travis/master.sh; fi
-  - if [ "$TRAVIS_BRANCH" = "published" ]; then ./travis/published.sh; fi
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "published" ]; then ./deploy.sh; fi

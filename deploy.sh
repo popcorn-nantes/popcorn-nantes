@@ -3,8 +3,6 @@
 # abort on errors
 set -e
 
-npm run e2e
-
 # build static version
 npm run generate
 
