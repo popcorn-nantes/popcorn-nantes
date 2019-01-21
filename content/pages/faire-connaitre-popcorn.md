@@ -1,12 +1,15 @@
 # Vous êtes développeur·e freelance et le principe de Popcorn vous plaît ?
 
-**Plus nous serons nombreux, plus la plateforme Popcorn sera visible et connue, plus elle nous permettra de toucher de client·e·s**.
+## Faire connaitre Popcorn
 
-Vous pouvez contribuer facilement à rendre Popcorn plus connue à Nantes:
+**Plus nous serons nombreux, plus la plateforme Popcorn sera visible et connue, plus elle nous permettra de toucher de nouveaux clients régulièrement**.
 
-- En proposant à un-e ami-e développeur-e freelance de nous rejoindre
-- En faisant un post linkedin qui parle de popcorn ou qui fait un lien vers votre fiche Popcorn
-- En faisant un tweet qui parle de popcorn ou qui fait un lien vers votre fiche Popcorn
+Vous pouvez contribuer à rendre Popcorn plus connue à Nantes:
+
+- En proposant à un·e ami·e développeur·e freelance de nous rejoindre
+- En faisant découvrir Popcorn aux personnes qui recherchent un freelance
+- En faisant un post Linkedin qui parle de Popcorn ou qui fait un lien vers votre fiche Popcorn
+- En faisant un tweet qui parle de Popcorn ou qui fait un lien vers votre fiche Popcorn
 - En mettant en signature de mail un lien vers votre fiche popcorn
 
 Si tu ne sais pas quoi écrire, tu peux t'inspirer des exemples ci-dessous:
