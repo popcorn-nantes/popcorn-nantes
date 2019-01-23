@@ -39,19 +39,26 @@ export default {
       this.persons = this.filterPersons(value)
     },
     filterPersons(text) {
-      return getPersons().filter(person => {
-        let match = false
-        let textLowerCased = text.toLowerCase().trim()
-        if (
-          person.$search_keywords
-            .join(', ')
-            .toLowerCase()
-            .indexOf(textLowerCased) > -1
-        ) {
-          match = true
-        }
-        return match
-      })
+      let persons = getPersons()
+        .filter(person => {
+          let match = false
+          let textLowerCased = text.toLowerCase().trim()
+          person.$search_keywords.forEach(keyword => {
+            keyword = keyword.toLowerCase()
+            person._exactMatch = false
+            if (keyword.indexOf(textLowerCased) > -1) {
+              match = true
+              if (textLowerCased.length === keyword.length) {
+                person._exactMatch = true
+              }
+            }
+          })
+          return match
+        })
+        .sort((a, b) => {
+          return a._exactMatch ? -1 : 1
+        })
+      return persons
     }
   },
   created() {
