@@ -56,7 +56,7 @@ export default {
           return match
         })
         .sort((a, b) => {
-          return a._exactMatch ? -1 : 1
+          return a._exactMatch ? 1 : -1
         })
       return persons
     }
