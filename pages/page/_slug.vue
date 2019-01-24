@@ -1,6 +1,7 @@
 <template>
   <div class="container section">
-    <div class="content" v-html="page.$html"></div>
+    <div v-if="page" class="content" v-html="page.$html"></div>
+    <div v-else>Désolé, cette page n'existe pas ou a été dépubliée. 😭</div>
   </div>
 </template>
 
