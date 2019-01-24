@@ -1,6 +1,7 @@
 <template>
   <div class="container section">
-    <Person :person="person"/>
+    <Person v-if="person" :person="person"/>
+    <div v-else>Désolé, cette page n'existe pas ou a été dépubliée. 😭</div>
   </div>
 </template>
 
@@ -19,6 +20,9 @@ export default {
     }
   },
   head() {
+    if (!this.person) {
+      return {}
+    }
     const title = `Profil de ${this.person.prenom} ${
       this.person.nom
     }, freelance ${this.person.technologies.join(', ')}`
@@ -26,7 +30,9 @@ export default {
     const image = `${process.env.POPCORN_BASE_URL}${this.person.photo}`
     const url = `${process.env.POPCORN_BASE_URL}${this.$route.path}`
     return {
-      meta: [...generateSocialShareHeadersMeta({ title, description, image, url })]
+      meta: [
+        ...generateSocialShareHeadersMeta({ title, description, image, url })
+      ]
     }
   }
 }
