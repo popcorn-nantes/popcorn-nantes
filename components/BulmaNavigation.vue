@@ -51,7 +51,7 @@
           <PopcornContact/>
         </div>
       </div>
-      <button @click="showModal = false" class="modal-close is-large" aria-label="close"></button>
+      <button @click="showModal = false" class="modal-close is-large" aria-label="fermer"></button>
     </div>
   </div>
 </template>
