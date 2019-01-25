@@ -6,8 +6,8 @@ Popcorn est l’**annuaire des développeurs freelances de Nantes**, sans interm
 
 Simple et efficace, la plateforme a deux particularités :
 
-- Il n’y a pas de frais car elle est développée et maintenue par les développeurs freelance eux mêmes.
-- Son mode d’inscription est original : ici, pas de formulaire d’inscription; les développeurs doivent proposer une « Pull Request » au site ( une modification du code source ) pour pouvoir ajouter leur profil qui doit être validée par un autre développeur; ce qui assure une qualification minimale naturelle des profils inscrits.
+- Il n’y a pas de frais car elle est développée et maintenue par les développeurs freelance eux-mêmes.
+- Son mode d’inscription est original : ici, pas de formulaire d’inscription; les développeurs doivent proposer une "Pull Request" au site ( une modification du code source ) pour pouvoir ajouter leur profil qui doit être validé par un autre développeur; ce qui assure une qualification minimale naturelle des profils inscrits.
 
 Popcorn a pour mission de dynamiser le maillage entre entreprises et développeurs freelances de Nantes, dans un contexte marqué par une pénurie forte de ces profils clefs dans l'économie du numérique.
 
