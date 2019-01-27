@@ -85,10 +85,5 @@ dist
 static/api/*
 !static/api/README.md
 
-# cypress
-test/e2e/videos
-test/e2e/screenshots
-
-
-
-
+# fichier static de popcorn-machine
+static/machine

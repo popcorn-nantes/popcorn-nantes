@@ -50,7 +50,7 @@ domaines_metiers:
   - Accompagnement
   - sites intranet
   - sites extranet
-  
+
 
 # REQUIS
 # les technologies que tu utilises, avec ton niveau.
@@ -73,4 +73,4 @@ Responsable technique puis directeur technique, Lead Developer, Encadrement d'é
 
 **Lead développeur** en Télétravail chez *Commerce Guys*, société éditrice de Drupal Commerce pendant 3 ans, je propose désormais mes services en tant qu'indépendant.
 
-Je peux autant intervenir en amont de projet pour la **définition du besoin**, pour de l'aide au chiffrage, de la **formation**, de l'**audit**, que pour la **montée en compétences** d'une équipe lors du développement ou la **réalisation** de votre projet. 
+Je peux autant intervenir en amont de projet pour la **définition du besoin**, pour de l'aide au chiffrage, de la **formation**, de l'**audit**, que pour la **montée en compétences** d'une équipe lors du développement ou la **réalisation** de votre projet.
