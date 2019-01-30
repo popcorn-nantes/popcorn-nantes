@@ -29,7 +29,6 @@
             to="/page/a-propos"
             class="navbar-item"
           >En savoir plus</nuxt-link>
-          <nuxt-link to="/page/kit-de-communication" class="navbar-item">Kit de communication</nuxt-link>
           <span class="navbar-item">
             <nuxt-link
               @click.native="showOnMobile = false"
@@ -39,8 +38,11 @@
             >Freelance ? Inscription</nuxt-link>
           </span>
           <div class="navbar-item">
-            <div class="button" @click="showModal = true">Contact</div>
+            <div class="button is-outlined is-link is-info" @click="showModal = true">Contact</div>
           </div>
+          <nuxt-link to="/page/kit-de-communication" class="navbar-item">
+            <div class="button is-outlined">Kit de communication</div>
+          </nuxt-link>
         </div>
       </div>
     </nav>

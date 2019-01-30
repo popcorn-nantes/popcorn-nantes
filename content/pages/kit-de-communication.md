@@ -10,7 +10,13 @@ Simple et efficace, la plateforme a trois particularités :
 - Son mode d’inscription original assure une qualification naturelle des profils inscrits : ici, pas de formulaire d’inscription, les développeurs doivent modifier le code source du site pour pouvoir ajouter leur profil.
 - Au-delà de l'annuaire, ses membres forment un réseau à Nantes : si un développeur contacté n'est pas disponible, il peut rapidement transmettre le besoin à d'autres développeurs via le tchat interne et des collaborations entre plusieurs développeurs sont possibles.
 
-Popcorn a pour mission de dynamiser et fluidifier le maillage entre entreprises et développeurs freelances de Nantes, dans un contexte marqué par une pénurie forte de ces profils clefs dans la croissance de l'économie du numérique.
+## Popcorn a pour mission de dynamiser et fluidifier le maillage entre entreprises et développeurs freelances de Nantes, dans un contexte marqué par une pénurie forte de ces profils clefs dans la croissance de l'économie du numérique.
+
+---
+
+_Voici une image à fournir pour illustrer popcorn. Merci de la télécharger et de l'envoyer dans le mail ou message plutôt que de faire un lien direct vers l'image_ 🤗
+
+<img src="/images/popcorn-big.jpeg"/>
 
 ## Développeurs : contribuer à faire connaître Popcorn
 
