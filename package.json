@@ -5,13 +5,15 @@
   "author": "yann",
   "private": true,
   "scripts": {
-    "dev": "popcorn",
-    "build": "popcorn build",
-    "start": "popcorn start",
-    "generate": "popcorn generate"
+    "dev": "cross-env CITY=Nantes popcorn",
+    "build": "cross-env CITY=Nantes popcorn build",
+    "start": "cross-env CITY=Nantes popcorn start",
+    "generate": "cross-env CITY=Nantes popcorn generate"
   },
   "dependencies": {
     "popcorn-machine": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
 }
