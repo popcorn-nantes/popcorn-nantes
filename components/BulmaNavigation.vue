@@ -29,6 +29,7 @@
             to="/page/a-propos"
             class="navbar-item"
           >En savoir plus</nuxt-link>
+          <nuxt-link to="/page/kit-de-communication" class="navbar-item">Kit de communication</nuxt-link>
           <span class="navbar-item">
             <nuxt-link
               @click.native="showOnMobile = false"
