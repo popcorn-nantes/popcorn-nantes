@@ -6,7 +6,7 @@ const ogTitle = 'Popcorn : trouvez un·e développeur·e freelance à Nantes'
 const ogDescription =
   'La plateforme avec (vraiment) 0% de commission pour tout le monde'
 const ogUrl = process.env.POPCORN_BASE_URL
-const ogImage = `${process.env.POPCORN_BASE_URL}/images/popcorn-500.jpg`
+const ogImage = `${process.env.POPCORN_BASE_URL}/images/popcorn.jpg`
 
 module.exports = {
   env: {
