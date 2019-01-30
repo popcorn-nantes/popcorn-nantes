@@ -14,7 +14,7 @@ Popcorn a pour mission de dynamiser et fluidifier le maillage entre entreprises 
 
 ---
 
-_Voici une image à fournir pour illustrer popcorn. Merci de la télécharger et de l'envoyer dans le mail ou message plutôt que de faire un lien direct vers l'image_ 🤗
+_Voici une image à fournir pour illustrer popcorn. Merci de la télécharger plutôt que de faire un lien direct vers l'image si possible_ 🤗
 
 <img src="/images/popcorn-big.jpeg"/>
 
