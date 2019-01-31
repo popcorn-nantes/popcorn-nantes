@@ -25,7 +25,7 @@ Vous pouvez contribuer à rendre Popcorn plus connue à Nantes:
 
 Si tu ne sais pas quoi écrire pour les réseaux sociaux, tu peux t'inspirer des exemples ci-dessous:
 
-<h3><img style="position:relative;top:5px"  width="40px" src="/icons/logo-twitter.svg" /> Twitter </h3>
+<h3><img style="position:relative;top:5px"  width="40px" src="/machine/icons/logo-twitter.svg" /> Twitter </h3>
 
 Pour s'adresser à des développeur·e·s freelance :
 
@@ -35,7 +35,7 @@ Pour s'adresser à des personnes en recherche de freelance :
 
 > Popcorn 🍿 est la nouvelle plateforme pour trouver un développeur·e à Nantes. C'est sans intermédiaire, sans commission et 100% nantais ! https://popcorn-nantes.github.io/
 
-<h3><img style="position:relative;top:10px" width="40px" src="/icons/logo-linkedin.png" />Linkedin</h3>
+<h3><img style="position:relative;top:10px" width="40px" src="/machine/icons/logo-linkedin.png" />Linkedin</h3>
 
 Pour s'adresser à des développeur·e·s freelance :
 
