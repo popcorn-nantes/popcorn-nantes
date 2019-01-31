@@ -2,14 +2,21 @@
 
 ## Présentation à destination des entreprises, start-ups, collectivités
 
-Popcorn est l’**annuaire des développeurs freelances de Nantes**, sans intermédiaire et sans frais. Ouvert il y a deux mois, il compte déjà 35 profils. Popcorn est là pour aider les entreprises, start-ups ou collectivités à trouver facilement et localement le développeur freelance dont elles ont besoin.
+Popcorn est l’**annuaire des développeurs freelances de Nantes**, sans intermédiaire et sans frais. Ouverte en novembre, La plateforme a réuni 35 profils en deux mois. Popcorn est là pour aider les entreprises, start-ups ou collectivités à trouver facilement et localement le développeur freelance dont elles ont besoin.
 
-Simple et efficace, la plateforme a deux particularités :
+Simple et efficace, la plateforme a trois particularités :
 
-- Il n’y a pas de frais car elle est développée et maintenue par les développeurs freelance eux-mêmes.
-- Son mode d’inscription est original : ici, pas de formulaire d’inscription; les développeurs doivent proposer une "Pull Request" au site ( une modification du code source ) pour pouvoir ajouter leur profil qui doit être validé par un autre développeur; ce qui assure une qualification minimale naturelle des profils inscrits.
+- Il n’y a pas de frais car elle est développée et maintenue par les développeurs freelances eux-mêmes.
+- Son mode d’inscription original assure une qualification naturelle des profils inscrits : ici, pas de formulaire d’inscription, les développeurs doivent modifier le code source du site pour pouvoir ajouter leur profil.
+- Au-delà de l'annuaire, ses membres forment un réseau à Nantes : si un développeur contacté n'est pas disponible, il peut rapidement transmettre le besoin à d'autres développeurs via le tchat interne et des collaborations entre plusieurs développeurs sont possibles.
 
-Popcorn a pour mission de dynamiser le maillage entre entreprises et développeurs freelances de Nantes, dans un contexte marqué par une pénurie forte de ces profils clefs dans l'économie du numérique.
+Popcorn a pour mission de dynamiser et fluidifier le maillage entre entreprises et développeurs freelances de Nantes, dans un contexte marqué par une pénurie forte de ces profils clefs dans la croissance de l'économie du numérique.
+
+---
+
+_Voici une image à fournir pour illustrer popcorn. Merci de la télécharger plutôt que de faire un lien direct vers l'image si possible_ 🤗
+
+<img src="/images/popcorn-big.jpeg"/>
 
 ## Développeurs : contribuer à faire connaître Popcorn
 
@@ -25,7 +32,7 @@ Vous pouvez contribuer à rendre Popcorn plus connue à Nantes:
 
 Si tu ne sais pas quoi écrire pour les réseaux sociaux, tu peux t'inspirer des exemples ci-dessous:
 
-<h3><img style="position:relative;top:5px"  width="40px" src="/machine/icons/logo-twitter.svg" /> Twitter </h3>
+<h3><img style="position:relative;top:5px"  width="40px" src="/icons/logo-twitter.svg" /> Twitter </h3>
 
 Pour s'adresser à des développeur·e·s freelance :
 
@@ -35,7 +42,7 @@ Pour s'adresser à des personnes en recherche de freelance :
 
 > Popcorn 🍿 est la nouvelle plateforme pour trouver un développeur·e à Nantes. C'est sans intermédiaire, sans commission et 100% nantais ! https://popcorn-nantes.github.io/
 
-<h3><img style="position:relative;top:10px" width="40px" src="/machine/icons/logo-linkedin.png" />Linkedin</h3>
+<h3><img style="position:relative;top:10px" width="40px" src="/icons/logo-linkedin.png" />Linkedin</h3>
 
 Pour s'adresser à des développeur·e·s freelance :
 
