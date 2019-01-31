@@ -11,7 +11,7 @@
     "generate": "cross-env CITY=Nantes popcorn generate"
   },
   "devDependencies": {
-    "popcorn-machine": "^1.0.0",
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "popcorn-machine": "^1.0.5"
   }
 }
