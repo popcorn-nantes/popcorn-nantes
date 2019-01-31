@@ -82,8 +82,6 @@ dist
 .vscode
 
 # fichiers json compilés depuis les fichiers markdown
-static/api/*
-!static/api/README.md
+public/api/*
 
-# fichier static de popcorn-machine
-static/machine
+
