@@ -1,5 +1,5 @@
 {
-  "name": "popcorn",
+  "name": "popcorn-nantes",
   "version": "1.0.0",
   "description": "popcorn",
   "author": "yann",
@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "popcorn-machine": "^1.0.5"
-  }
+    "popcorn-machine": "1.0.6"
+  },
+  "dependencies": {}
 }
