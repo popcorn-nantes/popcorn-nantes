@@ -5,10 +5,10 @@
   "author": "yann",
   "private": true,
   "scripts": {
-    "dev": "cross-env CITY=Nantes popcorn",
-    "build": "cross-env CITY=Nantes popcorn build",
-    "start": "cross-env CITY=Nantes popcorn start",
-    "generate": "cross-env CITY=Nantes popcorn generate"
+    "dev": "popcorn",
+    "build": "popcorn build",
+    "start": "popcorn start",
+    "generate": "popcorn generate"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
