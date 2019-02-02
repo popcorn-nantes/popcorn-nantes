@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "popcorn-machine": "1.0.6"
+    "popcorn-machine": "1.0.7"
   },
   "dependencies": {}
 }
