@@ -11,8 +11,6 @@
     "generate": "popcorn generate"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "popcorn-machine": "^1.0.8"
-  },
-  "dependencies": {}
+    "popcorn-machine": "1.0.8"
+  }
 }

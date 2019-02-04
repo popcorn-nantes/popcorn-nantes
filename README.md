@@ -1,11 +1,11 @@
 # POPCORN 🍿
 
-_Popcorn_ est une plateforme open source et (vraiment) sans commission qui aide les développeur-e-s freelance de Nantes à trouver des projets [Voir le site](https://popcorn-nantes.github.io/)
+_Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des projets : [Voir le site](https://popcorn-nantes.github.io/)
 
 Les objectifs de _Popcorn_ pour les développeurs freelances :
 
-- 📈 Devenir un canal pour trouver des affaires à Nantes sans commission ni intermédiaire.
-- 📗 Open source : on maîtrise les fonctionnalités de la plateforme, tel que les résultats de recherche, les informations affichées par nos profils etc
+- 📈 Etre un canal pour trouver des affaires à Nantes sans commission ni intermédiaire
+- 💪 Offrir une alternative open source, sans frais d'intermédiation et locale à aux _market places_ de freelances centralisées et rémunérées à la commission
 - 💬 Faire circuler les tuyaux boulot entre freelances via le tchat.
 
 ## Créer son profil
@@ -29,11 +29,11 @@ Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux auss
 
 ## Documentation technique
 
-Il s'agit d'un site généré statiquement par notre (machine à Popcorn)[https://github.com/popcorn-nantes/popcorn-machine]
+Il s'agit d'un site généré statiquement par notre [machine à Popcorn](https://github.com/popcorn-nantes/popcorn-machine) qui repose sur [Nuxt.js](https://nuxtjs.org/).
 
-## Pourquoi un site statique et sans serveur ?
+### Pourquoi un site statique et sans serveur ?
 
-L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données, afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part, parce que :
+L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données **afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part ni aucun frais, parce que :**
 
 - On est déjà tous "sous l'eau", ce site ne doit pas être une charge de travail supplémentaire.
 - On ne veut pas que le site reste 48 heures en rade parce qu'il ya un truc qui déconne et que tout le monde est trop occupé pour intervenir dessus.
