@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - 10
+branches:
+  only:
+    - published
+
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+
+install:
+  - npm install
+
+script:
+  - npm run generate
+
+deploy:
+  provider: pages
+  local-dir: dist
+  repo: popcorn-nantes/popcorn-nantes.github.io
+  target-branch: master
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: published
