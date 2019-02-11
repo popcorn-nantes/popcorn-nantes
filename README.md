@@ -1,18 +1,19 @@
 # POPCORN 🍿
 
-_Popcorn_ est une plateforme open source et (vraiment) sans commission qui aide les développeur-e-s freelance de Nantes à trouver des projets [Voir le site](https://popcorn-nantes.github.io/)
+_Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des projets : [Voir le site](https://popcorn-nantes.github.io/)
 
 Les objectifs de _Popcorn_ pour les développeurs freelances :
 
-- 📈 Devenir un canal pour trouver des affaires à Nantes sans commission ni intermédiaire.
+- 📈 Etre un canal pour trouver des affaires à Nantes sans commission ni intermédiaire
 - 📗 Open source : on maîtrise les fonctionnalités de la plateforme, tel que les résultats de recherche, les informations affichées par nos profils etc
 - 💬 Faire circuler les tuyaux boulot entre freelances via le tchat.
+- 💪 Offrir une alternative locale aux _market places_ de freelances centralisées
 
 ## Créer son profil
 
 - Fork ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour créer l'url de ton profil.
-- Ajoute ta photo dans le dossier `/static/images` : **la photo doit faire 100ko maximum ⚠️**
+- Ajoute ta photo dans le dossier `/public/images` : **la photo doit faire 100ko maximum ⚠️**
 - Fait une _pull request_ avec pour titre _Nouveau profil : {ton prénom}_ .
 - Bienvenue sur _Popcorn_ ! ✨ Tu recevras également un mail pour t'inviter sur le tchat de _Popcorn_.
 
@@ -29,11 +30,11 @@ Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux auss
 
 ## Documentation technique
 
-Il s'agit d'une site généré statiquement avec [Nuxt](https://github.com/nuxt/nuxt.js). Le répertoire `content` contient les fichiers _markdown_ qui servent à produire les profils et les contenus du site. Ils sont transformés en fichiers JSON dans le dossier `/static/api/` par le module Nuxt [Gustave](https://github.com/yann-yinn/nuxt-gustave). Ce sont ces fichiers JSON qui sont ensuite consommés par les composants Vue.js, via un simple import webpack. Le tout est ensuite exporté en _html_ via la commande `npm run generate` et hébergé sur [un dépôt github](https://github.com/popcorn-nantes/popcorn-nantes.github.io).
+Il s'agit d'un site généré statiquement par notre [machine à Popcorn](https://github.com/popcorn-nantes/popcorn-machine) qui repose sur [Nuxt.js](https://nuxtjs.org/).
 
-## Pourquoi un site statique (_serverless_) ?
+### Pourquoi un site statique et sans serveur ?
 
-L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données, afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part, parce que :
+L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données **afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part ni aucun frais, parce que :**
 
 - On est déjà tous "sous l'eau", ce site ne doit pas être une charge de travail supplémentaire.
 - On ne veut pas que le site reste 48 heures en rade parce qu'il ya un truc qui déconne et que tout le monde est trop occupé pour intervenir dessus.
@@ -45,7 +46,7 @@ L'idée expérimentée par _Popcorn_ est d'avoir un site aussi léger techniquem
 
 ## Installation
 
-cloner ce dépôt, copier le fichier `.env.example` pour créer un fichier `.env`. Renseigner ce fichier puis :
+cloner ce dépôt puis
 
 ```sh
 npm install
