@@ -69,10 +69,10 @@ technologies:
 j'ai longtemps travaillé avec PHP et Symfony. Je connais **Ruby on Rails**
 depuis 2011, et il fait partie intégrante de mes journées depuis bientôt 2 ans.
 En parallèle de quoi j'ai toujours aimé être capable d'aller jusqu'au
-déploiement de mes projets et est donc entretenu une fibre DevOps.
+déploiement de mes projets et ai donc entretenu une fibre DevOps.
 
 Je travaille quotidiennement avec deux autres freelances, ce qui nous permet de
-gérer des projets plus conséquents et de façon sereines. Ce qui nous a permis
+gérer des projets plus conséquents et de façon sereine. Ce qui nous a permis
 de mettre en place nos routines de travail et être concentré sur nos projets.
 Notamment en travaillant en code review et avec de l'intégration/déploiement
 continue.
