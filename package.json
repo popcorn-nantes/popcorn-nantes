@@ -11,7 +11,7 @@
     "generate": "popcorn generate"
   },
   "devDependencies": {
-    "popcorn-machine": "1.0.9"
+    "popcorn-machine": "^2.0.0"
   },
   "dependencies": {}
 }
