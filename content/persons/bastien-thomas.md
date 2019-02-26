@@ -24,7 +24,7 @@ nom: Thomas
 #
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
-mail: bastien@wink-dev.com
+mail: contact@wink-dev.com
 
 # OPTIONNEL "true" or "false"
 # si tu as actuellement activement en recherche de projet, indique "true" ici,
@@ -74,4 +74,7 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Je travaille sur PHP et depuis une dizaine d'années, freelance sur Symfony depuis 2015 sur des thématiques principalement back-end (conception d'API, systèmes distribués, base de données, montée en charge). J'ai l'esprit DevOps, j'organise les cycles de déploiement avec mes équipes et propose des solutions Cloud en conteneurs. J'ai une forte expertise en gestion de projet et mise en place de pratiques agiles. J'ai accompagné la croissance de startups en Angleterre, États-Unis et sur Paris. Aujourd'hui basé sur Nantes, je sélectionne les missions sur lesquels j'aurais le meilleur impact et avec une volonté d'innovation.
+Je suis consultant spécialisé sur PHP, Symfony et l'infrastructure back-end. 
+Depuis 10ans dans le développement d'applications web, j'ai pu accompagner la croissance de nombreuses Startups en Angleterre, Californie et à Paris. Mes spécialisations sont la conception d'API, systèmes distribués, gestion des données, montée en charge. J'ai l'esprit DevOps, orienté sur des solutions Cloud en conteneurs sous Linux. 
+
+Je propose aujourd'hui une expertise en développement, en pilotage de projet et en mise en place de pratiques agiles. Je sélectionne les missions qui ont une volonté d'innovation et sur lesquelles mon impact sera le plus bénéfique. Mon bureau est à Nantes, je peux y travailler en remote ou me déplacer.
