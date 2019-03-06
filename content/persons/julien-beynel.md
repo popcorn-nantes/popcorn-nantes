@@ -72,6 +72,6 @@ technologies:
 # La coloration syntaxique du code est supportée.
 ---
 
-Durant mes 5 années d'expériences, j'ai pu participer à plein de sujets différents, J'interviens sur tout type de projet bien cadré, mon point fort reste la réalisation de Back-Office.
+Durant mes 5 années d'expériences, j'ai pu participer à plein de sujets différents, J'interviens sur tout type de projet en développement full-stack.
 
 Doté d'une grande motivation, sociable, tenace, curieux et m'investissant au mieux dans un projet, je suis à votre disposition pour un entretien.
