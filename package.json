@@ -9,7 +9,7 @@
     "generate": "popcorn generate"
   },
   "devDependencies": {
-    "popcorn-machine": "^2.1.2"
+    "popcorn-machine": "^2.2.0"
   },
   "dependencies": {}
 }
