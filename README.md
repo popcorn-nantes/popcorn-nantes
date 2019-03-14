@@ -9,6 +9,11 @@ Les objectifs de _Popcorn_ pour les développeurs freelances :
 - 💬 Faire circuler les tuyaux boulot entre freelances via le tchat.
 - 💪 Offrir une alternative locale aux _market places_ de freelances centralisées
 
+## Nous rencontrer
+
+Nos RDV sont désormais annoncés ici: https://github.com/popcorn-nantes/popcorn-nantes-evenements.
+Ces évenements sont l'occasion pour ses membres de se rencontrer, boire des bières, réseauter, échanger des tuyaux boulots, parler des avancées et améliorations possibles de la plateforme.
+
 ## Créer son profil
 
 - Fork ce dépôt
