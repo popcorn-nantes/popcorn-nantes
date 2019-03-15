@@ -4,17 +4,17 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur Back-End
+titre: Développeur Ruby On Rails / Web FullStack
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 10 ans d'expérience
+sous_titre: 3 ans d'expérience
 
 # REQUIS
-prenom: Bastien
+prenom: Thibault
 
 # REQUIS
-nom: Thomas
+nom: Finot
 
 # REQUIS
 # ATTENTION : cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
@@ -24,7 +24,7 @@ nom: Thomas
 #
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
-mail: contact@wink-dev.com
+mail: thibault@finot-developpement.com
 
 # OPTIONNEL "true" or "false"
 # si tu as actuellement activement en recherche de projet, indique "true" ici,
@@ -33,11 +33,11 @@ disponible: true
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
-telephone:
+<!-- telephone: -->
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/bastien-thomas.jpg
+photo: /images/thibault-finot.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -50,31 +50,32 @@ photo: /images/bastien-thomas.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - Developement back-end
-  - API REST / GraphQL
-  - DevOps
-  - Scrum Master
+  - Applications web
+  - Market place
+  - Site de Crowdfunding
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - PHP
-  - Symfony
-  - Docker
-  - Jenkins
-  - ElasticSearch
-  - RabbitMQ
-  - Postgres
-  - AWS
-  - Python
-
+  - Ruby On Rails
+  - Vue.js
+  - Nuxt
+  - Postgresql
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
+# La coloration syntaxique du code est supportée.
 ---
+Développeur Full Stack Ruby On Rails et Vuejs avec 3 ans d'expériences.
 
-Je suis consultant spécialisé sur PHP, Symfony et l'infrastructure back-end. 
-Depuis 10ans dans le développement d'applications web, j'ai pu accompagner la croissance de nombreuses Startups en Angleterre, Californie et à Paris. Mes spécialisations sont la conception d'API, systèmes distribués, gestion des données, montée en charge. J'ai l'esprit DevOps, orienté sur des solutions Cloud en conteneurs sous Linux. 
+Création de plusieurs plateformes intégrant différentes technologies (Postgres, Ruby, Vuejs, Sidekiq...).
 
-Je propose aujourd'hui une expertise en développement, en pilotage de projet et en mise en place de pratiques agiles. Je sélectionne les missions qui ont une volonté d'innovation et sur lesquelles mon impact sera le plus bénéfique. Mon bureau est à Nantes, je peux y travailler en remote ou me déplacer.
+Mes différents projets réalisé :
+- Dashboard de production industrielle
+- ERP de gestion d'exploitation agricole
+- Site de crowdfunding
+- Market place
+- Site marchand
+
+Basé à Nantes, je travaille à distance, avec la possibilité de nous rencontrer pour étudier votre projet et faire des points réguliers.
