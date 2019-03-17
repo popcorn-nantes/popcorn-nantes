@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeuse back Drupal
+titre: Développeuse back Drupal / eZPublish / Symfony
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
@@ -78,5 +78,5 @@ technologies:
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
-Developpeuse Back end depuis 2008, disponible pour des missions de developpement ou TMA en remote à temps partiel (4/5eme).
-N'hesitez pas à me contacter !
+Développeuse Back end depuis 2008, disponible pour des missions de développement ou TMA en remote à temps partiel (4/5eme).
+N'hésitez pas à me contacter !
