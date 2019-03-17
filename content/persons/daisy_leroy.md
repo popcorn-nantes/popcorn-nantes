@@ -51,27 +51,32 @@ photo: /images/daisy-leroy.jpg
 # - ... à toi de jouer
 domaines_metiers:
   - sites web
+  - extranet
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Drupal 7 & 8
-  - Symfony
-  - Git
-  - Docker
-  - Vagrant
-  - Linux
-  - eZPublish
-  - Wordpress
-  - PHP
-  - Javascript
+  - Drupal 7 & 8 ⭐⭐⭐⭐
+  - eZPublish 4 & 5 (certifiée 4.4) ⭐⭐⭐⭐
+  - Wordpress ⭐⭐⭐
+  - PHP ⭐⭐⭐⭐
+  - Symfony ⭐⭐⭐⭐
+  - Javascript ⭐⭐⭐⭐
+  - JQuery ⭐⭐⭐
+  - Vuejs ⭐⭐
+  - CSS ⭐⭐
+  - Git 
+  - Docker 
+  - Vagrant 
+  - Linux 
+  - MailHog 
+  - Portainer
+  - Docker4drupal
+  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
-Bonjour,
-
-Fortes de mes expériences de lead développeuse, je me suis mise à mon propre compte en 2017.
-Je peux intervenir aussi bien sur de nouveaux projets ou évolutions afin d'apporter expertise et conseils qu'en renfort TMA.
+Developpeuse Back end depuis 2008, disponible pour des missions de developpement ou TMA en remote à temps partiel (4/5eme).
 N'hesitez pas à me contacter !
