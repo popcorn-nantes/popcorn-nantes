@@ -3,7 +3,7 @@ node_js:
   - 10
 branches:
   only:
-    - published
+    - master
 
 cache:
   directories:
@@ -25,4 +25,4 @@ deploy:
   github-token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
-    branch: published
+    branch: master
