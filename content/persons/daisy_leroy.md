@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeuse back Drupal / eZPublish / Symfony
+titre: Développeuse sénior back Drupal / eZPublish / Symfony
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
@@ -33,7 +33,7 @@ disponible: true
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
-telephone:
+telephone: 0634680938
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
@@ -57,15 +57,15 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Drupal 7 & 8 ⭐⭐⭐⭐
-  - eZPublish 4 & 5 (certifiée 4.4) ⭐⭐⭐⭐
-  - Wordpress ⭐⭐⭐
-  - PHP ⭐⭐⭐⭐
-  - Symfony ⭐⭐⭐⭐
-  - Javascript ⭐⭐⭐⭐
-  - JQuery ⭐⭐⭐
-  - Vuejs ⭐⭐
-  - CSS ⭐⭐
+  - Drupal 7 & 8 ⭐⭐⭐⭐★
+  - eZPublish 4 & 5 ⭐⭐⭐⭐★
+  - Wordpress ⭐⭐⭐★★
+  - PHP ⭐⭐⭐⭐★
+  - Symfony ⭐⭐⭐⭐★
+  - Javascript ⭐⭐⭐⭐★
+  - JQuery ⭐⭐⭐★★
+  - Vuejs ⭐⭐★★★
+  - CSS ⭐⭐★★★
   - Git 
   - Docker 
   - Vagrant 
