@@ -15,7 +15,7 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-	- iOS
+  - iOS
   - Swift
   - Objective-C
   - React Native
