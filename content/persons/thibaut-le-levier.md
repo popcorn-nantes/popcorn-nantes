@@ -27,4 +27,4 @@ technologies:
 
 Développeur freelance depuis 2009, j'interviens sur tout type de projets pour répondre à vos besoins de développement d'applications iOS (iPhone/iPad), macOS, watchOS et tvOS, et sur les problématiques backend correspondantes (Ruby, Python, PHP, Node.js...).
 
-Autodidact et doté d'une large culture technique, je suis ouvert à discussions pour trouver avec vous la meilleure solution technique pour votre produit et votre besoin.
+Autodidacte et doté d'une large culture technique, je suis ouvert à discussions pour trouver avec vous la meilleure solution technique pour votre produit et votre besoin.
