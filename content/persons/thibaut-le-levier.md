@@ -5,7 +5,7 @@ prenom: Thibaut
 nom: LE LEVIER
 mail: thibaut@lelevier.fr
 telephone:
-photo: /images/thibaut-le-levier.png
+photo: /images/thibaut-le-levier.jpg
 domaines_metiers:
   - Applications Mobiles
   - Backend
