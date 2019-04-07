@@ -71,6 +71,10 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
-Durant mes 5 années d'expériences, j'ai pu participer à plein de sujets différents, J'interviens sur tout type de projet en développement full-stack.
+Durant mes 5 années d'expériences, j'ai pu participer à plein de projets différents en développement web full-stack.
+
+J'apporte mon enthousiasme et ma créativité à proposer et mettre en œuvre des solutions en développement web adaptées à des environnements innovants et complexes.
+
+J’appréhende rapidement les nouvelles technologies, force de proposition et résolument orienté vers la résolution des problématiques métiers.
 
 Doté d'une grande motivation, sociable, tenace, curieux et m'investissant au mieux dans un projet, je suis à votre disposition pour un entretien.
