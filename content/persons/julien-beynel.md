@@ -56,7 +56,9 @@ technologies:
   - PHP
   - JavaScript
   - jQuery
-  - React.js
+  - Angular
+  - Ionic
+  - NodeJS
   - HTML
   - CSS
   - Symfony
