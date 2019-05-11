@@ -8,7 +8,7 @@ titre: Développeur PHP / Javascript
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 5 ans d'expérience
+sous_titre: 6 ans d'expérience
 
 # REQUIS
 prenom: Julien
