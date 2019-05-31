@@ -25,6 +25,7 @@ technologies:
   - webpack
   - React
   - C / C++
+---
 
 
 J'aime donner du sens aux missions que je réalise.
