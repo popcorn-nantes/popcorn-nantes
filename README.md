@@ -11,7 +11,7 @@ Les objectifs de _Popcorn_ pour les développeurs freelances :
 
 ## Nous rencontrer
 
-Nos RDV sont désormais annoncés ici: https://github.com/popcorn-nantes/popcorn-nantes-evenements.
+Nos RDV sont annoncés ici: https://www.meetup.com/fr-FR/meetup-group-tCnaDLLH/events/262409208/
 Ces évenements sont l'occasion pour ses membres de se rencontrer, boire des bières, réseauter, échanger des tuyaux boulots, parler des avancées et améliorations possibles de la plateforme.
 
 ## Créer son profil
