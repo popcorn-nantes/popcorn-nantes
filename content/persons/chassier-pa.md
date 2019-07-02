@@ -63,7 +63,7 @@ technologies:
 # La coloration syntaxique du code est supportée.
 ---
 Depuis 2018, je travaille en freelance en tant que Chef de projet, lead-dev et développeur full-stack mobile, web et logiciels.
-J'ai travaillé dans de diverses PME et start-ups pour un cumule total de 2 années.
+J'ai travaillé dans de diverses PME et start-ups pour un cumul total de 2 années.
 
 Je développe sur mon temps libre des programmes ( applications mobiles, architectures, scripts et intégrations de designs, ...) pour toujours être à jour sur les nouvelles technologies.
 Je suis motivé par l’envie d’apprendre sur les nouvelles technologies et renforcer mes compétences actuelles. Je suis diplômé d'EPITECH et de BJTU (Beijing Jiaotong University) en Chine.
