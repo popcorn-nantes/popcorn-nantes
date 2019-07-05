@@ -8,6 +8,8 @@
     "dev": "popcorn",
     "generate": "popcorn generate"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "popcorn-machine": "^2.2.0"
+  },
   "dependencies": {}
 }
