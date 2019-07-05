@@ -74,6 +74,6 @@ Je travaille dans le domaine du Web et des applications mobiles depuis plus de 1
 
 Appréhender les besoins d'un projet, définir les ressources et les technologies, définir le planning de développement, tenir les délais et le budget de départ, sont autant de points qui me semblent indispensable pour le bon déroulement d'un projet.
 
-Je suis exigeant et je me m'adapte très rapidement aux besoins.
+Je suis exigeant et je m'adapte très rapidement aux besoins.
 
 Si vous avez besoin d'une personne d'expérience pour renforcer vos équipes ou bien bootstraper un projet, je suis là pour vous aider.
