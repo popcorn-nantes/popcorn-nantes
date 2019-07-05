@@ -76,4 +76,4 @@ Appréhender les besoins d'un projet, définir les ressources et les technologie
 
 Je suis exigeant et je me m'adapte très rapidement aux besoins.
 
-Si vous avez besoin d'une personne d'expérience pour renforcer vos équipes ou bien bootstraper un projet, je suis là pour vous aidez.
+Si vous avez besoin d'une personne d'expérience pour renforcer vos équipes ou bien bootstraper un projet, je suis là pour vous aider.
