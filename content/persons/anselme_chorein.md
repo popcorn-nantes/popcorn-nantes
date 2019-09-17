@@ -17,6 +17,7 @@ technologies:
   - Angular
   - ReactJS
   - VueJS
+  - NodeJS
   - Docker
   - OpenShift
   - Kubernetes (k8s)
