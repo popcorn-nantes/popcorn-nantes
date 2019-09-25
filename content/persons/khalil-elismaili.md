@@ -6,7 +6,12 @@ sous_titre: Spécialiste React.js & React Native
 prenom: Khalil
 
 nom: EL ISMAILI
+
 mail: khalil.elismaili@gmail.com
+
+disponible: true
+
+telephone: 06 51 33 92 73
 
 photo: /images/khalil-elismaili.png
 
