@@ -13,7 +13,7 @@ disponible: true
 
 telephone: 06 51 33 92 73
 
-photo: /images/khalil-elismaili.png
+photo: /images/khalil-elismaili.jpg
 
 domaines_metiers:
   - sites web
