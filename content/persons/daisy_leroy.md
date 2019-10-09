@@ -57,15 +57,16 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Drupal 7 & 8 ⭐⭐⭐⭐★
-  - eZPublish 4 & 5 ⭐⭐⭐⭐★
-  - Wordpress ⭐⭐⭐★★
-  - PHP ⭐⭐⭐⭐★
-  - Symfony ⭐⭐⭐⭐★
-  - Javascript ⭐⭐⭐⭐★
-  - JQuery ⭐⭐⭐★★
-  - Vuejs ⭐⭐★★★
-  - CSS ⭐⭐★★★
+  - Drupal 7 & 8 
+  - eZPlatform
+  - eZPublish 4 & 5 
+  - Wordpress 
+  - PHP 
+  - Symfony 
+  - Javascript 
+  - JQuery 
+  - Vuejs 
+  - CSS 
   - Git 
   - Docker 
   - Vagrant 
@@ -78,5 +79,5 @@ technologies:
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
-Développeuse Back end depuis 2008, disponible pour des missions de développement ou TMA en remote à temps partiel (4/5eme).
+Développeuse Back end depuis 2008, disponible pour des missions de développement ou TMA en remote à temps partiel.
 N'hésitez pas à me contacter !
