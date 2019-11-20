@@ -52,8 +52,11 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Ruby / Rails
-  - JavaScript / VueJS / React/ PWA
+  - Ruby
+  - Ruby on Rails
+  - JavaScript 
+  - VueJS 
+  - React
   - SQL
 
 # REQUIS
