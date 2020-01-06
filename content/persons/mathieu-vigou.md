@@ -19,7 +19,7 @@ technologies:
   - PHP
   - JAVASCRIPT
   - SQL
- ---
+---
 
 **Après 10 ans d’expériences** dans divers projets informatiques, et sensible au monde de l'image depuis de nombreuses années, **j'ai souhaité me consacrer à un développement plus respectueux** en mettant l'ensemble de mes compténces au profit de la valorisation d'activités et de savoir-faires tout en limitant l'empreinte environnementale de mes réalisations.
 
