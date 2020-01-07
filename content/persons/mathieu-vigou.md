@@ -1,6 +1,6 @@
 ---
 titre: Développement de site web écoconçus
-sous_titre: Site web sur mesure, sobre, inclusifs et accessibles avec une faible emprunte environnementale. 
+sous_titre: Site web sur mesure, sobre, inclusifs et accessibles avec une faible empreinte environnementale. 
 prenom: Mathieu
 nom: Vigou
 mail: contact@librae.fr
