@@ -14,6 +14,8 @@ technologies:
   - Node
   - GraphQL
   - JAMStack
+  - Gatsby
+  - Gridsome
 ---
 
 Je suis développeur JavaScript FullStack avec une spécialisaton en **Nuxt.js**, **Vue.js**, Node et GraphQL. Je fais également régulièrement du **Gatsby.js.** et je suis le fondateur de https://fireblogcms.com : un nouveau CMS headless entièrement dédié au blogging qui permet de créer des blogs JAMstack ultra-performants, PWA et AMP compatibles, pour optimiser votre stratégie de contenus et votre référencement naturel.
