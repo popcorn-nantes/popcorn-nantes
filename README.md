@@ -60,4 +60,4 @@ npm run generate
 
 ### Déployer
 
-Le déploiement du site est déclenché automatiquement par _Travis_ lors d'un merge sur la branche `master`. Il peut prendre quelques minutes (environ 3 minutes habituellement) avant d'être visible en production.
+Le déploiement du site est déclenché automatiquement par les *github actions* lors d'un merge sur la branche `master`. Les changements peuvent donc prendre quelques minutes avant d'être visible en production.
