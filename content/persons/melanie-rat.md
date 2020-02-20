@@ -75,4 +75,4 @@ technologies:
 
 Mi professeure au Wagon Nantes, mi **développeuse full stack** en freelance, je suis joaillière du Ruby depuis début 2019. Je me ferai un plaisir de répondre à vos besoins/problématiques par toute sorte de sorcelleries farfelues bien indentées.
 
-Retrouvez plus d'information sur mon profil en cliquant ici melanierat.site
+Retrouvez plus d'information sur mon profil en cliquant ici https://melanierat.site
