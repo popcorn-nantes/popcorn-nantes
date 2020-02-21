@@ -20,6 +20,9 @@ jobs:
           node-version: '10.x'
 
       - name: Build
+        env:
+          POPCORN_BASE_URL: https://popcorn-nantes.github.io
+          POPCORN_SLACK_WEBHOOK: ${{ secrets.POPCORN_SLACK_WEBHOOK }}
         run: |
           npm install
           npm run generate
