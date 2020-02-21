@@ -34,4 +34,3 @@ jobs:
           external_repository: popcorn-nantes/popcorn-nantes.github.io
           publish_branch: master
           publish_dir: ./dist
-
