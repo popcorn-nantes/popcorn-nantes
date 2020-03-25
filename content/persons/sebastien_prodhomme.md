@@ -8,7 +8,7 @@ titre: Expert PHP / Développeur JAVA FullStack
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Plus de 15 ans d'expérience en PHP, 4 ans en JAVA
+sous_titre: 20 ans d'expérience en développement logiciel
 
 # REQUIS
 prenom: Sébastien
@@ -55,27 +55,19 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - PHP
-  - JAVA 
+  - JAVA
   - JavaScript (Natif/Angular/React)
-  - Symfony
-  - Laravel
-  - Spring
-  - Spring Boot
+  - Spring / Spring Boot
   - Hibernate
   - Spring Cloud
   - Spring Bash
-  - Hibernate Envers
-  - Thymeleaf
-  - Freemarker
-  - Struts
-  - PostgreSQL
-  - MySQL
-  - Oracle
-  - Docker
+  - PHP
+  - Symfony
+  - Laravel
   - Linux
   - Apache
   - Tomcat
+  - Docker
   
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
@@ -90,3 +82,5 @@ Je suis capable d'installer vos serveurs, de les paramétrer, d'y déployer vos 
 J'ai une approche fonctionnelle des projets, et apprécie un travail **rigoureux** dans l'analyse.
 
 Je travaille essentiellement sur des projets grand-comptes (SNCF, domaine bancaire, assurance, transport, industrie), et suis ouvert à tout projet.
+
+Pour plus d'information, vous pouvez visiter mon [site Internet professionnel](https://sebastien.prodhomme.dev/ "Expert PHP / Développeur JAVA Senior").
