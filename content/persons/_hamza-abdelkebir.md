@@ -74,7 +74,7 @@ Bonjour,
 
 Je suis Hamza, un développeur fullstack ayant **8 ans d'expérience professionnelle** variée notamment au sein d'ESN ou de startups mais également en tant que développeur freelance. Je suis quelqu'un de polyvalent et adaptable à différents contextes et enjeux.
 
-Ma stack technique de prédilection est **Laravel/Vue** mais je peux également intervenir sur développement **Django**, Spring ou **mobile (Natif ou Hybride)**.
+Ma stack technique de prédilection est **Laravel/Vue** mais je peux également intervenir sur du développement avec **Django**, Spring ou du **mobile (Natif ou Hybride)**.
 
 Je suis quelqu'un d'enthousiaste et de passionné par le développement. Que ce soit pour un renfort te;poraire de votre équipe ou d'un projet de développement en cours de réflexion, Contactez moi et parlons en !
 
