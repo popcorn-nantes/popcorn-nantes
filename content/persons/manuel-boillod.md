@@ -3,7 +3,7 @@ titre: Architecte Cloud / DevOps / Conteneurisation
 sous_titre: 12 ans d'expérience
 prenom: Manuel
 nom: Boillod
-photo: /images/manuel-boillod.jpg
+photo: manuel-boillod.jpg
 mail: boillodmanuel@gmail.com
 telephone:
 disponible: true
@@ -31,6 +31,7 @@ technologies:
 Lors de mes 12 ans d’expérience dans le développement logiciel, je suis passé par les postes de développeur, architecte logiciel, tech lead, architecte cloud et directeur technique, principalement autour des technologies Java et Javascript. J’ai aussi évolué plus de 5 ans dans les architectures cloud et saas. Adepte des bonnes pratiques, j’ai toujours cherché à travailler dans un environnement stimulant et fluide, fédérant toutes les équipes et propice à livrer de la valeur rapidement.
 
 Je me suis aujourd’hui spécialisé dans l’accompagnement des entreprises dans les architectures cloud, la culture devops et la containerisation. À ce titre, j’interviens sur :
+
 - La mise en place de la culture devops au sein des équipes,
 - La containerisation avec docker et kubernetes des environnements dev, test et prod,
 - La définition et mise en place des architecture cloud, sur AWS et GCP, via l’infrastructure as code,

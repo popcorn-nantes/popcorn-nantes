@@ -27,12 +27,12 @@ nom: nom
 mail: mail@mail.fr
 
 # OPTIONNEL
-# ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
+# ATTENTION cette donnée est PUBLIQUE et en CLAIRE dans le dépot git et sur le site
 telephone:
 
 # REQUIS
-# l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/placeholder-5.png
+# l'image doit être ajoutée dans le dossier /static/media/photos et faire moins de 100ko !
+photo: placeholder-5.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -59,7 +59,7 @@ technologies:
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
-# La coloration syntaxique du code est supportée.
+# Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
 Ut **enim** quisque sibi plurimum confidit et ut quisque maxime virtute et sapientia sic munitus est, ut nullo egeat suaque omnia in se ipso posita iudicet, ita in amicitiis expetendis colendisque maxime excellit. Quid enim? Africanus indigens mei? Minime hercule! ac ne ego quidem illius; sed ego admiratione quadam virtutis eius, ille vicissim opinione fortasse non nulla, quam de meis moribus habebat, me dilexit; auxit benevolentiam consuetudo. Sed quamquam utilitates multae et magnae consecutae sunt, non sunt tamen ab earum spe causae diligendi profectae.

@@ -3,8 +3,8 @@ titre: Développeur FullStack (PHP/JavaScript)
 prenom: Yaël
 nom: Guilloux
 mail: yael@ipseity.fr
-telephone: '+33664537218'
-photo: /images/yael-guilloux.jpg
+telephone: "+33664537218"
+photo: yael-guilloux.jpg
 domaines_metiers:
   - sites web
   - applications mobiles

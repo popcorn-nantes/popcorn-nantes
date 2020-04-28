@@ -3,7 +3,7 @@ titre: Développeur JavaScript FullStack
 sous_titre: spécialisé en Vue, Node, GraphQ &, Jamstack
 prenom: Yann
 nom: Boisselier
-photo: /images/yineo.jpg
+photo: yineo.jpg
 mail: yann@yineo.fr
 telephone:
 domaines_metiers:
@@ -22,4 +22,3 @@ Je suis développeur JavaScript FullStack avec une spécialisaton Vue.js, Node, 
 Vous pouvez me retrouver sur:
 - Linkedin: https://www.linkedin.com/in/yann-boisselier/
 - Twitter: https://twitter.com/yann_yinn
-

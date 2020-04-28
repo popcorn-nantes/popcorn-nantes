@@ -1,0 +1,100 @@
+{% extends "layout.njk" %}
+{% import "macros.njk" as macros %}
+
+{% block head %}
+  <title>Popcorn Nantes | {{entity.prenom}} {{entity.nom}}</title>
+    {{ 
+    macros.socialMetas(
+      title="Profil freelance de "+ entity.prenom + " " + entity.nom + "," + entity.titre,
+      description="Trouvez un développeur freelance à Nantes sans intermédiaire et sans frais.",  
+      url=SITE_BASE_URL + "/person/" + entity.$slug,
+      image=SITE_BASE_URL + "/media/thumbnails/" + entity.photo
+    ) 
+  }}
+{% endblock %}
+
+{% block content %}
+  <div class="container mx-auto my-10 px-10">
+    <div class="flex flex-wrap">
+      <div class="w-full md:w-1/4 pr-0 md:pr-10">
+        <img class="object-cover" src="/media/photos/{{entity.photo}}" />
+      </div>
+      <div class="w-full mt-10 md:w-3/4 md:mt-0">
+        <div class="flex flex-wrap items-start">
+          <div class="w-full md:w-3/4">
+            <h1 class="font-bold text-xl">{{ entity.prenom }} {{ entity.nom }}, {{ entity.titre }}</h1>
+            <div class="italic">{{entity.sous_titre}}</div>
+          </div>
+          <div class="w-full md:w-1/4 text-center my-6 md:my-0 md:text-right">
+            <button onclick="showModal()" class="bg-blue-500 hover:bg-blue-600 text-white shadow-md font-bold py-2 px-4 rounded">
+              Contacter
+            </button>
+          </div>
+        </div>
+        <div class="html-content mt-6">
+          {{ entity.$html }}
+        </div>
+        <div class="mt-6">
+          {% for technology in entity.technologies %}
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 my-1">
+            {{technology}}
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div data-modal style="display:none">
+    <div class="flex items-center justify-center fixed left-0 bottom-0 w-full h-full bg-gray-800">
+      <div class="bg-white rounded-lg" style="max-width:600px">
+        <div class="flex flex-col items-start p-4">
+          <div class="flex items-center w-full">
+              <svg onclick="closeModal()" class="ml-auto fill-current text-gray-700 w-6 h-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+                <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"/>
+              </svg>
+            </div>
+          <hr>
+          <div class="">
+             <div class="md:flex bg-white rounded-lg p-6">
+              <img class="h-32 w-32 object-cover md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" alt="{{ entity.prenom }} {{ entity.nom }}" src="/media/photos/{{entity.photo}}">
+              <div class="text-center md:text-left">
+                <h2 class="text-lg">{{entity.prenom}} {{entity.nom}}</h2>
+                <div class="text-purple-500">{{entity.titre}}</div>
+                <div data-mail class="text-gray-600">{{entity.mail}}</div>
+                <div data-telephone class="text-gray-600">{{entity.telephone}}</div>
+                <div class="text-gray-600 mt-6">Indiquez-lui que vous l'avez trouvé·e sur Popcorn 🍿 :)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const contactModal = document.querySelector('[data-modal]');
+    // l'email et le téléphone sont vaguement obscurcis dans le code source html.
+    // on les décode au moment d'ouvrir les infos de contact.
+    let dataDecoded = false
+    const emailElement = document.querySelector("[data-mail]")
+    const telephoneElement = document.querySelector("[data-telephone]")
+
+    function closeModal() {
+      contactModal.style.display = "none"
+    }
+
+    function showModal() {
+      if (dataDecoded === false) {
+        emailElement.innerHTML = atob(emailElement.textContent);
+        telephoneElement.innerHTML = atob(telephoneElement.textContent);
+        dataDecoded = true;
+      }
+      contactModal.style.display = "block"
+    }
+  </script>
+
+
+{% endblock %}
+
+
