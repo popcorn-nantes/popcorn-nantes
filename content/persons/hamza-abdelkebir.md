@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/hamza-abdelkebir.jpg
+photo: hamza-abdelkebir.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -63,7 +63,6 @@ technologies:
   - Quasar/Cordova
   - Angular
   - Java
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée

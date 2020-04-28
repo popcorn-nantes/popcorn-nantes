@@ -36,7 +36,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/david-bocquet.jpeg
+photo: david-bocquet.jpeg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -66,18 +66,16 @@ technologies:
   - CSS
   - jQuery
   - SQL
-
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Développeur Drupal en Freelance pour les TPE/PME, les commerçants, les artisans, je réalise toutes sortes de sites web, notamment des sites vitrines simples, des sites e-commerces, des intranets / sites collaboratif ou bien encore des applications web conçues sur mesure. 
+Développeur Drupal en Freelance pour les TPE/PME, les commerçants, les artisans, je réalise toutes sortes de sites web, notamment des sites vitrines simples, des sites e-commerces, des intranets / sites collaboratif ou bien encore des applications web conçues sur mesure.
 
 Car j'ai pleinement conscience que derrière l'outil informatique, il y a des utilisateurs ;
 Car j'attache une importance particulière à la notion de SERVICES dans "services informatiques" ;
-Vous pourrez compter sur ma disponibilité, mon écoute pour comprendre vos attentes  et vous proposer une solution informatique qui réponde à vos besoins. 
+Vous pourrez compter sur ma disponibilité, mon écoute pour comprendre vos attentes et vous proposer une solution informatique qui réponde à vos besoins.
 
 Disponible tous les jours, je suis joignable par téléphone et par mail. Réactif, je vous apporterai une réponse dans les 24H.
 

@@ -8,7 +8,7 @@ mail: jobs@gwenp.fr
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/gwenael-pluchon.jpg
+photo: gwenael-pluchon.jpg
 
 domaines_metiers:
   - sites web
@@ -21,7 +21,6 @@ technologies:
   - Vue.js
   - Node
   - Mongodb
-
 ---
 
 Développeur Freelance passionné, pouvant intervenir facilement dans un environnement international.

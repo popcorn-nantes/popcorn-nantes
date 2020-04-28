@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron:  '0 6 * * *'
+    - cron: "0 6 * * *"
 
 jobs:
   build-and-deploy:
@@ -17,15 +17,14 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
         with:
-          node-version: '10.x'
+          node-version: "10.x"
 
       - name: Build
         env:
-          POPCORN_BASE_URL: https://popcorn-nantes.github.io
-          POPCORN_SLACK_WEBHOOK: ${{ secrets.POPCORN_SLACK_WEBHOOK }}
+          SITE_BASE_URL: https://popcorn-nantes.github.io
         run: |
           npm install
-          npm run generate
+          npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

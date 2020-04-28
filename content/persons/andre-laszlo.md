@@ -1,12 +1,11 @@
 ---
-
 titre: Développeur FullStack
 sous_titre: 10+ ans d'expérience
 
 prenom: André
 nom: Laszlo
 mail: freelance@laszlo.nu
-photo: /images/andre-laszlo.png
+photo: andre-laszlo.png
 
 domaines_metiers:
   - applications web
@@ -27,7 +26,6 @@ technologies:
   - AWS
   - Ionic
   - PHP
-
 ---
 
 I'm a **Swedish developer** with experience from a variety of

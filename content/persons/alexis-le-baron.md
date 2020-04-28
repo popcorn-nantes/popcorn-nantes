@@ -5,7 +5,7 @@ prenom: Alexis
 nom: Le Baron
 mail: alexis@lebaron.io
 telephone: 0637491628
-photo: /images/alexis-le-baron.jpg
+photo: alexis-le-baron.jpg
 
 domaines_metiers:
   - sites web
@@ -26,7 +26,6 @@ technologies:
   - React
   - C / C++
 ---
-
 
 J'aime donner du sens aux missions que je réalise.
 

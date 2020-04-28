@@ -37,7 +37,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/hadrien.webp
+photo: hadrien.webp
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -62,13 +62,13 @@ technologies:
   - JavaScript / CSS / HTML
   - ReactJs
   - React Native
-  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
 ### Cadrer votre projet
+
 Vous avez un projet ou une idée de startup que vous voulez développer ou discuter ?
 Vous souhaitez faire accompagner un junior dans le développement de votre solution?
 Vous souhaitez simplement du conseil ou une formation touchant à l'écosystème web ?
@@ -78,6 +78,7 @@ Un site web pour présenter votre produit ? (Quelques jours et à partir de 2000
 Discutons-en, je devrais pouvoir vous aider !
 
 ### Mon écosystème
+
 J'ai également l'habitude de travailler avec une petite équipe de freelances, tous excellents dans leur domaine (design, frontend, backend), pour prototyper des MVP de startup ou projets naissants.
 
 Avec des compétences variées allant de MongoDB, NodeJs, et Java aux technologies du web moderne comme HTML5, JavaScript, AngularJs, ReactJs, React Native, PhoneGap/Cordova, Ionic... je m'adapte à la plupart des projets et apprends rapidement les nouvelles technologies que je ne connais pas.
@@ -86,10 +87,10 @@ Ayant travaillé dans de nombreux domaines comme la banque, le voyage/tourisme, 
 
 Au delà de ma passion pour le développement logiciel, je fais également beaucoup de veille technologique. Je suis entre autre Editeur/Traducteur pour le site InfoQ.
 
-Je travaille actuellement principalement sur les technologies suivantes : 
+Je travaille actuellement principalement sur les technologies suivantes :
 Reactjs, React Native.
 
-Développeur fullstack, j'expérimente sur pas mal de nouvelles technologies et frameworks. 
+Développeur fullstack, j'expérimente sur pas mal de nouvelles technologies et frameworks.
 N'hésitez pas à me contacter, j'essaye de répondre rapidement.
 
 Vous pouvez également me contacter pour des emails et intégrations.
@@ -101,4 +102,3 @@ https://hadrienpierart.com/
 https://www.toptal.com/resume/hadrien-pierart
 https://www.linkedin.com/in/hadrien-pierart
 https://getslingshot.io
-

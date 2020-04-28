@@ -1,5 +1,4 @@
 ---
-
 titre: Ingénieur DevOps
 sous_titre: 3 ans d'envie de faire les choses bien
 
@@ -8,7 +7,7 @@ disponible: true
 prenom: Édouard
 nom: Tikouirt
 mail: e.tikouirt+popcorn@gmail.com
-photo: /images/edouard-tikouirt.jpg
+photo: edouard-tikouirt.jpg
 
 domaines_metiers:
   - devops
@@ -31,7 +30,6 @@ technologies:
   - Ansible
   - Gitlab CI
   - Python
-
 ---
 
 ## Ce que j'ai fait

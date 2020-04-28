@@ -32,7 +32,7 @@ telephone: +33 6 82 53 47 57
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/carlos.jpg
+photo: carlos.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -59,21 +59,22 @@ technologies:
   - JavaScript
   - HTML
   - CSS
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
-Responsable d'équipe depuis plusieurs années, j'ai souvent été amené à auditer le service IT  pour réaligner l'équipe en charge du développement informatique avec la vision stratégique.  
 
-Ma méthode est simple :  
-- Identifier le besoin et ce qui empêche de l'atteindre  
-- Définir avec toutes les parties prenantes le meilleur chemin pour atteindre le but  
-- Dérouler la feuille de route en s'assurant que chacun ait tous les moyens nécessaires et suffisant dans son périmètre  
+Responsable d'équipe depuis plusieurs années, j'ai souvent été amené à auditer le service IT pour réaligner l'équipe en charge du développement informatique avec la vision stratégique.
+
+Ma méthode est simple :
+
+- Identifier le besoin et ce qui empêche de l'atteindre
+- Définir avec toutes les parties prenantes le meilleur chemin pour atteindre le but
+- Dérouler la feuille de route en s'assurant que chacun ait tous les moyens nécessaires et suffisant dans son périmètre
 
 Pour cela, j'ai de solides connaissances en SCRUM et Kanban, ainsi qu'en gestion de projet et conduite du changement.  
 Je peux aussi bien prendre le poste de Product Owner, que de manager d'équipe.  
-J'ai l'habitude de travailler dans des environnements techniques en PHP / Symfony / Mysql. J'ai pu gérer des projets nécessitant la mise en place de RabbitMQ / Supervisor / Redis / React.  
+J'ai l'habitude de travailler dans des environnements techniques en PHP / Symfony / Mysql. J'ai pu gérer des projets nécessitant la mise en place de RabbitMQ / Supervisor / Redis / React.
 
 On me définit souvent comme un Head Of Product avec des connaissances techniques 😊

@@ -37,7 +37,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/fabien-grenon.jpg
+photo: fabien-grenon.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -72,6 +72,7 @@ technologies:
 Développeur web et mobile, j'ai commencé en travaillant sur des apps Android natives avant de me spécialiser dans les technologies JavaScript Angular et React. Je suis capable de vous accompagner dans les choix à faire pour votre projet. Selon vos besoins, je peux concevoir vos applications, vous conseiller sur votre UI et intégrer vos designs. J'accorde une importance toute particulière à l'optimisation et à la performance de mes développements.
 
 Missions recherchées :
+
 - Développement front-end d'apps web et mobile (PWA)
 - Conseils UI, intégration de templates à partir de maquettes, Responsive Design
 - Refonte complète ou partielle d'apps web

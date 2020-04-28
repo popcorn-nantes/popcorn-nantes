@@ -32,7 +32,7 @@ telephone: 06 61 82 98 69
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/sebastien-prodhomme.jpg
+photo: sebastien-prodhomme.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -68,14 +68,13 @@ technologies:
   - Apache
   - Tomcat
   - Docker
-  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
 
-Développeur **expérimenté**, j'ai travaillé en environnement **agile** aussi bien que sur de la gestion de projet classique, en **autonomie** ou en **équipe**. Je m'adapte à tous les environnements,  à distance ou dans vos locaux.
+Développeur **expérimenté**, j'ai travaillé en environnement **agile** aussi bien que sur de la gestion de projet classique, en **autonomie** ou en **équipe**. Je m'adapte à tous les environnements, à distance ou dans vos locaux.
 
 Je suis capable d'installer vos serveurs, de les paramétrer, d'y déployer vos applications, les sécuriser. Je peux proposer des solutions d'architecture, industrialiser vos processus et j'ai même des expériences de formation et d'audit de sécurité.
 

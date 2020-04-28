@@ -3,7 +3,7 @@ titre: Développeur JavaScript FullStack
 sous_titre: 10 ans d'expérience
 prenom: Yann
 nom: Boisselier
-photo: /images/yineo.jpg
+photo: yineo.jpg
 mail: yann@yineo.fr
 telephone:
 domaines_metiers:

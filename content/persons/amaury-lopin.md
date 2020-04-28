@@ -32,7 +32,7 @@ telephone: 07 54 37 36 45
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/amaurylopin.png
+photo: amaurylopin.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -57,16 +57,15 @@ technologies:
   - HTML
   - Wordpress
   - SQL
-  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
 
-Au cours des 9 dernières années, j'ai réalisé près de 100 projets web en m'appuyant sur mon expertise de Wordpress (certification SkillValue, 17/20). 
+Au cours des 9 dernières années, j'ai réalisé près de 100 projets web en m'appuyant sur mon expertise de Wordpress (certification SkillValue, 17/20).
 
-Grâce à cette expertise, j'ai réalisé des optimisations de vitesse sur des sites internet (normes SEO), et j'ai créé des sites vitrine, e-commerce et intranet. 
+Grâce à cette expertise, j'ai réalisé des optimisations de vitesse sur des sites internet (normes SEO), et j'ai créé des sites vitrine, e-commerce et intranet.
 
 J'ai effectué ces réalisations en tant que salarié (CDI en agence) et désormais en tant que freelance auprès d'une vingtaine de clients.
 

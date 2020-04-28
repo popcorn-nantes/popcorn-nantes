@@ -32,7 +32,7 @@ telephone: 06.52.01.06.63
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/mickael-zafiriou.jpg
+photo: mickael-zafiriou.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -66,7 +66,6 @@ technologies:
   - HTML
   - CSS
   - Twig
-  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée

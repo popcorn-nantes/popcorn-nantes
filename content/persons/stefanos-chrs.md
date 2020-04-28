@@ -13,7 +13,7 @@ disponible: true
 
 telephone:
 
-photo: /images/stefanos-chrs.jpg
+photo: stefanos-chrs.jpg
 
 domaines_metiers:
   - sites web
@@ -31,16 +31,16 @@ technologies:
   - Amazon Web Services
   - Python
 ---
-  
+
 👶 I've been programming since I was 12 and I've been involved with Web & Mobile technologies for more than 10 years.  
 🔨 I've been part of numerous projects handling Front-end, Back-end, Hardware, Dev-ops.  
 🏗 My favorite stack is Angular, Ionic, Node.js, JavaScript, Go, Linux.  
 ☕ I love scripting and automations.  
-☣ I have a strong interest in Security.  
-  
-Currently interested only in Remote Work.  
-  
-- Business:    [LinkedIn](https://www.linkedin.com/in/stefanoschrs/)  
-- Personal:    [stefanoschrs.com](https://stefanoschrs.com)  
-- Code:        [GitHub](https://github.com/stefanoschrs)  
-- Latest Work: [Behance](https://www.behance.net/stefanoschrs)  
+☣ I have a strong interest in Security.
+
+Currently interested only in Remote Work.
+
+- Business: [LinkedIn](https://www.linkedin.com/in/stefanoschrs/)
+- Personal: [stefanoschrs.com](https://stefanoschrs.com)
+- Code: [GitHub](https://github.com/stefanoschrs)
+- Latest Work: [Behance](https://www.behance.net/stefanoschrs)

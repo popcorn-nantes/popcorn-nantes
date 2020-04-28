@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/valentin-merlet.png
+photo: valentin-merlet.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -67,11 +67,12 @@ technologies:
 # La coloration syntaxique du code est supportée.
 ---
 
-Développeur web et mobile, j'ai travaillé seul et en équipe sur de nombreux projets de la conception à la mise en production. 
-Fort de 7 ans d'expérience, j'ai travaillé à la fois pour de petits clients comme pour de grands comptes (Société Générale, Essilor, Isilines). 
+Développeur web et mobile, j'ai travaillé seul et en équipe sur de nombreux projets de la conception à la mise en production.
+Fort de 7 ans d'expérience, j'ai travaillé à la fois pour de petits clients comme pour de grands comptes (Société Générale, Essilor, Isilines).
 Je suis aujourd'hui à la recherche de projets web et mobiles en tant que freelance.
 
 Les compétences que j'ai développé au cours de mes expériences sont les suivantes :
+
 - PHP/Symfony
 - Tests unitaires (PHPUnit, Phpspec)
 - Intégration continue (CircleCI, Jenkins)

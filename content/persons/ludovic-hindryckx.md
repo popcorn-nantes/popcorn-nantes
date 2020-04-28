@@ -33,7 +33,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/ludovic-hindryckx.jpg
+photo: ludovic-hindryckx.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -70,7 +70,7 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Je travaille dans le domaine du Web et des applications mobiles depuis plus de 15 ans, j'ai acquis une forte expérience à la fois dans le développement (Node.JS, React, React-native, Ruby, Devops..) ainsi que dans la gestion d'un projet d'une manière plus globale. 
+Je travaille dans le domaine du Web et des applications mobiles depuis plus de 15 ans, j'ai acquis une forte expérience à la fois dans le développement (Node.JS, React, React-native, Ruby, Devops..) ainsi que dans la gestion d'un projet d'une manière plus globale.
 
 Appréhender les besoins d'un projet, définir les ressources et les technologies, définir le planning de développement, tenir les délais et le budget de départ, sont autant de points qui me semblent indispensable pour le bon déroulement d'un projet.
 

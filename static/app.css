@@ -1,0 +1,25 @@
+/*
+taildwind is compiled with postcss
+@see npm run build:css command in package.json
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.html-content h1 {
+  @apply font-bold;
+  @apply text-lg;
+}
+
+.html-content h2 {
+  @apply font-bold;
+  @apply text-lg;
+}
+
+.html-content p {
+  @apply my-6;
+}
+
+.html-content a {
+  @apply text-blue-500;
+}

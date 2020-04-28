@@ -13,11 +13,11 @@ disponible: true
 
 telephone: 07 66 82 29 98
 
-photo: /images/nada-rifki.jpg
+photo: nada-rifki.jpg
 
 domaines_metiers:
   - sites web
-  - applications mobiles 
+  - applications mobiles
   - site vitrine
 
 technologies:

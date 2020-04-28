@@ -37,7 +37,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/melanie-rat.png
+photo: melanie-rat.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -75,4 +75,4 @@ technologies:
 
 Mi professeure au Wagon Nantes, mi **développeuse full stack** en freelance, je suis joaillière du Ruby depuis début 2019. Je me ferai un plaisir de répondre à vos besoins/problématiques par toute sorte de sorcelleries farfelues bien indentées.
 
-Retrouvez plus d'information sur mon profil en cliquant ici https://melanierat.site 
+Retrouvez plus d'information sur mon profil en cliquant ici https://melanierat.site

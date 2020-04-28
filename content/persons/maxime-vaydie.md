@@ -37,7 +37,7 @@ telephone: 0664222142
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/maxime-v.jpg
+photo: maxime-v.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -60,7 +60,6 @@ technologies:
   - JavaScript
   - ReactJS
   - NodeJS
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -69,6 +68,7 @@ technologies:
 Bonjour,
 Je suis un Développeur Javascript Nantais qui propose de vous accompagner dans vos projets numériques.
 Je vous garantis une intervention rapide et reste disponible par mail ou téléphone.
+
 - Développpement front-end (React JS, REDUX)
 - Intégration de template (RWD)
 - intégration d'API

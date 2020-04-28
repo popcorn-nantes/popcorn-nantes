@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/zineb-errahmouni.jpg
+photo: zineb-errahmouni.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -67,7 +67,6 @@ technologies:
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
+
 Je suis une développeuse trés passionnée par les nouvelles techno, je touche à tout Backend et Frontend, j'adore explorer des nouvelles technologies
 faire des pocs ... , je fais aussi beaucoup de veille technique.
-
-

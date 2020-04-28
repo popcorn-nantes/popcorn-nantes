@@ -32,7 +32,7 @@ telephone: 0685381460
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/chassierpa.jpg
+photo: chassierpa.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -62,6 +62,7 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
+
 Depuis 2018, je travaille en freelance en tant que Chef de projet, lead-dev et développeur full-stack mobile, web et logiciels.
 J'ai travaillé dans de diverses PME et start-ups pour un cumul total de 2 années.
 
@@ -69,7 +70,7 @@ Je développe sur mon temps libre des programmes ( applications mobiles, archite
 Je suis motivé par l’envie d’apprendre sur les nouvelles technologies et renforcer mes compétences actuelles. Je suis diplômé d'EPITECH et de BJTU (Beijing Jiaotong University) en Chine.
 Je suis autodidacte en informatique ce qui accentue la rapidité de mon apprentissage.
 
-Mes principales technologies sont : 
+Mes principales technologies sont :
 Golang (3 ans d'exp)
 React-Native / Réact.js (2 ans d'exp)
 C/C++ (4 ans d'exp)

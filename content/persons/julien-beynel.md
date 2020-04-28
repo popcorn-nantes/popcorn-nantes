@@ -32,7 +32,7 @@ telephone: 06 95 71 83 09
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/julienBeynel.png
+photo: julienBeynel.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -73,6 +73,7 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
+
 Durant mes 5 années d'expériences, j'ai pu participer à plein de projets différents en développement web full-stack.
 
 J'apporte mon enthousiasme et ma créativité à proposer et mettre en œuvre des solutions en développement web adaptées à des environnements innovants et complexes.

@@ -32,7 +32,7 @@ telephone: 0766415241
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/arnaud_dub.jpg
+photo: arnaud_dub.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -64,10 +64,10 @@ technologies:
 # La coloration syntaxique du code est supportée.
 ---
 
-Issus du monde de la gestion (comptabilité et management d'entreprise) j'ai choisi il y a 4 ans de me reconvertir dans un domaine qui m'a toujours attiré : le développement. 
+Issus du monde de la gestion (comptabilité et management d'entreprise) j'ai choisi il y a 4 ans de me reconvertir dans un domaine qui m'a toujours attiré : le développement.
 
 Depuis, je me suis occupé du développement et de la maitenance d'un ERP, j'ai travaillé pour de grands groupes en intervenant sur des projets tous plus exitants les uns que les autres.
 
-Depuis peu j'interviens également comme formateur pour transmettre ce que l'on m'a un jour appris. 
+Depuis peu j'interviens également comme formateur pour transmettre ce que l'on m'a un jour appris.
 
 N'hésitez pas à me contacter, c'est toujours un plaisir pour moi de contribuer à un nouveau projet.

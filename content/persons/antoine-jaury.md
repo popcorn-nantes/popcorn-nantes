@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/antoine-jaury.jpg
+photo: antoine-jaury.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -65,4 +65,3 @@ Développeur Android natif, j'accompagne les projets d'applications mobiles de l
 Au delà du code, je suis sensible à la définition du besoin et à la conception de l'expérience utilisateur. Nous pouvons ainsi penser ensemble l'application dont vous avez besoin avant de la réaliser.
 
 Je me tiens constamment informé des nouveautés relatives au développement Android (Kotlin, Jetpack Architecture Components, évolutions du SDK ...) et suis à même de travailler sur de nouveaux projets incluant les bonnes pratiques recommandées par Google pour le développement Android.
-

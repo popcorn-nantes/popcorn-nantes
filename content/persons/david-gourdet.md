@@ -33,7 +33,7 @@ telephone: 06 68 38 52 48
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/david-g.jpg
+photo: david-g.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -65,7 +65,6 @@ technologies:
   - ThreeJS (bientôt 🙏)
   - Plotly
   - MJML
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -97,8 +96,5 @@ Je travaille sur Mac avec VSCode ou PHPStorm comme IDE.
 Browser : Chrome ou Firefox
 Design : Photoshop, XD, Sketch, Figma
 Framework CSS : toujours en construction, Tailwind me fait de l'oeil
-Signe particulier : j'ai soif 🍺 et j'ai faim 🍔 de code ! 
+Signe particulier : j'ai soif 🍺 et j'ai faim 🍔 de code !
 Sport : golf 🏌️‍♂️
-
-
-

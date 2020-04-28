@@ -19,13 +19,13 @@ mail: anthony_youssef@hotmail.fr
 telephone:
 
 # REQUIS
-photo: /images/antho-youss.jpg
+photo: antho-youss.jpg
 
 # REQUIS
 domaines_metiers:
-- Conception
-- Backend
-- DevOps
+  - Conception
+  - Backend
+  - DevOps
 
 # REQUIS
 technologies:
@@ -35,9 +35,6 @@ technologies:
   - Unity3D
   - CI (Travis, Jenkins, AppVeyor...)
   - Docker
-
-
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée

@@ -37,7 +37,7 @@ telephone: 0634680938
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/daisy-leroy.jpg
+photo: daisy-leroy.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -57,27 +57,27 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Drupal 7 & 8 
+  - Drupal 7 & 8
   - eZPlatform
-  - eZPublish 4 & 5 
-  - Wordpress 
-  - PHP 
-  - Symfony 
-  - Javascript 
-  - JQuery 
-  - Vuejs 
-  - CSS 
-  - Git 
-  - Docker 
-  - Vagrant 
-  - Linux 
-  - MailHog 
+  - eZPublish 4 & 5
+  - Wordpress
+  - PHP
+  - Symfony
+  - Javascript
+  - JQuery
+  - Vuejs
+  - CSS
+  - Git
+  - Docker
+  - Vagrant
+  - Linux
+  - MailHog
   - Portainer
   - Docker4drupal
-  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
+
 Développeuse Back end depuis 2008, disponible pour des missions de développement ou TMA en remote à temps partiel.
 N'hésitez pas à me contacter !
