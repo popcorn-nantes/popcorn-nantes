@@ -32,4 +32,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: popcorn-nantes/popcorn-nantes.github.io
           publish_branch: master
-          publish_dir: ./dist
+          publish_dir: ./_site
