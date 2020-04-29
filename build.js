@@ -75,7 +75,7 @@ function buildPages() {
   entities.forEach((entity) => {
     const html = views.render("page.njk", { entity });
     fsExtra.outputFile(
-      `./${BUILD_DIRECTORY}/pages/${entity.$slug}/index.html`,
+      `./${BUILD_DIRECTORY}/page/${entity.$slug}/index.html`,
       html
     );
   });
