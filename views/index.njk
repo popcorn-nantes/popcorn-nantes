@@ -27,8 +27,8 @@
         <div class="bg-white shadow rounded">
           <div class="overflow-hidden rounded-t">
             <picture>
-              <source class="lazy" data-srcset="/media/thumbnails/{{person.photoWebp}}" type="image/webp">
-              <img alt="{{ person.prenom }} {{ person.nom }}" class="lazy object-cover h-64 md:h32 w-full" data-src="/media/thumbnails/{{person.photo}}" />
+              <source class="lazy" data-srcset="{{person.photo.thumbnailWebp}}" type="image/webp">
+              <img alt="{{ person.prenom }} {{ person.nom }}" class="lazy object-cover h-64 md:h32 w-full" data-src="{{person.photo.thumbnailJpeg}}" />
             </picture>
           </div>
           <div class="p-2 text-center">
