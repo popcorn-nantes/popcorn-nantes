@@ -57,7 +57,7 @@
           <hr>
           <div class="">
              <div class="md:flex bg-white rounded-lg p-6">
-              <img class="h-32 w-32 object-cover md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" alt="{{ entity.prenom }} {{ entity.nom }}" src="/media/photos/{{entity.photo}}">
+              <img class="h-32 w-32 object-cover md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" alt="{{ entity.prenom }} {{ entity.nom }}" src="{{entity.photo.default}}">
               <div class="text-center md:text-left">
                 <h2 class="text-lg">{{entity.prenom}} {{entity.nom}}</h2>
                 <div class="text-purple-500">{{entity.titre}}</div>
