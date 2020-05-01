@@ -25,11 +25,11 @@ const STATIC_DIRECTORY = "static";
 build();
 
 async function build() {
-  const start = new Date();
+  const buildPromises = [];
 
   rimraf.sync(path.resolve(`./${BUILD_DIRECTORY}`));
   fs.mkdirSync(`./${BUILD_DIRECTORY}`);
-  console.log(`✨ deleted & recreated ${BUILD_DIRECTORY} directory`);
+  console.log(`📁 deleted & recreated ${BUILD_DIRECTORY} directory`);
 
   // copy all files and directories from /static diretory to build directory
   fsExtra.copySync(
@@ -39,31 +39,45 @@ async function build() {
       recursive: true,
     }
   );
-  console.log(`✨ static directory copied to ${BUILD_DIRECTORY} directory`);
+  console.log(`📁 static directory copied to ${BUILD_DIRECTORY} directory`);
 
   // create html files from markdown files
   buildPages();
-  console.log("✨ pages markdown files compiled to html.");
+  console.log("📝 pages markdown files compiled to html.");
 
   buildPersons();
-  console.log("✨ persons markdown files compiled html.");
+  console.log("📝 persons markdown files compiled html.");
 
   // compiled and purge tailwind.css
+  console.log("🎨 starting postcss & purgecss ...");
   const purgecssConfig = {
     content: ["views/**/*.njk"],
     defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
   };
-  postcssRun("./static/app.css", "./_site/app.css", purgecssConfig);
-  console.log("✨ postcss & purgecss done.");
-
-  console.log("   starting images resizing and compression...");
-  const { imageCount, totalWebpSize, totalJpegSize } = await imagesOptimize();
-  console.log(
-    `✨ images compression done: ${imageCount} images resized. Total webp thumbnails size: ${Math.ceil(
-      totalWebpSize / 1000
-    )}Ko. Total Jpeg thumbnails size: ${Math.ceil(totalJpegSize / 1000)}Ko  `
+  buildPromises.push(
+    postcssRun("./static/app.css", "./_site/app.css", purgecssConfig).then(
+      (r) => {
+        console.log("🎨 postcss & purgecss done.");
+      }
+    )
   );
-  console.info("Execution time: %ds", (new Date() - start) / 1000);
+
+  console.log("🖼️  starting images resizing and compression...");
+  buildPromises.push(
+    imagesOptimize().then((result) => {
+      const { imageCount, totalWebpSize, totalJpegSize } = result;
+      console.log(
+        `🖼️  images compression done: ${imageCount} images resized. Total webp thumbnails size: ${Math.ceil(
+          totalWebpSize / 1000
+        )}Ko. Total Jpeg thumbnails size: ${Math.ceil(
+          totalJpegSize / 1000
+        )}Ko  `
+      );
+    })
+  );
+  return Promise.all(buildPromises).then((r) => {
+    console.log("✨ All build operations finished");
+  });
 }
 
 // resize and compress .jpeg & .png images for homepage listing,

@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fsPromises = require("fs").promises;
 const yamlFront = require("yaml-front-matter");
 const path = require("path");
 const slug = require("slug");
@@ -94,8 +95,8 @@ function shuffle(a) {
 }
 
 function postcssRun(source, destination, purgecssConfig) {
-  fs.readFile(source, (err, css) => {
-    postcss([
+  return fsPromises.readFile(source).then((css) => {
+    return postcss([
       require("tailwindcss"),
       autoprefixer,
       purgecss({
@@ -104,10 +105,7 @@ function postcssRun(source, destination, purgecssConfig) {
     ])
       .process(css, { from: source, to: destination })
       .then((result) => {
-        fs.writeFile(destination, result.css, () => true);
-        if (result.map) {
-          fs.writeFile(`${destination}.map`, result.map, () => true);
-        }
+        return fsPromises.writeFile(destination, result.css);
       });
   });
 }
