@@ -28,15 +28,18 @@ technologies:
 
 ---
 
-Faisant partie de la génération 90', j'ai très tôt été attiré par les jeux vidéos et l'informatique en général. J'ai un souvenir mémorable d'après-midi passés à dicter à mon père le code de jeux pour Amstrad CPC 6128. Et c'est sur ce même Amstrad que j'ai écris mon premier programme en BASIC.
+## Développeur 
 
-Des années plus tard et plusieurs diplômes d'informatique dans la poche, je démarre ma carrière en 2006 dans l'équipe du Cnam pour développer la plateforme de formation à distance.
+Développeur depuis plus de 10 ans, je propose mon expérience au service de vos projets. J'ai acquis une solide expertise dans les domaines du e-commerce, du PIM, des API, du SaaS, du captage de lead et dans toutes sortes de workflow métier.  J'ai beaucoup travaillé en PHP avec Symfony et avec PostgreSQL et ElasticSearch comme fournisseur de donnés. Côté front j'ai réalisé plusieurs projets avec VueJS. 
 
-Après quatre années de PHP maison, de PostgreSQL, de LDAP et de Fedora, je quitte le Cnam pour arriver dans l'agence Le Phare. Deux années après mon arrivée comme développeur, je suis propulsé Tech Lead, en charge de la refonte des outils de production. Je préconise le framework Symfony dont la version 2.0 venait juste de sortir.
+## Devops
 
-À l'heure où j'écris ces lignes, je viens de fêter mes dix ans au Phare. J'ai conçu et développé une bonne dizaine d'applications dans des secteurs variés et je suis maintenant directeur technique. Ma mission principale est de résoudre les problèmes techniques qui se mettent en travers de la route de la trentaine de personnes qui composent l'agence Le Phare.
+J'ai également de bonnes compétences de devops sur Docker, Ansible, AWS, Gitlab, et plusieurs outils de gestion de la qualité pour les projets PHP. Je peux vous aider à augmenter la fréquence de vos déploiements et résoudre vos problèmes de performance. 
 
-Depuis 2018, je suis papa d'un petit garçon et j'ai aujourd'hui envie de passer plus de temps avec ma famille. J'opère donc durant l'année 2020 un tournant dans ma carrière en quittant Le Phare pour devenir indépendant. Je raconte plus en détail ce pas de coté sur [mon blog](https://blog.erwan-richard.tech/blog/independance-day/).
+## Lead dev
 
-J'ai hâte de connaitre la suite :-)
+J'ai encadré pendant plusieurs années une équipe de 15 développeurs et piloté plusieurs projets. Je peux vous aider à organiser une ou plusieurs équipes. Je crois beaucoup aux vertus des méthodes agiles et au software craftmanship. 
 
+## CTO
+
+Je propose de vous accompagner dans la stratégie de mise en œuvre de votre produit ou service. Choix de technologie, conception POC et MVP, avant-vente technique, recrutement d'une équipe, n'hésitez pas à faire appel à mes compétences. 
