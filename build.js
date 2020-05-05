@@ -11,6 +11,7 @@ const {
   parseMarkdownDirectory,
   shuffle,
 } = require("./utils/helpers.js");
+const { fetchProfiles } = require("./utils/persons-by-api.js");
 const views = nunjucks.configure("views", { autoescape: false });
 
 views.addGlobal("SITE_NAME", config.SITE_NAME);
@@ -45,8 +46,8 @@ async function build() {
   buildPages();
   console.log("📝 pages markdown files compiled to html.");
 
-  buildPersons();
-  console.log("📝 persons markdown files compiled html.");
+  await buildPersons();
+  console.log("📝 persons markdown files and persons by API compiled to html.");
 
   // compiled and purge tailwind.css
   console.log("🎨 starting postcss & purgecss ...");
@@ -132,8 +133,11 @@ function buildPages() {
   });
 }
 
-function buildPersons() {
-  let resources = parseMarkdownDirectory("./content/persons");
+async function buildPersons() {
+  const resourcesMarkdown = parseMarkdownDirectory("./content/persons");
+  const resourcesAPI = await fetchProfiles();
+  const resources = [...resourcesMarkdown, ...resourcesAPI];
+
   resources.forEach((resource) => {
     const photoExtension = path.extname(resource.photo);
     const photoBasename = resource.photo.replace(photoExtension, "");
