@@ -8,7 +8,7 @@ titre: Développeur PHP / Javascript
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 6 ans d'expérience
+sous_titre: 7 ans d'expérience
 
 # REQUIS
 prenom: Julien
@@ -74,10 +74,8 @@ technologies:
 # La coloration syntaxique du code est supportée.
 ---
 
-Durant mes 5 années d'expériences, j'ai pu participer à plein de projets différents en développement web full-stack.
+Durant mes 7 années d'expériences, j'ai participé à plusieurs projets en développement web full-stack.
 
 J'apporte mon enthousiasme et ma créativité à proposer et mettre en œuvre des solutions en développement web adaptées à des environnements innovants et complexes.
 
 J’appréhende rapidement les nouvelles technologies, force de proposition et résolument orienté vers la résolution des problématiques métiers.
-
-Doté d'une grande motivation, sociable, tenace, curieux et m'investissant au mieux dans un projet, je suis à votre disposition pour un entretien.
