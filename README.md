@@ -27,7 +27,21 @@ Ces évenements sont l'occasion pour ses membres de se rencontrer, boire des bi�
 
 Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue sur ce repo](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
 
-## éditer son profil
+## PHILOSOPHIE TECHNIQUE : 0 MAINTENANCE, 0 FRAIS, SIMPLE ET EFFICACE
+
+Le mot "Popcorn" a été notamment choisi pour évoquer une grande légèreté. Son mantra technique pourrait être:
+
+"Dis moi ce dont tu as besoin, je te dirai comment t'en passer."
+
+L'idée expérimentée par Popcorn est d'avoir un site aussi léger techniquement que possible, sans serveur et base de données afin qu'il ne requiert quasiment aucune maintenance et intervention de notre part ni aucun frais, parce que :
+
+- On est déjà tous "sous l'eau", ce site ne doit pas être une charge de travail supplémentaire.
+- On ne veut pas que le site reste 48 heures en rade parce qu'il ya un truc qui déconne et que tout le monde est trop occupé pour intervenir dessus.
+- On ne veut pas qu'au fil du temps une personne devienne "responsable" du site, qu'elle soit la seule à piger comment tout fonctionne et qu'elle parte à Barcelone ou quitte Popcorn en laissant aux autres un truc compliqué qu'ils et elles ne maitrisent pas
+- On veut bien être hébergé pour 0 euros chez Github ^^
+- On veut bien un site qui soit capable de supporter un fort pic de charge sans broncher : évitons le cas du site qui tombe pile au moment où un article de presse le mentionne 😅
+- On veut bien un moteur de recherche super-rapide et un site qui s'affiche super vite
+- On veut bien que des gens puissent tout simplement forker le repo de démarrage pour créer leur propre annuaire 💚
 
 ## FAQ
 
