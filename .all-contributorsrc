@@ -63,6 +63,15 @@
         "code",
         "ideas"
       ]
+    },
+    {
+      "login": "achorein",
+      "name": "Anselme Chorein",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6529851?v=4",
+      "profile": "https://github.com/achorein",
+      "contributions": [
+        "financial"
+      ]
     }
   ],
   "contributorsPerLine": 7,
