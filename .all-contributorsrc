@@ -15,7 +15,6 @@
       ]
     },
     {
-
       "login": "gwenaelp",
       "name": "Gwenael Pluchon",
       "avatar_url": "https://avatars0.githubusercontent.com/u/5365267?v=4",
@@ -23,9 +22,9 @@
       "contributions": [
         "code",
         "eventOrganizing"
-       ]
-     },
-     {
+      ]
+    },
+    {
       "login": "alvinberthelot",
       "name": "Alvin Berthelot",
       "avatar_url": "https://avatars2.githubusercontent.com/u/2531591?v=4",
@@ -33,6 +32,16 @@
       "contributions": [
         "financial",
         "code"
+      ]
+    },
+    {
+      "login": "gcharbonnier",
+      "name": "guillaume charbonnier",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9682519?v=4",
+      "profile": "http://www.a-team.fr",
+      "contributions": [
+        "financial",
+        "ideas"
       ]
     }
   ],
