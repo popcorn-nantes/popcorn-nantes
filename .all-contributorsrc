@@ -72,6 +72,16 @@
       "contributions": [
         "financial"
       ]
+    },
+    {
+      "login": "bastien-wink",
+      "name": "Bastien THOMAS",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7903123?v=4",
+      "profile": "https://wink-dev.com",
+      "contributions": [
+        "financial",
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
