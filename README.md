@@ -1,6 +1,6 @@
 # POPCORN 🍿
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 _Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des clients et des missions : [Voir le site](https://popcorn-nantes.github.io). C'est aussi un réseau et un tchat privé où l'on s'échange des plans tafs et où l'on s'entraide sur nos problématiques communes.
@@ -103,6 +103,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://alvin.berthelot.rocks"><img src="https://avatars2.githubusercontent.com/u/2531591?v=4" width="100px;" alt=""/><br /><sub><b>Alvin Berthelot</b></sub></a><br /><a href="#financial-alvinberthelot" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alvinberthelot" title="Code">💻</a></td>
     <td align="center"><a href="http://www.a-team.fr"><img src="https://avatars3.githubusercontent.com/u/9682519?v=4" width="100px;" alt=""/><br /><sub><b>guillaume charbonnier</b></sub></a><br /><a href="#financial-gcharbonnier" title="Financial">💵</a> <a href="#ideas-gcharbonnier" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.laumiere.net"><img src="https://avatars1.githubusercontent.com/u/4622095?v=4" width="100px;" alt=""/><br /><sub><b>Aurélien Laumière</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alaumiere" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/fabienjuif"><img src="https://avatars0.githubusercontent.com/u/17828231?v=4" width="100px;" alt=""/><br /><sub><b>Fabien JUIF</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=fabienjuif" title="Code">💻</a> <a href="#ideas-fabienjuif" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
