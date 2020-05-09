@@ -52,6 +52,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "fabienjuif",
+      "name": "Fabien JUIF",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17828231?v=4",
+      "profile": "https://github.com/fabienjuif",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
