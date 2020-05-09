@@ -43,6 +43,15 @@
         "financial",
         "ideas"
       ]
+    },
+    {
+      "login": "alaumiere",
+      "name": "Aurélien Laumière",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4622095?v=4",
+      "profile": "https://www.laumiere.net",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
