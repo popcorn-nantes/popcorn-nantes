@@ -15,6 +15,10 @@ const views = nunjucks.configure("views", { autoescape: false });
 
 views.addGlobal("SITE_NAME", config.SITE_NAME);
 views.addGlobal("SITE_BASE_URL", process.env.SITE_BASE_URL);
+views.addGlobal(
+  "CONTACT_ALL_FREELANCES_FORM_LINK",
+  process.env.CONTACT_ALL_FREELANCES_FORM_LINK
+);
 
 const BUILD_DIRECTORY = "_site";
 const STATIC_DIRECTORY = "static";
@@ -62,19 +66,22 @@ async function build() {
     )
   );
 
-  console.log("🖼️  starting images resizing and compression...");
-  buildPromises.push(
-    imagesOptimize().then((result) => {
-      const { imageCount, totalWebpSize, totalJpegSize } = result;
-      console.log(
-        `🖼️  images compression done: ${imageCount} images resized. Total webp thumbnails size: ${Math.ceil(
-          totalWebpSize / 1000
-        )}Ko. Total Jpeg thumbnails size: ${Math.ceil(
-          totalJpegSize / 1000
-        )}Ko  `
-      );
-    })
-  );
+  // skip image optim in dev to get faster build times.
+  if (process.env.NODE_ENV !== "development") {
+    console.log("🖼️  starting images resizing and compression...");
+    buildPromises.push(
+      imagesOptimize().then((result) => {
+        const { imageCount, totalWebpSize, totalJpegSize } = result;
+        console.log(
+          `🖼️  images compression done: ${imageCount} images resized. Total webp thumbnails size: ${Math.ceil(
+            totalWebpSize / 1000
+          )}Ko. Total Jpeg thumbnails size: ${Math.ceil(
+            totalJpegSize / 1000
+          )}Ko  `
+        );
+      })
+    );
+  }
   return Promise.all(buildPromises).then((r) => {
     console.log("✨ All build operations finished");
   });

@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "dev": "NODE_ENV=development node build.js",
     "build": "node build.js"
   },
   "dependencies": {

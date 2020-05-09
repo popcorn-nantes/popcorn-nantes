@@ -64,13 +64,19 @@ cloner ce dépôt puis
 npm install
 ```
 
-Générer la version statique du site
+Générer la version statique du site finale (version de production)
 
 ```sh
 npm run build
 ```
 
-Servir la version statique du site
+Générer la version statique du site pour le dev (plus rapide car pas d'optim des images)
+
+```sh
+npm run dev
+```
+
+le dossier \_site contient le code html final:
 
 ```sh
 serve _site
