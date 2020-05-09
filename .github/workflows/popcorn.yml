@@ -21,7 +21,8 @@ jobs:
 
       - name: Build
         env:
-          SITE_BASE_URL: https://popcorn-nantes.github.io
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          CONTACT_ALL_FREELANCES_FORM_LINK: ${{ secrets.CONTACT_ALL_FREELANCES_FORM_LINK }}
         run: |
           npm install --only=production
           npm run build
