@@ -1,6 +1,6 @@
 # POPCORN 🍿
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 _Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des clients et des missions : [Voir le site](https://popcorn-nantes.github.io). C'est aussi un réseau et un tchat privé où l'on s'échange des plans tafs et où l'on s'entraide sur nos problématiques communes.
@@ -105,6 +105,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.laumiere.net"><img src="https://avatars1.githubusercontent.com/u/4622095?v=4" width="100px;" alt=""/><br /><sub><b>Aurélien Laumière</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alaumiere" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/fabienjuif"><img src="https://avatars0.githubusercontent.com/u/17828231?v=4" width="100px;" alt=""/><br /><sub><b>Fabien JUIF</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=fabienjuif" title="Code">💻</a> <a href="#ideas-fabienjuif" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/achorein"><img src="https://avatars1.githubusercontent.com/u/6529851?v=4" width="100px;" alt=""/><br /><sub><b>Anselme Chorein</b></sub></a><br /><a href="#financial-achorein" title="Financial">💵</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://wink-dev.com"><img src="https://avatars2.githubusercontent.com/u/7903123?v=4" width="100px;" alt=""/><br /><sub><b>Bastien THOMAS</b></sub></a><br /><a href="#financial-bastien-wink" title="Financial">💵</a> <a href="#eventOrganizing-bastien-wink" title="Event Organizing">📋</a></td>
   </tr>
 </table>
 
