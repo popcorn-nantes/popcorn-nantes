@@ -100,6 +100,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://adrien.pessu.net"><img src="https://avatars0.githubusercontent.com/u/7055334?v=4" width="100px;" alt=""/><br /><sub><b>Adrien Pessu</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/pulls?q=is%3Apr+reviewed-by%3Aadrienpessu" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://gwenaelp.github.io"><img src="https://avatars0.githubusercontent.com/u/5365267?v=4" width="100px;" alt=""/><br /><sub><b>Gwenael Pluchon</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=gwenaelp" title="Code">💻</a> <a href="#eventOrganizing-gwenaelp" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="http://alvin.berthelot.rocks"><img src="https://avatars2.githubusercontent.com/u/2531591?v=4" width="100px;" alt=""/><br /><sub><b>Alvin Berthelot</b></sub></a><br /><a href="#financial-alvinberthelot" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alvinberthelot" title="Code">💻</a></td>
   </tr>
 </table>
 
