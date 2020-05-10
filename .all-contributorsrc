@@ -101,6 +101,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Yoann-TYT",
+      "name": "Yoann Chocteau",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9287634?v=4",
+      "profile": "https://www.kezaweb.fr",
+      "contributions": [
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
