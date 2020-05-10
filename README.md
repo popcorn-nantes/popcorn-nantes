@@ -1,6 +1,6 @@
 # POPCORN 🍿
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 _Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des clients et des missions : [Voir le site](https://popcorn-nantes.github.io). C'est aussi un réseau et un tchat privé où l'on s'échange des plans tafs et où l'on s'entraide sur nos problématiques communes.
@@ -108,6 +108,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://wink-dev.com"><img src="https://avatars2.githubusercontent.com/u/7903123?v=4" width="100px;" alt=""/><br /><sub><b>Bastien THOMAS</b></sub></a><br /><a href="#financial-bastien-wink" title="Financial">💵</a> <a href="#eventOrganizing-bastien-wink" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://jocelyn.griselle.io"><img src="https://avatars2.githubusercontent.com/u/5202507?v=4" width="100px;" alt=""/><br /><sub><b>Jocelyn Griselle</b></sub></a><br /><a href="#financial-jocelyngriselle" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=jocelyngriselle" title="Code">💻</a></td>
   </tr>
 </table>
 
