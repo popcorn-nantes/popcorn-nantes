@@ -92,6 +92,15 @@
         "financial",
         "code"
       ]
+    },
+    {
+      "login": "tonioo",
+      "name": "Antoine Nguyen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/531694?v=4",
+      "profile": "http://tonio.ngyn.org",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
