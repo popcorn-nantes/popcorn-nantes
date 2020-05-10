@@ -82,6 +82,16 @@
         "financial",
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "jocelyngriselle",
+      "name": "Jocelyn Griselle",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5202507?v=4",
+      "profile": "https://jocelyn.griselle.io",
+      "contributions": [
+        "financial",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
