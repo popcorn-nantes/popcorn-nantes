@@ -99,7 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://adrien.pessu.net"><img src="https://avatars0.githubusercontent.com/u/7055334?v=4" width="100px;" alt=""/><br /><sub><b>Adrien Pessu</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/pulls?q=is%3Apr+reviewed-by%3Aadrienpessu" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="http://alvin.berthelot.rocks"><img src="https://avatars2.githubusercontent.com/u/2531591?v=4" width="100px;" alt=""/><br /><sub><b>Alvin Berthelot</b></sub></a><br /><a href="#financial-alvinberthelot" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alvinberthelot" title="Code">💻</a></td>
+    <td align="center"><a href="http://alvin.berthelot.rocks"><img src="https://avatars2.githubusercontent.com/u/2531591?v=4" width="100px;" alt=""/><br /><sub><b>Alvin Berthelot</b></sub></a><br /><a href="#financial-alvinberthelot" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alvinberthelot" title="Code">💻</a> <a href="#ideas-alvinberthelot" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
