@@ -1,7 +1,6 @@
 require("dotenv").config();
 const config = require("./config");
 const nunjucks = require("nunjucks");
-const FileMinifyLoader = require("nunjucks-minify-loaders").FileMinifyLoader;
 const fs = require("fs");
 const fsExtra = require("fs-extra");
 const sharp = require("sharp");
@@ -12,18 +11,7 @@ const {
   parseMarkdownDirectory,
   shuffle,
 } = require("./utils/helpers.js");
-
-const opts = {
-  autoescape: false,
-  minify: {
-    collapseWhitespace: true,
-    minifyCSS: true,
-    minifyJS: true,
-    removeComments: true,
-  },
-};
-const loader = new FileMinifyLoader("views", opts);
-const views = new nunjucks.Environment(loader);
+const views = nunjucks.configure("views", { autoescape: false });
 
 views.addGlobal("SITE_NAME", config.SITE_NAME);
 views.addGlobal("SITE_BASE_URL", process.env.SITE_BASE_URL);
