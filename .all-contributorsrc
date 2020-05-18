@@ -11,7 +11,18 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/7055334?v=4",
       "profile": "https://adrien.pessu.net",
       "contributions": [
+        "financial",
         "review"
+      ]
+    },
+    {
+      "login": "gwenaelp",
+      "name": "Gwenael Pluchon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5365267?v=4",
+      "profile": "https://gwenaelp.github.io",
+      "contributions": [
+        "code",
+        "eventOrganizing"
       ]
     },
     {
@@ -23,6 +34,82 @@
         "financial",
         "code",
         "ideas"
+      ]
+    },
+    {
+      "login": "gcharbonnier",
+      "name": "guillaume charbonnier",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9682519?v=4",
+      "profile": "http://www.a-team.fr",
+      "contributions": [
+        "financial",
+        "ideas"
+      ]
+    },
+    {
+      "login": "alaumiere",
+      "name": "Aurélien Laumière",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4622095?v=4",
+      "profile": "https://www.laumiere.net",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "fabienjuif",
+      "name": "Fabien JUIF",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17828231?v=4",
+      "profile": "https://github.com/fabienjuif",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "achorein",
+      "name": "Anselme Chorein",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6529851?v=4",
+      "profile": "https://github.com/achorein",
+      "contributions": [
+        "financial"
+      ]
+    },
+    {
+      "login": "bastien-wink",
+      "name": "Bastien THOMAS",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7903123?v=4",
+      "profile": "https://wink-dev.com",
+      "contributions": [
+        "financial",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "jocelyngriselle",
+      "name": "Jocelyn Griselle",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5202507?v=4",
+      "profile": "https://jocelyn.griselle.io",
+      "contributions": [
+        "financial",
+        "code"
+      ]
+    },
+    {
+      "login": "tonioo",
+      "name": "Antoine Nguyen",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/531694?v=4",
+      "profile": "http://tonio.ngyn.org",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Yoann-TYT",
+      "name": "Yoann Chocteau",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9287634?v=4",
+      "profile": "https://www.kezaweb.fr",
+      "contributions": [
+        "eventOrganizing"
       ]
     }
   ],
