@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development node build.js",
-    "build": "node build.js"
+    "build": "node build.js",
+    "contributors:generate": "all-contributors generate"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "2.1.2",
@@ -29,6 +30,7 @@
     }
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.14.2",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "pretty-quick": "^2.0.1",

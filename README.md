@@ -1,6 +1,9 @@
 # POPCORN 🍿
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 _Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des clients et des missions : [Voir le site](https://popcorn-nantes.github.io). C'est aussi un réseau et un tchat privé où l'on s'échange des plans tafs et où l'on s'entraide sur nos problématiques communes.
@@ -25,7 +28,7 @@ Ces évenements sont l'occasion pour ses membres de se rencontrer, boire des bi�
 - Fork ce dépôt
 - Ajoute ta fiche dans le dossier `content/persons` en prenant comme exemple le fichier `_exemple.md`. Le nom de ton fichier sera utilisé pour créer l'url de ton profil. Attention à ne pas laisser l'underscore `_` au début du nom du fichier, sinon ton profil sera désactivé par défaut ! Un doute sur la syntaxe `yaml` de ton profil ? Tu peux copier-coller ton profil ici pour vérifier que c'est ok: http://www.yamllint.com/
 - Ajoute ta photo dans le dossier `/static/media/photos` : **la photo doit faire 100ko maximum ⚠️**.
-- Fait une _pull request_ avec pour titre Nouveau profil : {{ton prénom}} 
+- Fait une _pull request_ avec pour titre Nouveau profil : {{ton prénom}}
 - Bienvenue sur _Popcorn_ ! ✨ Tu recevras également un mail pour t'inviter sur le tchat de _Popcorn_, qui est ze place to be pour trouver des plans tafs à Nantes.
 
 Pour soumettre une suggestion, signaler un bug, demander de l'aide, tu peux aussi tout simplement [ouvrir une issue sur ce repo](https://github.com/popcorn-nantes/popcorn-nantes/issues/new)
@@ -98,9 +101,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://adrien.pessu.net"><img src="https://avatars0.githubusercontent.com/u/7055334?v=4" width="100px;" alt=""/><br /><sub><b>Adrien Pessu</b></sub></a><br /><a href="#financial-adrienpessu" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/pulls?q=is%3Apr+reviewed-by%3Aadrienpessu" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://adrien.pessu.net"><img src="https://avatars0.githubusercontent.com/u/7055334?v=4" width="100px;" alt=""/><br /><sub><b>Adrien Pessu</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=adrienpessu" title="Code">💻</a> <a href="#financial-adrienpessu" title="Financial">💵</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/pulls?q=is%3Apr+reviewed-by%3Aadrienpessu" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://gwenaelp.github.io"><img src="https://avatars0.githubusercontent.com/u/5365267?v=4" width="100px;" alt=""/><br /><sub><b>Gwenael Pluchon</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=gwenaelp" title="Code">💻</a> <a href="#eventOrganizing-gwenaelp" title="Event Organizing">📋</a></td>
-    <td align="center"><a href="http://alvin.berthelot.rocks"><img src="https://avatars2.githubusercontent.com/u/2531591?v=4" width="100px;" alt=""/><br /><sub><b>Alvin Berthelot</b></sub></a><br /><a href="#financial-alvinberthelot" title="Financial">💵</a> <a href="#ideas-alvinberthelot" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://alvin.berthelot.rocks"><img src="https://avatars2.githubusercontent.com/u/2531591?v=4" width="100px;" alt=""/><br /><sub><b>Alvin Berthelot</b></sub></a><br /><a href="#financial-alvinberthelot" title="Financial">💵</a> <a href="#ideas-alvinberthelot" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alvinberthelot" title="Code">💻</a></td>
     <td align="center"><a href="http://www.a-team.fr"><img src="https://avatars3.githubusercontent.com/u/9682519?v=4" width="100px;" alt=""/><br /><sub><b>guillaume charbonnier</b></sub></a><br /><a href="#financial-gcharbonnier" title="Financial">💵</a> <a href="#ideas-gcharbonnier" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://www.laumiere.net"><img src="https://avatars1.githubusercontent.com/u/4622095?v=4" width="100px;" alt=""/><br /><sub><b>Aurélien Laumière</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=alaumiere" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/fabienjuif"><img src="https://avatars0.githubusercontent.com/u/17828231?v=4" width="100px;" alt=""/><br /><sub><b>Fabien JUIF</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=fabienjuif" title="Code">💻</a> <a href="#ideas-fabienjuif" title="Ideas, Planning, & Feedback">🤔</a></td>
@@ -116,6 +119,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
