@@ -6,6 +6,9 @@ const slug = require("slug");
 const autoprefixer = require("autoprefixer");
 const postcss = require("postcss");
 const purgecss = require("@fullhuman/postcss-purgecss");
+const cssnano = require("cssnano")({
+  preset: "default",
+});
 
 const markdownItInstance = require("markdown-it")({
   html: true,
@@ -102,6 +105,7 @@ function postcssRun(source, destination, purgecssConfig) {
       purgecss({
         ...purgecssConfig,
       }),
+      cssnano,
     ])
       .process(css, { from: source, to: destination })
       .then((result) => {
