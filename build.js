@@ -11,7 +11,19 @@ const {
   parseMarkdownDirectory,
   shuffle,
 } = require("./utils/helpers.js");
-const views = nunjucks.configure("views", { autoescape: false });
+
+const opts = {
+  minify: {
+    collapseWhitespace: true,
+    minifyCSS: true,
+    minifyJS: true,
+    removeComments: true,
+  },
+};
+const loader = new FileMinifyLoader("views", opts);
+const views = new nunjucks.Environment(loader, {
+  autoescape: false,
+});
 
 views.addGlobal("SITE_NAME", config.SITE_NAME);
 views.addGlobal("SITE_BASE_URL", process.env.SITE_BASE_URL);
