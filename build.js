@@ -11,6 +11,7 @@ const {
   parseMarkdownDirectory,
   shuffle,
 } = require("./utils/helpers.js");
+const FileMinifyLoader = require("nunjucks-minify-loaders").FileMinifyLoader;
 
 const opts = {
   minify: {
