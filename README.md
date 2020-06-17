@@ -21,7 +21,7 @@ Les objectifs de _Popcorn_ pour les développeurs freelances :
 
 Nos RDV sont annoncés ici: https://www.meetup.com/fr-FR/meetup-group-tCnaDLLH/
 
-Ces évenements sont l'occasion pour ses membres de se rencontrer, boire des bières, réseauter, échanger des tuyaux boulots. Quand on déjà rencontré ou discuté avec quelqu'un, est on plus apte à lui confier des plans travails ou à faire équipe avec lui car ça crée de la confiance! pensez-y ^^
+Ces évenements sont l'occasion pour ses membres de se rencontrer, boire des bières, réseauter, échanger des tuyaux boulots. Quand on a déjà rencontré ou discuté avec quelqu'un, on est plus apte à lui confier des plans travails ou à faire équipe avec lui car ça crée de la confiance! pensez-y ^^
 
 ## Créer son profil
 
