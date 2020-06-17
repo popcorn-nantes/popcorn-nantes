@@ -4,7 +4,7 @@ sous_titre: 15 ans d'expérience
 
 prenom: Erwan
 nom: Richard
-mail: erwan.richard@protonmail.com
+mail: freelance@erwan-richard.tech
 photo: erwan-richard.jpg
 
 domaines_metiers:
