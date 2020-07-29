@@ -25,7 +25,7 @@ mail: ferdinand.goor@gmail.com
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIRE dans le dépot git et sur le site
-telephone: 06516069666
+telephone: 0651609666
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/media/photos et faire moins de 100ko !
