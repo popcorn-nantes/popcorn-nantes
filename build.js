@@ -62,8 +62,11 @@ async function build() {
   buildPages();
   console.log("📝 pages markdown files compiled to html.");
 
-  buildPersons();
+  personsIndex = buildPersons();
   console.log("📝 persons markdown files compiled html.");
+
+  buildEntries(personsIndex);
+  console.log("📝 landing pages compiled to html");
 
   // compiled and purge tailwind.css
   console.log("🎨 starting postcss & purgecss ...");
@@ -199,6 +202,41 @@ function buildPersons() {
     fsExtra.outputFile(
       `./${BUILD_DIRECTORY}/person/${person.$slug}/index.html`,
       personHtml
+    );
+  });
+  return searchIndexJson;
+}
+
+/**
+ * This is the index of freelances as retuned by buildPersons()
+ * @param {array} personsIndex
+ */
+function buildEntries() {
+  //const personsWith
+  let persons = parseMarkdownDirectory("./content/persons");
+  let entities = parseMarkdownDirectory("./content/technologies");
+  let personsMatched = [];
+  entities.forEach((entity) => {
+    entity.technologies.forEach((technology) => {
+      const result = persons.find((person) => {
+        console.log("persons", person.technologies);
+        person.technologies.forEach((personTechnology) => {
+          if (personTechnology.toLowerCase() === technology.toLowerCase()) {
+            personsMatched.push(person);
+          }
+        });
+        return person.technologies.includes(technology);
+      });
+      //console.log("result", result);
+      if (result) {
+        //personsMatched.push(result);
+      }
+    });
+
+    const html = views.render("tech.njk", { entity, persons: personsMatched });
+    fsExtra.outputFile(
+      `./${BUILD_DIRECTORY}/tech/${entity.$slug}/index.html`,
+      html
     );
   });
 }
