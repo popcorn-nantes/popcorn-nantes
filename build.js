@@ -62,11 +62,11 @@ async function build() {
   buildPages();
   console.log("📝 pages markdown files compiled to html.");
 
-  buildPersons();
+  const persons = buildPersons();
   console.log("📝 persons markdown files compiled html.");
 
-  buildTechPages();
-  console.log("📝 landing pages compiled to html");
+  buildTechPages(persons);
+  console.log("📝 technologies pages compiled to html");
 
   // compiled and purge tailwind.css
   console.log("🎨 starting postcss & purgecss ...");
@@ -204,16 +204,13 @@ function buildPersons() {
       personHtml
     );
   });
-  return searchIndexJson;
+  return resources;
 }
 
 /**
- * This is the index of freelances as retuned by buildPersons()
- * @param {array} personsIndex
+ * Persons as returned by buildPersons()
  */
-function buildTechPages() {
-  //const personsWith
-  let persons = parseMarkdownDirectory("./content/persons");
+function buildTechPages(persons) {
   let entities = parseMarkdownDirectory("./content/technologies");
   entities.forEach((entity) => {
     let personsMatched = [];
