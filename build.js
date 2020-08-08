@@ -62,8 +62,11 @@ async function build() {
   buildPages();
   console.log("📝 pages markdown files compiled to html.");
 
-  buildPersons();
+  const persons = buildPersons();
   console.log("📝 persons markdown files compiled html.");
+
+  buildTechPages(persons);
+  console.log("📝 technologies pages compiled to html");
 
   // compiled and purge tailwind.css
   console.log("🎨 starting postcss & purgecss ...");
@@ -199,6 +202,32 @@ function buildPersons() {
     fsExtra.outputFile(
       `./${BUILD_DIRECTORY}/person/${person.$slug}/index.html`,
       personHtml
+    );
+  });
+  return resources;
+}
+
+/**
+ * Persons as returned by buildPersons()
+ */
+function buildTechPages(persons) {
+  let entities = parseMarkdownDirectory("./content/technologies");
+  entities.forEach((entity) => {
+    let personsMatched = [];
+    entity.technologies.forEach((technology) => {
+      persons.forEach((person) => {
+        person.technologies.forEach((personTechnology) => {
+          if (personTechnology.toLowerCase() === technology.toLowerCase()) {
+            personsMatched.push(person);
+          }
+        });
+      });
+    });
+
+    const html = views.render("tech.njk", { entity, persons: personsMatched });
+    fsExtra.outputFile(
+      `./${BUILD_DIRECTORY}/tech/${entity.$slug}/index.html`,
+      html
     );
   });
 }
