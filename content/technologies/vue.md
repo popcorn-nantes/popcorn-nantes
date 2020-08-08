@@ -4,6 +4,4 @@ technologies:
   - vue
 ---
 
-**Vue.js** (aussi appelé plus simplement Vue), est un framework JavaScript open-source utilisé pour construire des interfaces utilisateur et des applications web monopages. Vue a été créé par Evan You et est maintenu par lui et le reste des membres actifs de l'équipe principale travaillant sur le projet et son écosystème.
-
-La bibliothèque est notamment utilisée par Adobe, Alibaba et GitLab4.
+**Vue.js** (aussi appelé plus simplement Vue), est un framework JavaScript open-source utilisé pour construire des interfaces utilisateur. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page (ou portion) HTML à chaque changement d'état. La bibliothèque est notamment utilisée par Adobe, Alibaba et GitLab4. (lire l'article complet sur Wikipedia: https://fr.wikipedia.org/wiki/Vue.js)
