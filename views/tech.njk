@@ -19,9 +19,6 @@
   <div class="container mx-auto my-10 px-10">
     <h1 class="font-bold text-lg mt-4"> {{entity.title}} </h1>
     <div class="html-content font-thin italic">
-      {% if entity.image %}
-        <img class="mr-6" style="float:left" class="lazy" height="150" src="{{entity.image}}" />
-      {% endif %}
       {{ entity.$html }}
     </div>
 
