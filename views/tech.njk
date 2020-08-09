@@ -8,7 +8,7 @@
       title=entity.title,
       description="Trouvez un développeur freelance à Nantes sans intermédiaire et sans frais.",  
       url=SITE_BASE_URL + "/tech/" + entity.$slug,
-      image=SITE_BASE_URL + "/media/images/popcorn.jpg"
+      image=SITE_BASE_URL + entity.image if entity.image else SITE_BASE_URL + "/media/images/popcorn.jpg"
     ) 
   }}
 {% endblock %}
@@ -19,6 +19,9 @@
   <div class="container mx-auto my-10 px-10">
     <h1 class="font-bold text-lg mt-4"> {{entity.title}} </h1>
     <div class="html-content font-thin italic">
+      {% if entity.image %}
+        <img class="mr-6" style="float:left" class="lazy" height="150" src="{{entity.image}}" />
+      {% endif %}
       {{ entity.$html }}
     </div>
 
