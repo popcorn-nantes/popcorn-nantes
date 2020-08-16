@@ -2,6 +2,7 @@
 title: Développeurs freelances PHP à Nantes
 technologies:
   - PHP
+image: /media/images/logo-popcorn-php.png
 ---
 
 "**PHP: Hypertext Preprocessor**, plus connu sous son sigle PHP (sigle auto-référentiel), est un "langage de programmation" libre6, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP5, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.  
