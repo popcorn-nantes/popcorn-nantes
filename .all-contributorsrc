@@ -112,6 +112,15 @@
       "contributions": [
         "eventOrganizing"
       ]
+    },
+    {
+      "login": "agnesmdev",
+      "name": "Agnès Maury",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61702409?v=4",
+      "profile": "https://github.com/agnesmdev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
