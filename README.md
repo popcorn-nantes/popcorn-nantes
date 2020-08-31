@@ -1,7 +1,7 @@
 # POPCORN 🍿
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 _Popcorn_ est une plateforme open source et (vraiment) sans frais ni commission qui aide les développeur-e-s freelance de Nantes à trouver des clients et des missions : [Voir le site](https://popcorn-nantes.github.io). C'est aussi un réseau et un tchat privé où l'on s'échange des plans tafs et où l'on s'entraide sur nos problématiques communes.
@@ -113,6 +113,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://tonio.ngyn.org"><img src="https://avatars2.githubusercontent.com/u/531694?v=4" width="100px;" alt=""/><br /><sub><b>Antoine Nguyen</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=tonioo" title="Code">💻</a></td>
     <td align="center"><a href="https://www.kezaweb.fr"><img src="https://avatars2.githubusercontent.com/u/9287634?v=4" width="100px;" alt=""/><br /><sub><b>Yoann Chocteau</b></sub></a><br /><a href="#eventOrganizing-Yoann-TYT" title="Event Organizing">📋</a></td>
     <td align="center"><a href="https://github.com/agnesmdev"><img src="https://avatars2.githubusercontent.com/u/61702409?v=4" width="100px;" alt=""/><br /><sub><b>Agnès Maury</b></sub></a><br /><a href="https://github.com/popcorn-nantes/popcorn-nantes/commits?author=agnesmdev" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/epitre"><img src="https://avatars0.githubusercontent.com/u/1972431?v=4" width="100px;" alt=""/><br /><sub><b>CPdA</b></sub></a><br /><a href="#eventOrganizing-epitre" title="Event Organizing">📋</a></td>
   </tr>
 </table>
 

@@ -121,6 +121,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "epitre",
+      "name": "CPdA",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1972431?v=4",
+      "profile": "https://github.com/epitre",
+      "contributions": [
+        "eventOrganizing"
+      ]
     }
   ],
   "contributorsPerLine": 7,
