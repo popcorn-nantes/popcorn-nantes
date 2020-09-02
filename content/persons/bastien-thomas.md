@@ -77,3 +77,6 @@ Je suis consultant spécialisé sur PHP, Symfony et l'infrastructure back-end.
 Depuis 10ans dans le développement d'applications web, j'ai pu accompagner la croissance de nombreuses Startups en Angleterre, Californie et à Paris. Mes spécialisations sont la conception d'API, systèmes distribués, gestion des données, montée en charge. J'ai l'esprit DevOps, orienté sur des solutions Cloud en conteneurs sous Linux.
 
 Je propose aujourd'hui une expertise en développement, en pilotage de projet et en mise en place de pratiques agiles. Je sélectionne les missions qui ont une volonté d'innovation et sur lesquelles mon impact sera le plus bénéfique. Mon bureau est à Nantes, je peux y travailler en remote ou me déplacer.
+
+CV complet : https://wink-dev.com
+Linkedin : https://www.linkedin.com/in/bastienthomas
