@@ -6,7 +6,7 @@ nom: Daniel
 mail: hugo@waldenn.fr
 disponible: true
 telephone:
-photo: /images/hugodaniel.jpg
+photo: hugodaniel.jpg
 domaines_metiers:
   - applications web
   - plateforme e-commerce

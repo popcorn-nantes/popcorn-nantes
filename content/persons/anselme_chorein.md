@@ -5,7 +5,7 @@ prenom: Anselme
 nom: CHOREIN
 mail: anselme.pro@chorein.fr
 telephone: 0766284848
-photo: /images/anselme-chorein.jpg
+photo: anselme-chorein.jpg
 domaines_metiers:
   - sites web / ecommerce
   - architecture
@@ -32,6 +32,7 @@ Riche de mes 10 ans d'expérience dans une grande ESN, je propose mon expertise 
 Je me spécialise maintenant dans les applications JavaScript (Nuxt, React, JAMStack) avec un focus sur les performances et l'optimisation du référencement (SEO).
 
 J'aime travailler dans un environnement fluide et stimulant avec une mise à disposition rapide de la valeur, pour cela j'interviens sur :
+
 - Le développement d'application front et back avec comme mot d'ordre : "keep it simple"
 - La conteneurisation avec docker des environnements dev, test et prod
 - La mise en oeuvre de l’intégration continue et du déploiement continu

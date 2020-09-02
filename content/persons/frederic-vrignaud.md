@@ -32,7 +32,7 @@ telephone: 06 10 41 38 23
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/frederic-vrignaud.jpg
+photo: frederic-vrignaud.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -76,12 +76,12 @@ technologies:
   - Wireshark
   - GIT
   - Google maps
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
+
 ## Qui suis-je ?
 
 Ingénieur en developpement logiciel, je suis spécialisé dans le **développement des systèmes industriels** depuis plus de **12 ans**. Polyvalent, je m'adapte à un large éventail de cible logiciel (embarqué, client lourd, serveur, web, ...)
@@ -101,12 +101,12 @@ J’améliore votre processus de travail, en automatisant vos actions récurrent
 Fort de mon expérience, j'ai eu l'occasion de participer à l'ensemble des phases des projets logiciels (spécifications, conception, développement, tests). Polyvalent, je vous propose des développements de qualité, maintenables et performants.
 
 ## Mes services
+
 - Spécifications et conception
 - Développement embarqué et temps réel (Objets connectés, cible spécifique, ...)
 - Développement PC client lourd (Vision industrielle, ...)
 - Automatisations (banc de production, banc de test, ...)
 - Prototypage (réalisation, estimation de l'autonomie, ...)
-
 
 ## Pour en savoir plus :
 

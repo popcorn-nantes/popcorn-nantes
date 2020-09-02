@@ -1,5 +1,4 @@
 ---
-
 titre: Architecte Développeur Senior
 
 sous_titre: Passion et qualité depuis plus de 15 ans
@@ -14,7 +13,7 @@ disponible: true
 
 telephone: 0648097313
 
-photo: /images/cedric-brancourt.jpg
+photo: cedric-brancourt.jpg
 
 domaines_metiers:
   - applications web
@@ -27,7 +26,6 @@ technologies:
   - JavaScript
   - Elm
   - Haskell
-
 ---
 
 Fort d'une grande expérience riche et variée, je serais votre atout senior.

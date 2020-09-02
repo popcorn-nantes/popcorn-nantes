@@ -8,7 +8,7 @@ titre: Développeur JavaScript FullStack, spécialisation Angular
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 15 ans d'expérience
+sous_titre: 16 ans d'expérience
 
 # REQUIS
 prenom: Alvin
@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/alvin-berthelot.jpg
+photo: alvin-berthelot.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -73,10 +73,10 @@ technologies:
 
 Bonjour, moi c'est Alvin, **je travaille dans le web depuis plus de 10 ans maintenant**. Au cours de mes nombreuses expériences j'ai connu des environnements techniques et des domaines métiers variés.
 
-Aujourd'hui j'interviens principalement sur des missions de développement et d'encadrement d'équipe sur l'**écosystème JavaScript**, avec une spécialisation **Angular**.
+Aujourd'hui j'interviens principalement sur des missions de développement et d'encadrement d'équipe sur l'**écosystème JavaScript**, que ce soit en back-end avec **Node.js** ou en front-end avec une spécialisation **Angular**.
 
 Je suis quelqu'un de communicant, rigoureux et engagé (ne me demandez pas de faire l'impasse sur les tests).
 
-Vous trouverez plus de détails sur mon parcours sur ma page personnelle [alvin.berthelot.rocks](http://alvin.berthelot.rocks).
+Vous trouverez tous les détails de mon parcours sur [ma page personnelle](http://alvin.berthelot.rocks).
 
 Contactez-moi si vous avez **un projet, un besoin de renfort dans votre équipe ou une demande de formation** en lien avec mes compétences.

@@ -1,0 +1,36 @@
+name: Popcorn Nantes
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 6 * * *"
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
+
+      - name: Build
+        env:
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          CONTACT_ALL_FREELANCES_FORM_LINK: ${{ secrets.CONTACT_ALL_FREELANCES_FORM_LINK }}
+        run: |
+          npm install --only=production
+          npm run build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: popcorn-nantes/popcorn-nantes.github.io
+          publish_branch: master
+          publish_dir: ./_site

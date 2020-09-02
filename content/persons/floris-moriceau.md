@@ -33,7 +33,7 @@ telephone: 07 86 38 68 25
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/floris-moriceau.jpg
+photo: floris-moriceau.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -59,7 +59,6 @@ technologies:
   - Twig
   - ZURB Foundation
   - Sass
-  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -68,8 +67,7 @@ technologies:
 Depuis toujours intéressé par la technique autant que la communication,
 je me suis rapidement orienté vers le métier de web-designer.
 
-Grâce à *Drupal*, je peux aujourd'hui pleinement utiliser ces deux passions au sein des mêmes projets.
+Grâce à _Drupal_, je peux aujourd'hui pleinement utiliser ces deux passions au sein des mêmes projets.
 Il existe le métier de technico-commercial, un profil doté de compétences lui permettant de vendre des projets dont il comprend pleinement les technicités.
-
 
 **Je suis un technico-designer, ou bien un designo-technicien...**

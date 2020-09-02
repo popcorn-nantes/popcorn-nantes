@@ -1,3 +1,7 @@
+---
+title: "Kit de communication"
+---
+
 # Kit de communication
 
 ## Présentation à destination des entreprises, start-ups, collectivités
@@ -40,7 +44,7 @@ Pour s'adresser à des développeur·e·s freelance :
 
 Pour s'adresser à des personnes en recherche de freelance :
 
-> Popcorn 🍿 est la nouvelle plateforme pour trouver un développeur·e à Nantes. C'est sans intermédiaire, sans commission et 100% nantais ! https://popcorn-nantes.github.io/
+> Popcorn 🍿 est la nouvelle plateforme pour trouver un développeur·e à Nantes. C'est sans intermédiaire, sans commission et 100% nantais ! {{SITE_BASE_URL}}/
 
 <h3><img style="position:relative;top:10px" width="40px" src="/icons/logo-linkedin.png" />Linkedin</h3>
 
@@ -51,4 +55,4 @@ Pour s'adresser à des développeur·e·s freelance :
 
 Pour s'adresser à des personnes en recherche de freelance :
 
-> Popcorn 🍿 est la nouvelle plateforme pour trouver un développeur·e freelance à Nantes. C'est sans intermédiaire, sans commission et 100% nantais ! https://popcorn-nantes.github.io/
+> Popcorn 🍿 est la nouvelle plateforme pour trouver un développeur·e freelance à Nantes. C'est sans intermédiaire, sans commission et 100% nantais ! {{SITE_BASE_URL}}
