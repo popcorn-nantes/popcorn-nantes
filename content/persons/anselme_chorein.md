@@ -1,5 +1,5 @@
 ---
-titre: Développeur Senior / Architecte
+titre: Développeur web senior (fullstack)
 sous_titre: 10 ans d'expérience
 prenom: Anselme
 nom: CHOREIN
