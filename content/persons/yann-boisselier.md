@@ -4,7 +4,7 @@ sous_titre: spécialisé en Vue, Node, GraphQ &, Jamstack
 prenom: Yann
 nom: Boisselier
 photo: yineo.jpg
-mail: yann@yineo.fr
+mail: yann@fireblogcms.com
 telephone:
 domaines_metiers:
   - sites web
@@ -17,8 +17,6 @@ technologies:
   - Gatsby
 ---
 
-Je suis développeur JavaScript FullStack avec une spécialisaton Vue.js, Node, GraphQL & Jamstack. Je suis le fondateur de https://fireblogcms.com : un nouveau CMS headless entièrement dédié au blogging qui permet de créer des blogs statiques ou JAMstack ultra-performants à partir de son API GraphQL.
+Je suis développeur JavaScript FullStack avec une spécialisaton Vue.js, Node, GraphQL & Jamstack. Je suis l'auteur de https://fireblogcms.com : un nouveau CMS headless entièrement dédié au blogging qui permet de créer des blogs statiques ou JAMstack ultra-performants à partir de son API GraphQL.
 
-Vous pouvez me retrouver sur:
-- Linkedin: https://www.linkedin.com/in/yann-boisselier/
-- Twitter: https://twitter.com/yann_yinn
+Vous pouvez me retrouver sur Linkedin: https://www.linkedin.com/in/yann-boisselier/
