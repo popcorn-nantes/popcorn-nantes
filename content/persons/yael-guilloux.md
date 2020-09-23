@@ -8,23 +8,23 @@ photo: yael-guilloux.jpg
 domaines_metiers:
   - sites web
   - applications mobiles
-  - progressive web apps
+  - web apps
 technologies:
-  - PHP
   - JavaScript
-  - NodeJS
-  - Nuxt
+  - TypeScript
   - Vue
+  - Nuxt
   - React
   - React Native
   - Laravel
-  - Express
+  - NodeJS
+  - NestJS
 ---
 
-Passionné par le web depuis très jeune, aussi bien par son aspect technique que par son aspect commercial, je vous propose mes compétences pour vous aider à faire de vos projets digitaux un succès.
+Passionné par le web depuis très jeune, aussi bien par son aspect technique que par son aspect commercial, je vous propose mes compétences pour vous aider à faire de vos produits web un succès.
 
-Connaissant toutes les étapes pour mener à bien un projet web (conception -> mise en production), je pense être fait pour répondre à vos besoins.
+Connaissant toutes les étapes pour mener à bien un projet web, je pense être à même d'intervenir sur vos projets les plus précoces comme vos applications les plus avancées.
 
-La communication étant pour moi la clé de la réussite de tous projets, contactez moi pour m'expliquer vos différentes attentes et problématiques.
+Pour en savoir plus sur mes compétences, je vous invite à visiter mon site internet [https://yael.dev](https://yael.dev), ou à lire mon [CV](https://resume.yael.dev).
 
-Pour en savoir plus sur mes compétences: https://yaelguilloux.fr/
+Voici, en complément, mon profil [GitHub](https://github.com/Tahul).
