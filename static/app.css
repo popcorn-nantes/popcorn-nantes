@@ -27,3 +27,8 @@ taildwind is compiled with postcss
 .html-content blockquote {
   @apply bg-blue-200;
 }
+
+.html-content li {
+  @apply list-disc;
+  @apply ml-4;
+}
