@@ -37,7 +37,7 @@
             <h4 class="text-gray-700 font-thin mb-6 mt-1 text-sm">{{ person.sous_titre }}</h4>
             <div class="mt-6">
               {% for technology in person.technologies %}
-              <span class="inline-block bg-gray-200 rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mr-2 my-1">
+              <span onclick="searchTechnology('{{technology}}')" class="cursor-pointer inline-block bg-gray-200 rounded-full px-3 py-2 text-xs font-semibold text-gray-700 mr-2 my-1">
                 {{technology}}
               </span>
               {% endfor %}
@@ -68,6 +68,11 @@
       },
       false
     );
+    function searchTechnology(technology) {
+      const search = document.getElementById("search");
+      search.value = technology
+      search.dispatchEvent(new Event('input'));
+    }
   </script>
   <script src="/lazyload.js"></script>
 {% endblock %}
