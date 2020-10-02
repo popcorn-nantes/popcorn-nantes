@@ -12,16 +12,18 @@ fetch("/api/search-index.json")
 search.addEventListener("input", (event) => {
   if (searchIndex) {
     let value = event.target.value;
-    let results = searchPersons(searchIndex, value);
-    const resultsIds = results.map((person) => person.id);
-    const matches = document.querySelectorAll('[data-type="person"]');
-    matches.forEach((match) => {
-      if (!resultsIds.includes(match.id)) {
-        match.style.display = "none";
-      } else {
-        match.style.display = "block";
-      }
-    });
+    if (value.length > 0) {
+      let results = searchPersons(searchIndex, value);
+      const searchResults = document.getElementById("search-results");
+      document.getElementById("persons").style.display = "none";
+      searchResults.style.display = "flex";
+      searchResults.innerHTML = results
+        .map((person) => document.getElementById(person.id).outerHTML)
+        .join("");
+    } else {
+      document.getElementById("persons").style.display = "flex";
+      document.getElementById("search-results").style.display = "none";
+    }
   }
 });
 
