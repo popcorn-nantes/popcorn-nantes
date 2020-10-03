@@ -26,6 +26,14 @@ technologies:
   - AWS
   - Jenkins
   - Git
+
+networks:
+  - name: LinkedIn
+    value: https://www.linkedin.com/in/agnes-maury/
+  - name: Twitter
+    value: https://twitter.com/maury_agnes
+  - name: Site Internet
+    value: http://portfolio.agnesm.dev/
 ---
 
 Développeuse back-end passionnée de Scala, j'ai décidé après 4 ans de salariat de me mettre à mon compte afin d'exploiter pleinement mes compétences.
