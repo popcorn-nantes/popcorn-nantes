@@ -50,12 +50,21 @@ domaines_metiers:
 
 # REQUIS
 # Les technologies que tu utilises
-# Une technologe peut être une langage, un framework, une librairie, un CMS ...
+# Une technologie peut être une langage, un framework, une librairie, un CMS ...
 technologies:
   - PHP
   - JavaScript
   - Nuxt
   - Rust
+
+# OPTIONNEL
+# Les différents réseaux, liens utils à afficher sur ton profil
+# Ça peut être un réseau social, un site internet ...
+networks:
+  - name: Site Internet
+    value: https://fr.wikipedia.org/wiki/PHP
+  - name: Twitter
+    value: https://twitter.com/official_php
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
