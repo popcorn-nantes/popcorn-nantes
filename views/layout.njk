@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/app.css">
 
-    {% if process.env.ENABLE_ANALYTICS  %}
+    {% if process.env.ENABLE_ANALYTICS == 1  %}
     <!-- Matomo -->
     <script type="text/javascript">
       var _paq = window._paq = window._paq || [];
@@ -20,7 +20,7 @@
         g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/fireblogcms.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
       })();
     </script>
-    
+
     <!-- End Matomo Code -->
     {% endif %}
 
