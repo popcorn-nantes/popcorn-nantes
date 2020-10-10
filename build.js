@@ -28,6 +28,7 @@ const views = new nunjucks.Environment(loader, {
 
 views.addGlobal("SITE_NAME", config.SITE_NAME);
 views.addGlobal("SITE_BASE_URL", process.env.SITE_BASE_URL);
+views.addGlobal("ENABLE_ANALYTICS", process.env.ENABLE_ANALYTICS);
 views.addGlobal(
   "CONTACT_ALL_FREELANCES_FORM_LINK",
   process.env.CONTACT_ALL_FREELANCES_FORM_LINK
