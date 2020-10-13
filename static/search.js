@@ -1,4 +1,3 @@
-const search = document.getElementById("search");
 let searchIndex = null;
 
 fetch("/api/search-index.json")
@@ -9,24 +8,24 @@ fetch("/api/search-index.json")
     searchIndex = data;
   });
 
-search.addEventListener("input", (event) => {
-  if (searchIndex) {
-    let value = event.target.value;
-    if (value.length > 0) {
-      let results = searchPersons(searchIndex, value);
-      const searchResults = document.getElementById("search-results");
-      document.getElementById("persons").style.display = "none";
-      searchResults.style.display = "flex";
-      searchResults.innerHTML = results
-        .map((person) => document.getElementById(person.id).outerHTML)
-        .join("");
-      window.lazyLoadInstance.update();
-    } else {
-      document.getElementById("persons").style.display = "flex";
-      document.getElementById("search-results").style.display = "none";
-    }
+function submitSearch(event) {
+  event.preventDefault();
+  const search = document.getElementById("search");
+  let value = search.value;
+  if (value.length > 0) {
+    let results = searchPersons(searchIndex, value);
+    const searchResults = document.getElementById("search-results");
+    document.getElementById("persons").style.display = "none";
+    searchResults.style.display = "flex";
+    searchResults.innerHTML = results
+      .map((person) => document.getElementById(person.id).outerHTML)
+      .join("");
+    window.lazyLoadInstance.update();
+  } else {
+    document.getElementById("persons").style.display = "flex";
+    document.getElementById("search-results").style.display = "none";
   }
-});
+}
 
 function searchPersons(searchIndex, text) {
   let persons = searchIndex.filter((person) => {
