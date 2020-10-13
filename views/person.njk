@@ -82,6 +82,9 @@
 
     function closeModal() {
       contactModal.style.display = "none"
+      if (window._paq) {
+        window._paq.push(["trackEvent", "Modales", "Contacter le freelance", "Close"]);
+      }
     }
 
     function showModal() {
@@ -91,6 +94,9 @@
         dataDecoded = true;
       }
       contactModal.style.display = "block"
+      if (window._paq) {
+        window._paq.push(["trackEvent", "Modales", "Contacter le freelance", "Open"]);
+      }
     }
   </script>
 
