@@ -12,6 +12,20 @@ function submitSearch(event) {
   event.preventDefault();
   const search = document.getElementById("search");
   let value = search.value;
+
+  // matomo search tracking
+  if (window._paq) {
+    window._paq.push([
+      "trackSiteSearch",
+      // Search keyword searched for
+      value,
+      // Search category selected in your search engine. If you do not need this, set to false
+      false,
+      // Number of results on the Search results page. Zero indicates a 'No Result Search Keyword'. Set to false if you don't know
+      false,
+    ]);
+  }
+
   if (value.length > 0) {
     let results = searchPersons(searchIndex, value);
     const searchResults = document.getElementById("search-results");
