@@ -3,7 +3,7 @@ titre: Développeur Front-End
 sous_titre: Angular / Vue.js / React.js
 prenom: Léo
 nom: G.
-mail: leo.gaby.original@gmail.com
+mail: leo.gaboriau@gmail.com
 telephone:
 photo: leo-gaby.jpg
 domaines_metiers:
