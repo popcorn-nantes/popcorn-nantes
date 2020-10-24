@@ -63,5 +63,5 @@ technologies:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Développeur Freelance ayant une bonne sensibilité à l'UX / UI, je prends plaisir à concevoir des maquettes d'applications web (Figma), et les développent ensuite (HTML / CSS / JS). J'explore aussi l'univers du No code et me forme actuellement seul sur Angular / React / Vue. 
+Développeur Freelance ayant une bonne sensibilité à l'UX / UI, je prends plaisir à concevoir des maquettes d'applications web (Figma), et les développe ensuite (HTML / CSS / JS). J'explore aussi l'univers du No code et me forme actuellement seul sur Angular / React / Vue. 
 J'ai aussi une autre casquette ; celle de Prof assistant au Wagon Nantes, pour les modules front HTML/CSS.
