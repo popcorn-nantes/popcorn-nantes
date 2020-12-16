@@ -30,7 +30,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/fabien-clement.jpg
+photo: fabien-clement.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -51,7 +51,6 @@ domaines_metiers:
   - sites intranet
   - sites extranet
 
-
 # REQUIS
 # les technologies que tu utilises, avec ton niveau.
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
@@ -71,6 +70,6 @@ Depuis 2009, je travaille sur Drupal après plusieurs années de contributions s
 
 Responsable technique puis directeur technique, Lead Developer, Encadrement d'équipe, relations client... J'ai contribué à l'augmentation de la taille de l'équipe d'une agence web, l'amélioration de son fonctionnement et sa montée en compétences.
 
-**Lead développeur** en Télétravail chez *Commerce Guys*, société éditrice de Drupal Commerce pendant 3 ans, je propose désormais mes services en tant qu'indépendant.
+**Lead développeur** en Télétravail chez _Commerce Guys_, société éditrice de Drupal Commerce pendant 3 ans, je propose désormais mes services en tant qu'indépendant.
 
 Je peux autant intervenir en amont de projet pour la **définition du besoin**, pour de l'aide au chiffrage, de la **formation**, de l'**audit**, que pour la **montée en compétences** d'une équipe lors du développement ou la **réalisation** de votre projet.

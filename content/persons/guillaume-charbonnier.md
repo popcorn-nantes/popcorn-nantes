@@ -32,7 +32,7 @@ telephone: 06 64 99 39 10
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/guillaume-charbonnier.jpg
+photo: guillaume-charbonnier.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -59,13 +59,12 @@ technologies:
   - QML
   - Scrum
   - Kanban
-
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
+
 Adepte des startups (simulateurs de vol, conception de drones) et des PME/TPE (édition de logiciel), je suis animé par deux passions (dévorantes!) : la gestion de projet en mode agile et le développement d'applications.
 
 <details>

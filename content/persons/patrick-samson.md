@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/patrick-samson.png
+photo: patrick-samson.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -69,7 +69,6 @@ technologies:
   - Airwatch/MDM/Kibana
   - PHP/Yii
   - X.25/X.400/X.500/X.700/Edifact
-
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -84,6 +83,7 @@ J'interviens pour la conception et la réalisation de systèmes d'information, n
 Étant venu à l'informatique par l'électronique, je suis aussi en mesure de mettre à profit cette double compétence pour les projets industriels, IoT, ou sur matériels électroniques.
 
 Voici un échantillon de missions réalisées (CV détaillé sur demande) :
+
 - Expertise sur gestionnaire de flottes de mobiles
 - Applications Android et ReactNative
 - Prise en charge complète du SI de PME

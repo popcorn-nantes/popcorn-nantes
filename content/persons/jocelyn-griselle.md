@@ -6,7 +6,7 @@ nom: Griselle
 mail: jocelyn@griselle.io
 disponible: true
 telephone:
-photo: /images/jocelyn-griselle.jpg
+photo: jocelyn-griselle.jpg
 domaines_metiers:
   - applications web
   - formations

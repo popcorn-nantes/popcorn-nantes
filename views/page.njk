@@ -1,0 +1,22 @@
+{% extends "layout.njk" %} 
+{% import "macros.njk" as macros %}
+
+{% block head %}
+  <title>Popcorn Nantes | {{entity.title}}</title>
+  {{ 
+    macros.socialMetas(
+      title=entity.title,
+      description="Trouvez un développeur freelance à Nantes sans intermédiaire et sans frais.",  
+      url=SITE_BASE_URL + "/page/" + entity.$slug,
+      image=SITE_BASE_URL + "/media/images/popcorn.jpg"
+    ) 
+  }}
+{% endblock %}
+
+{% block content %}
+  <div class="container mx-auto mt-10">
+    <div class="html-content">
+      {{ entity.$html }}
+    </div>
+  </div>
+{% endblock %}

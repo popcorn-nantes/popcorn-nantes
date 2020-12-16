@@ -33,7 +33,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/fabien-juif.jpg
+photo: fabien-juif.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -74,6 +74,7 @@ Il adore démarrer de nouvelles applications et s'implique à 100% sur vos proje
 Il est espère pouvoir partager un peu de sa passion avec vous !
 
 Créateurs de plusieurs librairies opensource, dont :
- - [k-ramel](https://github.com/alakarteio/k-ramel)
- - [k-redux-router](https://github.com/alakarteio/k-redux-router/)
- - [k-redux-factory](https://github.com/alakarteio/k-redux-factory)
+
+- [k-ramel](https://github.com/alakarteio/k-ramel)
+- [k-redux-router](https://github.com/alakarteio/k-redux-router/)
+- [k-redux-factory](https://github.com/alakarteio/k-redux-factory)

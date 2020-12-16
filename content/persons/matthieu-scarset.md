@@ -3,7 +3,7 @@ titre: Développeur Drupal FullStack
 sous_titre: Spécialiste Drupal 8
 prenom: Matthieu
 nom: Scarset
-photo: /images/matthieu-scarset.jpg
+photo: matthieu-scarset.jpg
 mail: m@matthieuscarset.com
 telephone:
 domaines_metiers:

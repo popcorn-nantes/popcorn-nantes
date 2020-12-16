@@ -8,7 +8,7 @@ titre: Développeuse front-end
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 
+sous_titre:
 
 # REQUIS
 prenom: Clara
@@ -37,7 +37,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/clara-babin.jpg
+photo: clara-babin.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -51,7 +51,6 @@ photo: /images/clara-babin.jpg
 # - ... à toi de jouer
 domaines_metiers:
   - sites web
-   
 
 # REQUIS
 # Les technologies que tu utilises
@@ -69,10 +68,6 @@ technologies:
 
 Après 2 ans d'expérience salariée en entreprise j'ai décidé de me lancer en freelance en tant que développeuse-web. Je suis spécialisée
 dans le front-end et dans le CMS Wordpress. Mes missions sont globalement de la refonte et création de sites vitrines ainsi que de
-sites e-commerce. 
+sites e-commerce.
 
-Vous pouvez en voir plus sur mon travail sur mon portfolio (www.clarablaze.fr) ! 
-
-
-
-
+Vous pouvez en voir plus sur mon travail sur mon portfolio (www.clarablaze.fr) !

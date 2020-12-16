@@ -37,7 +37,7 @@ disponible: true
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/thibault-finot.jpg
+photo: thibault-finot.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -67,11 +67,13 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
+
 Développeur Full Stack Ruby On Rails et Vuejs avec 3 ans d'expériences.
 
 Création de plusieurs plateformes intégrant différentes technologies (Postgres, Ruby, Vuejs, Sidekiq...).
 
 Mes différents projets réalisé :
+
 - Dashboard de production industrielle
 - ERP de gestion d'exploitation agricole
 - Site de crowdfunding

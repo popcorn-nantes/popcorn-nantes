@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/franck-letellier.jpg
+photo: franck-letellier.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -58,7 +58,6 @@ technologies:
   - iOS
   - Xcode
   - UX / UI
- 
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -67,7 +66,7 @@ technologies:
 
 Ingénieur expert iOS avec plus de 9 ans d'expérience en France et à l'international, j’ai également eu plusieurs rôles tel qu’architecte mobile, chef de projet ou encore consultant interface, pour des clients comme Saint-Gobin, La Poste, Aéroport de Paris, Virgin, Powershop etc.
 
-Avec mon profil technique (Swift, Objective-C), couplé avec une attention particulière pour le design et l'ergonomie mobile, je cherche avant tout à produire l'expérience utilisateur la plus satisfaisante possible. 
+Avec mon profil technique (Swift, Objective-C), couplé avec une attention particulière pour le design et l'ergonomie mobile, je cherche avant tout à produire l'expérience utilisateur la plus satisfaisante possible.
 
 Ayant supervisé le développement de plusieurs applications, je peux également apporter un support organisationnel pour le suivi de projet.
 
