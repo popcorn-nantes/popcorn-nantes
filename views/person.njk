@@ -35,6 +35,17 @@
           {{ entity.$html }}
         </div>
         <div class="mt-6">
+          <h2 class="font-semibold">Liens utiles</h2>
+          {% for network in entity.networks %}
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 my-1">
+            <a href="{{network.value}}" target="_blank">
+              {{network.name}}
+            </a>
+          </span>
+          {% endfor %}
+        </div>
+        <div class="mt-6">
+          <h2 class="font-semibold"> Technologies</h2>
           {% for technology in entity.technologies %}
           <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-2 my-1">
             {{technology}}
