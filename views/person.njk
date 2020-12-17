@@ -34,6 +34,7 @@
         <div class="html-content mt-6">
           {{ entity.$html }}
         </div>
+        {% if entity.networks.length > 0 %}
         <div class="mt-6">
           <h2 class="font-semibold">Liens utiles</h2>
           {% for network in entity.networks %}
@@ -44,6 +45,7 @@
           </span>
           {% endfor %}
         </div>
+        {% endif %}
         <div class="mt-6">
           <h2 class="font-semibold"> Technologies</h2>
           {% for technology in entity.technologies %}
