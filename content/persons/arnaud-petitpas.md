@@ -28,6 +28,13 @@ technologies:
   - DevOps
   - SysAdmin
   - Intégration continue
+networks:
+  - name: Site
+    value: https://pegasus-algorithms.fr
+  - name: GitHub
+    value: https://github.com/apetitpa
+  - name: GitLab
+    value: https://gitlab.com/apetitpa
 ---
 Passionné d'informatique depuis toujours et adepte de l'open-source, j'accorde une importance particulière aux performances, 
 au code propre et maintenable ainsi qu'à la sécurité. Je cherche donc toujours à optimiser les projets sur lesquels 
