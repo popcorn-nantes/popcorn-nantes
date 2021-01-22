@@ -8,7 +8,7 @@ titre: Développeur JavaScript FullStack
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: moins d'un an d'expérience
+sous_titre: 1 an d'expérience
 
 # REQUIS
 prenom: Mamadou
