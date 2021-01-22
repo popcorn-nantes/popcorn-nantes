@@ -1,6 +1,6 @@
 ---
 titre: Développeur JavaScript FullStack
-sous_titre: spécialisé en Vue, Node, GraphQ &, Jamstack
+sous_titre: spécialisé en Vue, Node, GraphQL & Jamstack
 prenom: Yann
 nom: Boisselier
 photo: yineo.jpg
