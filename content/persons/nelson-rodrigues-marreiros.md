@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/nelsonrodmar.jpg
+photo: nelsonrodmar.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -64,4 +64,4 @@ Passionner d’informatique depuis tout jeune, c’est naturellement que je me s
 
 Je suis ainsi capable de réaliser des applications web, de la conception à la mise en production et ensuite également assurer la maintenance. Le tout en mettant en place du versionning, la base de données et la documentation. 
 
-Pour plus d’information, je vous laisse visiter mon site web : [www.nelsonrodmar.fr](https://www.nelsonrodmar.fr)
+Pour plus d’information, je vous laisse visiter mon site web : [www.nelsonrodmar.fr](www.nelsonrodmar.fr)
