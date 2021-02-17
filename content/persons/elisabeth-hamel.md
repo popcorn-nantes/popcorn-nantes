@@ -11,10 +11,10 @@ titre: Développeur Front-End Créatif
 sous_titre: 7 ans d'expérience
 
 # REQUIS
-prenom: elisabeth
+prenom: Elisabeth
 
 # REQUIS
-nom: hamel
+nom: Hamel
 
 # REQUIS
 # ATTENTION : cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
