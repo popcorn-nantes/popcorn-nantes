@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur front-end
+titre: Développeur front-end Junior
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 2 ans d'expérience
+sous_titre: Concepteur et Développeur d'application web
 
 # REQUIS
 prenom: Julien
@@ -25,6 +25,11 @@ nom: Philippot
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
 mail: julien.philippot86@gmail.com
+
+# OPTIONNEL "true" or "false"
+# si tu as actuellement activement en recherche de projet, indique "true" ici,
+# cela affichera un petit label "disponible" sur ta fiche
+disponible: true
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIRE dans le dépot git et sur le site
@@ -45,7 +50,8 @@ photo: julien-philippot.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - sites web
+  - ux / ui
+  - applications web
   - applications mobiles
 
 # REQUIS
@@ -55,13 +61,16 @@ technologies:
   - HTML
   - CSS
   - JavaScript
-  - Ruby
-  
+  - Clever Cloud
+  - Design de prototypes (Adobe XD / Figma)
+  - Wordpress
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Développeur Freelance ayant une bonne sensibilité à l'UX / UI, je prends plaisir à concevoir des maquettes d'applications web (Figma), et les développe ensuite (HTML / CSS / JS). J'explore aussi l'univers du No code et me forme actuellement seul sur Angular / React / Vue. 
-J'ai aussi une autre casquette ; celle de Prof assistant au Wagon Nantes, pour les modules front HTML/CSS.
+**Développeur Front-End Freelance** ayant une bonne sensibilité à l'UX / UI, je prends plaisir à concevoir des maquettes et prototypes d'applications web, et les développe ensuite. J'explore aussi l'univers du No code et me forme actuellement seul sur React / Vue.
+J'ai aussi une autre casquette ; celle de Prof assistant au Wagon Nantes, pour les modules front *HTML/CSS* et les semaines projets.
+
+Retrouvez plus d'information sur mon profil en cliquant ici https://julienphlpt.github.io/Portfolio/
