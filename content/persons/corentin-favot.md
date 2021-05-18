@@ -78,7 +78,7 @@ networks:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Développeur Web converti, suite à un parcours riche en expériences et apprentissages : ma nature curieuse et exploratrice m'a poussé à voyager chaque fois que j'en avais la chance. Cela m'a permis de découvrir des modes de vie et des environements de travail de plusieurs pays (France, Australie, Nouvelle-Zélande et Hong Kong).
+Développeur Web converti, suite à un parcours riche en expériences et apprentissages : ma nature curieuse et exploratrice m'a poussée à voyager chaque fois que j'en avais la chance. Cela m'a permis de découvrir des modes de vie et des environements de travail de plusieurs pays (France, Australie, Nouvelle-Zélande et Hong Kong).
 
 Ce sont encore ces traits de caractère et la recherche de nouveaux défis qui m'ont poussés à me réorienter vers le métier de développeur Web, un environnement en constante évolution qui correspond parfaitement à ma personnalité.
 
