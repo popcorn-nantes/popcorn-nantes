@@ -1,6 +1,6 @@
 ---
 titre: Développeur Front-End
-sous_titre: Angular / Vue.js / React.js
+sous_titre: Angular / Vue.js
 prenom: Léo
 nom: G.
 mail: leo.gaboriau.work@gmail.com
@@ -13,15 +13,14 @@ technologies:
   - TypeScript
   - Angular
   - Vue.js
-  - React.js
   - Nuxt.js
-  - Redux
+  - RxJS
   - VueX
   - Stripe
   - Tailwind
 ---
 
-Développeur web front-end avec plus de 3 ans d'expérience avec Angular, Vue.js et React.js.
+Développeur web front-end avec plus de 3 ans d'expérience avec Angular et Vue.js.
 
 Ayant réalisé des projets pour des ESN comme pour des start-ups, je suis habitué à travailler en équipe, à apprendre des autres et à leur enseigner.
 
