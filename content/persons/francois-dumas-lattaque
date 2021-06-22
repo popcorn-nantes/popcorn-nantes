@@ -16,11 +16,12 @@ technologies:
   - Ruby
   - Ruby on Rails
   - JavaScript
-  - VueJS
+  - Vue.js
   - CSS
   - HTML
   - Postgresql
   - Clever Cloud
+  - Rspec
   - REST Api
   - Design de prototypes (Whimsical / Figma)
 networks:
