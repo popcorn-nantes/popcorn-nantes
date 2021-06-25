@@ -63,7 +63,7 @@ technologies:
 # Ça peut être un réseau social, un site internet ...
 networks:
   - name: Site Internet
-    value: https://madeoweb.com
+    value: https://www.madeoweb.com/
   - name: Linkedin
     value: linkedin.com/in/christopheherroudéveloppeurfrontenduxdesignernantes
 # REQUIS
