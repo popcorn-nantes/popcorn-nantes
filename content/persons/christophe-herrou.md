@@ -65,7 +65,7 @@ networks:
   - name: Site Internet
     value: https://www.madeoweb.com/
   - name: Linkedin
-    value: linkedin.com/in/christopheherroudéveloppeurfrontenduxdesignernantes
+    value: https://www.linkedin.com/in/christopheherroudeveloppeurfrontenduxdesignernantes/
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
