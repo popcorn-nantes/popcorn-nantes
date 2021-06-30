@@ -11,10 +11,10 @@ titre: Senior .net Csharp / Angular, Formateur dotnet / js / Angular, Agile
 sous_titre: 15 ans d'expérience et toujours aussi passionné, curieux, créatif
 
 # REQUIS
-prenom: evan
+prenom: Evan
 
 # REQUIS
-nom: boissonnot
+nom: Boissonnot
 
 # REQUIS
 # ATTENTION : cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /public/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: /images/evan-boissonnot.png
+photo: evan-boissonnot.png
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -80,6 +80,15 @@ technologies:
 Artisan logiciel, passionné par son métier, depuis 15 ans.
 Animé par la curiosité, l'empathie, la créativité, l'innovation.
 
-Avec une vision globale et englobante de votre projet, je vous accompagne aussi bien en formation (https://devtobecurious.com) : transmettre mon expérience auprès de vos équipes, qu'en freelance senior (rejoindre votre équipe).
+Avec une vision globale et englobante de votre projet, je vous accompagne aussi bien en formation : transmettre mon expérience auprès de vos équipes, qu'en freelance senior (rejoindre votre équipe).
 
 Un atout clef ? Je vous propose aussi mes services en tant que coach / accompagnateur de vos équipes sous deux dimensions : technique et humaine.
+
+
+networks:
+  - name: Site Internet principal
+    value: https://evan-boissonnot.fr
+  - name: Formateur
+    value: https://devtobecurious.com
+  - name : Linked in
+    value: https://www.linkedin.com/in/evan-boissonnot-24508310/
