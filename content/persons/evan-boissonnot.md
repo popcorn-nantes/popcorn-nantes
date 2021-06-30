@@ -71,6 +71,15 @@ technologies:
   - Agilité
   - Scrum
   - Kanban
+
+networks:
+  - name: Site Internet principal
+    value: https://evan-boissonnot.fr
+  - name: Formateur
+    value: https://devtobecurious.com
+  - name : Linked in
+    value: https://www.linkedin.com/in/evan-boissonnot-24508310/
+    
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -83,12 +92,3 @@ Animé par la curiosité, l'empathie, la créativité, l'innovation.
 Avec une vision globale et englobante de votre projet, je vous accompagne aussi bien en formation : transmettre mon expérience auprès de vos équipes, qu'en freelance senior (rejoindre votre équipe).
 
 Un atout clef ? Je vous propose aussi mes services en tant que coach / accompagnateur de vos équipes sous deux dimensions : technique et humaine.
-
-
-networks:
-  - name: Site Internet principal
-    value: https://evan-boissonnot.fr
-  - name: Formateur
-    value: https://devtobecurious.com
-  - name : Linked in
-    value: https://www.linkedin.com/in/evan-boissonnot-24508310/
