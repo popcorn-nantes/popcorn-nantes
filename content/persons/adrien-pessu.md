@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Architect Java JavaScript
+titre: Architecte Java JavaScript
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
