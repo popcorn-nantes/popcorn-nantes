@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur FullStack Java JavaScript
+titre: Architect Java JavaScript
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 9 ans d'expérience
+sous_titre: 11 ans d'expérience
 
 # REQUIS
 prenom: Adrien
@@ -46,8 +46,9 @@ photo: adrien-p.png
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - sites web
-  - applications de gestion
+  - lead dev
+  - architecture technique
+  - sécurité applicative
 
 # REQUIS
 # les technologies que tu utilises, avec ton niveau.
@@ -57,12 +58,16 @@ technologies:
   - JavaScript
   - Kotlin
   - Spring
+  - Micronaut
   - Angular
+  - Sécurité
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Je suis indépendant et passionné de développement.
+Je suis passionné de développement.
 
+Mes technologies favorites sont Angular en front et JMV en back (Kotlin, Java ou groovy) avec Spring ou Micronaut.
 J’aide l’équipe projet à mettre en place les bonnes pratiques pour développer plus vite, améliorer la qualité et diminuer les coûts.
+J'ai un attrait particulier pour la sécurité applicative (découverte de failles, mise en place de bonnes pratiques, architecture, OWASP, shift left).
