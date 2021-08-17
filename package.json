@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development node build.js",
+    "dev-win": "SET NODE_ENV=development && node build.js && npx serve _site",
     "build": "node build.js",
     "contributors:generate": "all-contributors generate"
   },
