@@ -20,17 +20,11 @@ domaines_metiers:
 technologies:
   - JavaScript
   - React
-  - HTML5
-  - CSS3/Sass
-  - GraphQL
   - NextJS
-  - Gatsby
-  - Contentful
-  - Netlify
-  - Vercel
-  - Git
+  - HTML / CSS 
   - Figma/Sketch
   - Wordpress
+  
 
 networks:
   - name: Site perso
