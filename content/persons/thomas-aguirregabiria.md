@@ -1,13 +1,13 @@
 ---
-# Copie colle ce fichier pour crÈer ton profil sur PopCorn.
+# Copie colle ce fichier pour cr√©er ton profil sur PopCorn.
 # Le nom du fichier sera aussi l'url de ton profil
 
 # REQUIS
-# Le titre qui te reflÈte "Expert JavaScript", "DÈveloppeur web junior"
-titre: DÈveloppeur FullStack
+# Le titre qui te refl√©te "Expert JavaScript", "D√©veloppeur web junior"
+titre: D√©veloppeur Fullstack
 
 # OPTIONNEL
-# Un sous-titre de ton choix si tu as quelque chose ‡ ajouter
+# Un sous-titre de ton choix si tu as quelque chose √† ajouter
 sous_titre: Java / ReactJS / NodeJS
 
 # REQUIS
@@ -17,45 +17,50 @@ prenom: Thomas
 nom: AGUIRREGABIRIA
 
 # REQUIS
-# ATTENTION : cette donnÈe est PUBLIQUE et en CLAIR dans le dÈpot git et sur le site
+# ATTENTION : cette donn√©e est PUBLIQUE et en CLAIR dans le d√©pot git et sur le site
 #
 # Le mail qui permet au client de contacter pour te faire une proposition de projet
 # et de t'inviter sur le slack de PopCorn.
 #
-# Si cela t'embÍte parce que tu utilises une adresse perso, tu peux aussi te crÈer
-# une adresse mail pro publique et la rediriger vers ta boÓte mail perso
+# Si cela t'emb√™te parce que tu utilises une adresse perso, tu peux aussi te cr√©er
+# une adresse mail pro publique et la rediriger vers ta bo√Æte mail perso
 mail: hello@itag-technology.com
 
+# OPTIONNEL "true" or "false"
+# si tu as actuellement activement en recherche de projet, indique "true" ici,
+# cela affichera un petit label "disponible" sur ta fiche
+disponible: true
+
 # OPTIONNEL
-# ATTENTION cette donnÈe est PUBLIQUE et en CLAIRE dans le dÈpot git et sur le site
-telephone:
+# ATTENTION cette donn√©e est PUBLIQUE et en CLAIR dans le d√©pot git et sur le site
+<!-- telephone: -->
 
 # REQUIS
-# l'image doit Ítre ajoutÈe dans le dossier /static/media/photos et faire moins de 100ko !
+# l'image doit √™tre ajout√©e dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affich√©e sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
 photo: thomas-aguirregabiria.jpg
 
 # REQUIS
-# Les domaines mÈtiers que tu exerces **vu par tes client(e)s sans connaissances
+# Les domaines m√©tiers que tu exerces **vu par tes client(e)s sans connaissances
 # techniques**, pour qu'ils ou elles te trouvent facilement. Un client(e) veut par exemple
-# rÈaliser une des choses suivantes :
+# r√©aliser une des choses suivantes :
 # - sites web
 # - applications mobiles
-# - jeux vidÈos
+# - jeux vid√©os
 # - boutiques en ligne
 # - site vitrine
-# - ... ‡ toi de jouer
+# - ... √† toi de jouer
 domaines_metiers:
   - site web
   - application web
   - site vitrine
   - progressive web application (PWA)
-  - base de donnÈes
+  - base de donn√©es
   - UX / UI
   - architecture
 
 # REQUIS
 # Les technologies que tu utilises
-# Une technologie peut Ítre une langage, un framework, une librairie, un CMS ...
+# Une technologie peut √™tre une langage, un framework, une librairie, un CMS ...
 technologies:
   - Java (Spring)
   - Javascript (ReactJS, NodeJS)
@@ -64,22 +69,23 @@ technologies:
   - HTML
 
 # OPTIONNEL
-# Les diffÈrents rÈseaux, liens utils ‡ afficher sur ton profil
-# «a peut Ítre un rÈseau social, un site internet ...
+# Les diff√©rents r√©seaux, liens utils √† afficher sur ton profil
+# √ßa peut √™tre un r√©seau social, un site internet ...
 networks:
   - name: LinkedIn
     value: https://www.linkedin.com/in/thomas-aguirregabiria-52006193/
 # REQUIS
-# Ècrit ci-dessous ta prÈsentation en markdown ??
-# Il sera affichÈ sur ta page de profil dÈdiÈe
-# Tu peux mettre Èvidemment mettre un lien vers ton site.
+# √©crit ci-dessous ta pr√©sentation en markdown ‚¨áÔ∏è
+# Il sera affich√© sur ta page de profil d√©di√©e
+# La coloration syntaxique du code est support√©e.
 ---
 
-Je suis concepteur et dÈveloppeur d'applications.
+Je suis concepteur et d√©veloppeur d'applications.
 
-Techniquement j'utilise majoritairement Java Spring, ReactJS, divers frameworks NodeJS et du  SQL. 
-J'aime Ègalement tester de nouveaux outils, suivre les tendances et les Èvolutions UX / UI etc.
+Techniquement j'utilise majoritairement Java Spring, ReactJS, divers frameworks NodeJS et du SQL.
+J'aime √©galement tester de nouveaux outils, suivre les tendances et les √©volutions UX / UI etc.
 
-Je bÈnÈfie d'expÈriences variÈes qui font de moi un bon alliÈ pour traiter vos sujets front et back.
+Je b√©n√©fie d'exp√©riences vari√©es qui font de moi un bon alli√© pour traiter vos sujets front et back.
+J'ai travaill√© 2 ans au sein de la DSI de Maisons du Monde et j'ai √©galement contribu√© √† divers projets pour Cr√©dit Mutuel Ark√©a, MAIF, CDC Habitat.
 
-Sachez que j'aime travailler au sein de collaborations franches et ouvertes. La communication est un ÈlÈment indispensable au bon dÈroulement d'un projet.
+Sachez que j'aime travailler au sein de collaborations franches, ouvertes et agile.
