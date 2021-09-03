@@ -4,10 +4,10 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur Android Natif
+titre: Développeur Front React
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 7 ans d'expérience
+sous_titre: Spécialisé en apps web admin & SaaS
 
 # REQUIS
 prenom: Jonathan
@@ -49,26 +49,31 @@ photo: jonathan-gerbaud.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - applications mobiles
-  - android
+  - applications web
+  - front-end
+  - SaaS
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - Java
-  - Kotlin
+  - Javascript
+  - React
+  - Metronic
+
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Hello !
+Après des années passées sur Android avec les langages Java & Kotlin, je me suis désormais tourné vers le **front-end web**. Je code donc désormais en Javascript bien évidemment, et j'ai choisi le **framework React** (je ne connais absolument pas les deux autres frameworks du marché, à savoir Vue et Angular).
 
-J'ai commencé à travailler sur **Android** lorsque les premiers iPhones se lançaient sur le marché (cela fait une éternité déjà).
+Je me suis rapidement spécialisé dans la conception d'interfaces d'administration et de SaaS. J'utilise pour cela le template [Metronic](https://preview.themeforest.net/item/metronic-responsive-admin-dashboard-template/full_screen_preview/4021469) sur lequel j'ai capitalisé. Vous pouvez voir des [exemples d'écrans ici](https://drive.google.com/drive/folders/11YSzS5EEb1uSD2aUMC8FWYPlrBhXYY18?usp=sharing).
 
-Quel que soit votre projet, une maquette, un prototype, une application, une mise à jour, une reprise de code, discutons-en, je peux certainement vous aider !
+je peux ainsi rapidement créer des écrans connectés à votre back-end, que ce soit via une API REST ou GraphQL.
 
-Les technologies évoluent vite, je code désormais essentiellement en Kotlin, même si j'utilise toujours Java de temps en temps.
+J'ai également de l'expérience avec la plateforme de paiement Stripe, notamment sur la mise en place de gestion des abonnements pour les utilisateurs d'une application web en mode SaaS.
 
-Plus d'infos sur [mon site](https://www.jonathangerbaud.fr)
+Et aussi de l'expérience côté back-end avec les technologies NodeJS et Laravel (PHP).
+
+Durant mes années Android, j'ai su développer une certaine compétence sur la partie UI/UX, et j'aime être force de proposition sur ces points (j'aime quand c'est fonctionnel, mais aussi quand c'est beau et facile à utiliser).
