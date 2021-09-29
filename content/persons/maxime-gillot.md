@@ -45,7 +45,7 @@ photo: maxime-gillot.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - applications
+  - Applications
   - Backend 
   - Datalake
 
@@ -76,5 +76,6 @@ networks:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Développeur Big Data depuis maintenant plus de 4 ans. j'interviens principalement sur des projets big data et la construction de datalake.
+Développeur Big Data depuis maintenant plus de 4 ans. j'interviens principalement sur des projets big data et la construction de datalake.  
+
 Je travaille sur l'ensemble des phases du cycle de vie applicatif : conception, développement, monitoring, déploiement et mise en production, maintien en condition opérationnelle.
