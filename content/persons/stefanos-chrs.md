@@ -9,7 +9,7 @@ nom: Chrs
 
 mail: root@stefanoschrs.com
 
-disponible: true
+disponible: false
 
 telephone:
 
