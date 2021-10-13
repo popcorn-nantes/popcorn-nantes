@@ -13,6 +13,15 @@ const {
 } = require("./utils/helpers.js");
 const FileMinifyLoader = require("nunjucks-minify-loaders").FileMinifyLoader;
 
+process.on("uncaughtException", (error) => {
+  console.log(error);
+  process.exit(1);
+});
+
+process.on("unhandledRejection", (error) => {
+  throw error;
+});
+
 const opts = {
   minify: {
     collapseWhitespace: true,
