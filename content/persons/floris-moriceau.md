@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Lead Développeur Drupal Front-End
+titre: Product Owner spécialisé Drupal
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Web Design, Intégration, Accessibilité...
+sous_titre: Communication, simplicité, efficacité et accessibilité...
 
 # REQUIS
 prenom: Floris
@@ -46,28 +46,43 @@ photo: floris-moriceau.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - Sites web
-  - Sites e-commerce
-  - Accompagnement
-  - Accessibilité
+  - sites web
+  - sites e-commerce
+  - boutiques en ligne
+  - accompagnement
+  - accessibilité
 
 # REQUIS
 # les technologies que tu utilises, avec ton niveau.
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
   - Drupal
-  - Twig
-  - ZURB Foundation
-  - Sass
+  - Scrum
+  - Agilité
+  - HTML
+  - CSS
+
+# OPTIONNEL
+# Les différents réseaux, liens utils à afficher sur ton profil
+# Ça peut être un réseau social, un site internet ...
+networks:
+  - name: Site Internet
+    value: https://floris-moriceau.fr
+  - name: CV
+    value: https://www.iloofo.com/lequipe/floris-moriceau
+  - name: Twitter
+    value: https://twitter.com/FlorisMoriceau
+  - name: LinkedIn
+    value: https://www.linkedin.com/in/florismoriceau
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Depuis toujours intéressé par la technique autant que la communication,
-je me suis rapidement orienté vers le métier de web-designer.
+Je suis Floris, graphiste web, intégrateur HTML/CSS et développeur front-end de formation situé à Nantes en France.
 
-Grâce à _Drupal_, je peux aujourd'hui pleinement utiliser ces deux passions au sein des mêmes projets.
-Il existe le métier de technico-commercial, un profil doté de compétences lui permettant de vendre des projets dont il comprend pleinement les technicités.
+**Et oui, j’aime Drupal.**
 
-**Je suis un technico-designer, ou bien un designo-technicien...**
+**Je suis Product Owner, Site Builder et Front-End Developer spécialisé Drupal.**
+
+Depuis mai 2017, je suis membre du bureau de l’association Drupal France et francophonie, et ai l’honneur d’être son président depuis mars 2020.
