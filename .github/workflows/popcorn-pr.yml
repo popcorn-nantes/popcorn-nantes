@@ -1,14 +1,12 @@
-name: Popcorn Nantes - Deploy
+name: Popcorn Nantes - CI
 
 on:
-  push:
+  pull_request:
     branches:
       - master
-  schedule:
-    - cron: "0 6 * * *"
 
 jobs:
-  build-and-deploy:
+  check-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,11 +25,3 @@ jobs:
         run: |
           npm install --only=production
           npm run build
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: popcorn-nantes/popcorn-nantes.github.io
-          publish_branch: master
-          publish_dir: ./_site
