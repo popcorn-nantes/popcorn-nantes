@@ -1,0 +1,27 @@
+name: Popcorn Nantes
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.x"
+
+      - name: Build
+        env:
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          CONTACT_ALL_FREELANCES_FORM_LINK: ${{ secrets.CONTACT_ALL_FREELANCES_FORM_LINK }}
+          ENABLE_ANALYTICS: ${{ secrets.ENABLE_ANALYTICS }}
+        run: |
+          npm install --only=production
+          npm run build
