@@ -17,6 +17,12 @@ jobs:
         with:
           node-version: "10.x"
 
+      - name: Check file size (< 500k)
+        run: |
+          FILES=$(find static -size +500k -exec ls -lh {} \;)
+          echo $FILES
+          test $(echo $FILES | wc -l) -eq 0
+
       - name: Build
         env:
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
