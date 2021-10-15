@@ -21,7 +21,7 @@ jobs:
         run: |
           FILES=$(find static -size +500k -exec ls -lh {} \;)
           echo $FILES
-          test $(echo $FILES | wc -l) -eq 0
+          test $(echo $FILES | wc -w) -eq 0
 
       - name: Build
         env:
