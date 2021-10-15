@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: "10.x"
 
-      - name: Check file size (< 500k)
+      - name: Check file size (< 500 ko)
         run: |
           FILES=$(find static -size +500k -exec ls -lh {} \;)
           echo $FILES
