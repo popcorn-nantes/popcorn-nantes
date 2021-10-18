@@ -4,10 +4,10 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur Front React
+titre: Développeur ReactJS
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Spécialisé en apps web admin & SaaS
+sous_titre: Spécialisé en front-end web, Saas et panneaux d'administration
 
 # REQUIS
 prenom: Jonathan
@@ -50,6 +50,7 @@ photo: jonathan-gerbaud.jpg
 # - ... à toi de jouer
 domaines_metiers:
   - applications web
+  - interfaces/panneaux d'administrations
   - front-end
   - SaaS
 
@@ -58,17 +59,28 @@ domaines_metiers:
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
   - Javascript
+  - Typescript
   - React
+  - ReactJS
+  - React.js
   - Metronic
+  - Bootstrap 4/5
+  - Next.js
+  - Redux
+  - React hooks
+  - REST
+  - GraphQL
+  - Websockets
+  - Netlify
 
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Après des années passées sur Android avec les langages Java & Kotlin, je me suis désormais tourné vers le **front-end web**. Je code donc désormais en Javascript bien évidemment, et j'ai choisi le **framework React** (je ne connais absolument pas les deux autres frameworks du marché, à savoir Vue et Angular).
+Après des années passées sur Android avec les langages Java et Kotlin, je me suis désormais tourné vers le **front-end web**. Je code donc désormais en Javascript/Typescript bien évidemment, et j'ai choisi le **framework React** (je ne connais absolument pas les deux autres frameworks du marché, à savoir Vue et Angular).
 
-Je me suis rapidement spécialisé dans la conception d'interfaces d'administration et de SaaS. J'utilise pour cela le template [Metronic](https://preview.themeforest.net/item/metronic-responsive-admin-dashboard-template/full_screen_preview/4021469) sur lequel j'ai capitalisé. Vous pouvez voir des [exemples d'écrans ici](https://drive.google.com/drive/folders/11YSzS5EEb1uSD2aUMC8FWYPlrBhXYY18?usp=sharing).
+Je me suis rapidement spécialisé dans la conception d'interfaces d'administration et de SaaS. J'utilise pour cela le template [Metronic](https://preview.themeforest.net/item/metronic-responsive-admin-dashboard-template/full_screen_preview/4021469) sur lequel j'ai capitalisé. 
 
 je peux ainsi rapidement créer des écrans connectés à votre back-end, que ce soit via une API REST ou GraphQL.
 
