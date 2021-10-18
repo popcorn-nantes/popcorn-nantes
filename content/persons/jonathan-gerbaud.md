@@ -7,7 +7,7 @@
 titre: Développeur ReactJS
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Spécialisé en front-end web : Saas et panneaux d'administration
+sous_titre: Spécialisé en front-end web, Saas et panneaux d'administration
 
 # REQUIS
 prenom: Jonathan
