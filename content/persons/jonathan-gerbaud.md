@@ -7,7 +7,7 @@
 titre: Développeur ReactJS
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Spécialisé en front-end web : Saas & panneaux d'administration
+sous_titre: Spécialisé en front-end web : Saas et panneaux d'administration
 
 # REQUIS
 prenom: Jonathan
@@ -78,7 +78,7 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Après des années passées sur Android avec les langages Java & Kotlin, je me suis désormais tourné vers le **front-end web**. Je code donc désormais en Javascript/Typescript bien évidemment, et j'ai choisi le **framework React** (je ne connais absolument pas les deux autres frameworks du marché, à savoir Vue et Angular).
+Après des années passées sur Android avec les langages Java et Kotlin, je me suis désormais tourné vers le **front-end web**. Je code donc désormais en Javascript/Typescript bien évidemment, et j'ai choisi le **framework React** (je ne connais absolument pas les deux autres frameworks du marché, à savoir Vue et Angular).
 
 Je me suis rapidement spécialisé dans la conception d'interfaces d'administration et de SaaS. J'utilise pour cela le template [Metronic](https://preview.themeforest.net/item/metronic-responsive-admin-dashboard-template/full_screen_preview/4021469) sur lequel j'ai capitalisé. 
 
@@ -89,4 +89,3 @@ J'ai également de l'expérience avec la plateforme de paiement Stripe, notammen
 Et aussi de l'expérience côté back-end avec les technologies NodeJS et Laravel (PHP).
 
 Durant mes années Android, j'ai su développer une certaine compétence sur la partie UI/UX, et j'aime être force de proposition sur ces points (j'aime quand c'est fonctionnel, mais aussi quand c'est beau et facile à utiliser).
-
