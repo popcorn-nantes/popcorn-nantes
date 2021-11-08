@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Expert en C/C++
+titre: Développeur système embarqué / IOT / informatique industrielle
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Plus de 10 ans d'expérience
+sous_titre: Plus de 15 ans d'expérience
 
 # REQUIS
 prenom: Frédéric
@@ -45,10 +45,10 @@ photo: frederic-vrignaud.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - embarqué
-  - temps réel
+  - système embarqué
   - application PC
   - objets connectés
+  - informatique industrielle
   - automatisations
   - prototypage
   - vision
@@ -59,23 +59,25 @@ domaines_metiers:
 technologies:
   - C
   - C++
-  - Javascript
+  - Python
   - Arduino
   - Raspberry PI
-  - ESP 8266
+  - ESP32
   - Linux
   - Qt
   - IOT
   - LoRaWAN
+  - Sigfox
+  - Javascript
   - Ethernet
   - Wifi
   - RS232
   - RS485
+  - CAN
   - OpenCV
   - Node red
   - Wireshark
   - GIT
-  - Google maps
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
@@ -84,7 +86,7 @@ technologies:
 
 ## Qui suis-je ?
 
-Ingénieur en developpement logiciel, je suis spécialisé dans le **développement des systèmes industriels** depuis plus de **12 ans**. Polyvalent, je m'adapte à un large éventail de cible logiciel (embarqué, client lourd, serveur, web, ...)
+Ingénieur en developpement logiciel, je suis spécialisé dans le **développement des systèmes industriels** depuis plus de **15 ans**. Polyvalent, je m'adapte à un large éventail de cible logiciel (embarqué, client lourd, serveur, web, ...)
 
 Indépendant depuis 2018, je vous propose un accompagnement dans l'élaboration de votre produit logiciel. Du devis à la réalisation, je m'engage au bon déroulement des travaux.
 
@@ -92,7 +94,7 @@ Indépendant depuis 2018, je vous propose un accompagnement dans l'élaboration 
 
 Je vous accompagne dans le développement logiciel de votre projet industriel (**développement embarqué, vision, pilotage machines, objets connectés,** configuration serveur, connexion mobile, ...).
 
-Expert en développement **C/C++**, je crée, améliore ou corrige des applications spécifiques sur différentes cibles (PC, Serveur, Arduino, Raspberry, ESP, 68000, ...).
+Expert en développement **C/C++**, je crée, améliore ou corrige des applications spécifiques sur différentes cibles (PC, Serveur, Arduino, Raspberry, ESP32, 68000, ...).
 
 J’améliore votre processus de travail, en automatisant vos actions récurrentes (scripts de configuration, génération documentaire automatique, prototypage électronique, pilotage machines industrielles).
 
@@ -103,12 +105,12 @@ Fort de mon expérience, j'ai eu l'occasion de participer à l'ensemble des phas
 ## Mes services
 
 - Spécifications et conception
-- Développement embarqué et temps réel (Objets connectés, cible spécifique, ...)
+- Développement embarqué (Objets connectés, cible spécifique, ...)
 - Développement PC client lourd (Vision industrielle, ...)
 - Automatisations (banc de production, banc de test, ...)
 - Prototypage (réalisation, estimation de l'autonomie, ...)
 
 ## Pour en savoir plus :
 
-- [Site Web](https://fvrignaud.vsconnect.fr)
-- [LinkedIn](https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-vrignaud-82a689154)
+- [Site Web](https://www.vsconnect.fr)
+- [LinkedIn](https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-vrignaud-vsconnect-iouest-82a689154/#)
