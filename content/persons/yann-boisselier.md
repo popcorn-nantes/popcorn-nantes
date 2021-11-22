@@ -1,6 +1,6 @@
 ---
-titre: Développeur JavaScript FullStack
-sous_titre: spécialisé en Vue, Node, GraphQL & Jamstack
+titre: Développeur spécialisé Vue.js
+sous_titre: +10 d'xp en web, +3 ans d'xp en Vue.
 prenom: Yann
 nom: Boisselier
 photo: yineo.jpg
@@ -11,16 +11,16 @@ domaines_metiers:
 technologies:
   - Nuxt
   - Vue
-  - Node
   - GraphQL
-  - JAMStack
-  - Gatsby
 ---
 
-Après des années en PHP (Drupal principalement), je suis désormais développeur JavaScript FullStack avec une spécialisaton Vue.js, Nuxt, Node, GraphQL, Mongodb & Jamstack. (j'apprécie aussi travailler avec Next, Gatsby et Eleventy)
+Développeur web depuis +10 ans, je suis spécialisé en Vue.js depuis 2017. J'ai réalisé de nombreux projets en Vue pour des start-ups (interface d'administration, EPR / CRM, développement de CMS). 
 
-J'ai également une expérience en Stripe (mise en place de gestion des abonnements pour les utilisateurs d'une application web)
+Je suis à l'écoute de vos problématiques business pour prendre les bonnes décisions techniques pour atteindre vos objectifs; et je suis force de proposition. 
 
-J'ai travaillé plusieurs années via des ESN dans de groupes medias (France 24, RFI, France Inter) avant de me mettre à mon compte.
+Si vous avez besoin d'un freelance de confiance pour votre projet, parlons-en ☕
+
 
 Vous pouvez me retrouver sur Linkedin: https://www.linkedin.com/in/yann-boisselier/
+
+Ou sur twitter: https://twitter.com/yann_yinn
