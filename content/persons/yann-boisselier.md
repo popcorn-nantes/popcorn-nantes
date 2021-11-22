@@ -14,7 +14,7 @@ technologies:
   - GraphQL
 ---
 
-Développeur web depuis +10 ans, je suis spécialisé en Vue.js depuis 2017. J'ai réalisé de nombreux projets en Vue pour des start-ups (interface d'administration, EPR / CRM, développement de CMS). 
+Développeur web depuis +10 ans, je suis spécialisé en Vue.js depuis 2017. J'ai réalisé de nombreux projets en Vue pour des start-ups (interface d'administration, ERP / CRM, développement de CMS). 
 
 Je suis à l'écoute de vos problématiques business pour prendre les bonnes décisions techniques pour atteindre vos objectifs; et je suis force de proposition. 
 
