@@ -16,16 +16,12 @@ technologies:
   - Ruby
   - Ruby on Rails
   - JavaScript
-  - VueJS
-  - CSS
-  - HTML
+  - Vue.js
   - Postgresql
-  - Clever Cloud
-  - REST Api
   - Design de prototypes (Whimsical / Figma)
 networks:
   - name: Site Internet
-    value: https://francoisedumas.github.io/profile/
+    value: https://fdlab.me/
   - name: Github
     value: https://github.com/francoisedumas
   - name: Linkedin
@@ -38,4 +34,4 @@ Basé à Nantes, je développe et conçois des applications web répondant à vo
 
 Je peux également m'intégrer à votre équipe tech pour développer de nouvelles fonctionnalités sur des applications existantes.
 
-Pour en savoir plus sur mes compétences, et mes precedents projet je vous invite à visiter [mon site internet](https://francoisedumas.github.io/profile/)
+Pour en savoir plus sur mes compétences, et mes precedents projet je vous invite à visiter [mon site internet](https://fdlab.me/)
