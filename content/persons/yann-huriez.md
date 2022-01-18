@@ -1,5 +1,4 @@
 ---
-
 titre: Développeur Mobile Senior
 
 sous_titre: 9 ans d'expérience
@@ -10,8 +9,6 @@ nom: Huriez
 mail: yann.huriez@gmail.com
 telephone: 06.83.73.57.84
 
-# REQUIS
-# l'image doit être ajoutée dans le dossier /static/media/photos et faire moins de 100ko !
 photo: yann-huriez.jpg
 
 domaines_metiers:
@@ -43,9 +40,9 @@ networks:
     value: https://www.linkedin.com/in/yann-huriez-358a32117/
   - name: Twitter
     value: https://twitter.com/HuriezYann
+---
 
-
-Un projet d’application, y a rien de plus complexe.
+Un projet d’application, il n'y a rien de plus complexe.
 
 Il faut répondre à tout un tas d’exigences (en termes d’expérience utilisateur, de design, de marketing...), avec un délai et un budget toujours plus limité.
 
@@ -64,6 +61,5 @@ Parce que les solutions ne viennent pas en intégrant la dernière techno à la 
 C’est pourquoi j’aime toucher un peu à tout dans un projet et que j’ai pu développer des compétences diversifiées dans ces domaines, qui me permettent de proposer les solutions les plus simples à mettre en œuvre pour répondre à un problème. Pourquoi passer des jours à développer quand parfois un simple coup de fil peut résoudre le problème ?
 
 On économise ainsi du temps, de l’argent et on peut avancer sereinement dans le projet, sans stress inutile.
-
 
 Si vous avez un projet d'applications et que vous souhaitez éviter ces écueils, n'hésitez pas à me contacter !
