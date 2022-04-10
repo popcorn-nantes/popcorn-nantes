@@ -8,7 +8,7 @@ titre: Architecte Java JavaScript
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 11 ans d'expérience
+sous_titre: 13 ans d'expérience
 
 # REQUIS
 prenom: Adrien
