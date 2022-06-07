@@ -11,12 +11,12 @@ domaines_metiers:
   - mentoring
 technologies:
   - JavaScript
-  - Angular / AngularJS
+  - Angular
   - Java
   - CSS
 ---
 
-Depuis près de 15 ans, j'accompagne mes clients dans les phases de conception et de réalisation de leurs projets **java** et **javascript** d'envergure.
+Depuis plus de 15 ans, j'accompagne mes clients dans les phases de conception et de réalisation de leurs projets **java** et **javascript** d'envergure.
 
 Spécialisé dans le **développement front-end** et l'**accessibilité numérique**, j'accorde une importance toute particulière à l'ergonomie et la maintenabilité d'une application web.
 
