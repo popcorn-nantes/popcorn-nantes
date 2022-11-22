@@ -40,7 +40,7 @@ networks:
     value: https://www.malt.fr/profile/julienbelinga?overview=true
 ---
 
-Je suis un développeur avec près de 2 ans d’expérience, motiver et ayant acquis de l’expérience professionnelle en temps que développeur web, je saurai m’adapter rapidement et me montrer pro-actif.
+Je suis un développeur avec près de 2 ans d’expérience, motivé et ayant acquis de l’expérience professionnelle en temps que développeur web, je saurai m’adapter rapidement et me montrer pro-actif.
 Je suis assidu et passionné. Je suis également très intéressé par la nouveauté et la découverte.
 
 je suis diplomé d'un bachelor DEVOPS, et j'ai pû travailler en tant que développeur web et développeur back-end.
