@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: CTO / Développeur PHP Symfony
+titre: CTO / Expert Symfony/PHP
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 14 ans d'expérience en management d'équipe et développement PHP
+sous_titre: + 15 ans d'expérience
 
 # REQUIS
 prenom: Carlos
@@ -57,6 +57,10 @@ technologies:
   - PHP
   - Symfony
   - JavaScript
+  - VueJS
+  - Docker
+  - MySql
+  - PostgreSql
   - HTML
   - CSS
   - applications web
@@ -69,16 +73,26 @@ technologies:
 # La coloration syntaxique du code est supportée.
 ---
 
-Responsable d'équipe depuis plusieurs années, j'ai souvent été amené à auditer le service IT pour réaligner l'équipe en charge du développement informatique avec la vision stratégique.
+# Développement web
 
-Ma méthode est simple :
+J'ai développé de nombreux projets en Symfony/PHP, aussi bien en e-commerce comme chez AramisAuto, qu'en SaaS B2B chez Guest Suite.  
+Dans ce cadre là, j'ai acquis une expertise en API Rest (que j'ai aussi bien développé from scratch, qu'avec API Platform) ainsi que dans la mise à plat des workflow métier.  
+Certains projet utilisait un moteur de template tel que Twig, lorsque d'autres ont été avec VueJS / Tailwind CSS.  
+Par ailleurs, j'ai fait quelques contributions au code source de Symfony.  
 
-- Identifier le besoin et ce qui empêche de l'atteindre
-- Définir avec toutes les parties prenantes le meilleur chemin pour atteindre le but
-- Dérouler la feuille de route en s'assurant que chacun ait tous les moyens nécessaires et suffisant dans son périmètre
+# Déploiement
 
-Pour cela, j'ai de solides connaissances en SCRUM et Kanban, ainsi qu'en gestion de projet et conduite du changement.  
-Je peux aussi bien prendre le poste de Product Owner, que de manager d'équipe.  
-J'ai l'habitude de travailler dans des environnements techniques en PHP / Symfony / Mysql. J'ai pu gérer des projets nécessitant la mise en place de RabbitMQ / Supervisor / Redis / React.
+Je peux vous accompagner dans le déploiement de vos projets jusqu'en production, avec la mise en place de pipelines de CI/CD, ainsi que d'outils comme New Relic, Splunk ou Loggly pour monitorer vos applications.
+J'ai l'habitude de mettre en place des outils comme PHPStan/Scrutinizer pour s'assurer de la qualité du code produit.
 
-On me définit souvent comme un Head Of Product avec des connaissances techniques 😊
+# Management d'équipe
+
+J'ai managé des équipes de 4 à 20 personnes, aussi bien en présentiel, en télétravail, ainsi qu'en offshore.
+J'ai développé une expertise sur SCRUM et Kanban, ainsi qu'en gestion de projet et conduite du changement.  
+
+Je peux aussi bien prendre le poste de Product Owner/Manager si besoin.  
+
+# Définition du produit
+
+Avant de vous lancer dans un développement full-scale de votre idée, il est pertinent de faire un PoC ou un MVP.  
+Je peux vous accompagner dans la conception/réalisation du PoC/MVP, mise en place de l'équipe technique et lancement du projet au plus vite.
