@@ -8,13 +8,13 @@ titre: Développeur Web/Mobile
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 5 ans d'expérience
+sous_titre: 10 ans d'expérience
 
 # REQUIS
 prenom: Fabien
 
 # REQUIS
-nom: Grenon
+nom: G.
 
 # REQUIS
 # ATTENTION : cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
@@ -37,7 +37,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
-photo: fabien-grenon.jpg
+photo: fabien-g.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
@@ -59,8 +59,8 @@ domaines_metiers:
 technologies:
   - JavaScript
   - PWA
-  - Angular / Angular JS
   - React
+  - Flutter
   - TypeScript
   - CSS
   - Front
@@ -69,10 +69,10 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Développeur web et mobile, j'ai commencé en travaillant sur des apps Android natives avant de me spécialiser dans les technologies JavaScript Angular et React. Je suis capable de vous accompagner dans les choix à faire pour votre projet. Selon vos besoins, je peux concevoir vos applications, vous conseiller sur votre UI et intégrer vos designs. J'accorde une importance toute particulière à l'optimisation et à la performance de mes développements.
+Développeur web et mobile, je travaille avec React et Flutter. Je suis capable de vous accompagner dans les choix à faire pour votre projet. Selon vos besoins, je peux concevoir vos applications, vous conseiller sur votre UI et intégrer vos designs. J'accorde une importance toute particulière à l'optimisation et à la performance de mes développements.
 
 Missions recherchées :
 
-- Développement front-end d'apps web et mobile (PWA)
+- Développement front-end d'apps web (PWA) et mobile 
 - Conseils UI, intégration de templates à partir de maquettes, Responsive Design
 - Refonte complète ou partielle d'apps web
