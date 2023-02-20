@@ -32,7 +32,7 @@ telephone:
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/media/photos et faire moins de 100ko !
-photo: placeholder-5.png
+photo: aleth-gueguen-600-600.jpg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
