@@ -10,6 +10,7 @@ domaines_metiers:
   - sites web
   - site vitrine
   - site e-commerce
+  - développement spécifique
   - intégration web
   - application web
   - features PHP
@@ -17,16 +18,17 @@ domaines_metiers:
   - DEVOPS
 technologies:
   - PHP
+  - React
+  - Next
+  - Angular
+  - Node.js
   - Composer
   - JavaScript
-  - React
   - HTML
   - CSS
   - AJAX
   - Java
   - C++
-  - Angular
-  - Node.js
   - git
   - Figma
   - JQuery
@@ -40,8 +42,8 @@ networks:
     value: https://www.malt.fr/profile/julienbelinga?overview=true
 ---
 
-Je suis un développeur avec près de 2 ans d’expérience, motivé et ayant acquis de l’expérience professionnelle en temps que développeur web, je saurai m’adapter rapidement et me montrer pro-actif.
-Je suis assidu et passionné. Je suis également très intéressé par la nouveauté et la découverte.
+Je suis un développeur Front-end spécialisé dans le développement web. Je sais m'adapter à vos besoins en mettant en place certaines méthodes tels que le "mobile-first" afin de vous fournir un site responsive répondant parfaitement à vos besoins. Je mettrais mes compétences de DEVOPS à votre service pour mettre en place de l'intégration continue et du déploiement continu.
+Je peux également faire des développements spécifiques.
 
 je suis diplomé d'un bachelor DEVOPS, et j'ai pû travailler en tant que développeur web et développeur back-end.
 
