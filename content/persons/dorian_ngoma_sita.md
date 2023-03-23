@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur FullStack Java, Angular, Python, js
+titre: Développeur FullStack Java, Angular, Python, JS
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
@@ -45,16 +45,16 @@ photo: dorianng.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - sites web
-  - Site vitrine
+  - Sites web
+  - Sites vitrines
   - Boutiques en ligne
-  - Application de gestion
+  - Applications de gestion
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologie peut être une langage, un framework, une librairie, un CMS ...
 technologies:
-  - node js
+  - Node.js
   - Angular
   - React 
   - Python
@@ -74,5 +74,5 @@ networks:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Je m'appelle Dorian Ngoma Sita et je suis un développeur Full Stack basé en France. Je suis né et j'ai grandi en République du Congo, en Afrique, et j'ai toujours été fasciné par le pouvoir de la technologie pour connecter les gens et résoudre les problèmes. Avec plus de 3 ans d'expérience dans le développement logiciel, je maîtrise une gamme de langages de programmation et de frameworks, pour faire du web, du mobile et du desktop. J'ai une passion pour la création d'applications efficaces, évolutives et conviviales qui répondent aux besoins des entreprises et des particuliers. 
-Voici un lien vers mon site https://dorian-ng.com où vous pouvez me contacer à défaut de passer par mon adresse mail.
+Je m'appelle Dorian Ngoma Sita et je suis un développeur Full Stack basé en France. Je suis né et j'ai grandi en République du Congo, en Afrique, et j'ai toujours été fasciné par le pouvoir de la technologie pour connecter les gens et résoudre les problèmes. Avec bientôt 2ans d'expérience dans le développement logiciel, je maîtrise une gamme de langages de programmation et de frameworks, pour faire du web, du mobile et du desktop. J'ai une passion pour la création d'applications efficaces, évolutives et conviviales qui répondent aux besoins des entreprises et des particuliers. 
+Vous pouvez me contacer sur mon site à défaut de passer par mon adresse mail.
