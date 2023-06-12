@@ -28,7 +28,7 @@ mail: riveterwan8@gmail.com
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIRE dans le dépot git et sur le site
-telephone:06 80 17 75 85
+
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/media/photos et faire moins de 100ko !
@@ -73,26 +73,8 @@ networks:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Je m'appelle Erwan , je suis Développeur Web.
-Du back-end au front-end , je vous propose de prendre en charge   la création de votre site d'une évolution ou d'une refonte de la réflexion à la mise production.
-
-Toujours motivé à relever des défis, j'ai pris le parti de partir de votre besoin et de vos problématiques pour réfléchir ensemble et développer le site qui correspond réellement à votre besoin.
+Je m'appelle Erwan, je suis Développeur Web.Du back-end au front-end , je vous propose de prendre en charge   la création de votre site d'une évolution ou d'une refonte de la réflexion à la mise production.Toujours motivé à relever des défis, j'ai pris le parti de partir de votre besoin et de vos problématiques pour réfléchir ensemble et développer le site qui correspond réellement à votre besoin.
 toujours en veille sur les pratiques technologiques actuelles et je saurai vous conseiller et travailler avec vous  votre projet . 
-Mes compétences :
-- Création de site vitrine
-- Wordpress
-- Laravel
-- HTML
-- Vue.js
-- CSS (SASS)
-- PHP
-- MySQL
-- Javascript
-- intervention et sensibilisation (réseaux sociaux , initiation développement web ... )
+Fort de mon expérience précédente d'animateur social et de coordinateur de projets jeunesses, j'attache beaucoup d'importance aux relations humaines. Échanger partager expérimenter en collectif sont pour moi les fondations d'une réalisation de projet efficace.Contactez moi et je prendrai avec plaisir le temps d'échanger avec vous pour auditer votre projet et faire correspondre vos besoins avec la technologie adéquate.
 
-
-
-Fort de mon expérience précédente d'animateur social et de coordinateur de projets jeunesses, j'attache beaucoup d'importance aux relations humaines. Échanger partager expérimenter en collectif sont pour moi les fondations d'une réalisation de projet efficace. 
-
-Contactez moi et je prendrai avec plaisir le temps d'échanger avec vous pour auditer votre projet et faire correspondre vos besoins avec la technologie adéquate.
 
