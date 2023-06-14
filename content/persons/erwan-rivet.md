@@ -32,7 +32,7 @@ mail: riveterwan8@gmail.com
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/media/photos et faire moins de 100ko !
-photo: riveterwan.jpeg
+photo: erwanrivet.jpeg
 
 # REQUIS
 # Les domaines métiers que tu exerces **vu par tes client(e)s sans connaissances
