@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur Full Stask PHP/Symfony Angular
+titre: Développeur Écoresponsable Full Stack PHP/Symfony Vue/Angular
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Ecoute, rigueur et bonne humeur
+sous_titre: Écoute, rigueur et bonne humeur
 
 # REQUIS
 prenom: Laurent
@@ -55,7 +55,9 @@ domaines_metiers:
 technologies:
   - PHP
   - Symfony
+  - API Platform
   - JavaScript
+  - Vue
   - Angular
   - RxJS
   - jQuery
@@ -81,35 +83,69 @@ networks:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Adepte du beau code et soucieux des performances, j’ai aussi appris à être plus pragmatique.
+Développeur Fullstack (Symfony - Vue/Angular), je suis également Référent Technique spécialisé dans Symfony / API-Platform.
 
-Je n’en oublie pas non plus le côté humain, essentiel à la bonne cohésion d’une équipe.
+À cela, je rajoute que j'ai une réelle appétence pour le développement durable et les 3P :
+
+- Planète (Planet)
+- Personnes (People)
+- Prospérité (Profit)
+
+Je suis certifié :
+
+- [Opquast niveau Expert](https://directory.opquast.com/fr/certificat/BYXVEL/)
+- [Green IT et numérique responsable : état de l’art](https://certificat.greenit.fr/certificats/2022.09.14-LP130-TQ24-GRI25)
+- [Éco-conception de service numérique – web et logiciel](https://certificat.greenit.fr/certificats/2023.02.22-LP130-X5Z2-ECO25)
+- Accessibilité - Développer des sites web accessibles (RGAA 4) chez [Access42](https://access42.net/)
+
+Je suis membre actif des collectifs [GreenIT](https://www.greenit.fr/) et [Infogreen Factory](https://infogreenfactory.green/)  
+Je suis également membre de [1% for the planet](https://www.onepercentfortheplanet.fr/) et [Team for the Planet](https://team-planet.com/fr)
+
+Si vous recherchez une personne qui valorise l'accessibilité, la durabilité et la création de valeur, n'hésitez pas à me contacter.
+
+Ensemble, construisons un avenir numérique plus inclusif et respectueux des 3P, rendons le web meilleur !
+
+---
 
 ## Mais plus qu'un long discours, voici plutôt quelques retours clients :
 
+**Ludovic H.** - CircularX - _CTO_
+
+> &laquo; Arrivé tôt dans le projet, Laurent a fait partie de la core team tech grâce à qui la plateforme CircularX a émergé sur le marché.  
+> Ses compétences techniques et ses qualités humaines ont indéniablement contribué à construire le produit autant que l'équipe.  
+> Point important: Laurent a, le premier, sensibilisé l'équipe à l'importance de l'éco-conception et de l'accessibilité web. S'étant lui même formé (ex: opquast) il a fait la promotion de bonnes pratiques, challengé les évolutions et proposé des chantiers qui ont à la fois simplifié le code, amélioré les performances de notre plateforme et élargi le spectre des indicateurs qualités à suivre.  
+> Il a fait le choix d'aller un cran plus loin en consacrant désormais l'essentiel de son activité à accompagner les entreprises sur ces sujets. Un choix courageux et plein de sens à une époque changeante et incertaine.  
+> Je le recommande sans hésiter et espère avoir l'occasion prochainement de travailler à nouveau avec lui. &raquo;
+
+**Carlos P.** - CircularX - _Lead Dev_
+
+> &laquo; Laurent est une personne avec qui il est très agréable de travailler.  
+> Il est capable d'intervenir aussi bien coté back que front, tout en ayant à coeur de bien comprendre les raisons fonctionnelles de la demande, et ainsi proposer la solution technique la plus adaptée.  
+> Par ailleurs, ses compétences en green IT lui permettent de réaliser des développements en accords avec les enjeux de demain. &raquo;
+
 **Thibaut D.** - ACII - _Développeur Angular_
 
-> &laquo; J'ai beaucoup apprécié mon expérience de travail avec Laurent : très sympathique, ouvert d'esprit, avec des avis constructifs et logiques. <br>
-> Il s'est vite positionné en tant que référence PHP Symfony et a progressé très rapidement sur la partie Front Angular dont il a la maitrise.<br>
+> &laquo; J'ai beaucoup apprécié mon expérience de travail avec Laurent : très sympathique, ouvert d'esprit, avec des avis constructifs et logiques.  
+> Il s'est vite positionné en tant que référence PHP Symfony et a progressé très rapidement sur la partie Front Angular dont il a la maitrise.  
 > C'est quelqu'un avec qui je pourrais re-travailler sans hésitation ! &raquo;
 
 **David D.** - Amor Lux - _DSI_
 
 > &laquo; Très belle mission de Laurent en fullstck symfony/Angular.<br>
-> Laurent est très agréable et compétent. Il est force de proposition et à l'écoute des besoins métier exprimés.<br>
-> Autonome et rigoureux, il apportera un plus sur toutes ses futures missions.<br>
+> Laurent est très agréable et compétent. Il est force de proposition et à l'écoute des besoins métier exprimés.  
+> Autonome et rigoureux, il apportera un plus sur toutes ses futures missions.  
 > Merci pour ton, aide sur nos projets. &raquo;
 
 **Alain N.** - Armor Lux - _Chef de Projet_
 
-> &laquo; Nous avons travaillé avec grand plaisir avec Laurent ; ses compétences, ses pertinentes propositions et la rigueur de son travail nous ont été très précieuses pour nos projets.<br>
+> &laquo; Nous avons travaillé avec grand plaisir avec Laurent ; ses compétences, ses pertinentes propositions et la rigueur de son travail nous ont été très précieuses pour nos projets.  
 > De plus, sa capacité d'écoute et sa bonne humeur sont un vrai plus du côté relationnel. &raquo;
 
 **Aloïs G.** - Bouyer Leroux - _Responsable Etude et Développement des Applications_
 
-> &laquo; Très bonne expérience avec Laurent.<br>
+> &laquo; Très bonne expérience avec Laurent.  
 > Son professionnalisme et ses conseils ont été très appréciables. <br>
-> Nous avons aussi aimé son agilité et sa facilité à appréhender le fonctionnel très spécifique de notre application.<br>
+> Nous avons aussi aimé son agilité et sa facilité à appréhender le fonctionnel très spécifique de notre application.  
 > Merci encore à Laurent. &raquo;
 
 **Christine J.** - Hermes - Product Owner
@@ -118,8 +154,8 @@ Je n’en oublie pas non plus le côté humain, essentiel à la bonne cohésion 
 
 **Sylvain P.** - Capgemini - _Ingénieur logiciel_
 
-> &laquo; Plus d'un an passé avec Laurent sur un projet phare de la plateforme de Nantes, dont une partie en télétravail pour cause de Covid, et toujours la même envie de travailler avec lui.<br>
-> Il apporte son expérience sur les réflexions métiers, les conventions de codage, et s'acquitte des tickets JIRA avec bonne humeur (et quelques blagues).<br>
+> &laquo; Plus d'un an passé avec Laurent sur un projet phare de la plateforme de Nantes, dont une partie en télétravail pour cause de Covid, et toujours la même envie de travailler avec lui.  
+> Il apporte son expérience sur les réflexions métiers, les conventions de codage, et s'acquitte des tickets JIRA avec bonne humeur (et quelques blagues).  
 > Très intéressant. &raquo;
 
 ...
