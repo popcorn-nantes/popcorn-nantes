@@ -129,7 +129,7 @@ Ensemble, construisons un avenir numérique plus inclusif et respectueux des 3P,
 > Il s'est vite positionné en tant que référence PHP Symfony et a progressé très rapidement sur la partie Front Angular dont il a la maitrise.  
 > C'est quelqu'un avec qui je pourrais re-travailler sans hésitation ! &raquo;
 
-**David D.** - Amor Lux - _DSI_
+**David D.** - Armor Lux - _DSI_
 
 > &laquo; Très belle mission de Laurent en fullstck symfony/Angular.<br>
 > Laurent est très agréable et compétent. Il est force de proposition et à l'écoute des besoins métier exprimés.  
