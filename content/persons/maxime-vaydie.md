@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur JavaScript FullStack
+titre: Développeur frontend
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 1.5 ans d'expérience
+sous_titre: 6 ans d'expérience, spécialisé en React et NextJS
 
 # REQUIS
 prenom: Maxime
@@ -24,16 +24,13 @@ nom: Vaydie
 #
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
-mail: maxime.vaydie@gmail.fr
+mail: maxime.vaydie@gmail.com
 
 # OPTIONNEL "true" or "false"
 # si tu as actuellement activement en recherche de projet, indique "true" ici,
 # cela affichera un petit label "disponible" sur ta fiche
 disponible: true
 
-# OPTIONNEL
-# ATTENTION cette donnée est PUBLIQUE et en CLAIR dans le dépot git et sur le site
-telephone: 0664222142
 
 # REQUIS
 # l'image doit être ajoutée dans le dossier /static/images et faire moins de 100ko ! Sa hauteur affichée sur le site sera de 300px, elle s'adaptera comme elle peut au responsive avec du css.
@@ -50,25 +47,32 @@ photo: maxime-v.jpg
 # - site vitrine
 # - ... à toi de jouer
 domaines_metiers:
-  - sites web
+  - Sites web
   - Site vitrine
+  - Réseaux sociaux
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
+  - Typescript
+  - React
+  - NextJS
   - JavaScript
-  - ReactJS
-  - NodeJS
+  
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Bonjour,
-Je suis un Développeur Javascript Nantais qui propose de vous accompagner dans vos projets numériques.
-Je vous garantis une intervention rapide et reste disponible par mail ou téléphone.
+Hello!
 
-- Développpement front-end (React JS, REDUX)
-- Intégration de template (RWD)
-- intégration d'API
+Je suis Maxime, développeur spécialisé dans la construction et le maintien d'interface web.
+
+Avec plus de 6 ans d'expérience dans le front, vous pouvez me faire confiance pour votre projet en termes d'accessibilité, responsive et SEO.
+
+Si vous avez déjà utilisé le site Gens de confiance, vous avez déjà côtoyé mon travail de près.
+
+Contactez-moi pour travailler sur votre projet, notamment si vous avez besoin d'expertise sur mes technologies de prédilection.
+
+À bientôt :)
