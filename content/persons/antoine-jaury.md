@@ -4,11 +4,11 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur Android Natif (Kotlin/Java)
+titre: Développeur senior Android Natif - Kotlin
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: Conception et développement d'applications mobiles
+sous_titre: 10 ans d'expérience
 
 # REQUIS
 prenom: Antoine
@@ -47,21 +47,43 @@ photo: antoine-jaury.jpg
 domaines_metiers:
   - applications mobiles
   - android
+  - lead développeur
+  - audit énergétique
 
 # REQUIS
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
   - Kotlin
-  - Java
+  - Android SDK
+  - Jetpack Compose
+  - Kotlin Multi-Platform (KMP)
+  - Ktor
+  - Retrofit
+  - Koin
+  - Hilt
+  - MVVM / Clean
+
+
+# OPTIONNEL
+# Les différents réseaux, liens utils à afficher sur ton profil
+# Ça peut être un réseau social, un site internet ...
+networks:
+  - name: LinkedIn
+    value: https://www.linkedin.com/in/antoine-jaury/
+  - name: GitHub
+    value: https://github.com/AntoineJaury/
+    
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
 
-Développeur Android natif, j'accompagne les projets d'applications mobiles de l'étape de conception à leur mise en production.
+Développeur d'applications Android en natif & chef de projet app mobile, j'accompagne les projets numériques autour bretons dans leur conception, développement, mise en production et maintenance d'applications mobiles.
+
+Maîtrise des principales architectures, bonnes pratiques et derniers composants de l'environnement Android : Jetpack Compose, Micro/macrobenchmark, Baseline profile, mesure énergétique et performances, injection de dépendance Koin / Hilt, Retrofit, Kotlin Multiplatform (KMP) ...
 
 Au delà du code, je suis sensible à la définition du besoin et à la conception de l'expérience utilisateur. Nous pouvons ainsi penser ensemble l'application dont vous avez besoin avant de la réaliser.
 
-Je me tiens constamment informé des nouveautés relatives au développement Android (Kotlin, Jetpack Architecture Components, évolutions du SDK ...) et suis à même de travailler sur de nouveaux projets incluant les bonnes pratiques recommandées par Google pour le développement Android.
+Mon expérience en développement d'applications Android et en laboratoire de mesure énergétique sur mobile me permettent également de vous accompagner sur l'amélioration des performances de vos applications, ainsi que sur la réduction de leur consommation énergétique.
