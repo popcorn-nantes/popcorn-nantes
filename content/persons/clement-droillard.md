@@ -18,7 +18,7 @@ technologies:
 
 networks:
   - name: Site Internet
-    value: clementdroillard.fr
+    value: https://www.clementdroillard.fr/
   - name: LinkedIn
     value: https://www.linkedin.com/in/clement-droillard/
 ---
