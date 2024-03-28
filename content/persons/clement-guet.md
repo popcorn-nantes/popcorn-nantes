@@ -39,12 +39,14 @@ Je suis Lead Tech Full-Stack. Ma maîtrise du développement du Back au Front et
 - Mon sens de la rigueur : par exemple, je pratique et encourage les revues de code, et les tests unitaires automatisés
 - Ma capacité à trouver le bon compromis entre la faisabilité technique et le coût de la solution, même pour des besoins complexes
 
+
 ## 👍 J'aime
 - Créer des produits de qualité, depuis une page blanche, avec une réelle valeur ajoutée pour les utilisateurs
 - Travailler avec une équipe de passionnés
 - Transformer un besoin en solution
 - Intégrer des maquettes au pixel près (si le temps le permet)
 - Utiliser et apprendre des nouvelles technologies
+
 
 ## 🎯 Préférences de travail
 - 60% Front / 40% Back
