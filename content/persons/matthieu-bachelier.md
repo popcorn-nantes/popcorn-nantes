@@ -1,6 +1,6 @@
 ---
 titre: Développeur Fullstack Senior
-sous_titre: 12 ans d'expérience
+sous_titre: 14 ans d'expérience
 prenom: Matthieu
 nom: BACHELIER
 mail: contact@mbach.fr
@@ -25,8 +25,6 @@ technologies:
   - AWS
   - MySQL
   - Docker
-  - PHP
-  - Symfony
 networks:
   - name: LinkedIn
     value: https://www.linkedin.com/in/bachelier-matthieu/
@@ -38,7 +36,7 @@ networks:
 
 ## Développeur
 
-Depuis **plus de 12 ans** maintenant, je conçois, développe et maintiens sites Internet et des App Mobiles.
+Depuis **plus de 14 ans** maintenant, je conçois, développe et maintiens sites Internet et des App Mobiles.
 
 J'utilise une **approche DevOps** pour cadrer et déployer un projet dans de bonnes conditions (tests unitaires, déploiement continu).
 
