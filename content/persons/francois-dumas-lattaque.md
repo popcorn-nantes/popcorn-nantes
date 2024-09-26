@@ -21,7 +21,7 @@ technologies:
   - Design de prototypes (Whimsical / Figma)
 networks:
   - name: Site Internet
-    value: https://fdlab.me/
+    value: https://francois-dl.netlify.app/
   - name: Github
     value: https://github.com/francoisedumas
   - name: Linkedin
