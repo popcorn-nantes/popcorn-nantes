@@ -4,7 +4,7 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur Web PHP Symfony Senior
+titre: Développeur Full Stack Senior
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
 sous_titre: +10 ans d'expériences en développement web
@@ -23,7 +23,7 @@ nom: Chocteau
 #
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
-mail: yoann@kezaweb.fr
+mail: yoann@chocteau.dev
 
 # OPTIONNEL "true" or "false"
 # si tu as actuellement activement en recherche de projet, indique "true" ici,
@@ -59,8 +59,9 @@ domaines_metiers:
 technologies:
   - PHP
   - Symfony
-  - API Platform
+  - Javascript
   - Angular
+  - Flutter
   - HTML
   - CSS
   - Docker
@@ -70,12 +71,15 @@ technologies:
 # Il sera affiché sur ta page de profil dédiée
 ---
 
-Développeur sur Symfony depuis 2008, j'ai pu apprécier l'évolution de ce framework et constater à quel point il pouvait répondre aux problématiques métiers des entreprises.
+Indépendant depuis 2015, j'ai pu découvrir de nombreux métiers. De la startup dans le domaine de l'IoT où j'ai été amené à faire du développement d'API avec PHP, Symfony et API Platform, au domaine du jeu où j'ai pu développer mes compétences sur Angular et Flutter. 
+
+Chaque métier est différent et possède des enjeux qui lui sont propre. 
+Chaque nouvelle mission est un nouveau challenge.
 
 À l'écoute, sérieux, et autonome, je prends le temps de comprendre vos enjeux afin d'adapter l'architecture de mes applications à vos besoins.
 
-Depuis 2016, j'ai acquis des compétences front sur le framework Angular qui m'ont permis de structurer mon code en API. Interventant à la fois pour des startups et grands comptes, cela m'a permis de découvrir différents environnements de travail.
+Vous avez des besoins en développement web ou mobile ? 
 
-Je suis également intervenant formateur en PHP Symfony dans des écoles et centres de formations. Je suis en mesure d'apporter à vos équipes une formation découverte de Symfony.
+N'hésitez pas à me contacter !
 
-Plus d’informations : [kezaweb.fr](https://www.kezaweb.fr)
+Plus d’informations : [chocteau.dev](https://www.chocteau.dev)
