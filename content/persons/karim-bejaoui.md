@@ -14,23 +14,22 @@ domaines_metiers:
   - Architecture
   - DevOps
 
-
 technologies:
-  - React / React Native
-  - Node / Fastify / Express
+  - React
+  - React Native
+  - Node
   - Typescript
-  - Java / Kotlin
-  - Spring / Hibernate / JPA
-  - REST / GraphQL
-  - MongoDB / Postgresql / SQL
-  - Gitlab CI / Jenkins / Azure DevOps
-  - AWS / GCP / Azure / Clever Cloud
-  - Continuous Integration / Continuous Delivery / Deployment patterns / Feature flipping
-  - Docker / Ansible / Terraform
-  - ELK / Sentry / Datadog
-  - Scrum / Kanban / Sofware Craftsmanship
-
-
+  - Java
+  - Kotlin
+  - REST
+  - GraphQL
+  - MongoDB
+  - Postgresql
+  - AWS
+  - Clever Cloud
+  - CI / CD
+  - Docker
+  - Devops
 
 networks:
   - name: Github
@@ -46,3 +45,10 @@ Aujourd'hui plutôt orienté sur du React, Node.js et architecture cloud, j'exce
 Enthousiaste de l'optimisation et de l'automatisation des processus, j'applique une méthodologie Agile et Software Craftsmanship pour produire des résultats impactants.
 
 Je m'attache constamment à transformer des problématiques complexes en solutions simples et efficaces grâce à une architecture réfléchie et une conception claire. Mon approche est centrée sur la simplification et l'amélioration continue, afin de créer des applications performantes, évolutives et robustes.
+
+Voici un résumé de mes récentes expériences professionnelles:
+
+- CTO de la startup Swee Show (https://www.sweetshow.io/) : Réalisation d’un SaaS.
+- Lead Developer pour la startup Enjoy Your Business (https://enjoyyourbusiness.fr/) : Support aux équipes et développement d’une brique IA.
+- CTO Deputy pour la startup Epopée (https://www.linkedin.com/company/epopee-france) : Réalisation d’un SaaS.
+- Expert React pour La Route du Rhum (https://www.routedurhum.com/fr).
