@@ -1,6 +1,6 @@
 ---
-titre: Développeur et formateur Java/JavaScript/Python
-sous_titre: Véritable couteau suisse de l'informatique
+titre: Lead Tech Cloud & DevOps
+sous_titre: Class SRE implements DevOps
 prenom: Julien
 nom: Caliendo
 mail: caliendo@hotmail.fr
@@ -8,26 +8,27 @@ disponible: true
 photo: julien-caliendo.jpg
 
 domaines_metiers:
-  - sites web
-  - formations
-  - consultant
+  - cloud
+  - devops
+  - sre
+  - software craftsmanship
 
 technologies:
   - Python
-  - Django
-  - Java
-  - Spring
-  - JavaScript
-  - Angular
+  - Terraform
+  - Ansible
+  - Azure
+  - GCP
+  - AWS
   - Golang
 ---
 
-J'ai été militaire pendant 11 ans, fonctionnaire des Finances Publiques et, depuis peu, freelance.
+J'ai été militaire pendant 11 ans, fonctionnaire des Finances Publiques, développeur, ingénieur cloud et devops et, enfin, freelance.
 
-D'abord administrateur système, je me suis spécialisé dans les métiers du développement depuis 2009. Fan d'Angular depuis la version 2.
-
-J'interviens en **analyse**, **développement**, **tests** et **mise en production**. Je suis certifié "_Computer Hacking Forensic Investigator_" et "_Certified Ethical Hacker_".
-
-Mentor chez OpenClassrooms sur les parcours "Développeur Web Junior", "Développeur d'application Python" et "Développeur d'application Java", j'accompagne plusieurs étudiants de façon hebdomadaire dans l'apprentissage des technologies qui recrutent pour un diplome reconnu RNCP bac+2/3.
+Je suis certifié 11 fois :
+- 1x AWS
+- 5x Azure
+- 3x GCP
+- 2x Kubernetes
 
 Rendez vous sur mon profil [LinkedIn](https://www.linkedin.com/in/caliendojulien/) ou par email pour en savoir plus.
