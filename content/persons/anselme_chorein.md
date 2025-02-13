@@ -1,6 +1,6 @@
 ---
-titre: Développeur Fullstack Senior
-sous_titre: 11 ans d'xp dans la conception et le développement d'applications
+titre: Lead Developer - Fullstack JS / React Node Mobile
+sous_titre: + 15 ans d'xp dans la conception et le développement d'applications web
 prenom: Anselme
 nom: CHOREIN
 mail: anselme.pro@chorein.fr
@@ -20,23 +20,32 @@ technologies:
   - Node
   - Docker
   - GraphQL
-  - JAMStack
-  - PHP
-  - Java
   - Git
-  - Sql
   - NoSql
+  - Elasticsearch
+  - MongoDB
+  - JAMStack
 ---
 
-Riche de mes 10 ans d'expérience dans une grande ESN, je propose mon expertise en tant que développeur senior (Fullstack). J'ai évolué dans des architectures micro-services (backend java, nodejs, go / bases SQL/NoSQL) et sur des applications frontend moderne (type Angular et ReactJS).
-Je me spécialise maintenant dans les applications JavaScript (React, Vue, JAMStack) avec un focus sur les performances et l'optimisation du référencement (SEO).
+Avec 15 ans d'expérience, je mets mon expertise au service des startups, PME et grands groupes pour concevoir des applications performantes, évolutives et optimisées.
 
-J'aime travailler dans un environnement fluide et stimulant avec une mise à disposition rapide de la valeur, pour cela j'interviens sur :
+💡 Depuis le début de mon aventure en freelance, je privilégie les missions à impact, dans des équipes motivées où la confiance règne. J’ai ainsi contribué à des projets innovants et porteurs de sens dans des secteurs variés :
 
-- Le développement d'application front et back avec comme mot d'ordre : "keep it simple but significant"
-- La conteneurisation avec docker des environnements dev, test et prod
-- La mise en oeuvre de l’intégration continue et du déploiement continu
+- 🩺 Wello (aide aux personnes en perte d’autonomie)
+- 🎓 Internet Sans Crainte (sensibilisation des jeunes au numérique)
+- 🇫🇷 Service National Universel (moderniser l'engagement citoyen des jeunes)
 
-Passionné, je me forme continuellement en faisant de la veille technologique et en assistant à différentes conférences.
+🔎 Mon rôle est d’accompagner les équipes techniques dans la mise en oeuvre de solutions simples, efficaces et maintenables. Adepte des principes KISS et YAGNI, j’allie rapidité d'exécution et excellence technique, tout en veillant à garantir une architecture robuste et évolutive. Je guide les équipes pour livrer rapidement de la valeur tout en maintenant un haut niveau de qualité technique.
+
+🔧 Expertise & interventions
+
+- Accompagnement des équipes en tant que Lead Tech : gestion technique, architecture logiciel, mentorat et montée en compétences des développeurs
+- Développement full-stack (web & mobile) → "Keep it simple but significant."
+- Optimisation des performances (temps de chargement, scalabilité)
+- Intégration & déploiement continus (CI/CD, automatisation)
+- Cloud & conteneurisation (Docker, Kubernetes, AWS)
+- Open source & veille technologique (conférences, contributions)
+
+🚀 Si vous cherchez un expert capable de combiner impact, simplicité et performance, discutons-en !
 
 Pour plus d'information vous trouverez mon CV complet et à jour sur [LinkedIn](https://www.linkedin.com/in/anselmechorein/).
