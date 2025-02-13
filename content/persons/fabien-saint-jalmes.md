@@ -4,7 +4,7 @@ sous_titre: 9 ans d'expérience dev / 3 ans en management
 prenom: Fabien
 nom: Saint Jalmes
 mail: fabien.saint.jalmes@gmail.com
-photo: fabien-saint-jalmes.png
+photo: fabien-saint-jalmes.jpeg
 
 domaines_metiers:
 - Développement backend
