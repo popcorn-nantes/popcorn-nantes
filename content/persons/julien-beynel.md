@@ -4,11 +4,10 @@
 
 # REQUIS
 # Le titre qui te refléte "Expert JavaScript", "Développeur web junior"
-titre: Développeur PHP / Javascript
+titre: Développeur Full-Stack | Couteau suisse de la tech | 11+ ans de polyvalence et d'expertise
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 7 ans d'expérience
 
 # REQUIS
 prenom: Julien
@@ -53,29 +52,37 @@ domaines_metiers:
 # Les technologies que tu utilises
 # Une technologe peut être une langage, un framework, une librairie, un CMS ...
 technologies:
+  - Python
+  - Django
+  - Flask
   - PHP
+  - Symfony
+  - Laravel
   - JavaScript
-  - jQuery
-  - Angular
-  - Ionic
-  - NodeJS
+  - React.js
+  - Next.js
+  - Vue.js
+  - Nuxt.js
+  - Node.js
   - HTML
   - CSS
-  - Symfony
-  - MySQL
+  - SQL
   - GIT
-  - Trello
-  - Jira
-  - Linux
-  - Windows
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # La coloration syntaxique du code est supportée.
 ---
 
-Durant mes 7 années d'expériences, j'ai participé à plusieurs projets en développement web full-stack.
+🔧 Avec plus de 11 ans d'expérience dans le développement, je suis ce que l'on pourrait appeler un véritable couteau suisse de la tech. Du front-end élégant au back-end robuste, en passant par les bases de données, l'architecture logicielle ou encore l’automatisation, je m’adapte aux besoins des projets pour offrir des solutions sur mesure.
 
-J'apporte mon enthousiasme et ma créativité à proposer et mettre en œuvre des solutions en développement web adaptées à des environnements innovants et complexes.
+💡 Mon approche ? Allier créativité, rigueur et curiosité pour relever les défis les plus complexes. J’aime passer d’un outil à un autre, expérimenter, optimiser et surtout résoudre des problèmes avec des solutions élégantes et efficaces.
 
-J’appréhende rapidement les nouvelles technologies, force de proposition et résolument orienté vers la résolution des problématiques métiers.
+🌍 Que vous ayez besoin d’un expert pour poser les bases solides d’un projet, débloquer une situation technique ou donner un coup de boost à votre équipe, je suis là pour apporter une vision claire et des résultats concrets.
+
+🎯 Mes spécialités :
+Polyvalence technique : maîtriser plusieurs langages, frameworks et outils, tout en restant à la pointe des nouveautés.
+Esprit analytique : décortiquer un problème pour en extraire une solution simple et efficace.
+Collaboration : travailler avec des équipes multidisciplinaires pour transformer des idées en réalités tangibles.
+
+📬 Envie d'échanger sur vos projets ou d'explorer des idées ensemble ? Contactez-moi, je suis toujours partant pour de nouveaux défis !
