@@ -24,7 +24,7 @@ nom: Wolf
 #
 # Si cela t'embête parce que tu utilises une adresse perso, tu peux aussi te créer
 # une adresse mail pro publique et la rediriger vers ta boîte mail perso
-mail: geeyom12@gmail.fr
+mail: contact@simbios.fr
 
 # OPTIONNEL
 # ATTENTION cette donnée est PUBLIQUE et en CLAIRE dans le dépot git et sur le site
@@ -56,7 +56,8 @@ domaines_metiers:
 technologies:
   - JavaScript
   - SQL
-  - Fresque du Numérique
+  - Ateliers de sensisbilisation
+  - Intelligence Artificielle responsable
 
 # OPTIONNEL
 # Les différents réseaux, liens utils à afficher sur ton profil
@@ -68,12 +69,17 @@ networks:
     value: https://www.linkedin.com/in/guillaumewolf/
   - name: Malt
     value: https://www.malt.fr/profile/guillaumewolf1
-  - name: Twitter
-    value: https://twitter.com/geeyom
+  - name: Mastodon
+    value: https://mastodon.social/@geeyom
 # REQUIS
 # écrit ci-dessous ta présentation en markdown ⬇️
 # Il sera affiché sur ta page de profil dédiée
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
+Je m'implique beaucoup dans la sensibilisation en enjeux environnementaux liés aux usages Numériques
 
-J'ai 15 ans d'expérience dans le numérique à divers positions (Product Owner, Scrum Master, responsable d'équipe...). Mon objectif est de mettre mes compétences et mon expertise au service d'entreprises engagées dans la transition écologique et sociale afin de rendre le numérique plus responsable et durable.
+- J'anime de nombreux ateliers citoyens comme la [Fresque du Numérique](https://www.fresquedunumerique.org/) ou la [Bataille de l'IA](https://www.batailledelia.org/)
+- J'interviens lors d'événements et des conférences (Nantes Digital Week, [Paris Web](https://www.paris-web.fr/orateurices/guillaume-wolf), [Agi'Lille](https://agilille.fr/), [Breizcamp](https://www.breizhcamp.org/), [Tech Ready](https://techready.live/speakers/guillaumewolf/)...)
+- Je m'implique dans les collectifs [Nantes Numérique Responsable](https://nantes-numerique-responsable.org/) , [Collect'IF](https://infogreenfactory.green/le-collectif/), [les Fourmis](https://www.lesfourmis.org/) et [The Green Compagnon](https://www.thegreencompagnon.com/)
+
+Je suis [certifié pour réaliser les ACV](https://certificat.greenit.fr/certificats/2023.12.20-GW130-6GF3-ACV25), j'ai atteint le grade de formateur de la Fresque du Numérique et j'ai été reconnu comme un [Ambassadeur RSE](https://entreprises.nantesmetropole.fr/agir-ensemble/ambassadeurs/guillaume-wolf/) par Nantes Métropôle.
