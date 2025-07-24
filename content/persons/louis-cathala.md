@@ -8,7 +8,7 @@ titre: Développeur JavaScript Fullstack Expert Node React - Remote
 
 # OPTIONNEL
 # Un sous-titre de ton choix si tu as quelque chose à ajouter
-sous_titre: 6 ans d'expérience
+sous_titre: 11 ans d'expérience
 
 # REQUIS
 prenom: Louis
@@ -65,7 +65,8 @@ technologies:
 # Tu peux mettre évidemment mettre un lien vers ton site.
 ---
 
-Autodidacte puis diplômé, développeur C++ en 2010, je **detestais** le dev web (que j'associais à PHP) et les bases de données (SQL) avant de découvrir Node, AngularJS et MongoDB en 2014, j'ai enchaîné avec React en 2015, depuis je ne fais plus que ça ! Je suis freelance depuis 2017, je préfère la régie au forfait mais ne suis pas fermé
+D'abord autodidacte puis diplômé, j'ai une solide expérience dans le développement web et mobile. Mon parcours professionnel m'a permis de maîtriser React et Node.js. J'aime avant tout apporter des solutions performantes à mes clients et suis attentif à la qualité des expériences que j'offre aux utilisateurs.
 
+- [Portfolio](https://www.wildredbeard.tech/en)
 - [LinkedIn](https://www.linkedin.com/in/lcathala/)
 - [GitHub](https://github.com/delwiv).
