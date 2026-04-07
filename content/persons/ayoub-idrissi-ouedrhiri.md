@@ -4,7 +4,7 @@ sous_titre: 13 ans d'expérience · Pipelines LLM/RAG en production · Derval (4
 prenom: Ayoub
 nom: Idrissi Ouedrhiri
 mail: contact@ioayoub.fr
-photo: ayoub-idrissi-ouedrhiri.png
+photo: ayoub-idrissi-ouedrhiri.jpg
 domaines_metiers:
   - Applications web sur mesure
   - Intégration intelligence artificielle
