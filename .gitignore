@@ -23,3 +23,6 @@ pids
 
 # OS generated files
 .DS_Store
+
+# thumbnails cache (regenerated at build time)
+.cache

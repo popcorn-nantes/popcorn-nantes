@@ -45,6 +45,7 @@ views.addGlobal(
 
 const BUILD_DIRECTORY = "_site";
 const STATIC_DIRECTORY = "static";
+const CACHE_DIRECTORY = "./.cache/thumbnails";
 
 /**
  * BUILD STATIC SITE
@@ -92,22 +93,19 @@ async function build() {
     )
   );
 
-  // skip image optim in dev to get faster build times.
-  if (process.env.NODE_ENV !== "development") {
-    console.log("🖼️  starting images resizing and compression...");
-    buildPromises.push(
-      imagesOptimize().then((result) => {
-        const { imageCount, totalWebpSize, totalJpegSize } = result;
-        console.log(
-          `🖼️  images compression done: ${imageCount} images resized. Total webp thumbnails size: ${Math.ceil(
-            totalWebpSize / 1000
-          )}Ko. Total Jpeg thumbnails size: ${Math.ceil(
-            totalJpegSize / 1000
-          )}Ko  `
-        );
-      })
-    );
-  }
+  console.log("🖼️  starting images resizing and compression...");
+  buildPromises.push(
+    imagesOptimize().then((result) => {
+      const { imageCount, cachedCount, totalWebpSize, totalJpegSize } = result;
+      console.log(
+        `🖼️  images compression done: ${imageCount} images resized (${cachedCount} from cache). Total webp thumbnails size: ${Math.ceil(
+          totalWebpSize / 1000
+        )}Ko. Total Jpeg thumbnails size: ${Math.ceil(
+          totalJpegSize / 1000
+        )}Ko  `
+      );
+    })
+  );
   return Promise.all(buildPromises).then((r) => {
     console.log("✨ All build operations finished");
   });
@@ -115,43 +113,57 @@ async function build() {
 
 // resize and compress .jpeg & .png images for homepage listing,
 // and create .webp versions of photos.
+// Thumbnails are cached outside of the build directory (which is wiped at each
+// build) and only regenerated when the source photo is newer, so that repeated
+// builds - and dev builds in particular - stay fast.
 async function imagesOptimize() {
-  fs.mkdirSync(`./${BUILD_DIRECTORY}/media/thumbnails`, { recursive: true });
+  // read from the static directory: copying into the build directory resets
+  // the modification times, which the cache relies on.
+  const photosDirectory = `./${STATIC_DIRECTORY}/media/photos`;
+  const thumbnailsDirectory = `./${BUILD_DIRECTORY}/media/thumbnails`;
+  fs.mkdirSync(thumbnailsDirectory, { recursive: true });
+  fs.mkdirSync(CACHE_DIRECTORY, { recursive: true });
   let totalWebpSize = 0;
   let totalJpegSize = 0;
   let imageCount = 0;
-  const sharpPromisesWebp = [];
-  const sharpPromisesJpeg = [];
-  fs.readdirSync(`./${BUILD_DIRECTORY}/media/photos`).forEach(function (
-    filename
-  ) {
+  let cachedCount = 0;
+  const thumbnailPromises = [];
+
+  fs.readdirSync(photosDirectory).forEach(function (filename) {
     imageCount++;
     const extension = path.extname(filename);
     const basename = filename.replace(extension, "");
+    const photoPath = `${photosDirectory}/${filename}`;
+    const photoModifiedAt = fs.statSync(photoPath).mtimeMs;
 
-    // compress all image to webp
-    sharpPromisesWebp.push(
-      sharp(`./${BUILD_DIRECTORY}/media/photos/` + filename)
-        .resize(300)
-        .toFile(`./${BUILD_DIRECTORY}/media/thumbnails/${basename}.webp`)
-        .then((info) => {
-          totalWebpSize += info.size;
-          return info;
+    // webp for browsers that support it, jpeg fallback for safari.
+    ["webp", "jpeg"].forEach((format) => {
+      const thumbnailName = `${basename}.${format}`;
+      const cachePath = `${CACHE_DIRECTORY}/${thumbnailName}`;
+      const isCached =
+        fs.existsSync(cachePath) &&
+        fs.statSync(cachePath).mtimeMs >= photoModifiedAt;
+      if (isCached) cachedCount++;
+
+      const thumbnail = isCached
+        ? Promise.resolve(fs.statSync(cachePath).size)
+        : sharp(photoPath)
+            .resize(300)
+            .toFile(cachePath)
+            .then((info) => info.size);
+
+      thumbnailPromises.push(
+        thumbnail.then((size) => {
+          if (format === "webp") totalWebpSize += size;
+          else totalJpegSize += size;
+          fsExtra.copySync(cachePath, `${thumbnailsDirectory}/${thumbnailName}`);
         })
-    );
-    // jpeg fallback for safari, does not support webp.
-    sharpPromisesJpeg.push(
-      sharp(`./${BUILD_DIRECTORY}/media/photos/` + filename)
-        .resize(300)
-        .toFile(`./${BUILD_DIRECTORY}/media/thumbnails/${basename}.jpeg`)
-        .then((info) => {
-          totalJpegSize += info.size;
-          return info;
-        })
-    );
+      );
+    });
   });
-  await Promise.all([...sharpPromisesWebp, ...sharpPromisesJpeg]);
-  return { imageCount, totalWebpSize, totalJpegSize };
+
+  await Promise.all(thumbnailPromises);
+  return { imageCount, cachedCount: cachedCount / 2, totalWebpSize, totalJpegSize };
 }
 
 function buildPages() {
