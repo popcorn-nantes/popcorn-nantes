@@ -187,7 +187,10 @@ function buildPersons() {
       ...resource.domaines_metiers,
       ...resource.technologies,
       resource.titre,
-    ];
+      resource.prenom,
+      resource.nom,
+      `${resource.prenom} ${resource.nom}`,
+    ].filter(Boolean);
     // those files will be created at build time.
     resource.photo = {
       default: `/media/photos/${resource.photo}`,
