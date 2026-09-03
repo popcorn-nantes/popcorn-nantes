@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: "10.x"
+          node-version: "24.x"
 
       - name: Check file size (< 500 ko)
         run: |
@@ -29,5 +29,5 @@ jobs:
           CONTACT_ALL_FREELANCES_FORM_LINK: ${{ secrets.CONTACT_ALL_FREELANCES_FORM_LINK }}
           ENABLE_ANALYTICS: ${{ secrets.ENABLE_ANALYTICS }}
         run: |
-          npm install --only=production
+          npm ci --omit=dev
           npm run build
