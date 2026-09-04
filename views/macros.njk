@@ -12,3 +12,33 @@
   <meta name="twitter:description" content="{{ description }}"/>
   <meta name="twitter:image" content="{{ image }}"/>
 {% endmacro %}
+
+{% macro personCard(person, withTechnologies=false) %}
+  <div data-type="person" class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-2 flex" id="{{person.$slug}}">
+    <div class="bg-white shadow hover:shadow-lg transition duration-200 rounded overflow-hidden flex flex-col w-full">
+      <picture>
+        <source class="lazy" data-srcset="{{person.photo.thumbnailWebp}}" type="image/webp">
+        <img alt="{{ person.prenom }} {{ person.nom }}" class="lazy object-cover object-center h-56 w-full bg-gray-200" data-src="{{person.photo.thumbnailJpeg}}" />
+      </picture>
+      <div class="flex flex-col flex-grow p-4 text-center">
+        <h3 class="text-gray-600 text-sm uppercase tracking-wide">{{ person.prenom }} {{ person.nom }}</h3>
+        <h2 class="font-bold text-xl text-gray-800 leading-tight mt-1">{{ person.titre }}</h2>
+        <h4 class="text-gray-600 font-thin text-sm mt-2">{{ person.sous_titre }}</h4>
+        {% if withTechnologies %}
+          <div class="flex flex-wrap justify-center mt-4">
+            {% for technology in person.technologies %}
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-1 mb-1">
+                {{technology}}
+              </span>
+            {% endfor %}
+          </div>
+        {% endif %}
+        <div class="mt-auto pt-6">
+          <a href="/person/{{person.$slug}}" class="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
+            Voir le profil
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endmacro %}
