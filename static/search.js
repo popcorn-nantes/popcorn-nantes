@@ -41,21 +41,30 @@ function submitSearch(event) {
   }
 }
 
+function normalize(text) {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[-_'\u2019.]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function searchPersons(searchIndex, text) {
+  const terms = normalize(text).split(" ").filter(Boolean);
+  if (terms.length === 0) return [];
+
   let persons = searchIndex.filter((person) => {
-    let match = false;
-    person._exactMatch = false;
-    let textLowerCased = text.toLowerCase().trim();
-    person.keywords.forEach((keyword) => {
-      keyword = keyword.toLowerCase();
-      if (keyword.indexOf(textLowerCased) > -1) {
-        match = true;
-        if (textLowerCased.length === keyword.length) {
-          person._exactMatch = true;
-        }
-      }
-    });
-    return match;
+    const keywords = person.keywords.map(normalize);
+    person._exactMatch = keywords.some(
+      (keyword) => keyword === terms.join(" ")
+    );
+    // every term of the query must be found in at least one keyword,
+    // so "bastien thomas" or "thomas bastien" both match.
+    return terms.every((term) =>
+      keywords.some((keyword) => keyword.indexOf(term) > -1)
+    );
   });
   persons = persons.sort((a, b) => {
     return b._exactMatch - a._exactMatch;
