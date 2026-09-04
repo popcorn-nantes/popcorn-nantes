@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ quiet: true });
 const config = require("./config");
 const nunjucks = require("nunjucks");
 const fs = require("fs");
