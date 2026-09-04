@@ -148,6 +148,7 @@ async function imagesOptimize() {
       const thumbnail = isCached
         ? Promise.resolve(fs.statSync(cachePath).size)
         : sharp(photoPath)
+            .rotate() // applique l'orientation EXIF, sinon les photos prises au téléphone sortent couchées
             .resize(300)
             .toFile(cachePath)
             .then((info) => info.size);
