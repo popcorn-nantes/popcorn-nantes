@@ -15,7 +15,7 @@
     "cssnano": "^8.0.10",
     "dotenv": "^17.4.2",
     "fs-extra": "^11.4.0",
-    "markdown-it": "^15.0.1",
+    "markdown-it": "^15.0.2",
     "nunjucks": "3.2.4",
     "nunjucks-minify-loaders": "^1.0.2",
     "path": "0.12.7",
