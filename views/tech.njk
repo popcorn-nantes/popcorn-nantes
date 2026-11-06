@@ -1,54 +1,53 @@
 {% extends "layout.njk" %}
 {% import "macros.njk" as macros %}
 
+{% set techImage = entity.image if entity.image else "/media/images/popcorn.jpg" %}
+
 {% block head %}
-  <title>{{entity.title}}</title>
-    {{ 
+  <title>{{entity.title}} — {{ persons.length }} profil{{ 's' if persons.length > 1 }} | Popcorn</title>
+  {{
     macros.socialMetas(
       title=entity.title,
-      description="Trouvez un développeur freelance à Nantes sans intermédiaire et sans frais.",  
-      url=SITE_BASE_URL + "/tech/" + entity.$slug,
-      image=SITE_BASE_URL + entity.image if entity.image else SITE_BASE_URL + "/media/images/popcorn.jpg"
-    ) 
+      description=entity.title + " : " + persons.length + (" profils disponibles" if persons.length > 1 else " profil disponible") + " sur Popcorn. Contact direct, sans intermédiaire ni commission.",
+      url=entity.$url,
+      image=SITE_BASE_URL + techImage
+    )
   }}
+  {{ macros.jsonLd({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": entity.title,
+    "url": entity.$url,
+    "numberOfItems": persons.length
+  }) }}
 {% endblock %}
 
-
-
 {% block content %}
+  {{ macros.breadcrumb([
+    { "name": "Accueil", "url": "/" },
+    { "name": entity.title, "url": entity.$path }
+  ]) }}
+
   <div class="container mx-auto my-10 px-10">
     <h1 class="font-bold text-lg mt-4"> {{entity.title}} </h1>
     <div class="container mx-auto flex flex-wrap items-center my-12">
-      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-2" id="logo-{{entity.technologies}}" >
-        <img alt="popcorn-{{entity.technologies}}" class="lazy" data-src="{{SITE_BASE_URL + entity.image if entity.image else SITE_BASE_URL + '/media/images/popcorn.jpg'}}">
+      <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 xl:w-1/4 p-2">
+        <img
+          alt="{{ entity.title }}"
+          src="{{ techImage }}"
+          loading="eager"
+          decoding="async">
       </div>
       <div class="html-content font-thin italic w-full sm:w-1/2 md:w-1/2 lg:w-2/3 xl:w-3/4 p-2">
-        {{ entity.$html }}
+        {{ entity.$html | safe }}
       </div>
     </div>
 
+    <h2 class="font-bold">{{ persons.length }} freelance{{ 's' if persons.length > 1 }} disponible{{ 's' if persons.length > 1 }}</h2>
     <div class="container mx-auto flex flex-wrap my-12">
     {% for person in persons %}
-      {{ macros.personCard(person) }}
+      {{ macros.personCard(person, eager=(loop.index0 in [0, 1, 2, 3])) }}
     {% endfor %}
     </div>
   </div>
 {% endblock %}
-
-{% block scripts %}
-  <script>
-   // @see https://www.andreaverlicchi.eu/lazyload/
-    window.lazyLoadOptions = {
-      elements_selector: ".lazy"
-    };
-    window.addEventListener(
-      "LazyLoad::Initialized",
-      function (event) {
-          window.lazyLoadInstance = event.detail.instance;
-      },
-      false
-    );
-  </script>
-  <script src="/lazyload.js"></script>
-{% endblock %}
-

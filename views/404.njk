@@ -1,0 +1,20 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>Page introuvable | Popcorn Nantes</title>
+  <meta name="robots" content="noindex">
+{% endblock %}
+
+{% block content %}
+  <div class="container mx-auto my-20 px-10 text-center">
+    <h1 class="font-bold text-2xl">Cette page n'existe pas 🍿</h1>
+    <p class="mt-6">
+      Le profil ou la page que vous cherchez a peut-être été déplacé.
+    </p>
+    <p class="my-10">
+      <a href="/" class="bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        Voir tous les freelances à Nantes
+      </a>
+    </p>
+  </div>
+{% endblock %}
