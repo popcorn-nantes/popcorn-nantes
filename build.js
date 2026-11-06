@@ -146,18 +146,12 @@ async function build() {
   buildSitemap({ pages, persons, technologies });
   console.log("🔎 sitemap.xml & robots.txt written");
 
-  // compiled and purge tailwind.css
-  console.log("🎨 starting postcss & purgecss ...");
-  const purgecssConfig = {
-    content: ["views/**/*.njk"],
-    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-  };
+  // compile tailwind (seules les classes utilisées dans views/ sont gardées)
+  console.log("🎨 starting postcss ...");
   buildPromises.push(
-    postcssRun("./static/app.css", "./_site/app.css", purgecssConfig).then(
-      (r) => {
-        console.log("🎨 postcss & purgecss done.");
-      }
-    )
+    postcssRun("./static/app.css", "./_site/app.css").then(() => {
+      console.log("🎨 postcss done.");
+    })
   );
 
   console.log("🖼️  starting images resizing and compression...");

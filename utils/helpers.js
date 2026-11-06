@@ -5,7 +5,6 @@ const path = require("path");
 const slug = require("slug");
 const autoprefixer = require("autoprefixer");
 const postcss = require("postcss");
-const purgecss = require("@fullhuman/postcss-purgecss");
 const cssnano = require("cssnano")({
   preset: "default",
 });
@@ -80,16 +79,9 @@ function shuffle(a) {
   return a;
 }
 
-function postcssRun(source, destination, purgecssConfig) {
+function postcssRun(source, destination) {
   return fsPromises.readFile(source).then((css) => {
-    return postcss([
-      require("tailwindcss"),
-      autoprefixer,
-      purgecss({
-        ...purgecssConfig,
-      }),
-      cssnano,
-    ])
+    return postcss([require("tailwindcss"), autoprefixer, cssnano])
       .process(css, { from: source, to: destination })
       .then((result) => {
         return fsPromises.writeFile(destination, result.css);

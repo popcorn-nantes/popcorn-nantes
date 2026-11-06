@@ -1,6 +1,6 @@
 /*
 Tailwind est compilé par postcss depuis build.js (voir postcssRun dans
-utils/helpers.js), qui applique aussi purgecss et cssnano.
+utils/helpers.js), qui applique aussi autoprefixer et cssnano.
 */
 @tailwind base;
 @tailwind components;
