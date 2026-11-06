@@ -11,7 +11,7 @@ const {
   parseMarkdownDirectory,
   shuffle,
 } = require("./utils/helpers.js");
-const FileMinifyLoader = require("nunjucks-minify-loaders").FileMinifyLoader;
+const MinifyLoader = require("./utils/minifyLoader.js");
 
 process.on("uncaughtException", (error) => {
   console.log(error);
@@ -22,15 +22,7 @@ process.on("unhandledRejection", (error) => {
   throw error;
 });
 
-const opts = {
-  minify: {
-    collapseWhitespace: true,
-    minifyCSS: true,
-    minifyJS: true,
-    removeComments: true,
-  },
-};
-const loader = new FileMinifyLoader("views", opts);
+const loader = new MinifyLoader("views");
 const views = new nunjucks.Environment(loader, {
   autoescape: false,
 });
@@ -54,6 +46,8 @@ build();
 
 async function build() {
   const buildPromises = [];
+
+  await loader.prepare();
 
   rimraf.sync(path.resolve(`./${BUILD_DIRECTORY}`));
   fs.mkdirSync(`./${BUILD_DIRECTORY}`);
