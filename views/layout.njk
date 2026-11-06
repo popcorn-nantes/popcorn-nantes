@@ -32,31 +32,16 @@
 
   {% block scripts %}{% endblock %}
 
-  <div class="bg-gray-800 text-white mt-12 p-12">
+  <footer class="bg-gray-800 text-white mt-12 p-12">
+  <h2 class="font-bold mb-4">Trouver un développeur freelance à Nantes par technologie</h2>
   <ul>
+    {% for page in TECHNOLOGY_PAGES %}
     <li>
-      <a href="{{SITE_BASE_URL}}/tech/php">Développeurs freelances PHP</a>
+      <a class="underline" href="{{ page.url }}">{{ page.title }}</a>
     </li>
-    <li>
-      <a href="{{SITE_BASE_URL}}/tech/symfony">Développeurs freelances Symfony</a>
-    </li>
-    <li>
-      <a href="{{SITE_BASE_URL}}/tech/react">Développeurs freelances React</a>
-    </li>
-    <li>
-      <a href="{{SITE_BASE_URL}}/tech/vue">Développeurs freelances Vue</a>
-    </li>
-    <li>
-      <a href="{{SITE_BASE_URL}}/tech/ruby">Développeurs freelances Ruby</a>
-    </li>
-    <li>
-      <a href="{{SITE_BASE_URL}}/tech/ruby-on-rails">Développeurs freelances Ruby on Rails</a>
-    </li>
-    <li>
-      <a href="{{SITE_BASE_URL}}/tech/scala">Développeurs freelances Scala</a>
-    </li>
-    </ul>
-  </div>
-  
+    {% endfor %}
+  </ul>
+  </footer>
+
   </body>
 </html>

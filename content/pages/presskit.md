@@ -1,3 +1,13 @@
+---
+title: "Kit de communication"
+# Ce fichier reprend mot pour mot kit-de-communication.md. Deux URLs pour un
+# même contenu se font concurrence dans les résultats de recherche : celle-ci
+# désigne l'autre comme version de référence et reste hors du plan de site.
+# Si plus personne ne s'appuie sur /page/presskit/, ce fichier peut être supprimé.
+canonical: /page/kit-de-communication/
+noindex: true
+---
+
 # Kit de communication
 
 ## Présentation à destination des entreprises, start-ups, collectivités

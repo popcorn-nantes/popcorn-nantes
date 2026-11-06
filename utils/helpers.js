@@ -17,8 +17,6 @@ const markdownItInstance = require("markdown-it")({
 
 module.exports = {
   parseMarkdownDirectory,
-  parseMarkdownFile,
-  saveToFile,
   shuffle,
   postcssRun,
 };
@@ -68,21 +66,6 @@ function parseMarkdownFile(filepath, options = {}) {
   filename = filename.substring(0, filename.length - 3);
   entity.$slug = slug(filename);
   return entity;
-}
-
-function saveToFile(filepath, data) {
-  const directoriesPath = path.dirname(filepath);
-  try {
-    fs.mkdirSync(directoriesPath, { recursive: true });
-  } catch (error) {
-    throw new Error(error);
-  }
-  try {
-    fs.writeFileSync(filepath, data);
-  } catch (error) {
-    throw new Error(error);
-  }
-  // console.log("\x1b[32m", `📚 ${filepath} created.`);
 }
 
 /**

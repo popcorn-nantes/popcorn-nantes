@@ -34,7 +34,6 @@ function submitSearch(event) {
     searchResults.innerHTML = results
       .map((person) => document.getElementById(person.id).outerHTML)
       .join("");
-    window.lazyLoadInstance.update();
   } else {
     document.getElementById("persons").style.display = "flex";
     document.getElementById("search-results").style.display = "none";

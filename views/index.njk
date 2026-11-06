@@ -1,49 +1,59 @@
-{% extends "layout.njk" %} 
+{% extends "layout.njk" %}
 {% import "macros.njk" as macros %}
 
 {% block head %}
-  <title>Popcorn Nantes</title>
-  {{ 
+  <title>Développeurs freelances à Nantes — annuaire sans commission | Popcorn</title>
+  {{
     macros.socialMetas(
       title="Popcorn : trouvez un développeur freelance à Nantes",
-      description="Trouvez un développeur freelance à Nantes sans intermédiaire et sans frais.",  
-      url=SITE_BASE_URL,
+      description="Annuaire de " + persons.length + " développeurs et développeuses freelances à Nantes. Contact direct, sans intermédiaire ni commission.",
+      url=SITE_BASE_URL + "/",
       image=SITE_BASE_URL + "/media/images/popcorn.jpg"
-    ) 
+    )
   }}
+  {{ macros.jsonLd({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": SITE_NAME,
+    "url": SITE_BASE_URL + "/",
+    "logo": SITE_BASE_URL + "/media/images/popcorn.jpg",
+    "description": "Collectif et annuaire open source de développeurs et développeuses freelances à Nantes, sans commission ni intermédiaire.",
+    "areaServed": { "@type": "City", "name": "Nantes" }
+  }) }}
 {% endblock %}
 
 {% block content %}
-  <div class="container mx-auto text-center my-6">
+  <div class="container mx-auto text-center my-6 px-4">
     <h1 class="font-bold text-2xl">
     Trouvez un développeur freelance à Nantes</h1>
     <div><em>avec (vraiment) 0% de commission</em></div>
     {% include "searchBar.njk" %}
+    <p class="max-w-2xl mx-auto mt-6 text-gray-700">
+      Popcorn réunit {{ persons.length }} développeurs et développeuses freelances basé·e·s à
+      Nantes et dans sa région : sites web, applications web et mobiles, boutiques en
+      ligne, infrastructure. Vous contactez directement la personne qui vous
+      intéresse — pas d'intermédiaire, pas de commission, pas de frais de mise en
+      relation. L'annuaire est open source et tenu par les freelances eux-mêmes.
+    </p>
   </div>
 
   <div id="search-results" class="container mx-auto flex flex-wrap mb-6">
   </div>
   <div id="persons" class="container mx-auto flex flex-wrap mb-6">
     {% for person in persons %}
-      {{ macros.personCard(person, withTechnologies=true) }}
+      {{ macros.personCard(person, eager=(loop.index0 in [0, 1, 2, 3]), withTechnologies=true) }}
     {% endfor %}
   </div>
+
+  {{ macros.jsonLd({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Développeurs freelances à Nantes",
+    "url": SITE_BASE_URL + "/",
+    "about": "Développement web et mobile en freelance à Nantes"
+  }) }}
 {% endblock %}
 
 {% block scripts %}
   <script src="/search.js"></script>
-  <script>
-   // @see https://www.andreaverlicchi.eu/lazyload/
-    window.lazyLoadOptions = {
-      elements_selector: ".lazy"
-    };
-    window.addEventListener(
-      "LazyLoad::Initialized",
-      function (event) {
-          window.lazyLoadInstance = event.detail.instance;
-      },
-      false
-    );
-  </script>
-  <script src="/lazyload.js"></script>
 {% endblock %}
