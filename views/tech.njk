@@ -4,11 +4,11 @@
 {% set techImage = entity.image if entity.image else "/media/images/popcorn.jpg" %}
 
 {% block head %}
-  <title>{{entity.title}} — {{ persons.length }} profils | Popcorn</title>
+  <title>{{entity.title}} — {{ persons.length }} profil{{ 's' if persons.length > 1 }} | Popcorn</title>
   {{
     macros.socialMetas(
       title=entity.title,
-      description=entity.title + " : " + persons.length + " profils disponibles sur Popcorn. Contact direct, sans intermédiaire ni commission.",
+      description=entity.title + " : " + persons.length + (" profils disponibles" if persons.length > 1 else " profil disponible") + " sur Popcorn. Contact direct, sans intermédiaire ni commission.",
       url=entity.$url,
       image=SITE_BASE_URL + techImage
     )
@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <h2 class="font-bold">{{ persons.length }} freelances disponibles</h2>
+    <h2 class="font-bold">{{ persons.length }} freelance{{ 's' if persons.length > 1 }} disponible{{ 's' if persons.length > 1 }}</h2>
     <div class="container mx-auto flex flex-wrap my-12">
     {% for person in persons %}
       {{ macros.personCard(person, eager=(loop.index0 in [0, 1, 2, 3])) }}

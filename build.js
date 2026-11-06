@@ -302,8 +302,7 @@ function buildPersons(technologyIndex) {
     const technologies = toArray(resource.technologies);
     const domaines = toArray(resource.domaines_metiers);
     // will be user to build search index for the search engine.
-    // la recherche par nom et prénom vient de master ; les listes passent par
-    // toArray car un profil peut avoir saisi une chaîne au lieu d'un tableau,
+    // toArray : un profil peut avoir saisi une chaîne au lieu d'un tableau,
     // que l'opérateur de décomposition éclaterait caractère par caractère.
     resource.$search_keywords = [
       ...domaines,
@@ -406,9 +405,9 @@ function buildTechPages(entities, persons) {
     const wanted = new Set(
       toArray(entity.technologies).map(normalizeTechnology)
     );
-    // Set : un profil listant "React" et "React.js" ne doit apparaître qu'une fois.
+    // filter + some : un profil listant "React" et "React.js" n'apparaît qu'une fois.
     const personsMatched = persons.filter((person) =>
-      toArray(person.technologies).some((personTechnology) =>
+      person.$technologyNames.some((personTechnology) =>
         wanted.has(normalizeTechnology(personTechnology))
       )
     );
