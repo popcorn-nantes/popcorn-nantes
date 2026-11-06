@@ -1,4 +1,6 @@
 module.exports = {
+  // Tailwind ne génère que les classes trouvées dans ces fichiers.
+  content: ["views/**/*.njk", "static/**/*.js"],
   theme: {
     extend: {
       screens: {
@@ -19,9 +21,6 @@ module.exports = {
         "popcorn-red": "#d22321",
       },
     },
-  },
-  variants: {
-    boxShadow: ["responsive", "hover"],
   },
   plugins: [],
 };
