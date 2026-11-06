@@ -73,18 +73,12 @@ async function build() {
   buildTechPages(persons);
   console.log("📝 technologies pages compiled to html");
 
-  // compiled and purge tailwind.css
-  console.log("🎨 starting postcss & purgecss ...");
-  const purgecssConfig = {
-    content: ["views/**/*.njk"],
-    defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-  };
+  // compile tailwind (seules les classes utilisées dans views/ sont gardées)
+  console.log("🎨 starting postcss ...");
   buildPromises.push(
-    postcssRun("./static/app.css", "./_site/app.css", purgecssConfig).then(
-      (r) => {
-        console.log("🎨 postcss & purgecss done.");
-      }
-    )
+    postcssRun("./static/app.css", "./_site/app.css").then(() => {
+      console.log("🎨 postcss done.");
+    })
   );
 
   console.log("🖼️  starting images resizing and compression...");
@@ -151,14 +145,22 @@ async function imagesOptimize() {
         thumbnail.then((size) => {
           if (format === "webp") totalWebpSize += size;
           else totalJpegSize += size;
-          fsExtra.copySync(cachePath, `${thumbnailsDirectory}/${thumbnailName}`);
+          fsExtra.copySync(
+            cachePath,
+            `${thumbnailsDirectory}/${thumbnailName}`
+          );
         })
       );
     });
   });
 
   await Promise.all(thumbnailPromises);
-  return { imageCount, cachedCount: cachedCount / 2, totalWebpSize, totalJpegSize };
+  return {
+    imageCount,
+    cachedCount: cachedCount / 2,
+    totalWebpSize,
+    totalJpegSize,
+  };
 }
 
 function buildPages() {
