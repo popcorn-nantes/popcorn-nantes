@@ -1,41 +1,91 @@
-{% macro socialMetas(title, description, url, image, type="website") %}
+{#
+  `card` : "summary_large_image" attend une image d'au moins 1200px de large.
+  Les photos de profil, plafonnées à 100 Ko, ont une largeur médiane de 490px :
+  les pages profil passent donc "summary", dont le format carré convient à un
+  portrait, plutôt qu'un grand format qui les afficherait floues.
+#}
+{% macro socialMetas(title, description, url, image, type="website", card="summary_large_image") %}
   <meta name="description" content="{{ description }}"/>
+  <link rel="canonical" href="{{ url }}"/>
   <meta property="og:site_name" content="{{SITE_NAME}}"/>
   <meta property="og:url" content="{{ url }}"/>
   <meta property="og:title" content="{{ title }}"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="{{ url }}"/>
+  <meta property="og:type" content="{{ type }}"/>
   <meta property="og:image" content="{{ image }}"/>
-  <meta property="og:description" content="{{ description}}"/>
-  <meta name="twitter:card" content="summary"/>
+  <meta property="og:description" content="{{ description }}"/>
+  <meta property="og:locale" content="fr_FR"/>
+  <meta name="twitter:card" content="{{ card }}"/>
   <meta name="twitter:title" content="{{ title }}"/>
   <meta name="twitter:description" content="{{ description }}"/>
   <meta name="twitter:image" content="{{ image }}"/>
 {% endmacro %}
 
-{% macro personCard(person, withTechnologies=false) %}
+{% macro jsonLd(data) %}
+  <script type="application/ld+json">{{ data | jsonld }}</script>
+{% endmacro %}
+
+{#
+  Fil d'Ariane. `items` : [{name, url}], la page courante incluse.
+#}
+{% macro breadcrumb(items) %}
+  <nav aria-label="Fil d'Ariane" class="container mx-auto px-10 pt-6 text-sm text-gray-600">
+    <ol class="flex flex-wrap">
+      {% for item in items %}
+        <li>
+          {% if not loop.last %}
+            <a class="underline" href="{{ item.url }}">{{ item.name }}</a>
+            <span class="mx-2">›</span>
+          {% else %}
+            <span aria-current="page">{{ item.name }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  </nav>
+  {{ jsonLd({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbItems(items)
+  }) }}
+{% endmacro %}
+
+{#
+  Une carte de profil. Utilisée par l'accueil et les pages technologies.
+  Design (hauteur égale, survol) repris de master : `h-56 w-full` fixe la
+  boîte de l'image, donc pas d'attributs width/height ici — les vignettes ont
+  toutes une largeur de 300px mais une hauteur variable, une valeur inventée
+  décrirait un mauvais ratio.
+  `eager` : les premières images ne doivent pas être différées, ce sont elles
+  qui déterminent le Largest Contentful Paint.
+#}
+{% macro personCard(person, eager=false, withTechnologies=false) %}
   <div data-type="person" class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-2 flex" id="{{person.$slug}}">
     <div class="bg-white shadow hover:shadow-lg transition duration-200 rounded overflow-hidden flex flex-col w-full">
       <picture>
-        <source class="lazy" data-srcset="{{person.photo.thumbnailWebp}}" type="image/webp">
-        <img alt="{{ person.prenom }} {{ person.nom }}" class="lazy object-cover object-center h-56 w-full bg-gray-200" data-src="{{person.photo.thumbnailJpeg}}" />
+        <source srcset="{{person.photo.thumbnailWebp}}" type="image/webp">
+        <img
+          alt="{{ person.prenom }} {{ person.nom }}, {{ person.titre }} freelance à Nantes"
+          class="object-cover object-center h-56 w-full bg-gray-200"
+          src="{{person.photo.thumbnailJpeg}}"
+          loading="{{ 'eager' if eager else 'lazy' }}"
+          decoding="async" />
       </picture>
       <div class="flex flex-col flex-grow p-4 text-center">
-        <h3 class="text-gray-600 text-sm uppercase tracking-wide">{{ person.prenom }} {{ person.nom }}</h3>
-        <h2 class="font-bold text-xl text-gray-800 leading-tight mt-1">{{ person.titre }}</h2>
-        <h4 class="text-gray-600 font-thin text-sm mt-2">{{ person.sous_titre }}</h4>
+        <h2 class="text-gray-600 text-sm uppercase tracking-wide">{{ person.prenom }} {{ person.nom }}</h2>
+        <p class="font-bold text-xl text-gray-800 leading-tight mt-1">{{ person.titre }}</p>
+        <p class="text-gray-600 font-thin text-sm mt-2">{{ person.sous_titre }}</p>
         {% if withTechnologies %}
           <div class="flex flex-wrap justify-center mt-4">
-            {% for technology in person.technologies %}
+            {% for technology in person.$technologies %}
               <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-xs font-semibold text-gray-700 mr-1 mb-1">
-                {{technology}}
+                {{ technology.name }}
               </span>
             {% endfor %}
           </div>
         {% endif %}
         <div class="mt-auto pt-6">
-          <a href="/person/{{person.$slug}}" class="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
-            Voir le profil
+          <a href="{{person.$path}}" class="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded">
+            Voir le profil<span class="sr-only"> de {{ person.prenom }} {{ person.nom }}</span>
           </a>
         </div>
       </div>
